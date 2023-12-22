@@ -1,0 +1,16 @@
+:root {
+  --primary: #bc4123;
+  --secondary: #bcc3da;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: bold;
+  background: var(--secondary);
+}
+
+.nav-link.active {
+  background-color: white;
+  border-radius: 880%;
+  width: fit-content;
+}

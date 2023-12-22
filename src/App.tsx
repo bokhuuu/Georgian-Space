@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // components + links
-import MainNavigation from "./components/nav/MainNavigation";
-import { mainNavLinks } from "./components/nav/nav-links.ts/main-nav-links";
+import MainNavigation from "./components/routing/navs/MainNav";
+import { mainNavLinks } from "./components/routing/nav-links.ts/main-nav-links";
 // pages
 import HomePage from "./components/pages/HomePage";
 import HistoryPage from "./components/pages/HistoryPage";
 import GeographyPage from "./components/pages/GeographyPage";
-import CultureLayout from "./components/layouts/CultureLayout";
+import CulturePage from "./components/pages/culture/CulturePage";
 import ArtPage from "./components/pages/culture/ArtPage";
 import LiteraturePage from "./components/pages/culture/LiteraturePage";
 import PoliphonyPage from "./components/pages/culture/PoliphonyPage";
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="history" element={<HistoryPage />} />
         <Route path="geography" element={<GeographyPage />} />
 
-        <Route path="/culture" element={<CultureLayout />}>
+        <Route path="/culture" element={<CulturePage />}>
           <Route path="art" element={<ArtPage />} />
           <Route path="literature" element={<LiteraturePage />} />
           <Route path="poliphony" element={<PoliphonyPage />} />
