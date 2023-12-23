@@ -1,4 +1,4 @@
-import CardBox from "../../styles/bootstrap-components/card/CardBox";
+import CardBox from "../styles/card/CardBox";
 
 const HomePage = () => {
   return (

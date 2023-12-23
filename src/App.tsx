@@ -1,25 +1,34 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-// components + links
-import MainNavigation from "./components/navigation/navs/MainNav";
-import { mainNavLinks } from "./components/navigation/nav-links.ts/main-nav-links";
+// routing
+import MainNavigation from "./routing/main-route-box/MainRoute";
+import { mainRouteLinksList } from "./routing/main-route-box/main-route-links-list";
+// translation
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./translation/LanguageSwitcher";
+import { languageList } from "./translation/languageList";
 // pages
-import HomePage from "./components/pages/HomePage";
-import HistoryPage from "./components/pages/HistoryPage";
-import GeographyPage from "./components/pages/GeographyPage";
-import CulturePage from "./components/pages/culture/CulturePage";
-import ArtPage from "./components/pages/culture/ArtPage";
-import LiteraturePage from "./components/pages/culture/LiteraturePage";
-import PoliphonyPage from "./components/pages/culture/PoliphonyPage";
-import CuisinePage from "./components/pages/CuisinePage";
-import WinePage from "./components/pages/WinePage";
-import LandmarksPage from "./components/pages/LandmarksPage";
-import EntertainmentPage from "./components/pages/EntertainmentPage";
+import HomePage from "./pages/HomePage";
+import HistoryPage from "./pages/HistoryPage";
+import GeographyPage from "./pages/GeographyPage";
+import CulturePage from "./pages/culture/CulturePage";
+import ArtPage from "./pages/culture/ArtPage";
+import LiteraturePage from "./pages/culture/LiteraturePage";
+import PoliphonyPage from "./pages/culture/PoliphonyPage";
+import CuisinePage from "./pages/CuisinePage";
+import WinePage from "./pages/WinePage";
+import LandmarksPage from "./pages/LandmarksPage";
+import EntertainmentPage from "./pages/EntertainmentPage";
 
 const App = () => {
+  const { t } = useTranslation();
   return (
-    <header>
+    <>
       <BrowserRouter>
-        <MainNavigation MainNavLinks={mainNavLinks} />
+        <header style={{ background: "rgba(54, 63, 143, 0.37)" }}>
+          {t("header")}
+          <LanguageSwitcher languageList={languageList} />
+        </header>
+        <MainNavigation mainRouteLinksList={mainRouteLinksList} />
 
         <Routes>
           <Route path="/" index element={<HomePage />} />
@@ -39,7 +48,7 @@ const App = () => {
           <Route path="*" element={<Navigate to="" replace />} />
         </Routes>
       </BrowserRouter>
-    </header>
+    </>
   );
 };
 

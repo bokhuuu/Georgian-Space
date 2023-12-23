@@ -4,13 +4,11 @@
 }
 
 body {
-  font-family: "Poppins";
-  font-weight: bold;
   background: var(--secondary);
 }
 
 .nav-link.active {
   background-color: white;
-  border-radius: 880%;
+  border-radius: 80%;
   width: fit-content;
 }
