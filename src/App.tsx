@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // components + links
-import MainNavigation from "./components/routing/navs/MainNav";
-import { mainNavLinks } from "./components/routing/nav-links.ts/main-nav-links";
+import MainNavigation from "./components/navigation/navs/MainNav";
+import { mainNavLinks } from "./components/navigation/nav-links.ts/main-nav-links";
 // pages
 import HomePage from "./components/pages/HomePage";
 import HistoryPage from "./components/pages/HistoryPage";
@@ -17,27 +17,29 @@ import EntertainmentPage from "./components/pages/EntertainmentPage";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <MainNavigation MainNavLinks={mainNavLinks} />
+    <header>
+      <BrowserRouter>
+        <MainNavigation MainNavLinks={mainNavLinks} />
 
-      <Routes>
-        <Route path="/" index element={<HomePage />} />
-        <Route path="history" element={<HistoryPage />} />
-        <Route path="geography" element={<GeographyPage />} />
+        <Routes>
+          <Route path="/" index element={<HomePage />} />
+          <Route path="history" element={<HistoryPage />} />
+          <Route path="geography" element={<GeographyPage />} />
 
-        <Route path="/culture" element={<CulturePage />}>
-          <Route path="art" element={<ArtPage />} />
-          <Route path="literature" element={<LiteraturePage />} />
-          <Route path="poliphony" element={<PoliphonyPage />} />
-        </Route>
+          <Route path="/culture" element={<CulturePage />}>
+            <Route path="art" element={<ArtPage />} />
+            <Route path="literature" element={<LiteraturePage />} />
+            <Route path="poliphony" element={<PoliphonyPage />} />
+          </Route>
 
-        <Route path="cuisine" element={<CuisinePage />} />
-        <Route path="wine" element={<WinePage />} />
-        <Route path="landmarks" element={<LandmarksPage />} />
-        <Route path="entertainment" element={<EntertainmentPage />} />
-        <Route path="*" element={<Navigate to="" replace />} />
-      </Routes>
-    </BrowserRouter>
+          <Route path="cuisine" element={<CuisinePage />} />
+          <Route path="wine" element={<WinePage />} />
+          <Route path="landmarks" element={<LandmarksPage />} />
+          <Route path="entertainment" element={<EntertainmentPage />} />
+          <Route path="*" element={<Navigate to="" replace />} />
+        </Routes>
+      </BrowserRouter>
+    </header>
   );
 };
 

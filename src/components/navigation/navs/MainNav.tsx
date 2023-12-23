@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 // styles and flag
-import { MainNavBrandStyles } from "../nav-styles/MainNavBrandStyles";
+import { StyledMainNavBrand } from "../nav-styles/MainNavStyles";
 import geFlag from "../../../assets/icons/flags/ge.svg";
 
 interface MainNavLink {
@@ -14,9 +14,9 @@ interface MainNavLinkProps {
 
 const MainNav = ({ MainNavLinks }: MainNavLinkProps) => {
   return (
-    <>
+    <section>
       <nav className="navbar navbar-expand-lg navbar-light pb-4">
-        <div className="container">
+        <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
               src={geFlag}
@@ -24,14 +24,14 @@ const MainNav = ({ MainNavLinks }: MainNavLinkProps) => {
               style={{
                 borderRadius: "50%",
                 height: "70px",
-                transform: "translate(0,-12px)",
+                transform: "translate(0,-25px)",
               }}
             />
-            <MainNavBrandStyles>
+            <StyledMainNavBrand>
               <span style={{ color: "rgb(12, 33, 151)" }}>Georgia</span>
               <br />
               <span style={{ color: "white" }}>Explorer</span>
-            </MainNavBrandStyles>
+            </StyledMainNavBrand>
           </Link>
 
           <button
@@ -66,7 +66,7 @@ const MainNav = ({ MainNavLinks }: MainNavLinkProps) => {
           </div>
         </div>
       </nav>
-    </>
+    </section>
   );
 };
 

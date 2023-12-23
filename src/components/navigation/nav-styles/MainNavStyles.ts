@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainNavBrandStyles = styled.div`
+export const StyledMainNavBrand = styled.div`
   display: inline-block;
   justify-content: center;
   margin-left: 10px;
@@ -9,4 +9,5 @@ export const MainNavBrandStyles = styled.div`
   font-weight: bolder;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 29px;
 `;
