@@ -9,5 +9,5 @@ export const StyledMainRouteBrand = styled.div`
   font-weight: bolder;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 29px;
+  font-size: 27px;
 `;

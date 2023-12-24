@@ -15,7 +15,6 @@ const CardBox = ({ title, content }: CardBoxProps) => {
           className="card-body text-center py-4"
           style={{
             background: "rgb(124, 154, 182)",
-            color: "color: rgb(17, 82, 139)",
           }}
         >
           <StyledCardBoxTitle className="card-title">

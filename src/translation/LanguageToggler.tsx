@@ -16,11 +16,11 @@ interface Language {
   country_flag: string;
 }
 
-interface LanguageSwitcherProps {
+interface LanguageTogglerProps {
   languageList: Language[];
 }
 
-const LanguageSwitcher = ({ languageList }: LanguageSwitcherProps) => {
+const LanguageToggler = ({ languageList }: LanguageTogglerProps) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [cookies, setCookie] = useCookies(["i18next"]);
@@ -86,4 +86,4 @@ const LanguageSwitcher = ({ languageList }: LanguageSwitcherProps) => {
   );
 };
 
-export default LanguageSwitcher;
+export default LanguageToggler;
