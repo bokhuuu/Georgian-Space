@@ -1,4 +1,4 @@
-export const mainRouteLinksList = [
+export const mainNavLinksList = [
   { to: "/", label: "Home" },
   { to: "history", label: "History" },
   { to: "geography", label: "Geography" },

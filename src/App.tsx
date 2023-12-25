@@ -1,9 +1,12 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // routing
-import MainNavigation from "./routing/main-route-box/MainRoute";
-import { mainRouteLinksList } from "./routing/main-route-box/main-route-links-list";
+import { BrowserRouter } from "react-router-dom";
+import AppRoute from "./routing/AppRoute.tsx";
+import MainNavigation from "./routing/main-nav/MainNav.tsx";
+import { mainNavLinksList } from "./routing/main-nav/main-nav-links-list.ts";
 // translation
+import { I18nextProvider } from "react-i18next";
 import { useTranslation } from "react-i18next";
+import i18n from "./translation/i18n.ts";
 import LanguageToggler from "./translation/LanguageToggler";
 import { languageList } from "./translation/languageList";
 // theme
@@ -12,25 +15,14 @@ import { themes } from "./styles/theme/themes.ts";
 import ThemeToggler from "./styles/theme/ThemeToggler.tsx";
 // global styles
 import { GlobalStyles } from "./styles/GlobalStyles.tsx";
-// pages
-import HomePage from "./pages/HomePage";
-import HistoryPage from "./pages/HistoryPage";
-import GeographyPage from "./pages/GeographyPage";
-import CulturePage from "./pages/culture/CulturePage";
-import ArtPage from "./pages/culture/ArtPage";
-import LiteraturePage from "./pages/culture/LiteraturePage";
-import PoliphonyPage from "./pages/culture/PoliphonyPage";
-import CuisinePage from "./pages/CuisinePage";
-import WinePage from "./pages/WinePage";
-import LandmarksPage from "./pages/LandmarksPage";
-import EntertainmentPage from "./pages/EntertainmentPage";
 
 const App = () => {
   const { t } = useTranslation();
   const { currentTheme, toogleTheme } = ThemeToggler();
+
   return (
-    <>
-      <ThemeProvider theme={themes[currentTheme]}>
+    <ThemeProvider theme={themes[currentTheme]}>
+      <I18nextProvider i18n={i18n}>
         <GlobalStyles />
         <BrowserRouter>
           <header>
@@ -40,28 +32,11 @@ const App = () => {
               <LanguageToggler languageList={languageList} />
             </div>
           </header>
-          <MainNavigation mainRouteLinksList={mainRouteLinksList} />
-
-          <Routes>
-            <Route path="/" index element={<HomePage />} />
-            <Route path="history" element={<HistoryPage />} />
-            <Route path="geography" element={<GeographyPage />} />
-
-            <Route path="/culture" element={<CulturePage />}>
-              <Route path="art" element={<ArtPage />} />
-              <Route path="literature" element={<LiteraturePage />} />
-              <Route path="poliphony" element={<PoliphonyPage />} />
-            </Route>
-
-            <Route path="cuisine" element={<CuisinePage />} />
-            <Route path="wine" element={<WinePage />} />
-            <Route path="landmarks" element={<LandmarksPage />} />
-            <Route path="entertainment" element={<EntertainmentPage />} />
-            <Route path="*" element={<Navigate to="" replace />} />
-          </Routes>
+          <MainNavigation mainNavLinksList={mainNavLinksList} />
+          <AppRoute />
         </BrowserRouter>
-      </ThemeProvider>
-    </>
+      </I18nextProvider>
+    </ThemeProvider>
   );
 };
 

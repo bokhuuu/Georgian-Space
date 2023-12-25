@@ -4,9 +4,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 // translation
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
-//
-import { useCookies } from "react-cookie";
-// icon
+// hooks
+import useLanguageCookie from "../hooks/useLanguageCookie";
+// icons
 import globeIcon from "../assets/icons/globe.svg";
 
 interface Language {
@@ -21,18 +21,18 @@ interface LanguageTogglerProps {
 }
 
 const LanguageToggler = ({ languageList }: LanguageTogglerProps) => {
-  const { t } = useTranslation();
-  const navigate = useNavigate();
-  const [cookies, setCookie] = useCookies(["i18next"]);
-  const [currentLanguage, setCurrentLanguage] = useState<string>(
-    cookies.i18next || i18next.language
-  );
   const location = useLocation();
+  const navigate = useNavigate();
+  const { t } = useTranslation();
+  const { getLanguageFromCookie, setLanguageCookie } = useLanguageCookie();
+  const [currentLanguage, setCurrentLanguage] = useState<string>(
+    getLanguageFromCookie() || i18next.language
+  );
 
   useEffect(() => {
-    setCookie("i18next", currentLanguage, { path: "/" });
+    setLanguageCookie(currentLanguage);
     document.title = t("app_title");
-  }, [currentLanguage, setCookie, t]);
+  }, [currentLanguage, setLanguageCookie, t]);
 
   const handleLanguageChange = (code: string) => {
     i18next.changeLanguage(code);
