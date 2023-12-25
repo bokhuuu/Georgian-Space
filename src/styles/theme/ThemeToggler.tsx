@@ -1,7 +1,10 @@
-import { useState } from "react";
+import useLocalStorage from "use-local-storage";
 
 const ThemeToggler = () => {
-  const [currentTheme, setCurrentTheme] = useState<"light" | "dark">("light");
+  const [currentTheme, setCurrentTheme] = useLocalStorage<"light" | "dark">(
+    "theme",
+    "light" || "dark"
+  );
 
   const toogleTheme = () => {
     setCurrentTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
