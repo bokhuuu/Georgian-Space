@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledMainNavBrand = styled.div`
+export const StyledMainNaviBrand = styled.div`
   display: inline-block;
   justify-content: center;
   margin-left: 10px;

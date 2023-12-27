@@ -1,20 +1,19 @@
-// routing
 import { Link, NavLink } from "react-router-dom";
 // styles
-import { StyledMainNavBrand } from "./MainNavStyles";
+import { StyledMainNaviBrand } from "./MainNaviStyles";
 // icons
 import geFlag from "../../assets/icons/flags/ge.svg";
 
-interface MainNavLink {
+interface MainNaviLink {
   to: string;
   label: string;
 }
 
-interface MainNavProps {
-  mainNavLinksList: MainNavLink[];
+interface MainNaviProps {
+  mainNaviLinkList: MainNaviLink[];
 }
 
-const MainRoute = ({ mainNavLinksList }: MainNavProps) => {
+const MainNavi = ({ mainNaviLinkList }: MainNaviProps) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light pb-4">
       <div className="container-fluid">
@@ -28,11 +27,11 @@ const MainRoute = ({ mainNavLinksList }: MainNavProps) => {
               transform: "translate(0,-25px)",
             }}
           />
-          <StyledMainNavBrand>
+          <StyledMainNaviBrand>
             <span style={{ color: "rgb(12, 33, 151)" }}>Georgia</span>
             <br />
             <span style={{ color: "white" }}>Explorer</span>
-          </StyledMainNavBrand>
+          </StyledMainNaviBrand>
         </Link>
 
         <button
@@ -52,14 +51,14 @@ const MainRoute = ({ mainNavLinksList }: MainNavProps) => {
           id="main-nav"
         >
           <ul className="col navbar-nav fw-bold ms-3 mt-1 justify-content-start">
-            {mainNavLinksList.map((mainNavLink) => (
-              <li className="nav-item" key={mainNavLink.to}>
+            {mainNaviLinkList.map((mainNaviLink) => (
+              <li className="nav-item" key={mainNaviLink.to}>
                 <NavLink
                   className="nav-link"
                   style={{ color: "rgb(12, 33, 151)", marginLeft: "10px" }}
-                  to={mainNavLink.to}
+                  to={mainNaviLink.to}
                 >
-                  {mainNavLink.label}
+                  {mainNaviLink.label}
                 </NavLink>
               </li>
             ))}
@@ -70,4 +69,4 @@ const MainRoute = ({ mainNavLinksList }: MainNavProps) => {
   );
 };
 
-export default MainRoute;
+export default MainNavi;

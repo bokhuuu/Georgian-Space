@@ -13,7 +13,7 @@ import WinePage from "../pages/WinePage";
 import LandmarksPage from "../pages/LandmarksPage";
 import EntertainmentPage from "../pages/EntertainmentPage";
 
-const AppRoute = () => {
+const AppNavi = () => {
   return (
     <Routes>
       <Route path="/" index element={<HomePage />} />
@@ -35,4 +35,4 @@ const AppRoute = () => {
   );
 };
 
-export default AppRoute;
+export default AppNavi;

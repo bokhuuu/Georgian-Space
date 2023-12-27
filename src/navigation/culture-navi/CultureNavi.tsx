@@ -1,23 +1,22 @@
-// routing
 import { NavLink } from "react-router-dom";
 
-interface CultureNavLink {
+interface CultureNaviLink {
   to: string;
   label: string;
 }
 
-interface CultureNavProps {
-  cultureNavLinksList: CultureNavLink[];
+interface CultureNaviProps {
+  cultureNaviLinkList: CultureNaviLink[];
 }
 
-const CultureNav = ({ cultureNavLinksList }: CultureNavProps) => {
+const CultureNavi = ({ cultureNaviLinkList }: CultureNaviProps) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light pb-4">
       <div className="container-fluid">
         <div className="row justify-content-end align-items-center">
           <ul className="col navbar-nav fw-bold ms-3 mt-1 justify-content-start">
-            {cultureNavLinksList.map((cultureNavLink) => (
-              <li className="nav-item" key={cultureNavLink.to}>
+            {cultureNaviLinkList.map((cultureNaviLink) => (
+              <li className="nav-item" key={cultureNaviLink.to}>
                 <NavLink
                   className="nav-link"
                   style={{
@@ -25,9 +24,9 @@ const CultureNav = ({ cultureNavLinksList }: CultureNavProps) => {
                     marginLeft: "5px",
                     transform: "translate(5px,-35px)",
                   }}
-                  to={cultureNavLink.to}
+                  to={cultureNaviLink.to}
                 >
-                  {cultureNavLink.label}
+                  {cultureNaviLink.label}
                 </NavLink>
               </li>
             ))}
@@ -38,4 +37,4 @@ const CultureNav = ({ cultureNavLinksList }: CultureNavProps) => {
   );
 };
 
-export default CultureNav;
+export default CultureNavi;

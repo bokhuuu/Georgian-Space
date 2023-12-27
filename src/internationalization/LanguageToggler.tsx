@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
-// routing
 import { useLocation, useNavigate } from "react-router-dom";
-// translation
+// internationalization
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 // hooks
-import useLanguageCookie from "../hooks/useLanguageCookie";
+import useLanguageCookie from "./useLanguageCookie";
 // icons
 import globeIcon from "../assets/icons/globe.svg";
 

@@ -1,12 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-// global-styles
+
+// styles
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
     --primary:lightblue;
-    --secondary: rgb(124, 154, 182);
+    --secondary: rgb(100, 0, 123);
     --primary-text: rgb(17, 82, 139);
     --secondary-text:  rgb(17, 82, 139);
   }
@@ -14,9 +15,10 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background: ${(props) => props.theme.backgroundColor};
     color: ${(props) => props.theme.textColor};
+    font-family: 'Quicksand', sans-serif;
   }
 
-  .nav-link.active {
+  .navi-link.active {
     background-color: #ffffff;
     border-radius: 80%;
     width: fit-content;

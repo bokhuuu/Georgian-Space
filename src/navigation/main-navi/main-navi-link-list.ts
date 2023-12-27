@@ -1,4 +1,4 @@
-export const mainNavLinksList = [
+export const mainNaviLinkList = [
   { to: "/", label: "Home" },
   { to: "history", label: "History" },
   { to: "geography", label: "Geography" },

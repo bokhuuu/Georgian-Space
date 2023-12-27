@@ -1,8 +1,7 @@
-// routing
 import { useLocation } from "react-router-dom";
 // navigation
-import CultureNav from "../../routing/culture-nav/CultureNav";
-import { cultureNavLinksList } from "../../routing/culture-nav/culture-nav-links-list";
+import CultureNavi from "../../navigation/culture-navi/CultureNavi";
+import { cultureNaviLinkList } from "../../navigation/culture-navi/culture-navi-link-list";
 // pages
 import ArtPage from "./ArtPage";
 import PoliphonyPage from "./PoliphonyPage";
@@ -13,7 +12,7 @@ const CulturePage = () => {
 
   return (
     <nav>
-      <CultureNav cultureNavLinksList={cultureNavLinksList} />
+      <CultureNavi cultureNaviLinkList={cultureNaviLinkList} />
       {location.pathname === "/culture" && <div>culturePage</div>}
       {location.pathname === "/culture/art" && <ArtPage />}
       {location.pathname === "/culture/poliphony" && <PoliphonyPage />}
