@@ -1,37 +1,23 @@
-// navigation
-import AppNavi from "./navigation/AppNavi.tsx";
-import MainNavi from "./navigation/main-navi/MainNavi.tsx";
-import { mainNaviLinkList } from "./navigation/main-navi/main-navi-link-list.ts";
-// internationalization
-import { I18nextProvider } from "react-i18next";
-import { useTranslation } from "react-i18next";
-import i18n from "./internationalization/i18n.ts";
-import LanguageToggler from "./internationalization/LanguageToggler.tsx";
-import { languageList } from "./internationalization/languageList.ts";
-// styles
 import { ThemeProvider } from "styled-components";
-import { themes } from "./theme/themes.ts";
-import ThemeToggler from "./theme/ThemeToggler.tsx";
-import { GlobalStyles } from "./styles/GlobalStyles.tsx";
+import ThemeToggler from "./styles/theme/ThemeToggler.tsx";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n.ts";
+import { GlobalStyles } from "./styles/global/GlobalStyles.tsx";
+import Header from "./components/header/Header.tsx";
+import MainNav from "./components/nav/MainNav.tsx";
+import AppRouting from "./routing/AppRouting.tsx";
+import { themes } from "./styles/theme/themes.ts";
 
 const App = () => {
-  const { t } = useTranslation();
-  const { currentTheme, toggleTheme } = ThemeToggler();
+  const { currentTheme } = ThemeToggler();
 
   return (
     <ThemeProvider theme={themes[currentTheme]}>
       <I18nextProvider i18n={i18n}>
         <GlobalStyles />
-        <header>
-          <div> {t("header")}</div>
-          <button onClick={toggleTheme}>Toggle Theme</button>
-          <div>
-            <LanguageToggler languageList={languageList} />
-          </div>
-        </header>
-
-        <MainNavi mainNaviLinkList={mainNaviLinkList} />
-        <AppNavi />
+        <Header />
+        <MainNav />
+        <AppRouting />
       </I18nextProvider>
     </ThemeProvider>
   );

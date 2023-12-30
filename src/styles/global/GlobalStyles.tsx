@@ -16,11 +16,13 @@ export const GlobalStyles = createGlobalStyle`
     background: ${(props) => props.theme.backgroundColor};
     color: ${(props) => props.theme.textColor};
     font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
   }
 
-  .navi-link.active {
+  .nav-link.active {
     background-color: #ffffff;
     border-radius: 80%;
     width: fit-content;
   }
+
 `;
