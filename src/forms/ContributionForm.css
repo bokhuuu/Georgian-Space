@@ -1,0 +1,7 @@
+.contribution-form p {
+  color: rgba(224, 16, 16, 0.945);
+  font-size: small;
+  font-weight: bolder;
+  background-color: rgba(187, 189, 216, 0.911);
+  width: fit-content;
+}
