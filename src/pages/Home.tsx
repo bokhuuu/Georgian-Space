@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import CardBox from "../styles/card/CardBox";
-// import FeedbackForm from "../forms/FeedbackForm";
+import CardBox from "../components/UI/card/CardBox";
 
 const containerVariants = {
   hidden: {
@@ -44,7 +43,6 @@ Colchis was the ancient name of West Georgia. In Greek mythology, Colchis was th
           </div>
         </motion.div>
       </motion.div>
-      {/* <FeedbackForm /> */}
     </section>
   );
 };

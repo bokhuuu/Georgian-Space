@@ -1,15 +1,16 @@
 import { useTranslation } from "react-i18next";
-import LanguageToggler from "../../translation/LanguageToggler.tsx";
-import { languageList } from "../../translation/languageList.ts";
-import ThemeToggler from "../../styles/theme/ThemeToggler.tsx";
+import LanguageToggler from "../../utils/LanguageToggler.tsx";
+import { languageList } from "../../configs/translation/languageList.ts";
+import ThemeToggler from "../../utils/ThemeToggler.tsx";
 import Brand from "./Brand.tsx";
 import { motion } from "framer-motion";
+import ModalBox from "../modal/ModalBox.tsx";
 
 const headerVariants = {
-  initiation: {
+  hidden: {
     opacity: 0,
   },
-  animation: {
+  visible: {
     opacity: 1,
     transition: { type: "spring", delay: 1.3, staggerChildren: 0.3 },
   },
@@ -28,8 +29,8 @@ const Header = () => {
         <motion.div
           className=" header-icons col-6 col-md-4 d-flex align-items-center mb-3"
           variants={headerVariants}
-          initial="initiation"
-          animate="animation"
+          initial="hidden"
+          animate="visible"
         >
           <div className="header-icons d-flex align-items-center ms-4 mt-1">
             <button
@@ -40,6 +41,15 @@ const Header = () => {
             </button>
             <LanguageToggler languageList={languageList} />
             {t("header")}
+            <button
+              type="button"
+              className="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Launch demo modal
+            </button>
+            <ModalBox />
           </div>
         </motion.div>
       </div>

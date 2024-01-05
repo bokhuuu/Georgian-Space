@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const navVariants = {
-  initiation: {
+  hidden: {
     opacity: 0,
   },
-  animation: {
+  visible: {
     scale: 1.1,
     opacity: 1,
     transition: { type: "spring", delay: 1, staggerChildren: 0.3 },
@@ -14,10 +14,10 @@ const navVariants = {
 };
 
 const linkVariants = {
-  initiation: {
+  hidden: {
     opacity: 0,
   },
-  animation: {
+  visible: {
     opacity: 1,
   },
 };
@@ -43,8 +43,8 @@ const MainNav = () => {
     <motion.nav
       className="navbar navbar-expand-md navbar-light pb-4"
       variants={navVariants}
-      initial="initiation"
-      animate="animation"
+      initial="hidden"
+      animate="visible"
     >
       <div className="container">
         <button

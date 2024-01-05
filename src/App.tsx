@@ -1,12 +1,12 @@
 import { ThemeProvider } from "styled-components";
-import ThemeToggler from "./styles/theme/ThemeToggler.tsx";
+import ThemeToggler from "./utils/ThemeToggler.tsx";
+import { themes } from "./configs/theme/themes.ts";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./i18n.ts";
-import { GlobalStyles } from "./styles/global/GlobalStyles.tsx";
+import i18n from "./configs/translation/i18n.ts";
+import { GlobalStyles } from "./styles/GlobalStyles.tsx";
 import Header from "./components/header/Header.tsx";
 import MainNav from "./components/nav/MainNav.tsx";
 import AppRouting from "./routing/AppRouting.tsx";
-import { themes } from "./styles/theme/themes.ts";
 
 const App = () => {
   const { currentTheme } = ThemeToggler();

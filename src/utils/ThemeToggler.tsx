@@ -1,6 +1,6 @@
-import useThemeStorage from "../../hooks/useThemeStorage";
+import useThemeStorage from "../hooks/useThemeStorage";
 
-const ThemeToggler = () => {
+const useThemeToggler = () => {
   const { currentTheme, setCurrentTheme } = useThemeStorage();
 
   const toggleTheme = () => {
@@ -13,4 +13,4 @@ const ThemeToggler = () => {
   };
 };
 
-export default ThemeToggler;
+export default useThemeToggler;

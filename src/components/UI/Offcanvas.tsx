@@ -1,11 +1,9 @@
-import React from "react";
-
 const Offcanvas = () => {
   return (
     <div>
       <div
         className="offcanvas offcanvas-right"
-        tabindex="-1"
+        tabIndex={-1}
         id="offcanvas"
         data-toggle="offcanvas"
       >

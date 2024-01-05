@@ -4,11 +4,11 @@ import styled from "styled-components";
 import { Variants, motion } from "framer-motion";
 
 const brandVariants = {
-  initiation: {
+  hidden: {
     rotate: 150,
     y: "-100vh",
   },
-  animation: {
+  visible: {
     rotate: 0,
     y: 0,
     transition: { type: "spring", delay: 0.2, stiffness: 40 },
@@ -33,8 +33,8 @@ const Brand = () => {
     <motion.div
       className="brand"
       variants={brandVariants}
-      initial="initiation"
-      animate="animation"
+      initial="hidden"
+      animate="visible"
     >
       <Link className="brand-link" to="/">
         <motion.img

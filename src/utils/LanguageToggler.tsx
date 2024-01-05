@@ -8,8 +8,7 @@ import globeIcon from "../assets/icons/globe.svg";
 interface Language {
   code: string;
   name: string;
-  country_code: string;
-  country_flag: string;
+  flag: string;
 }
 
 interface LanguageTogglerProps {
@@ -53,8 +52,8 @@ const LanguageToggler = ({ languageList }: LanguageTogglerProps) => {
           <li>
             <span className="dropdown-item-text">{t("language")}</span>
           </li>
-          {languageList.map(({ code, name, country_code, country_flag }) => (
-            <li key={country_code}>
+          {languageList.map(({ code, name, flag }) => (
+            <li key={code}>
               <button
                 className={`dropdown-item ${
                   currentLanguage === code ? "disabled" : ""
@@ -62,7 +61,7 @@ const LanguageToggler = ({ languageList }: LanguageTogglerProps) => {
                 onClick={() => handleLanguageChange(code)}
               >
                 <img
-                  src={country_flag}
+                  src={flag}
                   alt={name}
                   className="mx-2"
                   style={{
