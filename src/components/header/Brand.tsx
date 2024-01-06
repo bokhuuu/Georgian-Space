@@ -46,13 +46,17 @@ const Brand = () => {
           style={{
             borderRadius: "50%",
             height: "88px",
+            marginRight: 10,
           }}
         />
-
         <StyledBrand>
-          <span style={{ color: "rgb(12, 33, 151)" }}>Georgia</span>
-          <br />
-          <span style={{ color: "white" }}>Explorer</span>
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+          >
+            <div style={{ color: "rgb(12, 33, 151)" }}>Georgia</div>
+            <motion.div style={{ color: "white" }}>Explorer</motion.div>
+          </motion.div>
         </StyledBrand>
       </Link>
     </motion.div>
@@ -71,5 +75,5 @@ export const StyledBrand = styled.div`
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 25px;
-  scale: 1.3;
+  scale: 1.5;
 `;

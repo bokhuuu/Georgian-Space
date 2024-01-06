@@ -25,8 +25,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 .btn {
-  width: 107px;
-  height: 40px;
+  width: fit-content;
+  height: fit-content;
   border-radius: 5%;
   background-color: rgba(23, 99, 165, 0.596);
   color: white;

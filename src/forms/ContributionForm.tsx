@@ -1,9 +1,10 @@
+import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import useFormCountStorage from "../hooks/useFormCountStorage";
 import { motion } from "framer-motion";
 import "./ContributionForm.css";
-import { useEffect, useState } from "react";
 
 const buttonVariants = {
   hidden: {
@@ -18,7 +19,7 @@ interface FormData {
   name: string;
   email: string;
   category: string;
-  contribution: string;
+  message: string;
   attachments?: FileList;
 }
 
@@ -30,11 +31,11 @@ const schema = yup.object().shape({
     .max(15, "Name must be at most 15 characters"),
   email: yup.string().email("Invalid email").required("Email is required"),
   category: yup.string().required("Category is required"),
-  contribution: yup
+  message: yup
     .string()
-    .required("Contribution is required")
-    .min(10, "Contribution must be at least 10 characters")
-    .max(250, "Contribution must be at most 250 characters"),
+    .required("Message is required")
+    .min(10, "Message must be at least 10 characters")
+    .max(250, "Message must be at most 250 characters"),
   attachments: yup.mixed(),
 });
 
@@ -47,12 +48,15 @@ const ContributionForm = () => {
   } = useForm<FormData>({
     resolver: yupResolver(schema),
   });
-  const [successfulSubmissionsCount, setSuccessfulSubmissionsCount] =
-    useState(30);
+
+  const { formCount, setFormCount } = useFormCountStorage();
 
   const onSubmit = (data: FormData) => {
     console.log(data, "is submitted");
-    setSuccessfulSubmissionsCount((prevCount: number) => prevCount + 1);
+
+    setFormCount(
+      (prevCount) => (prevCount == undefined ? (prevCount = 0) : prevCount) + 1
+    );
   };
 
   useEffect(() => {
@@ -89,13 +93,13 @@ const ContributionForm = () => {
         </select>
         <p>{errors.category?.message}</p>
 
-        <label className="mb-1">Contribution</label>
+        <label className="mb-1">Message</label>
         <textarea
-          {...register("contribution")}
+          {...register("message")}
           className="mb-1"
-          placeholder="Share your contribution (e.g., interesting facts, insights, images, and videos)"
+          placeholder="Share your message (e.g., interesting facts, insights, images, and videos)"
         />
-        <p>{errors.contribution?.message}</p>
+        <p>{errors.message?.message}</p>
 
         <input
           className="mb-1"
@@ -107,16 +111,16 @@ const ContributionForm = () => {
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="submissions-count mt-3 mt-md-3">
-            Submissions:
+            Contributions:
             <span
-              className="submissions-counter ms-1"
+              className="contributions-counter ms-1"
               style={{
                 borderStyle: "groove",
                 borderRadius: 5,
                 padding: "6px",
               }}
             >
-              {successfulSubmissionsCount}
+              {formCount}
             </span>
           </div>
 
