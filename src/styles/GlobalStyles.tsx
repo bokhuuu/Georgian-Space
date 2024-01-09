@@ -6,7 +6,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
   :root {
     --primary:rgb(163, 191, 216);
-    --secondary: rgb(100, 0, 123);
+    --secondary: rgb(192, 198, 200);
     --primary-text: rgb(17, 82, 139);
     --secondary-text:  rgb(17, 82, 139);
   }

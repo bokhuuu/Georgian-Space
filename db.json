@@ -1,0 +1,489 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Khachapuri",
+        "ge": "ხაჭაპური"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "Recognized as a national dish, khachapuri is included in the list of intangible cultural heritage of Georgia. There are many variations, unique to different regions of Georgia, be sure to try the boat-shaped Adjarian khachapuri, it has recently gained surprising popularity in USA. ",
+        "ge": "ეროვნულ კერძად აღიარებული ხაჭაპური საქართველოს არამატერიალური კულტურული მემკვიდრეობის ნუსხაშია შეტანილი. ბევრი ვარიაციაა, უნიკალური საქართველოს სხვადასხვა რეგიონისთვის, აუცილებლად სცადეთ ნავის ფორმის აჭარული ხაჭაპური, მან ახლახან მოიპოვა გასაკვირი პოპულარობა აშშ-ში. "
+      },
+      "image": {
+        "url": "/images/food/khachapuri.jpg",
+        "alt": {
+          "en": "Khachapuri",
+          "ge": "ხაჭაპური"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Ghomi",
+        "ge": "ღომი"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "Ghomi is a dish from the Western region of Georgia, Samegrelo. It's a porridge traditionally cooked with cornmeal. Most iconic pairing for Ghomi is the Georgian cheese Sulguni. Resembling Mozzarella, Sulguni is a great melting cheese and pairs perfectly with hot porridge to create a delicious dish.",
+        "ge": "ღომი არის კერძი დასავლეთ საქართველოს რეგიონიდან, სამეგრელოდან. ეს არის ფაფა ტრადიციულად მოხარშული სიმინდის ფქვილით. ღომისთვის ყველაზე საკულტო წყვილი ქართული ყველი სულგუნია. მოცარელას წააგავს, სულგუნი დიდებული დნობის ყველია და შესანიშნავად უხდება ცხელ ფაფას გემრიელი კერძის შესაქმნელად. "
+      },
+      "image": {
+        "url": "/images/food/ghomi.jpg",
+        "alt": {
+          "en": "Ghomi",
+          "ge": "ღომი"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Khinkali",
+        "ge": "ხინკალი"
+      },
+      "vegetarian": false,
+      "description": {
+        "en": "Khinkali originates from the mountainous regions of Georgia. It is usually made with lamb, beef, pork or mixed meat and spices, then eaten cooked. Eat them without spilling the juicy contents.",
+        "ge": "ხინკალი სათავეს იღებს საქართველოს მთიან რაიონებში. ჩვეულებრივ, ცხვრის,საქონლის, ღორის ან შერეული ხორცით და სანელებლებით მზადდება, შემდეგ მიირთმევენ მოხარშულს. მიირთვათ ისინი ისე, რომ არ გადმოისხას წვნიანი შიგთავსი. "
+      },
+      "image": {
+        "url": "/images/food/khinkali.jpg",
+        "alt": {
+          "en": "Khinkali",
+          "ge": "ხინკალი"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Kharcho",
+        "ge": "ხარჩო"
+      },
+      "vegetarian": false,
+      "description": {
+        "en": "This hearty beef soup also hails from the Samegrelo region. Known for its unique combination of ingredients and distinct taste. Kharcho can also be made with chicken, lamb, or goose meat. The distinct taste of this dish comes from the combination of walnuts, and a special spice blend. Kharcho can be poured over Ghomi and enjoyed that way, or as a soup on its own.",
+        "ge": "ეს ძროხის ხორცის წვნიანიც სამეგრელოს რეგიონიდანაა. ცნობილია ინგრედიენტების უნიკალური კომბინაციით და განსხვავებული გემოთი. ხარჩოს დამზადება შესაძლებელია ასევე ქათმის, ცხვრის ან ბატის ხორცით. ამ კერძის გამორჩეული გემო ნიგვზისა და სპეციალური სანელებლების ნაზავიდან მოდის. ხარჩო შეიძლება დაასხათ ღომზე და მიირთვათ ისე, ან წვნიანის სახით. "
+      },
+      "image": {
+        "url": "/images/food/kharcho.jpg",
+        "alt": {
+          "en": "Kharcho",
+          "ge": "ხარჩო"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Nigvziani Badrijani",
+        "ge": "ნიგვზიანი ბადრიჯანი"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "Nigvziani Badrijani translates as eggplants with walnuts. Eggplant slices are fried and filled with walnut stuffing and tightly rolled. The stuffing is made with finely ground walnuts, garlic, spices, and vinegar mixed together. The dish is usually garnished with pomegranate seeds and fresh coriander. ",
+        "ge": "ნიგვზიანი ბადრიჯანი ითარგმნება როგორც ბადრიჯანი ნიგვზით. ბადრიჯნის ნაჭრებს წვავენ და ავსებენ ნიგვზის შიგთავსით და მჭიდროდ ახვევენ. შიგთავსი მზადდება წვრილად დაფქული ნიგოზით, ნიორით, სანელებლებით და ძმრით შერეული ერთმანეთში. კერძს ჩვეულებრივ ამშვენებს ბროწეულის მარცვლები და ახალი ქინძი. "
+      },
+      "image": {
+        "url": "/images/food/nigvziani_badrijani.jpg",
+        "alt": {
+          "en": "Nigvziani Badrijani",
+          "ge": "ნიგვზიანი ბადრიჯანი"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Kubdari",
+        "ge": "კუბდარი"
+      },
+      "vegetarian": false,
+      "description": {
+        "en": "Kubdari is meat-filled bread hailing from the mountainous Svaneti region. It is a fairly simple dish, but with the right technique and few key ingredients it gains its distinctive taste that so many admire.Traditionally, Kubdari is made with beef or pork, onions, and a selection of Georgian spices. To make the Kubdari filling, the meat is diced into tiny cubes and kneaded with onions and spices. ",
+        "ge": "კუბდარი არის ხორცით სავსე პური, რომელიც მოდის მთიანი სვანეთიდან. ეს საკმაოდ მარტივი კერძია, მაგრამ სწორი ტექნიკითა და რამდენიმე ძირითადი ინგრედიენტით ის იძენს თავის გამორჩეულ გემოს, რომლითაც ბევრი აღფრთოვანებულია. ტრადიციულად, კუბდარი მზადდება საქონლის ან ღორის ხორცით, ხახვითა და ქართული სანელებლების არჩევანით. კუბდარის შიგთავსის მოსამზადებლად ხორცს წვრილ კუბებად ჭრიან და ადუღებენ ხახვთან და სანელებლებთან ერთად. "
+      },
+      "image": {
+        "url": "/images/food/kubdari.jpg",
+        "alt": {
+          "en": "Kubdari",
+          "ge": "კუბდარი"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Shkmeruli",
+        "ge": "შქმერული"
+      },
+      "vegetarian": false,
+      "description": {
+        "en": "Shkmeruli is a baked chicken dish hailing from the Racha region of Georgia that has recently gained surprising popularity in Japan. Before baking, the chicken is coated with garlic, spices, and milk. Instant meal packets of Shkmeruli appeared in Japanese grocery stores and were named one of the top products. ",
+        "ge": "შქმერული არის გამომცხვარი ქათმის კერძი საქართველოს რაჭის რაიონიდან, რომელმაც ბოლო დროს საოცარი პოპულარობა მოიპოვა იაპონიაში. გამოცხობის წინ ქათამს ავლებენ ნიორით, სანელებლებით და რძით. შქმერულის მომენტალური კვების პაკეტები იაპონურ სასურსათო მაღაზიებში გამოჩნდა და ერთ-ერთ საუკეთესო პროდუქტად დასახელდა. "
+      },
+      "image": {
+        "url": "/images/food/shkmeruli.jpg",
+        "alt": {
+          "en": "Shkmeruli",
+          "ge": "შქმერული"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Satsivi",
+        "ge": "ხარჩო"
+      },
+      "vegetarian": false,
+      "description": {
+        "en": "Satsivi is a popular dish in Georgia. Satsivi is made from boiled chicken or turkey and a rich walnut sauce.The sauce is made from walnuts, garlic, and a selection of spices. It can be eaten with Ghomi or simply with bread.",
+        "ge": "საცივი საქართველოში პოპულარული კერძია. საცივი მზადდება მოხარშული ქათმის ან ინდაურის და კაკლის მდიდარი სოუსისგან. სოუსი მზადდება ნიგვზის, ნივრისა და სანელებლების არჩევანისგან. შეიძლება მიირთვათ ღომთან ან უბრალოდ პურთან ერთად. "
+      },
+      "image": {
+        "url": "/images/food/satsivi.jpg",
+        "alt": {
+          "en": "Satsivi",
+          "ge": "ხარჩო"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "Lobio in a clay pot",
+        "ge": "ლობიო თიხის ქოთანში"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "Lobio also has a special place in Georgian cuisine. Lobio stew is made by soaking the beans and spices cooking them along with vegetables. The dish is often served hot in a clay pot, accompanied with Georgian cornbread Mchadi. ",
+        "ge": "ლობიოს განსაკუთრებული ადგილი უკავია ქართულ სამზარეულოში. ლობიოს ჩაშუშული მზადდება ლობიოსა და სანელებლების გაჟღენთვით, ბოსტნეულთან ერთად მოხარშვით. კერძს ხშირად ცხლად მიირთმევენ თიხის ჭურჭელში, ქართული სიმინდის პურის - მჭადის თანხლებით. "
+      },
+      "image": {
+        "url": "/images/food/lobio_in_a_clay_pot.jpg",
+        "alt": {
+          "en": "Lobio in a clay pot",
+          "ge": "ლობიო თიხის ქოთანში"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "Tashmijabi",
+        "ge": "ტაშმიჯაბი"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "This dish also comes from Svaneti mountains. This traditional dish is made with mashed potatoes and cheese, or Georgian Sulguni cheese. Sulguni is very similar to mozzarella and is an excellent melting cheese. Tashmijab is a perfect mixture of boiled potatoes, cheese, butter and some svan spices.",
+        "ge": "ეს კერძიც სვანეთის მთებიდან მოდის. ეს ტრადიციული კერძი მზადდება კარტოფილის პიურესა და ყველით, ან ქართული სულგუნის ყველით. სულგუნი ძალიან წააგავს მოცარელას და შესანიშნავი მდნარი ყველია. ტაშმიჯაბი მოხარშული კარტოფილის, ყველის, კარაქისა და სვანური სანელებლების შესანიშნავი ნაზავია. "
+      },
+      "image": {
+        "url": "/images/food/tashmijabi.jpg",
+        "alt": {
+          "en": "Tashmijabi",
+          "ge": "ტაშმიჯაბი"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "Gebjalia",
+        "ge": "გებჟალია"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "Gebjalia is a favorite dish of all cheese lovers. Originally from Samegrelo, it is mainly made with melted Sulguni cheese. The cheese is melted in milk, mixed with cottage cheese with mint and garlic,it is served cold. ",
+        "ge": "გებჟალია ყველა ყველის მოყვარულის საყვარელი კერძია. წარმოშობით სამეგრელოდანაა, ძირითადად სულგუნის მდნარი ყველით მზადდება. ყველი დნება რძეში, ესხმება ხაჭოს ნაზავი პიტნითა და ნიორით, მიირთმევენ ცივად. "
+      },
+      "image": {
+        "url": "/images/food/gebjalia.jpg",
+        "alt": {
+          "en": "Gebjalia",
+          "ge": "გებჟალია"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "Kuchmachi",
+        "ge": "კუჭმაჭი"
+      },
+      "vegetarian": false,
+      "description": {
+        "en": "Kuchmachi is a popular dish made from chicken or pork livers, hearts, and gizzards. To prepare this dish, meat is cut, boiled and marinated with garlic, onion, walnuts and spices. Fresh coriander is added at the end of cooking. Pomegranate seeds are thrown in and you can eat it with Georgian corn bread Mchadi. ",
+        "ge": "კუჭმაჭი არის პოპულარული კერძი, რომელიც მზადდება ქათმის ან ღორის გულ-ღვიძლისგან. ამ კერძის მოსამზადებლად ხორცს ჭრიან, ადუღებენ da აზავებენ ნიორთან, ხახვთან, ნიგოზთან და სანელებლებთან ერთად. ხარშვის ბოლოს ემატება ახალი ქინძი. ბროწეულის მარცვლები მოეყრება და შეგიძლიათ მიირთვათ ქართული სიმინდის პურთან - მჭადთან ერთად. "
+      },
+      "image": {
+        "url": "/images/food/kuchmachi.jpg",
+        "alt": {
+          "en": "Kuchmachi",
+          "ge": "კუჭმაჭი"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "en": "Pkhali",
+        "ge": "ფხალი"
+      },
+      "vegetarian": true,
+      "description": {
+        "en": "Pkhali is made with ground vegetables mixed with lots of walnuts, as well as vinegar, onion, garlic and various herbs and spices. The most common variations of pkhali are made with spinach, beets or beans. You can eat pkhali with Georgian corn bread Mchadi. ",
+        "ge": "ფხალი მზადდება დაფქული ბოსტნეულით, შეზავებული ბევრი ნიგოზით, ასევე ძმარი, ხახვი, ნიორი და სხვადასხვა მწვანილი და სანელებლები. ფხალის ყველაზე გავრცელებული ვარიაციები მზადდება ისპანახით, ჭარხლით ან ლობიოთი. ფხალი შეგიძლიათ მიირთვათ ქართული სიმინდის პურთან - მჭადთან ერთად. "
+      },
+      "image": {
+        "url": "/images/food/pkhali.jpg",
+        "alt": {
+          "en": "Pkhali",
+          "ge": "ფხალი"
+        }
+      }
+    }
+  ],
+  "cheese": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Tenil",
+        "ge": "ტენილი"
+      },
+      "description": {
+        "en": "Samtskhe-Javakhian cheese. This species is included in the UNESCO cultural heritage list. Very fatty cheese is made with the most difficult technology and visually resembles a long and thin thread. ",
+        "ge": "სამცხე–ჯავახური ყველი. ეს სახეობა იუნენსკოს კულტურული მემკვიდრეობის ნუსხაშიც კია შესული. ძალზე ცხიმიანი ყველი ურთულესი ტექნოლოგიით მზადდება და ვიზუალურად გრძელ და წვრილ ძაფს მოგაგონებთ. "
+      },
+      "image": {
+        "url": "/images/cheese/tenil.jpg",
+        "alt": {
+          "en": "Tenil",
+          "ge": "ტენილი"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Chog",
+        "ge": "ჩოგი"
+      },
+      "description": {
+        "en": "Tushur cheese is usually made from raw sheep's milk in July and August.",
+        "ge": "თუშური ყველი, როგორც წესი, მზადდება ივლისსა და აგვისტოში ცხვრის მოუხდელი რძისგან. "
+      },
+      "image": {
+        "url": "/images/cheese/chog.jpg",
+        "alt": {
+          "en": "Chog",
+          "ge": "ჩოგი"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Kalt",
+        "ge": "კალტი"
+      },
+      "description": {
+        "en": "This species is common in mountainous regions. Dried kalti is mainly the food of shepherds, and besides being an excellent appetite suppressant, it is also an extraordinary antiseptic. Kalt is made from curd and it is somewhat similar to parmesan. ",
+        "ge": "ეს სახეობა მთიან რეგიონებშია გავრცელებული. გამხმარი კალტი ძირითადად მწყემსების საკვებს წარმოადგენს და გარდა იმისა, რომ შესანიშნავად კლავს შიმშილს, არაჩვეულებრივი ანტისეპტიკური საშუალებაცაა. კალტს ნადუღისგან ამზადებენ და რაღაცით პარმეზანს ჩამოჰგავს. "
+      },
+      "image": {
+        "url": "/images/cheese/kalt.jpg",
+        "alt": {
+          "en": "Kalt",
+          "ge": "კალტი"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Kobi",
+        "ge": "კობი"
+      },
+      "description": {
+        "en": "Is made with semi-skimmed or skimmed cow's milk mixed with sheep's milk. This delicious cheese goes wonderfully with Kakhur Tuna bread. ",
+        "ge": "მზადდება ძროხის ნახევრად მოხდილი ან მოხდილი რძით, რომელსაც ცხვრის რძესაც ურევენ. ეს უგემრიელესი ყველი საოცრად უხდება კახურ თონის პურს. "
+      },
+      "image": {
+        "url": "/images/cheese/kobi.jpg",
+        "alt": {
+          "en": "Kobi",
+          "ge": "კობი"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Adjarian chechili",
+        "ge": "აჭარული ჩეჩილი"
+      },
+      "description": {
+        "en": "Looks like a big rope, it is prepared in summer, with curdled cow's milk. The same method is used to make Meskhur Chechili. ",
+        "ge": "გარეგნულად დიდ თოკს ჰგავს, მზადდება ზაფხულში, ძროხის მოხდილი რძით. ასეთივე მეთოდი გამოიყენება მესხური ჩეჩილის დამზადებისასაც. "
+      },
+      "image": {
+        "url": "/images/cheese/adjarian_chechili.jpg",
+        "alt": {
+          "en": "Adjarian chechili",
+          "ge": "აჭარული ჩეჩილი"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Georgian cheese",
+        "ge": "ქართული ყველი"
+      },
+      "description": {
+        "en": "Is made from cow's, sheep's, goat's, buffalo's milk or their mixture. However, in the case of a mixture, the amount of cow's milk should not be less than 50%. ",
+        "ge": "კეთდება როგორც ძროხის, ისე ცხვრის, თხის, კამეჩის რძის ან მათი ნარევისგან. ოღონდ ნარევის შემთხვევაში ძროხის რძის რაოდენობა 50%-ზე ნაკლები არ უნდა იყოს. "
+      },
+      "image": {
+        "url": "/images/cheese/georgian_cheese.jpg",
+        "alt": {
+          "en": "Georgian cheese",
+          "ge": "ქართული ყველი"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Gudi cheese",
+        "ge": "გუდის ყველი"
+      },
+      "description": {
+        "en": "Is a specific Georgian cheese, the homeland of which is Tusheti. It is made from sheep's milk and kept in gouda for 20 days. ",
+        "ge": "სპეციფიური ქართული ყველი, რომლის სამშობლოც თუშეთია. კეთდება ცხვრის რძისგან და ინახება გუდაში 20 დღის განმავლობაში. "
+      },
+      "image": {
+        "url": "/images/cheese/gudi_cheese.jpg",
+        "alt": {
+          "en": "Gudi cheese",
+          "ge": "გუდის ყველი"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Goat cheese",
+        "ge": "თხის ყველი"
+      },
+      "description": {
+        "en": "Is the most useful cheese, it is considered a delicacy.",
+        "ge": "ყველაზე სასარგებლო ყველია, მიჩნეულია დელიკატესად. "
+      },
+      "image": {
+        "url": "/images/cheese/goat_cheese.jpg",
+        "alt": {
+          "en": "Goat cheese",
+          "ge": "თხის ყველი"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "Dambalkhacho",
+        "ge": "დამბალხაჭო"
+      },
+      "description": {
+        "en": "His homeland is Mtiuleti and Pshavi. Dambalkhacho is a type of moldy cheese and contains penicillin fungus. However, it differs from the European moldy cheese in that the Europeans mold the cheese specially with fungal bacteria, and Dambalkhatcho in a natural way. ",
+        "ge": " მისი სამშობლო მთიულეთი და ფშავია. დამბალხაჭო ობიანი ყველის სახეობაა და პენიცილინის სოკოს შეიცავს. თუმცა ევროპული ობიანი ყველისგან იმით განსხვავდება, რომ ევროპელები ყველს სპეციალურად სოკოს ბაქტერიებით აობებენ, დამბალხაჭოს კი ბუნებრივი გზით. "
+      },
+      "image": {
+        "url": "/images/cheese/dambalkhacho.jpg",
+        "alt": {
+          "en": "Dambalkhacho",
+          "ge": "დამბალხაჭო"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "Rotten Cheese",
+        "ge": "დამპალი ყველი"
+      },
+      "description": {
+        "en": "A rare variety, it is a spidery white cheese with a butter filling. It is exactly like the French Camembert. ",
+        "ge": "იშვიათი სახეობაა, ეს ობმოკიდებული თეთრი ყველია, კარაქის შიგთავსით. ზუსტად ფრანგული „კამამბერის“ მსგავსია. "
+      },
+      "image": {
+        "url": "/images/cheese/rotten_cheese.jpg",
+        "alt": {
+          "en": "Rotten Cheese",
+          "ge": "დამპალი ყველი"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "Narchvi",
+        "ge": "ნარჩვი"
+      },
+      "description": {
+        "en": "It is Svan cheese. It is made from natural cow's milk. Cheese is ground, salt is added and it is kneaded for a long time until it becomes a homogeneous mass and stored in the dark under special conditions. This process lasts 2 months. ",
+        "ge": "სვანური ყველია. ძროხის ნატურალური რძისგან კეთდება. ყველს ფშვნიან, დაუმატებენ მარილს და იმდენ ხანს ზელენ, სანამ ერთგვაროვან მასად არ იქცევა და სპეციალური პირობებით სიბნელეში ინახავენ. ეს პროცესი 2 თვე გრძელდება. "
+      },
+      "image": {
+        "url": "/images/cheese/narchvi.jpg",
+        "alt": {
+          "en": "Narchvi",
+          "ge": "ნარჩვი"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "Sulguni",
+        "ge": "სულგუნი"
+      },
+      "description": {
+        "en": "Megreles and Svans are considered to be the first producers of Sulgun. This cheese is made from fresh buffalo or cow milk. ",
+        "ge": "პირველ დამამზადებლებად მეგრელები და სვანები მიიჩნევიან. ეს ყველი კამეჩის ან ძროხის ახალმოწველილი რძისგან მზადდება. "
+      },
+      "image": {
+        "url": "/images/cheese/sulguni.jpg",
+        "alt": {
+          "en": "Sulguni",
+          "ge": "სულგუნი"
+        }
+      }
+    }
+  ],
+  "snack": [
+    {
+      "id": 1,
+      "name": {
+        "en": "",
+        "ge": ""
+      },
+      "description": {
+        "en": "",
+        "ge": ""
+      },
+      "image": {
+        "url": "/images/.jpg",
+        "alt": {
+          "en": "",
+          "ge": ""
+        }
+      }
+    }
+  ]
+}
