@@ -1,5 +1,5 @@
 {
-  "food": [
+  "foods": [
     {
       "id": 1,
       "name": {
@@ -12,7 +12,7 @@
         "ge": "ეროვნულ კერძად აღიარებული ხაჭაპური საქართველოს არამატერიალური კულტურული მემკვიდრეობის ნუსხაშია შეტანილი. ბევრი ვარიაციაა, უნიკალური საქართველოს სხვადასხვა რეგიონისთვის, აუცილებლად სცადეთ ნავის ფორმის აჭარული ხაჭაპური, მან ახლახან მოიპოვა გასაკვირი პოპულარობა აშშ-ში. "
       },
       "image": {
-        "url": "/images/food/khachapuri.jpg",
+        "url": "/images/foods/khachapuri.jpg",
         "alt": {
           "en": "Khachapuri",
           "ge": "ხაჭაპური"
@@ -31,7 +31,7 @@
         "ge": "ღომი არის კერძი დასავლეთ საქართველოს რეგიონიდან, სამეგრელოდან. ეს არის ფაფა ტრადიციულად მოხარშული სიმინდის ფქვილით. ღომისთვის ყველაზე საკულტო წყვილი ქართული ყველი სულგუნია. მოცარელას წააგავს, სულგუნი დიდებული დნობის ყველია და შესანიშნავად უხდება ცხელ ფაფას გემრიელი კერძის შესაქმნელად. "
       },
       "image": {
-        "url": "/images/food/ghomi.jpg",
+        "url": "/images/foods/ghomi.jpg",
         "alt": {
           "en": "Ghomi",
           "ge": "ღომი"
@@ -50,7 +50,7 @@
         "ge": "ხინკალი სათავეს იღებს საქართველოს მთიან რაიონებში. ჩვეულებრივ, ცხვრის,საქონლის, ღორის ან შერეული ხორცით და სანელებლებით მზადდება, შემდეგ მიირთმევენ მოხარშულს. მიირთვათ ისინი ისე, რომ არ გადმოისხას წვნიანი შიგთავსი. "
       },
       "image": {
-        "url": "/images/food/khinkali.jpg",
+        "url": "/images/foods/khinkali.jpg",
         "alt": {
           "en": "Khinkali",
           "ge": "ხინკალი"
@@ -69,7 +69,7 @@
         "ge": "ეს ძროხის ხორცის წვნიანიც სამეგრელოს რეგიონიდანაა. ცნობილია ინგრედიენტების უნიკალური კომბინაციით და განსხვავებული გემოთი. ხარჩოს დამზადება შესაძლებელია ასევე ქათმის, ცხვრის ან ბატის ხორცით. ამ კერძის გამორჩეული გემო ნიგვზისა და სპეციალური სანელებლების ნაზავიდან მოდის. ხარჩო შეიძლება დაასხათ ღომზე და მიირთვათ ისე, ან წვნიანის სახით. "
       },
       "image": {
-        "url": "/images/food/kharcho.jpg",
+        "url": "/images/foods/kharcho.jpg",
         "alt": {
           "en": "Kharcho",
           "ge": "ხარჩო"
@@ -84,11 +84,11 @@
       },
       "vegetarian": true,
       "description": {
-        "en": "Nigvziani Badrijani translates as eggplants with walnuts. Eggplant slices are fried and filled with walnut stuffing and tightly rolled. The stuffing is made with finely ground walnuts, garlic, spices, and vinegar mixed together. The dish is usually garnished with pomegranate seeds and fresh coriander. ",
-        "ge": "ნიგვზიანი ბადრიჯანი ითარგმნება როგორც ბადრიჯანი ნიგვზით. ბადრიჯნის ნაჭრებს წვავენ და ავსებენ ნიგვზის შიგთავსით და მჭიდროდ ახვევენ. შიგთავსი მზადდება წვრილად დაფქული ნიგოზით, ნიორით, სანელებლებით და ძმრით შერეული ერთმანეთში. კერძს ჩვეულებრივ ამშვენებს ბროწეულის მარცვლები და ახალი ქინძი. "
+        "en": "Eggplant slices are fried and filled with walnut stuffing and tightly rolled. The stuffing is made with finely ground walnuts, garlic, spices, and vinegar mixed together. The dish is usually garnished with pomegranate seeds and fresh coriander. ",
+        "ge": "ბადრიჯნის ნაჭრებს წვავენ და ავსებენ ნიგვზის შიგთავსით და მჭიდროდ ახვევენ. შიგთავსი მზადდება წვრილად დაფქული ნიგოზით, ნიორით, სანელებლებით და ძმრით შერეული ერთმანეთში. კერძს ჩვეულებრივ ამშვენებს ბროწეულის მარცვლები და ახალი ქინძი. "
       },
       "image": {
-        "url": "/images/food/nigvziani_badrijani.jpg",
+        "url": "/images/foods/nigvziani_badrijani.jpg",
         "alt": {
           "en": "Nigvziani Badrijani",
           "ge": "ნიგვზიანი ბადრიჯანი"
@@ -103,11 +103,11 @@
       },
       "vegetarian": false,
       "description": {
-        "en": "Kubdari is meat-filled bread hailing from the mountainous Svaneti region. It is a fairly simple dish, but with the right technique and few key ingredients it gains its distinctive taste that so many admire.Traditionally, Kubdari is made with beef or pork, onions, and a selection of Georgian spices. To make the Kubdari filling, the meat is diced into tiny cubes and kneaded with onions and spices. ",
-        "ge": "კუბდარი არის ხორცით სავსე პური, რომელიც მოდის მთიანი სვანეთიდან. ეს საკმაოდ მარტივი კერძია, მაგრამ სწორი ტექნიკითა და რამდენიმე ძირითადი ინგრედიენტით ის იძენს თავის გამორჩეულ გემოს, რომლითაც ბევრი აღფრთოვანებულია. ტრადიციულად, კუბდარი მზადდება საქონლის ან ღორის ხორცით, ხახვითა და ქართული სანელებლების არჩევანით. კუბდარის შიგთავსის მოსამზადებლად ხორცს წვრილ კუბებად ჭრიან და ადუღებენ ხახვთან და სანელებლებთან ერთად. "
+        "en": "Kubdari is meat-filled bread hailing from the mountainous Svaneti region. With the right technique and few key ingredients it gains its distinctive taste that so many admire.Traditionally, Kubdari is made with beef or pork, onions, and a selection of Georgian spices. ",
+        "ge": "კუბდარი არის ხორცით სავსე პური, რომელიც მოდის მთიანი სვანეთიდან. სწორი ტექნიკითა და რამდენიმე ძირითადი ინგრედიენტით ის იძენს თავის გამორჩეულ გემოს, რომლითაც ბევრი აღფრთოვანებულია. ტრადიციულად, კუბდარი მზადდება საქონლის ან ღორის ხორცით, ხახვითა და ქართული სანელებლების არჩევანით. "
       },
       "image": {
-        "url": "/images/food/kubdari.jpg",
+        "url": "/images/foods/kubdari.jpg",
         "alt": {
           "en": "Kubdari",
           "ge": "კუბდარი"
@@ -126,7 +126,7 @@
         "ge": "შქმერული არის გამომცხვარი ქათმის კერძი საქართველოს რაჭის რაიონიდან, რომელმაც ბოლო დროს საოცარი პოპულარობა მოიპოვა იაპონიაში. გამოცხობის წინ ქათამს ავლებენ ნიორით, სანელებლებით და რძით. შქმერულის მომენტალური კვების პაკეტები იაპონურ სასურსათო მაღაზიებში გამოჩნდა და ერთ-ერთ საუკეთესო პროდუქტად დასახელდა. "
       },
       "image": {
-        "url": "/images/food/shkmeruli.jpg",
+        "url": "/images/foods/shkmeruli.jpg",
         "alt": {
           "en": "Shkmeruli",
           "ge": "შქმერული"
@@ -141,11 +141,11 @@
       },
       "vegetarian": false,
       "description": {
-        "en": "Satsivi is a popular dish in Georgia. Satsivi is made from boiled chicken or turkey and a rich walnut sauce.The sauce is made from walnuts, garlic, and a selection of spices. It can be eaten with Ghomi or simply with bread.",
-        "ge": "საცივი საქართველოში პოპულარული კერძია. საცივი მზადდება მოხარშული ქათმის ან ინდაურის და კაკლის მდიდარი სოუსისგან. სოუსი მზადდება ნიგვზის, ნივრისა და სანელებლების არჩევანისგან. შეიძლება მიირთვათ ღომთან ან უბრალოდ პურთან ერთად. "
+        "en": "Satsivi is made from boiled chicken or turkey and a rich walnut sauce.The sauce is made from walnuts, garlic, and a selection of spices. It can be eaten with Ghomi or simply with bread.",
+        "ge": "საცივი მზადდება მოხარშული ქათმის ან ინდაურის და კაკლის მდიდარი სოუსისგან. სოუსი მზადდება ნიგვზის, ნივრისა და სანელებლების არჩევანისგან. შეიძლება მიირთვათ ღომთან ან უბრალოდ პურთან ერთად. "
       },
       "image": {
-        "url": "/images/food/satsivi.jpg",
+        "url": "/images/foods/satsivi.jpg",
         "alt": {
           "en": "Satsivi",
           "ge": "ხარჩო"
@@ -160,11 +160,11 @@
       },
       "vegetarian": true,
       "description": {
-        "en": "Lobio also has a special place in Georgian cuisine. Lobio stew is made by soaking the beans and spices cooking them along with vegetables. The dish is often served hot in a clay pot, accompanied with Georgian cornbread Mchadi. ",
-        "ge": "ლობიოს განსაკუთრებული ადგილი უკავია ქართულ სამზარეულოში. ლობიოს ჩაშუშული მზადდება ლობიოსა და სანელებლების გაჟღენთვით, ბოსტნეულთან ერთად მოხარშვით. კერძს ხშირად ცხლად მიირთმევენ თიხის ჭურჭელში, ქართული სიმინდის პურის - მჭადის თანხლებით. "
+        "en": "Lobio stew is made by soaking the beans and spices cooking them along with vegetables. The dish is often served hot in a clay pot, accompanied with Georgian cornbread Mchadi. ",
+        "ge": "ლობიოს ჩაშუშული მზადდება ლობიოსა და სანელებლების გაჟღენთვით, ბოსტნეულთან ერთად მოხარშვით. კერძს ხშირად ცხლად მიირთმევენ თიხის ჭურჭელში, ქართული სიმინდის პურის - მჭადის თანხლებით. "
       },
       "image": {
-        "url": "/images/food/lobio_in_a_clay_pot.jpg",
+        "url": "/images/foods/lobio_in_a_clay_pot.jpg",
         "alt": {
           "en": "Lobio in a clay pot",
           "ge": "ლობიო თიხის ქოთანში"
@@ -183,7 +183,7 @@
         "ge": "ეს კერძიც სვანეთის მთებიდან მოდის. ეს ტრადიციული კერძი მზადდება კარტოფილის პიურესა და ყველით, ან ქართული სულგუნის ყველით. სულგუნი ძალიან წააგავს მოცარელას და შესანიშნავი მდნარი ყველია. ტაშმიჯაბი მოხარშული კარტოფილის, ყველის, კარაქისა და სვანური სანელებლების შესანიშნავი ნაზავია. "
       },
       "image": {
-        "url": "/images/food/tashmijabi.jpg",
+        "url": "/images/foods/tashmijabi.jpg",
         "alt": {
           "en": "Tashmijabi",
           "ge": "ტაშმიჯაბი"
@@ -202,7 +202,7 @@
         "ge": "გებჟალია ყველა ყველის მოყვარულის საყვარელი კერძია. წარმოშობით სამეგრელოდანაა, ძირითადად სულგუნის მდნარი ყველით მზადდება. ყველი დნება რძეში, ესხმება ხაჭოს ნაზავი პიტნითა და ნიორით, მიირთმევენ ცივად. "
       },
       "image": {
-        "url": "/images/food/gebjalia.jpg",
+        "url": "/images/foods/gebjalia.jpg",
         "alt": {
           "en": "Gebjalia",
           "ge": "გებჟალია"
@@ -217,11 +217,11 @@
       },
       "vegetarian": false,
       "description": {
-        "en": "Kuchmachi is a popular dish made from chicken or pork livers, hearts, and gizzards. To prepare this dish, meat is cut, boiled and marinated with garlic, onion, walnuts and spices. Fresh coriander is added at the end of cooking. Pomegranate seeds are thrown in and you can eat it with Georgian corn bread Mchadi. ",
-        "ge": "კუჭმაჭი არის პოპულარული კერძი, რომელიც მზადდება ქათმის ან ღორის გულ-ღვიძლისგან. ამ კერძის მოსამზადებლად ხორცს ჭრიან, ადუღებენ da აზავებენ ნიორთან, ხახვთან, ნიგოზთან და სანელებლებთან ერთად. ხარშვის ბოლოს ემატება ახალი ქინძი. ბროწეულის მარცვლები მოეყრება და შეგიძლიათ მიირთვათ ქართული სიმინდის პურთან - მჭადთან ერთად. "
+        "en": "Kuchmachi is a popular dish made from chicken or pork livers, hearts, and gizzards. Is marinated with garlic, onion, walnuts and spices. Fresh coriander and Pomegranate seeds are added at the end. You can eat it with Georgian corn bread Mchadi. ",
+        "ge": "კუჭმაჭი მზადდება ქათმის ან ღორის გულ-ღვიძლისგან. აზავებენ ნიორთან, ხახვთან, ნიგოზთან და სანელებლებთან ერთად. ბოლოს ემატება ახალი ქინძი და ბროწეულის მარცვლები, შეგიძლიათ მიირთვათ ქართული სიმინდის პურთან - მჭადთან ერთად. "
       },
       "image": {
-        "url": "/images/food/kuchmachi.jpg",
+        "url": "/images/foods/kuchmachi.jpg",
         "alt": {
           "en": "Kuchmachi",
           "ge": "კუჭმაჭი"
@@ -240,7 +240,7 @@
         "ge": "ფხალი მზადდება დაფქული ბოსტნეულით, შეზავებული ბევრი ნიგოზით, ასევე ძმარი, ხახვი, ნიორი და სხვადასხვა მწვანილი და სანელებლები. ფხალის ყველაზე გავრცელებული ვარიაციები მზადდება ისპანახით, ჭარხლით ან ლობიოთი. ფხალი შეგიძლიათ მიირთვათ ქართული სიმინდის პურთან - მჭადთან ერთად. "
       },
       "image": {
-        "url": "/images/food/pkhali.jpg",
+        "url": "/images/foods/pkhali.jpg",
         "alt": {
           "en": "Pkhali",
           "ge": "ფხალი"
@@ -310,8 +310,8 @@
         "ge": "კობი"
       },
       "description": {
-        "en": "Is made with semi-skimmed or skimmed cow's milk mixed with sheep's milk. This delicious cheese goes wonderfully with Kakhur Tuna bread. ",
-        "ge": "მზადდება ძროხის ნახევრად მოხდილი ან მოხდილი რძით, რომელსაც ცხვრის რძესაც ურევენ. ეს უგემრიელესი ყველი საოცრად უხდება კახურ თონის პურს. "
+        "en": "Is made with semi-skimmed or skimmed cow's milk mixed with sheep's milk. ",
+        "ge": "მზადდება ძროხის ნახევრად მოხდილი ან მოხდილი რძით, რომელსაც ცხვრის რძესაც ურევენ. "
       },
       "image": {
         "url": "/images/cheese/kobi.jpg",
@@ -324,7 +324,7 @@
     {
       "id": 5,
       "name": {
-        "en": "Adjarian chechili",
+        "en": "Adjarian Chechili",
         "ge": "აჭარული ჩეჩილი"
       },
       "description": {
@@ -334,7 +334,7 @@
       "image": {
         "url": "/images/cheese/adjarian_chechili.jpg",
         "alt": {
-          "en": "Adjarian chechili",
+          "en": "Adjarian Chechili",
           "ge": "აჭარული ჩეჩილი"
         }
       }
@@ -414,7 +414,7 @@
     {
       "id": 10,
       "name": {
-        "en": "Rotten Cheese",
+        "en": "Rotten cheese",
         "ge": "დამპალი ყველი"
       },
       "description": {
@@ -424,7 +424,7 @@
       "image": {
         "url": "/images/cheese/rotten_cheese.jpg",
         "alt": {
-          "en": "Rotten Cheese",
+          "en": "Rotten cheese",
           "ge": "დამპალი ყველი"
         }
       }
@@ -466,23 +466,741 @@
       }
     }
   ],
-  "snack": [
+  "snacks": [
     {
       "id": 1,
       "name": {
-        "en": "",
-        "ge": ""
+        "en": "Churchkhela",
+        "ge": "ჩურჩხელა"
       },
       "description": {
-        "en": "",
-        "ge": ""
+        "en": "Churchkhela is a dessert made by mixing grapes, flour (corn or bread) and nuts. In the East, the resulting mass of nuts is called Tatara, in which walnuts or dried fruit are added. And in the west, the rising mass is called Felamushi, in which they use nuts. ",
+        "ge": "ჩურჩხელა ყურძენის, ფქვილის (სიმინდის, ან პურის) და თხილეულის შერევით შექმნილი დესერტია. აღმოსავლეთში, თხილეულის ამოსავლებ მასას თათარას უწოდებენ, რომელშიც ავლებენ ნიგოზს, ან ჩირს. დასავლეთში კი ამოსავლებ მასას ფელამუში ჰქვია, რომელშიც თხილს იყენებენ. "
       },
       "image": {
-        "url": "/images/.jpg",
+        "url": "/images/snacks/churchkhela.jpg",
         "alt": {
-          "en": "",
-          "ge": ""
+          "en": "Churchkhela",
+          "ge": "ჩურჩხელა"
         }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Felamushi and Tatara",
+        "ge": "ფელამუში და თათარა"
+      },
+      "description": {
+        "en": "Churchkhela is a dessert made by mixing grapes, wheat and nuts. In the east, in Kakheti, Tatara is added to flour and a thick mass is obtained, in which walnuts or dried fruit are spread. In the West, corn flour and nuts are used. In the East, the nut mass is called Tatara, in the West it is called Felamushი. ",
+        "ge": "Grapes and flour (corn or bread) to make Pellamu and Tatara. They are in a way a prerequisite for church, because nuts or walnuts are removed from them. Eastern mash - Tatara, with its consistency, is different from western mash - Felamushi."
+      },
+      "image": {
+        "url": "/images/snacks/felamushi_and_tatara.jpg",
+        "alt": {
+          "en": "Felamushi and Tatara",
+          "ge": "ფელამუში და თათარა"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Tklapi",
+        "ge": "ტყლაპი"
+      },
+      "description": {
+        "en": "There are different flavors and colors. There is a dark red, a tangy tan, and a brown that is sweet and more palatable to those who don't like sharp flavors. It is made from woodpecker, apple, mulberry, mulberry and many other fruits that may be unimaginable in relation to the tea tree. ",
+        "ge": "არსებობს სხვადასხვა გემოს და ფერის ტყლაპები. არის მუქი წითელი, მომჟავო ტყლაპი და ყავისფერი, რომელიც ტკბილია და უფრო მეტად სასიამოვნო მათთვის, ვისაც მკვეთრი გემო ნაკლებად მოწონს. ის მზადდება, ტყემლის, ვაშლის, ჭანჭურის, თუთის და ბევრი ისეთი ხილისაგან, რომელიც შესაძლოა წარმოუდგენელი იყოს ტყლაპთან მიმართებით. "
+      },
+      "image": {
+        "url": "/images/snacks/tklapi.jpg",
+        "alt": {
+          "en": "Tklapi",
+          "ge": "ტყლაპი"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Snack of Orbelians",
+        "ge": " ორბელიანების ნუგბარი"
+      },
+      "description": {
+        "en": "A recipe brought from France, which was perfectly adapted to Georgian patterns, and a delicious dessert was created. It is made from walnuts and caramel. ",
+        "ge": "საფრანგეთიდან ჩამოიტანილი რეცეპტი, რომელიც აბსოლუტურად მოერგო ქართულ თარგებს და შეიქმნა ტკბილეული, რომელიც უგემრიელესია. მზადდება კაკლისა და კარემელისაგან. "
+      },
+      "image": {
+        "url": "/images/snacks/snack_of_Orbelians.jpg",
+        "alt": {
+          "en": "Snack of Orbelians",
+          "ge": " ორბელიანების ნუგბარი"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Dried fruits",
+        "ge": "ხილის ჩირი"
+      },
+      "description": {
+        "en": "Over the years, production technologies have changed and the variety of fruits used has been enriched, but the fact remains that Georgian dried fruit is especially delicious. There are dried apples, figs, apricots, melons, plums, persimmons. ",
+        "ge": "წლების მანძილზე იცვლება დამზადების ტექნოლოგიები და მდიდრდება გამოყენებული ხილის მრავალფეროვნება, თუმცა უცვლელია მოცემულობა, რომ ქართული ჩირი განსაკუთრებით გემრიელია. გვხვდება ვაშლის, ლეღვის, გარგარის, ნესვის,ქლიავის,ხურმის ჩირი. "
+      },
+      "image": {
+        "url": "/images/snacks/dried_fruits.jpg",
+        "alt": {
+          "en": "Dried fruits",
+          "ge": "ხილის ჩირი"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Gozinaki",
+        "ge": "გოზინაყი"
+      },
+      "description": {
+        "en": "Is a delicious dessert made with honey and walnuts. It is considered an essential attribute of the New Year's table in Georgia. ",
+        "ge": "უგემრიელესი დესერტი მომზადებული თაფლითა და ნიგოზით. საქართველოში საახალწლო სუფრის აუცილებელ ატრიბუტად ითვლება. "
+      },
+      "image": {
+        "url": "/images/snacks/gozinaki.jpg",
+        "alt": {
+          "en": "გოზინაყი",
+          "ge": "Gozinaki"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Meskhuri_halva",
+        "ge": " მესხური ჰალვა"
+      },
+      "description": {
+        "en": "Is a sweet, which is made with flour, bakmaz - the same mulberry juice, butter and honey are also added vanilla. ",
+        "ge": "ტკბილეულია, რომლის დასამზადებლად იყენებენ ფქვილს, ბაქმაზს - იგივე თუთის წვენის მონადუღს, კარაქს და თაფლს, ემატება ასევე ვანილი. "
+      },
+      "image": {
+        "url": "/images/snacks/meskhuri_halva.jpg",
+        "alt": {
+          "en": " მესხური ჰალვა",
+          "ge": "Meskhuri_halva"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "nazuki",
+        "ge": " ნაზუქი"
+      },
+      "description": {
+        "en": "To bake it, you need flour, milk, sugar, cloves and cinnamon. The Nazuki tradition is especially widespread in Surami. ",
+        "ge": "მის  გამოსაცხობად საჭიროა ფქვილი, რძე, შაქარი, მიხაკი და დარიჩინი. ნაზუქის ტრადიცია განსაკუთრებით სურამშია გავრცელებული. "
+      },
+      "image": {
+        "url": "/images/snacks/nazuki.jpg",
+        "alt": {
+          "en": " ნაზუქი",
+          "ge": "nazuki"
+        }
+      }
+    }
+  ],
+  "sauces": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Adjika",
+        "ge": "აჯიკა"
+      },
+      "description": {
+        "en": "Adjika is a spicy, aromatic paste or sauce made from red chili peppers, garlic, herbs, and sometimes walnuts. It may vary in spiciness and ingredients depending on regional preferences. Adjika is a versatile spice used to add heat and flavor to a variety of dishes. It can be used as a marinade for grilled meat. ",
+        "ge": "აჯიკა არის ცხარე, არომატული პასტა ან სოუსი, რომელიც მზადდება წითელი ჩილის წიწაკის, ნივრის, მწვანილისა და ზოგჯერ ნიგვზისგან. ის შეიძლება განსხვავდებოდეს სიცხარით და ინგრედიენტებით, რეგიონალური პრეფერენციების მიხედვით. აჯიკა არის მრავალმხრივი სანელებელი, რომელიც გამოიყენება სხვადასხვა კერძების სიცხარის და გემოს დასამატებლად. ის შეიძლება გამოვიყენოთ მარინადად, შემწვარი ხორცისთვის. "
+      },
+      "image": {
+        "url": "/images/sauces/adjika.jpg",
+        "alt": {
+          "en": "Adjika",
+          "ge": "აჯიკა"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Tkemali",
+        "ge": "ტყემალი"
+      },
+      "description": {
+        "en": "Tkemali is a sour plum sauce that adds a spicy and fruity flavor to dishes. It is made from various sour plums, garlic and various herbs and spices. Tekemali is often used as a dipping sauce for grilled meat. It can also be used as a seasoning or marinade. ",
+        "ge": "ტყემალი არის მჟავე ქლიავის სოუსი, რომელიც კერძებს ცხარე და ხილის არომატს მატებს. იგი მზადდება სხვადასხვა მჟავე ქლიავის, ნივრისა და სხვადასხვა მწვანილისა და სანელებლებისგან.ტყემალს ხშირად იყენებენ როგორც საწებელ სოუსს შემწვარი ხორცისთვის. ის ასევე შეიძლება გამოყენებულ იქნას როგორც სუნელი ან მარინადი. "
+      },
+      "image": {
+        "url": "/images/sauces/tkemali.jpg",
+        "alt": {
+          "en": "Tkemali",
+          "ge": "ტყემალი"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Satsebeli",
+        "ge": "საწებელი"
+      },
+      "description": {
+        "en": "The base of the sauce is tomatoes, which gives it a rich and slightly sweet taste. It contains coriander, parsley and garlic, which contribute to its distinctive taste. To achieve a sour taste, the sauce may contain vinegar or other acidic ingredients. It goes very well with grilled meat and gives the dish a delicious and aromatic taste. ",
+        "ge": "საწებლის საფუძველი პომიდორია, რომელიც იძლევა მდიდარ და ოდნავ ტკბილ გემოს. შეიცავს ქინძს, ოხრახუშს და ნიორს, რაც ხელს უწყობს მის გამორჩეულ გემოს.მჟავე გემოს მისაღწევად, საწებელი შეიძლება შეიცავდეს ძმარს ან სხვა მჟავე ინგრედიენტებს. ის ძალიან უხდება შემწვარ ხორცს და კერძს ანიჭებს გემრიელ და არომატულ გემოს. "
+      },
+      "image": {
+        "url": "/images/sauce/satsebeli.jpg",
+        "alt": {
+          "en": "Satsebeli",
+          "ge": "საწებელი"
+        }
+      }
+    }
+  ],
+  "mineralWaters": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Borjomi",
+        "ge": "ბორჯომი"
+      },
+      "sourceLocation": {
+        "en": "Borjomi valley",
+        "ge": "ბორჯომის ხეობა"
+      },
+      "description": {
+        "en": "It is a mineral water of average mineralization, table, sodium hydrocarbonate, medicinal. Unlike other similar mineral waters, it cannot cool down near the surface of the earth and rises warm (38-41 degrees Celsius), undergoes mineralization and is enriched with 60 different chemical elements, which makes its composition unique. ",
+        "ge": "საშუალო მინერალიზაციის, სუფრის, ნატრიუმის ჰიდროკარბონატული, სამკურნალო მინერალური წყალია. სხვა ანალოგიური მინერალური წყლებისგან განსხვავებით მიწის ზედაპირთან გაცივებას ვერ ასწრებს და თბილი ამოდის (38–41 გრადუსი ცელსიუსით), განიცდის მინერალიზაციას და 60 სხვადასხვა ქიმიური ელემენტით მდიდრდება, რაც მის შემადგენლობას უნიკალურს ხდის."
+      },
+      "benefits": {
+        "en": "This mineral water is used for the treatment of organs of the digestive system, gastrointestinal tract, biliary tract, kidney and other diseases. ",
+        "ge": "ეს მინერალური წყალი საჭმლის მომნელებელი სისტემის ორგანოების, კუჭ-ნაწლავის, სანაღვლე გზების, თირკმლის და სხვა დაავადებების სამკურნალოდ გამოიყენება."
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Nabeglavi",
+        "ge": "ნაბეღლავი"
+      },
+      "sourceLocation": {
+        "en": "Guria region",
+        "ge": "გურიის რეგიონი"
+      },
+      "description": {
+        "en": "It is carbonated sodium-calcium table water enriched with carbon dioxide. ",
+        "ge": "ნახშირორჟანგით გამდიდრებული, ჰიდროკარბონატული ნატრიუმ–კალციუმიანი სუფრის წყალია."
+      },
+      "benefits": {
+        "en": "The high content of magnesium ion has a positive effect on the cardiovascular and nervous systems. Thanks to the unique complex of minerals, it perfectly cleanses the body, it is effective in the treatment of diseases of the digestive system and metabolism. ",
+        "ge": "მაგნიუმის იონის მაღალი შემცველობა დადებით გავლენას ახდენს გულ-სისხლძარღვთა და ნერვულ სისტემებზე. მინერალების უნიკალური კომპლექსის წყალობით შესანიშნავად წმენდს ორგანიზმს, ეფექტურია მომნელებელი სისტემის და ნივთიერებათა ცვლის დაავადებების მკურნალობის დროს. "
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Sairme",
+        "ge": "საირმე"
+      },
+      "sourceLocation": {
+        "en": "Imereti region",
+        "ge": "იმერეთის რეგიონი"
+      },
+      "description": {
+        "en": "It is water with hydrocalcium-sodium content of unique chemical composition. ",
+        "ge": "უნიკალური ქიმიური შემადგენლობის ჰიდროკალციუმ-ნატრიუმის შემცველობის წყალია."
+      },
+      "benefits": {
+        "en": "It is useful for metabolism, kidney pathology, problems related to liver and intestines. ",
+        "ge": "სასარგებლოა მეტაბოლიზმის, თირკმელის პათოლოგიის, ღვიძლთან და ნაწლავებთან დაკავშირებული პრობლემისათვის. "
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Lugela",
+        "ge": "ლუგელა"
+      },
+      "sourceLocation": {
+        "en": "Chkhorotsku municipality",
+        "ge": "ჩხოროწყუს მუნიციპალიტეტი"
+      },
+      "description": {
+        "en": "It is unique not only in Georgia, but in the whole world. It is a 9.5% calcium chloride mineral water, clear, odorless, with a slightly bitter taste, which does not freeze even at the lowest possible temperature. ",
+        "ge": "უნიკალურია არა მარტო საქართველოში, არამედ მთელ მსოფლიოში. ეს კალციუმის ქლორიდის 9,5%-იანი მინერალური წყალია, გამჭვირვალე, უსუნო, ოდნავ მომწარო გემოთი, რომელიც მაქსიმალურად დაბალ ტემპერატურაზეც არ იყინება. "
+      },
+      "benefits": {
+        "en": "It is used to treat bone system and joint diseases, allergies, nephritis, stomatitis, bleeding and other diseases. ",
+        "ge": "გამოიყენება ძვლოვანი სისტემის და სახსრების დაავადებების, ალერგიის, ნეფრიტების, სტომატიტების, სისხლდენების და სხვა დაავადებების სამკურნალოდ. "
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Zvare",
+        "ge": "ზვარე"
+      },
+      "sourceLocation": {
+        "en": "Imereti region",
+        "ge": "იმერეთის რეგიონი"
+      },
+      "description": {
+        "en": "Mineral water rich in iodine. ",
+        "ge": "იოდით მდიდარი მინერალური წყალი. "
+      },
+      "benefits": {
+        "en": "It is used for the treatment and prevention of diseases of the digestive system, liver, biliary tract, and metabolism. ",
+        "ge": "გამოიყენება მომნელებელი სისტემის, ღვიძლის, სანაღვლე გზების, ნივთიერებათა ცვლის დაავადებების სამკურნალოდ და პროფილაქტიკის მიზნით. "
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Likani",
+        "ge": "ლიკანი"
+      },
+      "sourceLocation": {
+        "en": "Borjomi valley",
+        "ge": "ბორჯომის ხეობა"
+      },
+      "description": {
+        "en": "Saturated with chemical elements, moderately contains mineral-ionic complex. Unrepeatable ratio of hydrocarbons, magnesium and calcium. ",
+        "ge": "გაჯერებული ქიმიური ელემენტებით, ზომიერად შეიცავს მინერალურ–იონურ კომპლექსს. ჰიდროკარბონატების, მაგნიუმის და კალციუმის განუმეორებელი თანაფარდობა. "
+      },
+      "benefits": {
+        "en": "It is a good way to heal the body. It is useful for the organs of the digestive system.",
+        "ge": "კარგი საშუალებაა ორგანიზმის გასაჯანსაღებლად. სასარგებლოა საჭმლის მომნელებელი სისტემის ორგანოებისათვის. "
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Mitarbi",
+        "ge": "მიტარბი"
+      },
+      "sourceLocation": {
+        "en": "Borjomi valley",
+        "ge": "ბორჯომის ხეობა"
+      },
+      "description": {
+        "en": "Hydrocarbonate calcium-sodium medicinal and table mineral water with carbon dioxide and silicic acid. ",
+        "ge": "ჰიდროკარბონატული კალციუმ-ნატრიუმის სამკურნალო და სუფრის მინერალური წყალი ნახშირორჟანგით და სილიციუმის მჟავით. "
+      },
+      "benefits": {
+        "en": "It is useful for gastritis, colitis, stomach and duodenal ulcer, biliary and urinary tract diseases, metabolic diseases, chronic pancreatitis. ",
+        "ge": "სასარგებლოა გასტრიტის, კოლიტის, კუჭისა და თორმეტგოჯა ნაწლავის წყლულის, ნაღვლმდენი და შარდმდენი გზების დაავადებების, ნივთიერებათა ცვლის დაავადებების, ქრონიკული პანკრეატიტის დროს."
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Dzughuri",
+        "ge": "ძუღური"
+      },
+      "sourceLocation": {
+        "en": "Lechkhumi",
+        "ge": "ლეჩხუმი"
+      },
+      "description": {
+        "en": "It is low-mineralized water, so it can be taken instead of ordinary drinking water, compared to other mineral waters. ",
+        "ge": "დაბალმინერალიზებული წყალია, ამიტომ მისი მიღება, სხვა მინერალურ წყლებთან შედარებით, ჩვეულებრივი სასმელი წყლის მაგივრადაც არის შესაძლებელი. "
+      },
+      "benefits": {
+        "en": "It is effective in diabetes, neurosis, overweight, iron deficiency anemia and gout. Regulates the functions of the digestive system. ",
+        "ge": "ეფექტურია დიაბეტის, ნევროზის, ჭარბი წონის, რკინადეფიციტური ანემიისა და პოდაგრის დროს. აწესრიგებს საჭმლის მომნელებელი სისტემის ფუნქციებს. "
+      }
+    }
+  ],
+  "grapeVarieties": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Saperavi",
+        "ge": "საფერავი"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kakheti",
+        "ge": "კახეთი"
+      },
+      "description": {
+        "en": "It has an intense dark garnet color, moderate strength, energy, fullness and freshness, as well as a distinctive varietal aroma and a strong bouquet. ",
+        "ge": "მას აქვს ინტენსიური მუქი ბროწეულის ფერი, ზომიერი სიმაგრე, ენერგია, სისრულე და სიხალისე, აგრეთვე თავისებური ჯიშური არომატი და ძლიერი ბუკეტი. "
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Tavkveri",
+        "ge": "თავკვერი"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "Characterized by light body, medium to low alcohol and slightly elevated overall acidity. Very interesting dry red or rosé wines are made from Tavkveri with aromas of wild rose and red fruits. ",
+        "ge": "ხასიათდება მსუბუქი სხეულით, საშუალო ან საშუალოზე მცირე ალკოჰოლით და ოდნავ მომატებული საერთო მჟავიანობით. თავკვერიდან დგება ძალზე საინტერესო წითელი მშრალი ან ვარდისფერი ღვინოები ველური ვარდისა და წითელი ხილის სურნელებით. "
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Aleksandrouli",
+        "ge": "ალექსანდროული"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Racha",
+        "ge": "რაჭა"
+      },
+      "description": {
+        "en": "They are mainly used for the production of naturally semi-sweet wine Khvanchkara and table quality red wines. Khvanchkara is characterized by high taste qualities, dark ruby color, well-defined bouquet, smoothness and gentle, pleasant sweet taste. ",
+        "ge": "იყენებენ ძირითადად ბუნებრივად ნახევრად ტკბილი ღვინის „ხვანჭკარის“ და სუფრის ხარისხოვანი წითელი ღვინოების დასამზადებლად. „ხვანჭკარა“ ხასიათდება მაღალი გემური თვისებებით, მუქი ლალისფერია, კარგად გამოხატული ბუკეტით, გამოირჩევა სირბილითა და ნაზი, სასიამოვნო მოტკბო გემოთი. "
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Mujuretuli",
+        "ge": "მუჯურეთული"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Racha",
+        "ge": "რაჭა"
+      },
+      "description": {
+        "en": "It is intensely colored, dark ruby and transparent. It is characterized by a peculiar aroma, sweetness and a gentle, harmonious taste, in which cherry tones are well felt. Varietal wine is characterized by good coloring, transparency, body, tenderness, harmony and aroma. ",
+        "ge": "ინტენსიურად შეფერილია, მუქი ლალისფერი და გამჭვირვალეა. ხასიათდება თავისებური არომატით, სიტკბოთი და ნაზი, ჰარმონიული გემოთი, რომელშიც კარგად იგრძნობა ალუბლის ტონები. ჯიშური ღვინო ხასიათდება კარგი შეფერვით, გამჭვირვალობით, სხეულით, სინაზით, ჰარმონიულობით და არომატით. "
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Aladasturi",
+        "ge": "ალადასტური"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Guria",
+        "ge": "გურია"
+      },
+      "description": {
+        "en": "It is characterized by strong growth and low yield. It reaches full maturity at the end of October. It is less affected by fungal diseases. It is a collectible variety. ",
+        "ge": "ახასიათებს ძლიერი ზრდა და მცირე მოსავლიანობა. სრულ სიმწიფეში შედის ოქტომბრის ბოლოს. შედარებით ნაკლებად ზიანდება სოკოვანი დაავადებებით. საკოლექციო ჯიშია. "
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Dzelshavi",
+        "ge": "ძელშავი"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Imereti",
+        "ge": "იმერეთი"
+      },
+      "description": {
+        "en": "It produces a light red or pink wine with less body, but energetic and lively. It provides better quality material for a deep black sparkling wine - the wine made this way is pale straw colored, light and quite lively. ",
+        "ge": "მისგან ღია წითელი ან მოვარდისფრო ნაკლებ სხეულიანი, მაგრამ ენერგიული და ხალისიანი ღვინო დგება. უკეთესი ხარისხის მასალას ძელშავი ცქრიალა ღვინისათვის იძლევა - ამ წესით დაყენებული ღვინო ღია ჩალისფერია, მსუბუქი და საკმაო ხალისიანია. "
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Chkhaveri",
+        "ge": "ჩხავერი"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Guria",
+        "ge": "გურია"
+      },
+      "description": {
+        "en": "Chkhaveri is a variety that produces high-quality products for table and sparkling wines. Chkhaveri wine is pale pink, gentle and harmonious, with characteristic varietal aroma, normal ratio of alcohol and acidity, aromas of peach and white fruits, where sweetness and softness combine with pleasant acidity. ",
+        "ge": "ჩხავერი მაღალხარისხოვანი პროდუქციის მომცემი ჯიშია სუფრისა და ცქრიალა ღვინოების მისაღებად. ჩხავერის ღვინო ღია ვარდისფერია, ნაზი და ჰარმონიული, დამახასიათებელი ჯიშური არომატით, ალკოჰოლსა და სიმჟავის ნორმალური თანაფარდობით, ატმისა და თეთრი ხილის სურნელებით, სადაც სიტკბო და სირბილე სასიოამოვნო სიმჟავეს ერწყმის. "
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Shavkapito",
+        "ge": "შავკაპიტო"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "A good quality red table wine is produced from it, which is distinguished by its beautiful color, pleasant varietal aroma, normal alcohol and acid content - that is, all the properties that are characteristic of table and sparkling wines. ",
+        "ge": "მისგან იწარმოება კარგი ხარისხის სუფრის წითელი ღვინო, რომელიც გამოირჩევა ლამაზი შეფერილობით, სასიამოვნო ჯიშური არომატით, ალკოჰოლისა და მჟავის ნორმალური შემცველობით – ანუ ყველა იმ თვისებით, რაც დამახასიათებელია სუფრის და ცქრიალა ღვინოებისათვის. "
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "Usakhelouri",
+        "ge": "უსახელოური"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Tsageri",
+        "ge": "ცაგერი"
+      },
+      "description": {
+        "en": "Ushakhelouri grapes are mainly used to make naturally semi-sweet red wine, but they also produce high-quality red table wine, characterized by an intense color - beautiful ruby ​​and ripe pomegranate color, varietal aroma, pleasant sweetness, ample body and harmonious taste. ",
+        "ge": "უსახელოურის ყურძენი ძირითადად მიდის ბუნებრივად ნახევრადტკბილი წითელი ღვინის დასაყენებლად, თუმცა ასევე იძლევა მაღალი ღირსების სუფრის წითელ ღვინოს, რომელიც ხასიათდება ინტენსიური შეფერვით – ლამაზი ლალისფერი და მწიფე ბროწეულის ფერით, ჯიშური არომატით, სასიამოვნო სიტკბოთი, საკმაო სხეულით და ჰარმონიული გემოთი. "
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "Ojaleshi",
+        "ge": "ოჯალეში"
+      },
+      "type": {
+        "en": "red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Samegrelo",
+        "ge": "სამეგრელო"
+      },
+      "description": {
+        "en": "The wine is characterized by good red coloring, extractiveness, harmony, energy. Along with body and harmony, it features great storage capacity and portability. In antiquity, wine develops a pleasant bouquet, which is generally characteristic of quality wine. ",
+        "ge": "ღვინისათვის დამახასიათებელია კარგი წითელი შეფერვა, ექსტრაქტულობა, ჰარმონიულობა, ენერგიულობა. სხეულთან და ჰარმონიულობასთან ერთად, ახასიათებს შენახვის დიდი უნარი და ტრანსპორტაბელურობა. სიძველეში ღვინო ივითარებს სასიამოვნო ბუკეტს, რაც საერთოდ დამახასიათებელია ხარისხოვანი ღვინისათვის. "
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "Tsolikouri",
+        "ge": "ცოლიკოური"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Imereti",
+        "ge": "იმერეთი"
+      },
+      "description": {
+        "en": "Three types of wine are made from Tsolikouri: Imeretian, European and naturally semi-sweet. Its wine is transparent, yellowish in color, characterized by ample body, content and freshness, improves with age, acquires tenderness and develops a bouquet characteristic of the variety. ",
+        "ge": "ცოლიკოურიდან სამი ტიპის ღვინო მზადდება: იმერული, ევროპული და ბუნებრივად ნახევრადტკბილი. მისი ღვინო გამჭვირვალე, მოყვითალო ფერისაა, ხასიათდება საკმაო სხეულით, შინაარსით და სიხალისით, სიძველეში უმჯობესდება, იძენს სინაზეს და ივითარებს ჯიშისათვის დამახასიათებელ ბუკეტს. "
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "Tsitska",
+        "ge": "ციცქა"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Imereti",
+        "ge": "იმერეთი"
+      },
+      "description": {
+        "en": "It provides table wine of the best value and quality material for sparkling wines. Tsitska table wine is pale straw-colored with a greenish appearance, characterized by body, energy and freshness, the taste is gentle and harmonious. As it ages, it develops a very delicate and pleasant bouquet. ",
+        "ge": "იგი იძლევა საუკეთესო ღირსების სუფრის ღვინოს და ხარისხოვან მასალას ცქრიალა ღვინოებისათვის. ციცქას სუფრის ღვინო ღია ჩალისფერია მომწვანო იერით, ხასიათდება სხეულით, ენერგიითა და სიხალისით, გემო ნაზი და ჰარმონიული აქვს. დაძველებისას ივითარებს მეტად ნაზ სასიამოვნო ბუკეტს.  "
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "en": "Chinuri",
+        "ge": "ჩინური"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "It is used to make high-quality table and sparkling wines. Table wine - pale straw-colored, very clean, soft and gentle in taste, with a normal ratio of alcohol and acidity. Sparkling wine - straw-like, very clean, with a pleasant smoothness and cheerful acidity. Athenian wine made with the participation of Chinese is especially famous. ",
+        "ge": "გამოყენებულია მაღალხარისხოვანი სუფრისა და ცქრიალა ღვინოების დასამზადებლად. სუფრის ღვინო – ღია მოჩალისფროა, მეტად სუფთა, გემოთი რბილი, ნაზი, ალკოჰოლისა და მჟავიანობის ნორმალური თანაფარდობით. ცქრიალა ღვინო – მოჩალისფრო, მეტად სუფთა, სასიამოვნო სირბილის და ხალისიანი მჟავიანობით. განსაკუთრებით სახელგანთქმულია ჩინურის მონაწილეობით დაყენებული „ატენური“ ღვინო.  "
+      }
+    },
+    {
+      "id": 14,
+      "name": {
+        "en": "Qisi",
+        "ge": "ქისი"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Kakheti",
+        "ge": "კახეთი"
+      },
+      "description": {
+        "en": "It gives high-quality table white wine. European set is a yellowish straw color with a golden hue. The aroma is well expressed, gentle, pleasant, and the taste is full and harmonious. ",
+        "ge": "იძლევა მაღალხარისხოვან სუფრის თეთრ ღვინოს.  ევროპულად დაყენებული მოყვითალო ჩალისფერია, ოქროსფერი იერით. არომატი კარგადაა გამოსახული, ნაზი, სასიამოვნო, ხოლო გემო სრული, ჰარმონიული აქვს.  "
+      }
+    },
+    {
+      "id": 15,
+      "name": {
+        "en": "Rkatsiteli",
+        "ge": "რქაწითელი"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Kakheti",
+        "ge": "კახეთი"
+      },
+      "description": {
+        "en": "The desired juiciness of the grain, high sugar content of the juice, sufficient acidity and pleasant aroma determine the main use of Rkatsiteli for making table wines. The wine is characterized by a peculiar fruit bouquet, tenderness, lightness, harmony and pleasant taste. ",
+        "ge": "მარცვლის სასურველი წვნიანობა, წვენის მაღალი შაქრიანობა, საკმაო მჟავიანობა და სასიამოვნო არომატი განაპირობებს რქაწითლის ძირითად გამოყენებას სუფრის ღვინოების დასაყენებლდ. ღვინოს ახასიათებს თავისებური ხილის ბუკეტი, სინაზე, სიმსუბუქე, ჰარმონიულობა და სასიამოვნო გემო. "
+      }
+    },
+    {
+      "id": 16,
+      "name": {
+        "en": "Krakhuna",
+        "ge": "კრახუნა"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Imereti",
+        "ge": "იმერეთი"
+      },
+      "description": {
+        "en": "The wine made in the European manner is yellowish-straw colored, characterized by fullness, energy and pleasant taste. It is darker in color, amber-yellow, and is characterized by a peculiar varietal aroma. Krakhuna wine has a taste of ripe pear, grass tones and pleasant acidity. ",
+        "ge": "ვეროპული წესით დაყენებული ღვინო მოყვითალო - ჩალისფერია, ხასიათდება სისრულით, ენერგიით დ სასიამოვნო გემოთი. იმერული წესით დაყენებული უფრო მუქად არის შეფერილი, მოქარვისფრო - ყვითელია, ხასიათდება თავისებური ჯიშური არომატით. კრახუნას ღვინოს აქვს მწიფე მსხლის გემო, ბალახის ტონები და სასიამოვნო მჟავიანობა. "
+      }
+    },
+    {
+      "id": 17,
+      "name": {
+        "en": "Goruli Mtsvane",
+        "ge": "გორული მწვანე"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "A high-quality wine variety, it is used to make high-quality table and sparkling wines. The wine is pale straw-colored, gentle, quite full-bodied, harmonious, with pleasant taste characteristics characteristic of European-style table wine. ",
+        "ge": "მაღალხარისხოვანი პროდუქციის მომცემი საღვინე ჯიში, იგი გამოიყენება მაღალი ხარისხის სუფრის და ცქრიალა ღვინოების დასამზადებლად. ღვინო ღია ჩალისფერია, ნაზი, საკმაოდ სხეულიანი, ჰარმონიული, ევროპული სტილის სუფრის ღვინისათვის დამახასიათებელი სასიამოვნო გემური თვისებებით. "
+      }
+    },
+    {
+      "id": 18,
+      "name": {
+        "en": "Pitra",
+        "ge": "ფითრა"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Imereti",
+        "ge": "იმერეთი"
+      },
+      "description": {
+        "en": "A good quality dry white table wine is produced from it, with an intense, pleasant, lively taste. ",
+        "ge": "მისგან იწარმოება კარგი ხარისხის სუფრის მშრალი თეთრი ღვინო, ექსტაქტიული, სასიამოვნო, ცოცხალი გემოთი. "
+      }
+    },
+    {
+      "id": 19,
+      "name": {
+        "en": "Mkhargrdzeli",
+        "ge": "მხარგრძელი"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Kakheti",
+        "ge": "კახეთი"
+      },
+      "description": {
+        "en": "European type dry table wine is made from it. It is characterized by a light straw color, weak varietal aroma and mild taste. ",
+        "ge": "მისგან მზადდება ევროპული ტიპის  სუფრის მშრალი ღვინო. ხასიათდება ღია ჩალისფერით, სუსტი ჯიშური არომატითა და ნაზი გემოთი. "
+      }
+    },
+    {
+      "id": 20,
+      "name": {
+        "en": "Kumsi",
+        "ge": "კუმსი"
+      },
+      "type": {
+        "en": "white",
+        "ge": "თეთრი"
+      },
+      "region": {
+        "en": "Kakheti",
+        "ge": "კახეთი"
+      },
+      "description": {
+        "en": "The so-called For making ordinary table wine. The wine is straw-colored, with a faint varietal aroma, characterized by a lower than average alcohol content and body, pleasant taste and acidity. ",
+        "ge": "გამოიყენებოდა ე.წ. ორდინალური ტიპის სუფრის ღვინის დასამზადებლად. ღვინო ჩალისფერი, სუსტად გამოსახული ჯიშური არომატით, დამახასიათებელია საშუალოზე მცირე ალკოჰოლის შემცველობა და სხეული, სასიამოვნო გემო და მჟავიანობა. "
       }
     }
   ]
