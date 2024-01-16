@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { motion } from "framer-motion";
+import { Variants, motion } from "framer-motion";
 import { useState } from "react";
 
 const navVariants = {
@@ -7,18 +7,25 @@ const navVariants = {
     opacity: 0,
   },
   visible: {
-    scale: 1.1,
+    scaleY: 1.3,
     opacity: 1,
-    transition: { type: "spring", delay: 1, staggerChildren: 0.3 },
+    transition: { type: "spring", delay: 1.5, staggerChildren: 3 },
   },
 };
 
-const linkVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
+const linkVariants: Variants = {
+  hover: {
+    scale: 1.1,
+    translateX: 10,
+    x: 5,
+    y: -2,
+    textShadow: "0px 0px 12px rgb(255,255,255)",
+    boxShadow: "0px 0px 12px rgb(255,255,255)",
+    transition: {
+      duration: 0.4,
+      repeat: 1,
+      repeatType: "mirror",
+    },
   },
 };
 
@@ -30,13 +37,13 @@ const MainNav = () => {
 
   const mainNavLinkList = [
     { to: "/", label: "Home" },
-    { to: "history", label: "History" },
-    { to: "geography", label: "Geography" },
-    { to: "culture", label: "Culture" },
-    { to: "cuisine", label: "Cuisine" },
-    { to: "wine", label: "Wine" },
-    { to: "landmarks", label: "Landmarks" },
-    { to: "nightlife", label: "Nightlife" },
+    { to: "discovery", label: "Discovery" },
+    { to: "explore", label: "Explore" },
+    { to: "taste", label: "Taste" },
+    // { to: "cuisine", label: "Cuisine" },
+    // { to: "wine", label: "Wine" },
+    { to: "leisure", label: "Leisure" },
+    { to: "wellness", label: "Wellness" },
   ];
 
   return (
@@ -72,23 +79,14 @@ const MainNav = () => {
           >
             {mainNavLinkList.map((mainNavLink) => (
               <motion.li
-                className="nav-item"
+                className="nav-item d-flex justify-content-center align-items-center"
                 key={mainNavLink.to}
                 variants={linkVariants}
-                whileHover={{
-                  scale: 1.1,
-                  textShadow: "0px 0px 12px rgb(255,255,255)",
-                  boxShadow: "0px 0px 12px rgb(255,255,255)",
-                  transition: {
-                    duration: 0.3,
-                    repeat: 2,
-                    repeatType: "mirror",
-                  },
-                }}
+                whileHover="hover"
               >
                 <NavLink
                   className="nav-link"
-                  style={{ color: "rgb(12, 33, 151)", marginLeft: "8px" }}
+                  style={{ color: "rgb(12, 33, 151)", marginLeft: "25px" }}
                   to={mainNavLink.to}
                 >
                   {mainNavLink.label}

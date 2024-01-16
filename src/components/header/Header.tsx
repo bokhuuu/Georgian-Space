@@ -1,32 +1,45 @@
-import { useTranslation } from "react-i18next";
-import LanguageToggler from "../../utils/LanguageToggler.tsx";
-import { languageList } from "../../configs/translation/languageList.ts";
-import ThemeToggler from "../../utils/ThemeToggler.tsx";
+// import { useTranslation } from "react-i18next";
+// import LanguageToggler from "../../utils/LanguageToggler.tsx";
+// import { languageList } from "../../configs/translation/languageList.ts";
+// import ThemeToggler from "../../utils/ThemeToggler.tsx";
+// import { motion } from "framer-motion";
+// import ModalBox from "../modal/ModalBox.tsx";
+import MainNav from "../nav/MainNav.tsx";
+import logo from "../../assets/icons/Logo.jpg";
 import Brand from "./Brand.tsx";
-import { motion } from "framer-motion";
-import ModalBox from "../modal/ModalBox.tsx";
 
-const headerVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: { type: "spring", delay: 1.3, staggerChildren: 0.3 },
-  },
-};
+// const headerVariants = {
+//   hidden: {
+//     opacity: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     transition: { type: "spring", delay: 1.3, staggerChildren: 0.3 },
+//   },
+// };
 
 const Header = () => {
-  const { t } = useTranslation();
-  const { toggleTheme } = ThemeToggler();
+  // const { t } = useTranslation();
+  // const { toggleTheme } = ThemeToggler();
 
   return (
     <div className="container mt-3 mb-3">
       <div className="row">
         <div className="col-md-8">
+          <img
+            src={logo}
+            style={{
+              width: 100,
+              height: 100,
+              borderRadius: 20,
+              marginBottom: 10,
+              transform: "translate(0px, -17px)",
+            }}
+          />
           <Brand />
+          <MainNav />
         </div>
-        <motion.div
+        {/* <motion.div
           className=" header-icons col-6 col-md-4 d-flex align-items-center mb-3"
           variants={headerVariants}
           initial="hidden"
@@ -49,9 +62,10 @@ const Header = () => {
             >
               Launch demo modal
             </button>
+
             <ModalBox />
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

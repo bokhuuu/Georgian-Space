@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-const CultureNav = () => {
-  const cultureNavLinkList = [
+const TasteNav = () => {
+  const tasteNavLinkList = [
     { to: "art", label: "Art" },
     { to: "literature", label: "Literature" },
     { to: "poliphony", label: "Poliphony" },
@@ -12,8 +12,8 @@ const CultureNav = () => {
       <div className="container-fluid">
         <div className="row justify-content-end align-items-center">
           <ul className="col navbar-nav fw-bold ms-3 mt-1 justify-content-start">
-            {cultureNavLinkList.map((cultureNavLink) => (
-              <li className="nav-item" key={cultureNavLink.to}>
+            {tasteNavLinkList.map((tasteNavLink) => (
+              <li className="nav-item" key={tasteNavLink.to}>
                 <NavLink
                   className="nav-link"
                   // style={{
@@ -21,9 +21,9 @@ const CultureNav = () => {
                   //   marginLeft: "5px",
                   //   transform: "translate(5px,-35px)",
                   // }}
-                  to={cultureNavLink.to}
+                  to={tasteNavLink.to}
                 >
-                  {cultureNavLink.label}
+                  {tasteNavLink.label}
                 </NavLink>
               </li>
             ))}
@@ -34,4 +34,4 @@ const CultureNav = () => {
   );
 };
 
-export default CultureNav;
+export default TasteNav;
