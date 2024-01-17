@@ -12,25 +12,28 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.backgroundColor};
-    color: ${(props) => props.theme.textColor};
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    overflow-x: hidden;
+    background: ${(props) => props.theme.backgroundColor};
+    color: ${(props) => props.theme.textColor};
   }
 
   .nav-link.active {
     background-color: #ffffff;
-    border-radius: 50%;
+    border-radius: 10%;
     width: fit-content;
+    height: fit-content;
   }
 
 .btn {
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
+  border-radius: 10%;
   background-color: rgba(23, 99, 165, 0.596);
   color: white;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 `;
