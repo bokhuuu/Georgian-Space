@@ -34,7 +34,7 @@ const brandVariants = {
 export const StyledBrand = styled.div`
   display: inline-block;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 40px;
   margin-left: 40px;
   border-top: solid 4px rgb(12, 33, 151);

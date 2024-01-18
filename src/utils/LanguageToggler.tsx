@@ -3,19 +3,21 @@ import { useLocation, useNavigate } from "react-router-dom";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 import useLanguageCookie from "../hooks/useLanguageCookie";
-import globeIcon from "../assets/icons/globe.svg";
+import gbFlagIcon from "../assets/icons/gbFlagIcon.svg";
+import geFlagIcon from "../assets/icons/geFlagIcon.svg";
 
-interface Language {
-  code: string;
-  name: string;
-  flag: string;
-}
+const LanguageToggler = () => {
+  const languageList = [
+    {
+      code: "en",
+      flag: gbFlagIcon,
+    },
+    {
+      code: "ge",
+      flag: geFlagIcon,
+    },
+  ];
 
-interface LanguageTogglerProps {
-  languageList: Language[];
-}
-
-const LanguageToggler = ({ languageList }: LanguageTogglerProps) => {
   const location = useLocation();
   const navigate = useNavigate();
   const { t } = useTranslation();
@@ -39,42 +41,20 @@ const LanguageToggler = ({ languageList }: LanguageTogglerProps) => {
 
   return (
     <div className="container">
-      <div className="dropdown">
-        <button
-          className="btn btn-link dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <img src={globeIcon} />
-        </button>
-        <ul className="dropdown-menu">
-          <li>
-            <span className="dropdown-item-text">{t("language")}</span>
-          </li>
-          {languageList.map(({ code, name, flag }) => (
-            <li key={code}>
-              <button
-                className={`dropdown-item ${
-                  currentLanguage === code ? "disabled" : ""
-                }`}
-                onClick={() => handleLanguageChange(code)}
-              >
-                <img
-                  src={flag}
-                  alt={name}
-                  className="mx-2"
-                  style={{
-                    opacity: currentLanguage === code ? 0.5 : 1,
-                    width: "24px",
-                    height: "24px",
-                  }}
-                />
-                {name}
-              </button>
-            </li>
-          ))}
-        </ul>
+      <div className="d-flex flex-row gap-1">
+        {languageList.map(({ code, flag }) => (
+          <button
+            key={code}
+            className="icon-btn"
+            style={{
+              backgroundImage: `url(${flag})`,
+              height: 30,
+              borderRadius: "50%",
+            }}
+            onClick={() => handleLanguageChange(code)}
+            disabled={currentLanguage === code}
+          ></button>
+        ))}
       </div>
     </div>
   );

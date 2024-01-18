@@ -105,6 +105,15 @@ const StyledNavLink = styled(NavLink)`
   margin-top: -10px;
   border-bottom: solid white 2px;
   font-size: 17px;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    // Add the active class styling here
+    color: rgb(12, 33, 151);
+    // Additional styles if needed
+  }
 `;
 
 export default AppNavigation;

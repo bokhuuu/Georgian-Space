@@ -34,6 +34,14 @@ export const GlobalStyles = createGlobalStyle`
   color: white;
   font-weight: bolder;
   cursor: pointer;
+  
 }
 
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  background-color: "white";
+  background-size: "cover";
+  cursor: pointer;
+}
 `;
