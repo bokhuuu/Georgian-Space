@@ -1,6 +1,6 @@
 import useLocalStorage from "use-local-storage";
 
-const useThemeStorage = () => {
+const useThemeLocalStorage = () => {
   const [currentTheme, setCurrentTheme] = useLocalStorage<"light" | "dark">(
     "theme",
     "light" || "dark"
@@ -12,4 +12,4 @@ const useThemeStorage = () => {
   };
 };
 
-export default useThemeStorage;
+export default useThemeLocalStorage;

@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
-import useLanguageCookie from "../hooks/useLanguageCookie";
+import useLanguageCookie from "./useLanguageCookie";
 import gbFlagIcon from "../assets/icons/gbFlagIcon.svg";
 import geFlagIcon from "../assets/icons/geFlagIcon.svg";
 
-const LanguageToggler = () => {
+const useLanguage = () => {
   const languageList = [
     {
       code: "en",
@@ -22,7 +22,7 @@ const LanguageToggler = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const { getLanguageFromCookie, setLanguageCookie } = useLanguageCookie();
-  const [currentLanguage, setCurrentLanguage] = useState<string>(
+  const [currentLanguage, setCurrentLanguage] = useState(
     getLanguageFromCookie() || i18next.language
   );
 
@@ -41,23 +41,25 @@ const LanguageToggler = () => {
 
   return (
     <div className="container">
-      <div className="d-flex flex-row gap-1">
-        {languageList.map(({ code, flag }) => (
-          <button
-            key={code}
-            className="icon-btn"
-            style={{
-              backgroundImage: `url(${flag})`,
-              height: 30,
-              borderRadius: "50%",
-            }}
-            onClick={() => handleLanguageChange(code)}
-            disabled={currentLanguage === code}
-          ></button>
-        ))}
+      <div className="row">
+        <div className="col d-flex justify-content-end gap-1">
+          {languageList.map(({ code, flag }) => (
+            <button
+              key={code}
+              className="icon-btn"
+              style={{
+                backgroundImage: `url(${flag})`,
+                height: 30,
+                borderRadius: "50%",
+              }}
+              onClick={() => handleLanguageChange(code)}
+              disabled={currentLanguage === code}
+            ></button>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
-export default LanguageToggler;
+export default useLanguage;

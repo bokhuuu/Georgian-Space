@@ -17,7 +17,7 @@ const MainContent: React.FC<MainContentProps> = ({ children }) => {
 export default MainContent;
 
 const StyledMainContent = styled.div`
-  padding-top: 0px; /* Adjust based on your header height */
+  padding-top: 10px; /* Adjust based on your header height */
   padding-bottom: 56px; /* Adjust based on your footer height */
   overflow-y: auto;
   /* height: calc(

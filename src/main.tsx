@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { themes } from "./configs/theme/themes.ts";
-import useThemeStorage from "./hooks/useThemeStorage.ts";
+import useThemeLocalStorage from "./themes/useThemeLocalStorage.ts";
+import { themes } from "./themes/useTheme.tsx";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./configs/translation/i18n.ts";
+import i18n from "./i18next/i18n.ts";
 import { GlobalStyles } from "./styles/GlobalStyles.tsx";
 import App from "./App.tsx";
 
 const AppWrapper = () => {
-  const { currentTheme } = useThemeStorage();
+  const { currentTheme } = useThemeLocalStorage();
 
   return (
     <React.StrictMode>

@@ -20,7 +20,7 @@ const AppNavigation = () => {
   ];
 
   return (
-    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-2 mb-md-3 ms-2 ms-md-5">
+    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-4 mb-md-3 ms-2 ms-md-4">
       <motion.div
         className="container navbar-container"
         variants={navbarVariants}
@@ -28,7 +28,7 @@ const AppNavigation = () => {
         animate="visible"
       >
         <button
-          className="navbar-toggler mt-2 mb-1"
+          className="navbar-toggler mt-4 mb-1"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#main-nav"
@@ -48,7 +48,7 @@ const AppNavigation = () => {
           <motion.ul
             className={`col-md navbar-nav ${
               isNavigationCollapsed
-                ? "gap-4"
+                ? "gap-4 gap-lg-5"
                 : "pt-3 pt-md-1 pb-0 flex-row flex-wrap gap-3 "
             }`}
             onClick={closeNavigation}

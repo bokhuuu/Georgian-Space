@@ -1,28 +1,17 @@
-import { useTranslation } from "react-i18next";
-import LanguageToggler from "../../utils/LanguageToggler.tsx";
-import ThemeToggler from "../../utils/ThemeToggler.tsx";
-// import ModalBox from "../modal/ModalBox.tsx";
+// import { useTranslation } from "react-i18next";
+// import ThemeSelector from "../../themes/ThemeSelector.tsx";
 import styled from "styled-components";
 
 const Footer = () => {
-  const { t } = useTranslation();
-  const { toggleTheme } = ThemeToggler();
+  // const { t } = useTranslation();
+  // const { toggleTheme } = ThemeSelector();
 
   return (
     <StyledFooter className="container-fluid d-none-md">
       <div className="row">
-        <div className="col d-flex align-items-center justify-contetn-center">
-          <button onClick={toggleTheme}>TR</button>
-          <LanguageToggler />
-          {t("header")}
-          {/* <button
-            type="button"
-            className="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            modal
-          </button> */}
+        <div className="col d-flex gap-3">
+          {/* <button onClick={toggleTheme}>Theme</button> */}
+          {/* {t("header")} */}
           <button>WE</button>
           <button>EX</button>
         </div>
