@@ -8,8 +8,8 @@ import Explore from "../../pages/Explore";
 // import Literature from "../../pages/taste/Literature";
 // import Poliphony from "../../pages/taste/Poliphony";
 import Leisure from "../../pages/Leisure";
-import TasteNav from "../Naviagtion/TasteNav";
 import Wellness from "../../pages/Wellness";
+import TasteNav from "../naviagtion/TasteNav";
 
 const AppRouting = () => {
   const location = useLocation();

@@ -1,5 +1,17 @@
 import useThemeLocalStorage from "./useThemeLocalStorage";
 
+// eslint-disable-next-line react-refresh/only-export-components
+export const themes = {
+  light: {
+    backgroundColor: "var(--primary)",
+    textColor: "var(--primary-text)",
+  },
+  dark: {
+    backgroundColor: "var(--secondary)",
+    textColor: "var(--secondary-text)",
+  },
+};
+
 const useTheme = () => {
   const { currentTheme, setCurrentTheme } = useThemeLocalStorage();
 
@@ -14,15 +26,3 @@ const useTheme = () => {
 };
 
 export default useTheme;
-
-// eslint-disable-next-line react-refresh/only-export-components
-export const themes = {
-  light: {
-    backgroundColor: "var(--primary)",
-    textColor: "var(--primary-text)",
-  },
-  dark: {
-    backgroundColor: "pink",
-    textColor: "green",
-  },
-};

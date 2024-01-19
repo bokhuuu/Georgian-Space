@@ -6,7 +6,7 @@ import useLanguageCookie from "./useLanguageCookie";
 import gbFlagIcon from "../assets/icons/gbFlagIcon.svg";
 import geFlagIcon from "../assets/icons/geFlagIcon.svg";
 
-const useLanguage = () => {
+const LanguageSelector = () => {
   const languageList = [
     {
       code: "en",
@@ -40,9 +40,9 @@ const useLanguage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container d-flex justify-content-end align-items-center">
       <div className="row">
-        <div className="col d-flex justify-content-end gap-1">
+        <div className="col">
           {languageList.map(({ code, flag }) => (
             <button
               key={code}
@@ -51,6 +51,7 @@ const useLanguage = () => {
                 backgroundImage: `url(${flag})`,
                 height: 30,
                 borderRadius: "50%",
+                opacity: currentLanguage === code ? 0.5 : 1,
               }}
               onClick={() => handleLanguageChange(code)}
               disabled={currentLanguage === code}
@@ -62,4 +63,4 @@ const useLanguage = () => {
   );
 };
 
-export default useLanguage;
+export default LanguageSelector;

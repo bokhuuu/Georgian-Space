@@ -3,6 +3,32 @@ import { NavLink } from "react-router-dom";
 import { Variants, motion } from "framer-motion";
 import styled from "styled-components";
 
+const navbarVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    scaleY: [1, 1.5, 1],
+    transition: { duration: 2.5 },
+  },
+};
+
+const navItemVariants: Variants = {
+  hover: {
+    scale: 1.2,
+    x: 7,
+    y: -7,
+    textShadow: "0px 0px 20px rgb(255,255,255)",
+    boxShadow: "0px 0px 20px rgb(255,255,255)",
+    transition: {
+      duration: 0.5,
+      repeat: 1,
+      repeatType: "mirror",
+    },
+  },
+};
+
 const AppNavigation = () => {
   const [isNavigationCollapsed, setIsNavigationCollapsed] = useState(true);
 
@@ -75,31 +101,6 @@ const AppNavigation = () => {
   );
 };
 
-const navbarVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    scaleY: [1, 1.5, 1],
-    transition: { duration: 2.5 },
-  },
-};
-const navItemVariants: Variants = {
-  hover: {
-    scale: 1.2,
-    x: 7,
-    y: -7,
-    textShadow: "0px 0px 20px rgb(255,255,255)",
-    boxShadow: "0px 0px 20px rgb(255,255,255)",
-    transition: {
-      duration: 0.5,
-      repeat: 1,
-      repeatType: "mirror",
-    },
-  },
-};
-
 const StyledNavLink = styled(NavLink)`
   color: rgb(12, 33, 151);
   margin-top: -10px;
@@ -110,9 +111,7 @@ const StyledNavLink = styled(NavLink)`
   &:hover,
   &:active,
   &.active {
-    // Add the active class styling here
     color: rgb(12, 33, 151);
-    // Additional styles if needed
   }
 `;
 

@@ -70,7 +70,7 @@ const ContributionForm = () => {
       <form
         className="contribution-form d-flex flex-column"
         onSubmit={handleSubmit(onSubmit)}
-        style={{ color: "var(--text-primary)" }}
+        // style={{ color: "var(--text-primary)" }}
       >
         <label className="mb-1">Name</label>
         <input {...register("name")} className="mb-1" placeholder="Name..." />

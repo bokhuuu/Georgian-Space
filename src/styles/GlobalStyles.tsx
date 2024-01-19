@@ -5,10 +5,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --primary:rgb(163, 191, 216);
-    --secondary: rgb(192, 198, 200);
-    --primary-text: rgb(17, 82, 139);
-    --secondary-text:  rgb(17, 82, 139);
+    --primary:rgba(163, 191, 216, 0.521);
+    --secondary: rgba(40, 59, 84, 0.521);
+    --primary-text: rgba(17, 82, 139, 0.623);
+    --secondary-text:  rgb(102, 139, 17);
   }
 
   body {
@@ -38,8 +38,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 .icon-btn {
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   background-color: "white";
   background-size: "cover";
   cursor: pointer;
