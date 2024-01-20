@@ -1,3 +1,4 @@
+import { useCallback } from "react";
 import { useCookies } from "react-cookie";
 
 const useLanguageCookie = () => {
@@ -5,9 +6,12 @@ const useLanguageCookie = () => {
 
   const getLanguageFromCookie = () => cookies.i18next;
 
-  const setLanguageCookie = (language: string) => {
-    setCookie("i18next", language, { path: "/" });
-  };
+  const setLanguageCookie = useCallback(
+    (language: string) => {
+      setCookie("i18next", language, { path: "/" });
+    },
+    [setCookie]
+  );
 
   return { getLanguageFromCookie, setLanguageCookie };
 };

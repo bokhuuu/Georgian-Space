@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
@@ -32,12 +32,14 @@ const LanguageSelector = () => {
     document.title = t("app_title");
   }, [currentLanguage, setLanguageCookie, t]);
 
-  const handleLanguageChange = (code: string) => {
-    i18next.changeLanguage(code);
-    setCurrentLanguage(code);
-
-    navigate(location, { replace: true });
-  };
+  const handleLanguageChange = useCallback(
+    (code: string) => {
+      i18next.changeLanguage(code);
+      setCurrentLanguage(code);
+      navigate(location, { replace: true });
+    },
+    [location, navigate]
+  );
 
   return (
     <div className="container d-flex justify-content-end align-items-center">

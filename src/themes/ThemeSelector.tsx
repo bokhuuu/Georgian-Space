@@ -12,7 +12,7 @@ export const themes = {
   },
 };
 
-const useTheme = () => {
+const ThemeSelector = () => {
   const { currentTheme, setCurrentTheme } = useThemeLocalStorage();
 
   const toggleTheme = () => {
@@ -25,4 +25,4 @@ const useTheme = () => {
   };
 };
 
-export default useTheme;
+export default ThemeSelector;

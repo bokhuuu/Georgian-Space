@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Brand from "./Brand.tsx";
-import AppNavigation from "../naviagtion/AppNavigation.tsx";
+import AppNavigation from "../navigation/AppNavigation.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import logoIcon from "../../assets/icons/logoIcon.jpg";

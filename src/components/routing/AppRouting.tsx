@@ -9,7 +9,7 @@ import Explore from "../../pages/Explore";
 // import Poliphony from "../../pages/taste/Poliphony";
 import Leisure from "../../pages/Leisure";
 import Wellness from "../../pages/Wellness";
-import TasteNav from "../naviagtion/TasteNav";
+import TasteNav from "../navigation/TasteNav";
 
 const AppRouting = () => {
   const location = useLocation();

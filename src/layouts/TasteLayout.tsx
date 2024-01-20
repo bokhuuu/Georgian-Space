@@ -4,7 +4,7 @@ import Art from "../pages/taste/Art";
 import Poliphony from "../pages/taste/Poliphony";
 import Literature from "../pages/taste/Literature";
 import Taste from "../pages/taste/Taste";
-import TasteNav from "../components/naviagtion/TasteNav";
+import TasteNav from "../components/navigation/TasteNav";
 
 const TasteLayout = () => {
   const location = useLocation();

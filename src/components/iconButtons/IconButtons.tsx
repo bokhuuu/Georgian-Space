@@ -1,4 +1,4 @@
-import useTheme from "../../themes/useTheme.tsx";
+import ThemeSelector from "../../themes/ThemeSelector.tsx";
 import { Variants, motion } from "framer-motion";
 import weatherIcon from "../../assets/icons/weatherIcon.svg";
 import exchangeIcon from "../../assets/icons/exchangeIcon.svg";
@@ -19,7 +19,7 @@ const iconButtonVariants: Variants = {
 };
 
 const IconButtons = () => {
-  const { toggleTheme } = useTheme();
+  const { toggleTheme } = ThemeSelector();
 
   return (
     <div className="container d-flex align-items-center justify-content-end gap-3 gap-md-4 gap-lg-5 ms-md-5">
