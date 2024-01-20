@@ -110,8 +110,9 @@ const StyledNavLink = styled(NavLink)`
   &:focus,
   &:hover,
   &:active,
-  &.active {
-    color: rgb(12, 33, 151);
+  &.active,
+  &.selected {
+    color: rgb(12, 33, 151) !important;
   }
 `;
 

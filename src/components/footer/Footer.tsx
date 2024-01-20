@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import IconButtonsBox from "../IconButtonsBox/IconButtonsBox";
+import IconButtonsBox from "../iconButtons/IconButtons";
 import LanguageSelector from "../../i18next/LanguageSelector";
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
 
 const StyledFooter = styled.footer`
   position: fixed;
-  height: 50px;
+  height: 55px;
   bottom: 1px;
   z-index: 1000;
   background-color: #9b9bcc;

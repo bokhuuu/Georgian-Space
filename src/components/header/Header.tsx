@@ -4,7 +4,7 @@ import AppNavigation from "../naviagtion/AppNavigation.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import logoIcon from "../../assets/icons/logoIcon.jpg";
-import IconButtonsBox from "../IconButtonsBox/IconButtonsBox.tsx";
+import IconButtons from "../iconButtons/IconButtons.tsx";
 import LanguageSelector from "../../i18next/LanguageSelector.tsx";
 
 const Header = () => {
@@ -27,7 +27,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 5, delay: 2 }}
           >
-            <IconButtonsBox />
+            <IconButtons />
             <LanguageSelector />
           </motion.div>
         </div>
