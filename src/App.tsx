@@ -1,7 +1,7 @@
-import Header from "./components/header/Header.tsx";
-import MainContent from "./components/mainContent/MainContent.tsx";
-import AppRouting from "./components/routing/AppRouting.tsx";
-import Footer from "./components/footer/Footer.tsx";
+import Header from "./components/Header.tsx";
+import MainContent from "./components/MainContent.tsx";
+import AppRouting from "./routing/AppRouting.tsx";
+import Footer from "./components/Footer.tsx";
 
 const App = () => {
   return (

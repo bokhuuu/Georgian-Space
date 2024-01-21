@@ -1,6 +1,6 @@
 import useLocalStorage from "use-local-storage";
 
-const useFormCountStorage = () => {
+const useFormCountLocalStorage = () => {
   const [formCount, setFormCount] = useLocalStorage("formCount", 1);
 
   return {
@@ -9,4 +9,4 @@ const useFormCountStorage = () => {
   };
 };
 
-export default useFormCountStorage;
+export default useFormCountLocalStorage;

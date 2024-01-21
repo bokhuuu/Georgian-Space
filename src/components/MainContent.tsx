@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import styled from "styled-components";
-import ModalBox from "../modal/ModalBox";
+import FormModal from "../forms/FormModal";
 
 interface MainContentProps {
   children: ReactNode;
@@ -10,7 +10,7 @@ const MainContent: React.FC<MainContentProps> = ({ children }) => {
   return (
     <StyledMainContent>
       {children}
-      <ModalBox />
+      <FormModal />
     </StyledMainContent>
   );
 };
@@ -18,7 +18,7 @@ export default MainContent;
 
 const StyledMainContent = styled.div`
   padding-top: 10px; /* Adjust based on your header height */
-  padding-bottom: 56px; /* Adjust based on your footer height */
+  padding-bottom: 50px; /* Adjust based on your footer height */
   overflow-y: auto;
   /* height: calc(
     100vh - 112px

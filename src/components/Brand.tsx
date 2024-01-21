@@ -2,6 +2,20 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
+const brandVariants = {
+  hidden: {
+    opacity: 0,
+    y: "-100vh",
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    x: 5,
+    rotate: 360,
+    transition: { duration: 1.5, ease: "easeInOut" },
+  },
+};
+
 const Brand = () => {
   return (
     <motion.div variants={brandVariants} initial="hidden" animate="visible">
@@ -15,20 +29,6 @@ const Brand = () => {
       </Link>
     </motion.div>
   );
-};
-
-const brandVariants = {
-  hidden: {
-    opacity: 0,
-    y: "-100vh",
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    x: 5,
-    rotate: 360,
-    transition: { duration: 1.5, ease: "easeInOut" },
-  },
 };
 
 export const StyledBrand = styled.div`

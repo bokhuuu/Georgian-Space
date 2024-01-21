@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import useThemeLocalStorage from "./themes/useThemeLocalStorage.ts";
@@ -9,19 +10,23 @@ import i18n from "./i18next/i18n.ts";
 import { GlobalStyles } from "./styles/GlobalStyles.tsx";
 import App from "./App.tsx";
 
+const queryClient = new QueryClient();
+
 const AppWrapper = () => {
   const { currentTheme } = useThemeLocalStorage();
 
   return (
     <React.StrictMode>
-      <BrowserRouter>
-        <ThemeProvider theme={themes[currentTheme]}>
-          <I18nextProvider i18n={i18n}>
-            <GlobalStyles />
-            <App />
-          </I18nextProvider>
-        </ThemeProvider>
-      </BrowserRouter>
+      <QueryClientProvider client={queryClient}>
+        <BrowserRouter>
+          <ThemeProvider theme={themes[currentTheme]}>
+            <I18nextProvider i18n={i18n}>
+              <GlobalStyles />
+              <App />
+            </I18nextProvider>
+          </ThemeProvider>
+        </BrowserRouter>
+      </QueryClientProvider>
     </React.StrictMode>
   );
 };

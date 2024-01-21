@@ -1,11 +1,11 @@
-import ThemeSelector from "../../themes/ThemeSelector.tsx";
+import ThemeSelector from "../themes/ThemeSelector.tsx";
 import { Variants, motion } from "framer-motion";
-import weatherIcon from "../../assets/icons/weatherIcon.svg";
-import exchangeIcon from "../../assets/icons/exchangeIcon.svg";
-import formIcon from "../../assets/icons/formIcon.svg";
-import themeIcon from "../../assets/icons/themeIcon.svg";
+import weatherIcon from "../assets/icons/weatherIcon.svg";
+import exchangeIcon from "../assets/icons/exchangeIcon.svg";
+import formIcon from "../assets/icons/formIcon.svg";
+import themeIcon from "../assets/icons/themeIcon.svg";
 
-const iconButtonVariants: Variants = {
+const iconButtonsVariants: Variants = {
   hover: {
     scale: 1.2,
     textShadow: "0px 0px 20px rgb(255,255,255)",
@@ -25,7 +25,7 @@ const IconButtons = () => {
     <div className="container d-flex align-items-center justify-content-end gap-3 gap-md-4 gap-lg-5 ms-md-5">
       <motion.button
         className="icon-btn"
-        variants={iconButtonVariants}
+        variants={iconButtonsVariants}
         whileHover="hover"
         style={{
           backgroundImage: `url(${weatherIcon})`,
@@ -33,7 +33,7 @@ const IconButtons = () => {
       ></motion.button>
       <motion.button
         className="icon-btn"
-        variants={iconButtonVariants}
+        variants={iconButtonsVariants}
         whileHover="hover"
         style={{
           backgroundImage: `url(${exchangeIcon})`,
@@ -44,7 +44,7 @@ const IconButtons = () => {
         className="icon-btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
-        variants={iconButtonVariants}
+        variants={iconButtonsVariants}
         whileHover="hover"
         style={{
           backgroundImage: `url(${formIcon})`,
@@ -55,7 +55,7 @@ const IconButtons = () => {
       ></motion.button>
       <motion.button
         className="icon-btn"
-        variants={iconButtonVariants}
+        variants={iconButtonsVariants}
         whileHover="hover"
         onClick={toggleTheme}
         style={{

@@ -1,6 +1,6 @@
+import IconButtonsBox from "./IconButtons";
+import LanguageSelector from "../i18next/LanguageSelector";
 import styled from "styled-components";
-import IconButtonsBox from "../iconButtons/IconButtons";
-import LanguageSelector from "../../i18next/LanguageSelector";
 
 const Footer = () => {
   return (

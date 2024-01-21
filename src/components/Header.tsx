@@ -1,11 +1,23 @@
 import { Link } from "react-router-dom";
 import Brand from "./Brand.tsx";
-import AppNavigation from "../navigation/AppNavigation.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import logoIcon from "../../assets/icons/logoIcon.jpg";
-import IconButtons from "../iconButtons/IconButtons.tsx";
-import LanguageSelector from "../../i18next/LanguageSelector.tsx";
+import logoIcon from "../assets/icons/logoIcon.jpg";
+import IconButtons from "./IconButtons.tsx";
+import LanguageSelector from "../i18next/LanguageSelector.tsx";
+import AppNavigation from "../navigation/AppNavigation.tsx";
+
+const headerVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    y: 20,
+    scaleY: [1, 1.3, 1],
+    transition: { duration: 2 },
+  },
+};
 
 const Header = () => {
   return (
@@ -35,18 +47,6 @@ const Header = () => {
       </div>
     </StyledHeader>
   );
-};
-
-const headerVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    y: 20,
-    scaleY: [1, 1.3, 1],
-    transition: { duration: 2 },
-  },
 };
 
 const StyledHeader = styled.header`

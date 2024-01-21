@@ -2,18 +2,9 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import useFormCountStorage from "../hooks/useFormCountStorage";
+import useFormCountLocalStorage from "./useFormCountLocalStorage";
 import { motion } from "framer-motion";
-import "./ContributionForm.css";
-
-const buttonVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-  },
-};
+import "./Form.css";
 
 interface FormData {
   name: string;
@@ -39,7 +30,16 @@ const schema = yup.object().shape({
   attachments: yup.mixed(),
 });
 
-const ContributionForm = () => {
+const buttonVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+  },
+};
+
+const Form = () => {
   const {
     register,
     handleSubmit,
@@ -49,7 +49,7 @@ const ContributionForm = () => {
     resolver: yupResolver(schema),
   });
 
-  const { formCount, setFormCount } = useFormCountStorage();
+  const { formCount, setFormCount } = useFormCountLocalStorage();
 
   const onSubmit = (data: FormData) => {
     console.log(data, "is submitted");
@@ -68,9 +68,8 @@ const ContributionForm = () => {
   return (
     <>
       <form
-        className="contribution-form d-flex flex-column"
+        className="form d-flex flex-column"
         onSubmit={handleSubmit(onSubmit)}
-        // style={{ color: "var(--text-primary)" }}
       >
         <label className="mb-1">Name</label>
         <input {...register("name")} className="mb-1" placeholder="Name..." />
@@ -80,16 +79,14 @@ const ContributionForm = () => {
         <input {...register("email")} className="mb-1" placeholder="Email..." />
         <p>{errors.email?.message}</p>
 
-        <label className="m1-2">Category</label>
+        <label className="">Category</label>
         <select {...register("category")} className="mb-2">
           <option value="">---</option>
-          <option value="history">History</option>
-          <option value="geography">Geography</option>
-          <option value="culture">Culture</option>
-          <option value="cuisine">Cuisine</option>
-          <option value="wine">Wine</option>
-          <option value="landmarks">Landmarks</option>
-          <option value="nightlife">Nightlife</option>
+          <option value="discovery">Discovery</option>
+          <option value="explore">Explore</option>
+          <option value="taste">Taste</option>
+          <option value="Leisure">Leisure</option>
+          <option value="Wellness">Wellness</option>
         </select>
         <p>{errors.category?.message}</p>
 
@@ -110,10 +107,10 @@ const ContributionForm = () => {
         />
 
         <div className="form-footer d-flex justify-content-between ">
-          <div className="submissions-count mt-3 mt-md-3">
+          <div className="form-contribution mt-3 mt-md-3">
             Contributions:
             <span
-              className="contributions-counter ms-1"
+              className="form-count ms-1"
               style={{
                 borderStyle: "groove",
                 borderRadius: 5,
@@ -147,4 +144,4 @@ const ContributionForm = () => {
   );
 };
 
-export default ContributionForm;
+export default Form;

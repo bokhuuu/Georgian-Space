@@ -1,15 +1,15 @@
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 // pages
-import Home from "../../pages/Home";
-import Discovery from "../../pages/Discovery";
-import Explore from "../../pages/Explore";
+import Home from "../pages/Home";
+import Discovery from "../pages/Discovery";
+import Explore from "../pages/Explore";
+import TasteNavigation from "../navigation/TasteNavigation";
+import Leisure from "../pages/Leisure";
+import Wellness from "../pages/Wellness";
 // import Art from "../../pages/taste/Art";
 // import Literature from "../../pages/taste/Literature";
 // import Poliphony from "../../pages/taste/Poliphony";
-import Leisure from "../../pages/Leisure";
-import Wellness from "../../pages/Wellness";
-import TasteNav from "../navigation/TasteNav";
 
 const AppRouting = () => {
   const location = useLocation();
@@ -21,7 +21,7 @@ const AppRouting = () => {
         <Route path="discovery" element={<Discovery />} />
         <Route path="explore" element={<Explore />} />
 
-        <Route path="/taste" element={<TasteNav />}>
+        <Route path="/taste" element={<TasteNavigation />}>
           {/* <Route path="art" element={<Art />} />
           <Route path="literature" element={<Literature />} />
           <Route path="poliphony" element={<Poliphony />} /> */}

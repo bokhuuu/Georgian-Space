@@ -1,4 +1,4 @@
-import ContributionForm from "../../forms/ContributionForm";
+import Form from "./Form";
 import { motion } from "framer-motion";
 
 const buttonVariants = {
@@ -10,7 +10,7 @@ const buttonVariants = {
   },
 };
 
-const ModalBox = () => {
+const FormModal = () => {
   return (
     <div
       className="modal fade"
@@ -21,10 +21,10 @@ const ModalBox = () => {
       style={{
         zIndex: 1500,
         background: "rgba(123, 148, 168, 0.966)",
-        opacity: 0.98,
+        opacity: 0.95,
       }}
     >
-      <div className="modal-dialog ">
+      <div className="modal-dialog">
         <div className="modal-content" style={{ background: "var(--primary)" }}>
           <div className="modal-header">
             <h1 className="modal-title fs-5 fw-bolder" id="exampleModalLabel">
@@ -52,7 +52,7 @@ const ModalBox = () => {
             </motion.button>
           </div>
           <div className="modal-body">
-            <ContributionForm />
+            <Form />
           </div>
         </div>
       </div>
@@ -60,4 +60,4 @@ const ModalBox = () => {
   );
 };
 
-export default ModalBox;
+export default FormModal;

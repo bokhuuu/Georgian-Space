@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-const TasteNav = () => {
-  const tasteNavLinkList = [
+const TasteNavigation = () => {
+  const TasteNavigationLinkList = [
     { to: "art", label: "Art" },
     { to: "literature", label: "Literature" },
     { to: "poliphony", label: "Poliphony" },
@@ -12,18 +12,10 @@ const TasteNav = () => {
       <div className="container-fluid">
         <div className="row justify-content-end align-items-center">
           <ul className="col navbar-nav fw-bold ms-3 mt-1 justify-content-start">
-            {tasteNavLinkList.map((tasteNavLink) => (
-              <li className="nav-item" key={tasteNavLink.to}>
-                <NavLink
-                  className="nav-link"
-                  // style={{
-                  //   color: "rgba(54, 63, 143, 0.534)",
-                  //   marginLeft: "5px",
-                  //   transform: "translate(5px,-35px)",
-                  // }}
-                  to={tasteNavLink.to}
-                >
-                  {tasteNavLink.label}
+            {TasteNavigationLinkList.map((TasteNavigationLink) => (
+              <li className="nav-item" key={TasteNavigationLink.to}>
+                <NavLink className="nav-link" to={TasteNavigationLink.to}>
+                  {TasteNavigationLink.label}
                 </NavLink>
               </li>
             ))}
@@ -34,4 +26,4 @@ const TasteNav = () => {
   );
 };
 
-export default TasteNav;
+export default TasteNavigation;
