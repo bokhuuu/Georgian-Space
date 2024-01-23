@@ -11,7 +11,7 @@ const fetchCordinates = async (location: string) => {
 
     return [lat, lon];
   } catch (error) {
-    throw new Error("Failed to fetch location data");
+    throw new Error("Failed to fetch cordinates data");
   }
 };
 

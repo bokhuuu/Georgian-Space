@@ -1,10 +1,6 @@
 import { ReactNode } from "react";
 import styled from "styled-components";
 import FormModal from "../forms/FormModal";
-import fetchCordinates from "../weather-app/services/fetchCordinates";
-
-const tbilisiCordinates = fetchCordinates("tbilisi");
-console.log(tbilisiCordinates);
 
 interface MainContentProps {
   children: ReactNode;
