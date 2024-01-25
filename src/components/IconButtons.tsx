@@ -2,7 +2,7 @@ import ThemeSelector from "../themes/ThemeSelector.tsx";
 import { Variants, motion } from "framer-motion";
 import formIcon from "../assets/icons/formIcon.svg";
 import themeIcon from "../assets/icons/themeIcon.svg";
-import ButtonComponent from "../weather/ButtonComponent.tsx";
+import WeatherSidebarToggle from "../weather/WeatherSidebarToggle.tsx";
 
 const iconButtonsVariants: Variants = {
   hover: {
@@ -22,7 +22,7 @@ const IconButtons = () => {
 
   return (
     <div className="container d-flex align-items-center justify-content-end gap-3 gap-md-4 gap-lg-5 ms-md-5">
-      <ButtonComponent />
+      <WeatherSidebarToggle />
 
       <motion.button
         type="button"
