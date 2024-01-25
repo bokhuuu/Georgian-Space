@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import useThemeLocalStorage from "./themes/useThemeLocalStorage.ts";
@@ -21,6 +22,7 @@ const AppWrapper = () => {
         <BrowserRouter>
           <ThemeProvider theme={themes[currentTheme]}>
             <I18nextProvider i18n={i18n}>
+              <ReactQueryDevtools />
               <GlobalStyles />
               <App />
             </I18nextProvider>
