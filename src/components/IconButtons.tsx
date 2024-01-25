@@ -1,9 +1,8 @@
 import ThemeSelector from "../themes/ThemeSelector.tsx";
 import { Variants, motion } from "framer-motion";
-import weatherIcon from "../assets/icons/weatherIcon.svg";
-import exchangeIcon from "../assets/icons/exchangeIcon.svg";
 import formIcon from "../assets/icons/formIcon.svg";
 import themeIcon from "../assets/icons/themeIcon.svg";
+import ButtonComponent from "../weather/ButtonComponent.tsx";
 
 const iconButtonsVariants: Variants = {
   hover: {
@@ -23,22 +22,8 @@ const IconButtons = () => {
 
   return (
     <div className="container d-flex align-items-center justify-content-end gap-3 gap-md-4 gap-lg-5 ms-md-5">
-      <motion.button
-        className="icon-btn"
-        variants={iconButtonsVariants}
-        whileHover="hover"
-        style={{
-          backgroundImage: `url(${weatherIcon})`,
-        }}
-      ></motion.button>
-      <motion.button
-        className="icon-btn"
-        variants={iconButtonsVariants}
-        whileHover="hover"
-        style={{
-          backgroundImage: `url(${exchangeIcon})`,
-        }}
-      ></motion.button>
+      <ButtonComponent />
+
       <motion.button
         type="button"
         className="icon-btn btn-primary"
@@ -48,9 +33,6 @@ const IconButtons = () => {
         whileHover="hover"
         style={{
           backgroundImage: `url(${formIcon})`,
-          width: 30,
-          height: 30,
-          rotate: "45deg",
         }}
       ></motion.button>
       <motion.button
@@ -60,9 +42,6 @@ const IconButtons = () => {
         onClick={toggleTheme}
         style={{
           backgroundImage: `url(${themeIcon})`,
-          width: 30,
-          height: 30,
-          rotate: "45deg",
         }}
       ></motion.button>
     </div>

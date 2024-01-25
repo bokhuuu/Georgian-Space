@@ -11,7 +11,7 @@ const locations = [
   "mestia",
 ];
 
-const WeatherAppContainer = () => {
+const WeatherApp = () => {
   return (
     <div>
       {locations.map((location) => (
@@ -21,4 +21,4 @@ const WeatherAppContainer = () => {
   );
 };
 
-export default WeatherAppContainer;
+export default WeatherApp;
