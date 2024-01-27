@@ -1,5 +1,5 @@
-import { useQuery } from "react-query";
 import axios from "axios";
+import { useQuery } from "react-query";
 
 const fetchCoordinatesData = async (location: string) => {
   const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;

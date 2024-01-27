@@ -1,5 +1,5 @@
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Weather from "./WeatherApp";
+import WeatherApp from "./WeatherApp";
 import { QueryClientProvider, QueryClient } from "react-query";
 
 const weatherQueryClient = new QueryClient();
@@ -28,7 +28,7 @@ function WeatherSidebar({ show, setShow }: WeatherSidebarProps) {
           <Offcanvas.Title>Today's Forecast</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className="bg-danger d-flex flex-wrap">
-          <Weather />
+          <WeatherApp />
         </Offcanvas.Body>
       </Offcanvas>
     </QueryClientProvider>
