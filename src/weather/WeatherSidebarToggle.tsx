@@ -4,13 +4,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import waetherIcon from "../assets/icons/weatherIcon.svg";
 
-interface WeatherSidebarToggleProps {
-  style?: React.CSSProperties;
-}
-
-const WeatherSidebarToggle: React.FC<WeatherSidebarToggleProps> = ({
-  style,
-}: WeatherSidebarToggleProps) => {
+const WeatherSidebarToggle = () => {
   const [show, setShow] = useState(false);
 
   const handleShow = () => setShow(true);
@@ -30,7 +24,6 @@ const WeatherSidebarToggle: React.FC<WeatherSidebarToggleProps> = ({
             repeatType: "mirror",
           },
         }}
-        style={style}
       ></StyledButton>
 
       <WeatherSidebar show={show} setShow={setShow} />
