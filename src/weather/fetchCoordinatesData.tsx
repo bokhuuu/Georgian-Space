@@ -1,17 +1,24 @@
+import { useQuery } from "react-query";
 import axios from "axios";
 
 const fetchCoordinatesData = async (location: string) => {
-  try {
-    const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;
-    const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${apiKey}`;
+  const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;
+  const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${apiKey}`;
 
-    const response = await axios.get(apiUrl);
+  const response = await axios.get(apiUrl);
 
-    const { lat, lon } = response.data[0];
-    return [lat, lon];
-  } catch (error) {
-    throw new Error("Failed to fetch coordinates data");
-  }
+  const { lat, lon } = response.data[0];
+  return [lat, lon];
 };
 
-export default fetchCoordinatesData;
+const useCoordinatesData = (location: string) => {
+  return useQuery(
+    ["coordinates", location],
+    () => fetchCoordinatesData(location),
+    {
+      staleTime: 4 * 60 * 60 * 1000, // 4 hours
+    }
+  );
+};
+
+export default useCoordinatesData;

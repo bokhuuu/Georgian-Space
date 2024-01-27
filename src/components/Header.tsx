@@ -3,7 +3,7 @@ import Brand from "./Brand.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import logoIcon from "../assets/icons/logoIcon.jpg";
-import IconButtons from "./IconButtons.tsx";
+import IconButtons from "./CommandBar.tsx";
 import LanguageSelector from "../i18next/LanguageSelector.tsx";
 import AppNavigation from "../navigation/AppNavigation.tsx";
 

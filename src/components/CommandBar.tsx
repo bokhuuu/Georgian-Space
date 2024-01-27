@@ -4,7 +4,7 @@ import formIcon from "../assets/icons/formIcon.svg";
 import themeIcon from "../assets/icons/themeIcon.svg";
 import WeatherSidebarToggle from "../weather/WeatherSidebarToggle.tsx";
 
-const iconButtonsVariants: Variants = {
+const CommandBarVariants: Variants = {
   hover: {
     scale: 1.2,
     textShadow: "0px 0px 20px rgb(255,255,255)",
@@ -17,7 +17,7 @@ const iconButtonsVariants: Variants = {
   },
 };
 
-const IconButtons = () => {
+const CommandBar = () => {
   const { toggleTheme } = ThemeSelector();
 
   return (
@@ -29,7 +29,7 @@ const IconButtons = () => {
         className="icon-btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
-        variants={iconButtonsVariants}
+        variants={CommandBarVariants}
         whileHover="hover"
         style={{
           backgroundImage: `url(${formIcon})`,
@@ -37,7 +37,7 @@ const IconButtons = () => {
       ></motion.button>
       <motion.button
         className="icon-btn"
-        variants={iconButtonsVariants}
+        variants={CommandBarVariants}
         whileHover="hover"
         onClick={toggleTheme}
         style={{
@@ -48,4 +48,4 @@ const IconButtons = () => {
   );
 };
 
-export default IconButtons;
+export default CommandBar;
