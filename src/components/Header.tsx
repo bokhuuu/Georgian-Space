@@ -21,7 +21,7 @@ const headerVariants = {
 
 const Header = () => {
   return (
-    <StyledHeader className="container-fluid">
+    <StyledHeader className="header container-fluid ">
       <div className="row ">
         <div className="col d-flex ms-lg-5">
           <Link to="/">

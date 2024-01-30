@@ -2,7 +2,7 @@ import ThemeSelector from "../themes/ThemeSelector.tsx";
 import { Variants, motion } from "framer-motion";
 import formIcon from "../assets/icons/formIcon.svg";
 import themeIcon from "../assets/icons/themeIcon.svg";
-import WeatherSidebarToggle from "../weather/WeatherSidebarToggle.tsx";
+import WeatherSidebarToggle from "../weatherApp/WeatherSidebarEnable.tsx";
 
 const CommandBarVariants: Variants = {
   hover: {
@@ -22,8 +22,6 @@ const CommandBar = () => {
 
   return (
     <div className="container d-flex align-items-center justify-content-end gap-3 gap-md-4 gap-lg-5 ms-md-5">
-      <WeatherSidebarToggle />
-
       <motion.button
         type="button"
         className="icon-btn btn-primary"
@@ -44,6 +42,7 @@ const CommandBar = () => {
           backgroundImage: `url(${themeIcon})`,
         }}
       ></motion.button>
+      <WeatherSidebarToggle />
     </div>
   );
 };

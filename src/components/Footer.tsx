@@ -17,10 +17,10 @@ const Footer = () => {
 
 const StyledFooter = styled.footer`
   position: fixed;
-  width: 98%;
+  /* width: 98%; */
   height: 55px;
   bottom: 1px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   z-index: 1000;
   background-color: #9b9bcc;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);

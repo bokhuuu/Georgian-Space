@@ -1,13 +1,11 @@
 import useCoordinatesData from "./fetchCoordinatesData";
 import useWeatherData from "./fetchWeatherData";
 
-interface DisplayWeatherDataProps {
+interface DisplayWeatherProps {
   location: string;
 }
 
-const DisplayWeatherData: React.FC<DisplayWeatherDataProps> = ({
-  location,
-}) => {
+const DisplayWeather: React.FC<DisplayWeatherProps> = ({ location }) => {
   const coordinatesQuery = useCoordinatesData(location);
   const {
     data: coordinatesData,
@@ -34,16 +32,19 @@ const DisplayWeatherData: React.FC<DisplayWeatherDataProps> = ({
   }
 
   return (
-    <div>
-      <h5>{location}</h5>
+    <div className="sidebar-cards card justify-content-center align-items-center col-5 gap-row">
+      <h4 style={{ fontWeight: "bolder" }}>{location}</h4>
       {Math.round(weatherData.current.temp)} °c
       <img
         src={`http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`}
         alt="Weather Icon"
+        style={{
+          width: 50,
+        }}
       />
-      {weatherData.current.weather[0].description}
+      <span>{weatherData.current.weather[0].description}</span>
     </div>
   );
 };
 
-export default DisplayWeatherData;
+export default DisplayWeather;

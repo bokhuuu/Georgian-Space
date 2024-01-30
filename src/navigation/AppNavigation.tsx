@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Variants, motion } from "framer-motion";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const navbarVariants = {
   hidden: {
@@ -31,6 +32,7 @@ const navItemVariants: Variants = {
 
 const AppNavigation = () => {
   const [isNavigationCollapsed, setIsNavigationCollapsed] = useState(true);
+  const { t } = useTranslation();
 
   const handleNavigationCollapse = () =>
     setIsNavigationCollapsed(!isNavigationCollapsed);
@@ -38,15 +40,14 @@ const AppNavigation = () => {
 
   const AppNavigationLinkList = [
     { to: "/", label: "Home" },
-    { to: "discovery", label: "Discovery" },
+    { to: "discover", label: "Discover" },
     { to: "explore", label: "Explore" },
     { to: "taste", label: "Taste" },
-    { to: "leisure", label: "Leisure" },
-    { to: "wellness", label: "Wellness" },
+    { to: "unwind", label: "Unwind" },
   ];
 
   return (
-    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-4 mb-md-3 ms-2 ms-md-4">
+    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-4 mb-md-3 ms-3 ms-md-4 gap-5">
       <motion.div
         className="container navbar-container"
         variants={navbarVariants}
@@ -67,7 +68,7 @@ const AppNavigation = () => {
         </button>
 
         <div
-          className={`row ms-1 ms-md-5 collapse navbar-collapse ${
+          className={`row ms-md-5 collapse navbar-collapse ${
             isNavigationCollapsed ? "" : "show"
           }`}
         >
@@ -90,7 +91,7 @@ const AppNavigation = () => {
                 whileHover="hover"
               >
                 <StyledNavLink className="nav-link" to={AppNavigationLink.to}>
-                  {AppNavigationLink.label}
+                  {t(`navigation.0.${AppNavigationLink.label}`)}
                 </StyledNavLink>
               </motion.li>
             ))}
@@ -100,7 +101,6 @@ const AppNavigation = () => {
     </motion.nav>
   );
 };
-
 const StyledNavLink = styled(NavLink)`
   color: rgb(12, 33, 151);
   margin-top: -10px;
@@ -109,7 +109,6 @@ const StyledNavLink = styled(NavLink)`
 
   &:focus,
   &:hover,
-  &:active,
   &.active,
   &.selected {
     color: rgb(12, 33, 151) !important;

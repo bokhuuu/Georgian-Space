@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import waetherIcon from "../assets/icons/weatherIcon.svg";
 
-const WeatherSidebarToggle = () => {
+const WeatherSidebarEnable = () => {
   const [show, setShow] = useState(false);
 
   const handleShow = () => setShow(true);
@@ -40,4 +40,4 @@ const StyledButton = styled(motion.button)`
   cursor: pointer;
 `;
 
-export default WeatherSidebarToggle;
+export default WeatherSidebarEnable;

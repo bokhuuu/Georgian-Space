@@ -21,11 +21,11 @@ const FormModal = () => {
       style={{
         zIndex: 1500,
         background: "rgba(123, 148, 168, 0.966)",
-        opacity: 0.95,
+        opacity: 0.98,
       }}
     >
       <div className="modal-dialog">
-        <div className="modal-content" style={{ background: "var(--primary)" }}>
+        <div className="modal-content">
           <div className="modal-header">
             <h1 className="modal-title fs-5 fw-bolder" id="exampleModalLabel">
               Contribution Form

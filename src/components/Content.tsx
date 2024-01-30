@@ -2,21 +2,21 @@ import { ReactNode } from "react";
 import styled from "styled-components";
 import FormModal from "../forms/FormModal";
 
-interface MainContentProps {
+interface ContentProps {
   children: ReactNode;
 }
 
-const MainContent: React.FC<MainContentProps> = ({ children }) => {
+const Content: React.FC<ContentProps> = ({ children }) => {
   return (
-    <StyledMainContent>
+    <StyledContent>
       {children}
       <FormModal />
-    </StyledMainContent>
+    </StyledContent>
   );
 };
-export default MainContent;
+export default Content;
 
-const StyledMainContent = styled.div`
+const StyledContent = styled.div`
   padding-top: 10px; /* Adjust based on your header height */
   padding-bottom: 50px; /* Adjust based on your footer height */
   overflow-y: auto;

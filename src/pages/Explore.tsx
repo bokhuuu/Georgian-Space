@@ -1,5 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 const Explore = () => {
-  return <div>Explore</div>;
+  const { t } = useTranslation();
+
+  return <div>{t("content")}</div>;
 };
 
 export default Explore;

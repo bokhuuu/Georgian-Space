@@ -1,6 +1,6 @@
 import { useImageURL } from "../hooks/useImageURL";
 
-const Discovery = () => {
+const Discover = () => {
   const { imageURL, error } = useImageURL("food/khinkali.jpg");
 
   if (error) {
@@ -22,4 +22,4 @@ const Discovery = () => {
   );
 };
 
-export default Discovery;
+export default Discover;

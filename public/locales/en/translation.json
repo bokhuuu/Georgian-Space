@@ -1,4 +1,13 @@
 {
   "app_title": "Georgian Space",
-  "header": "zura"
+  "content": "Explore",
+  "navigation": [
+    {
+      "Home": "Home",
+      "Discover": "Discover",
+      "Explore": "Explore",
+      "Taste": "Taste",
+      "Unwind": "Unwind"
+    }
+  ]
 }

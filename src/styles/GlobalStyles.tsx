@@ -4,17 +4,17 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --primary:rgba(163, 191, 216, 0.521);
-    --secondary: rgba(40, 59, 84, 0.521);
-    --primary-text: rgba(17, 82, 139, 0.623);
-    --secondary-text:  rgb(102, 139, 17);
+    --light-background: rgba(163, 191, 216, 0.178);
+    --dark-background:rgba(77, 99, 224, 0.788);
+    --light-text:  #ffffff;
+    --dark-text:  rgba(12, 33, 151, 0.616);
   }
 
   body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     overflow-x: hidden;
-    background: ${(props) => props.theme.backgroundColor};
+    background-color: ${(props) => props.theme.backgroundColor};
     color: ${(props) => props.theme.textColor};
   }
 
@@ -43,4 +43,10 @@ export const GlobalStyles = createGlobalStyle`
   background-size: "cover";
   cursor: pointer;
 }
+
+.modal-content, .sidebar, .sidebar-title, .sidebar-cards{
+  background-color: ${(props) => props.theme.backgroundColor};
+  color: ${(props) => props.theme.textColor};
+}
+
 `;

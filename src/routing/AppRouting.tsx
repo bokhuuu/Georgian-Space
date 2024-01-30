@@ -2,11 +2,10 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 // pages
 import Home from "../pages/Home";
-import Discovery from "../pages/Discovery";
+import Discover from "../pages/Discover";
 import Explore from "../pages/Explore";
 import TasteNavigation from "../navigation/TasteNavigation";
-import Leisure from "../pages/Leisure";
-import Wellness from "../pages/Wellness";
+import Unwind from "../pages/Unwind";
 // import Art from "../../pages/taste/Art";
 // import Literature from "../../pages/taste/Literature";
 // import Poliphony from "../../pages/taste/Poliphony";
@@ -18,7 +17,7 @@ const AppRouting = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.key}>
         <Route path="/" index element={<Home />} />
-        <Route path="discovery" element={<Discovery />} />
+        <Route path="discover" element={<Discover />} />
         <Route path="explore" element={<Explore />} />
 
         <Route path="/taste" element={<TasteNavigation />}>
@@ -27,8 +26,7 @@ const AppRouting = () => {
           <Route path="poliphony" element={<Poliphony />} /> */}
         </Route>
 
-        <Route path="leisure" element={<Leisure />} />
-        <Route path="wellness" element={<Wellness />} />
+        <Route path="unwind" element={<Unwind />} />
         <Route path="*" element={<Navigate to="" replace />} />
       </Routes>
     </AnimatePresence>

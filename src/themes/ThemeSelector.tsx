@@ -1,13 +1,14 @@
 import useThemeLocalStorage from "./useThemeLocalStorage";
+
 // eslint-disable-next-line react-refresh/only-export-components
 export const themes = {
   light: {
-    backgroundColor: "var(--primary)",
-    textColor: "var(--primary-text)",
+    backgroundColor: "var(--light-background)",
+    textColor: "var(--dark-text)",
   },
   dark: {
-    backgroundColor: "var(--secondary)",
-    textColor: "var(--secondary-text)",
+    backgroundColor: "var(--dark-background)",
+    textColor: "var(--light-text)",
   },
 };
 

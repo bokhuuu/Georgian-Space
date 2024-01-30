@@ -12,6 +12,8 @@ const fetchWeatherData = async (lat: number, lon: number) => {
 const useWeatherData = (lat: number, lon: number) => {
   return useQuery(["weather", lat, lon], () => fetchWeatherData(lat, lon), {
     enabled: !!lat && !!lon,
+    cacheTime: 4 * 60 * 60 * 1000, // 4 hours in milliseconds
+    staleTime: 4 * 60 * 60 * 1000, // 4 hours in milliseconds
   });
 };
 
