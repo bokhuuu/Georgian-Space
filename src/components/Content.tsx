@@ -17,10 +17,11 @@ const Content: React.FC<ContentProps> = ({ children }) => {
 export default Content;
 
 const StyledContent = styled.div`
-  padding-top: 10px; /* Adjust based on your header height */
-  padding-bottom: 50px; /* Adjust based on your footer height */
+  padding-top: 10px;
+  padding-bottom: 50px;
   overflow-y: auto;
-  /* height: calc(
-    100vh - 112px
-  );  */
+  overflow-x: hidden;
+  /* height: calc(100vh - 112px); */
+  margin: 0 auto;
+  /* align-items: center; */
 `;

@@ -4,18 +4,19 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --light-background: rgba(163, 191, 216, 0.178);
-    --dark-background:rgba(77, 99, 224, 0.788);
+    --light-background: rgba(123, 148, 168, 0.089);
+    --dark-background:rgba(110, 124, 201, 0.486);
     --light-text:  #ffffff;
-    --dark-text:  rgba(12, 33, 151, 0.616);
+    --dark-text:  rgb(12, 33, 151);
   }
 
   body {
+    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    overflow-x: hidden;
     background-color: ${(props) => props.theme.backgroundColor};
     color: ${(props) => props.theme.textColor};
+    overflow-x: hidden;
   }
 
   .nav-link.active {
@@ -44,9 +45,10 @@ export const GlobalStyles = createGlobalStyle`
   cursor: pointer;
 }
 
-.modal-content, .sidebar, .sidebar-title, .sidebar-cards{
+.modal-content, .sidebar, .sidebar-title, .sidebar-cards,.card{
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
 }
+
 
 `;

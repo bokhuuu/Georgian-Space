@@ -13,8 +13,8 @@ const headerVariants = {
   },
   visible: {
     opacity: 1,
-    y: 20,
-    scaleY: [1, 1.3, 1],
+    // y: 20,
+    scaleX: [1, 1.3, 1],
     transition: { duration: 2 },
   },
 };
@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <StyledHeader className="header container-fluid ">
       <div className="row ">
-        <div className="col d-flex ms-lg-5">
+        <div className="col d-flex mt-2 ms-lg-5">
           <Link to="/">
             <StyledLogoIcon
               src={logoIcon}

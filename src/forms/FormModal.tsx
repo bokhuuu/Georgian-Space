@@ -20,12 +20,12 @@ const FormModal = () => {
       aria-hidden="true"
       style={{
         zIndex: 1500,
-        background: "rgba(123, 148, 168, 0.966)",
+        background: "rgb(123, 148, 168)",
         opacity: 0.98,
       }}
     >
       <div className="modal-dialog">
-        <div className="modal-content">
+        <div className="modal-content" style={{ border: "white 2px double" }}>
           <div className="modal-header">
             <h1 className="modal-title fs-5 fw-bolder" id="exampleModalLabel">
               Contribution Form
