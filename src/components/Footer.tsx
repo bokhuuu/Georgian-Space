@@ -18,7 +18,7 @@ const Footer = () => {
 const StyledFooter = styled.footer`
   position: fixed;
   /* width: 98%; */
-  height: 55px;
+  height: 40px;
   bottom: 1px;
   /* border-radius: 5%; */
   z-index: 1000;

@@ -3,7 +3,7 @@ import Brand from "./Brand.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import logoIcon from "../assets/icons/logoIcon.jpg";
-import IconButtons from "./CommandBar.tsx";
+import CommandBar from "./CommandBar.tsx";
 import LanguageSelector from "../i18next/LanguageSelector.tsx";
 import AppNavigation from "../navigation/AppNavigation.tsx";
 
@@ -13,7 +13,7 @@ const headerVariants = {
   },
   visible: {
     opacity: 1,
-    // y: 20,
+    y: 20,
     scaleX: [1, 1.3, 1],
     transition: { duration: 2 },
   },
@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <StyledHeader className="header container-fluid ">
       <div className="row ">
-        <div className="col d-flex mt-2 ms-lg-5">
+        <div className="col d-flex ms-lg-4">
           <Link to="/">
             <StyledLogoIcon
               src={logoIcon}
@@ -39,7 +39,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 5, delay: 2 }}
           >
-            <IconButtons />
+            <CommandBar />
             <LanguageSelector />
           </motion.div>
         </div>

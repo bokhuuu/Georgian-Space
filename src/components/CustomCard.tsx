@@ -9,7 +9,7 @@ interface CustomCardProps {
 const CustomCard = ({ title, content }: CustomCardProps) => {
   return (
     <>
-      <div className="card border-2 mb-3">
+      <div className="card border-2 mb-3 mt-2">
         <div className="card-body text-center">
           <StyledCustomCardTitle className="card-title">
             {title}
@@ -28,7 +28,7 @@ const StyledCustomCardTitle = styled.h6`
   border-radius: 100%;
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
-  font-weight: bold;
+  font-weight: bolder;
   justify-content: center;
   display: flex;
 `;
@@ -37,6 +37,7 @@ const StyledCustomCardContent = styled.p`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   text-align: left;
+  font-weight: bolder;
 `;
 
 export default CustomCard;

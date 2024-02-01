@@ -17,8 +17,8 @@ const Content: React.FC<ContentProps> = ({ children }) => {
 export default Content;
 
 const StyledContent = styled.div`
-  padding-top: 10px;
-  padding-bottom: 50px;
+  /* padding-top: 8px; */
+  /* padding-bottom: 5px; */
   overflow-y: auto;
   overflow-x: hidden;
   /* height: calc(100vh - 112px); */

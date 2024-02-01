@@ -42,7 +42,9 @@ const DisplayWeather: React.FC<DisplayWeatherProps> = ({ location }) => {
           width: 50,
         }}
       />
-      <span>{weatherData.current.weather[0].description}</span>
+      <div className="description" style={{ textAlign: "center" }}>
+        {weatherData.current.weather[0].description}
+      </div>
     </div>
   );
 };

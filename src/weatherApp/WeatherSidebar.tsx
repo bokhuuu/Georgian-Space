@@ -20,7 +20,7 @@ function WeatherSidebar({ show, setShow }: WeatherSidebarProps) {
           <div className="sidebar" style={{ overflow: "auto" }}>
             <Offcanvas.Header closeButton>
               <motion.div
-                className="sidebar-title container d-flex justify-content-center "
+                className="sidebar-title container d-flex justify-content-center rounded-5"
                 animate={{
                   scaleX: 0.8,
                   textShadow: "0px 0px 12px rgb(255,255,255)",
