@@ -19,10 +19,10 @@ const AppWrapper = () => {
   return (
     <React.StrictMode>
       <QueryClientProvider client={queryClient}>
+        <ReactQueryDevtools />
         <BrowserRouter>
           <ThemeProvider theme={themes[currentTheme]}>
             <I18nextProvider i18n={i18n}>
-              <ReactQueryDevtools />
               <GlobalStyles />
               <App />
             </I18nextProvider>

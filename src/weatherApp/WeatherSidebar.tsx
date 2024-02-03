@@ -1,5 +1,5 @@
 import { QueryClientProvider, QueryClient } from "react-query";
-import WeatherApp from "./WeatherComponent";
+import WeatherComponent from "./WeatherComponent";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { motion } from "framer-motion";
 
@@ -42,7 +42,7 @@ function WeatherSidebar({ show, setShow }: WeatherSidebarProps) {
               </motion.div>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <WeatherApp />
+              <WeatherComponent />
             </Offcanvas.Body>
           </div>
         </Offcanvas>

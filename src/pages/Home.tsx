@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import CustomCard from "../components/CustomCard";
 import tbilisiCover from "../assets/covers/tbilisi.jpg";
+import { useTranslation } from "react-i18next";
 
 const containerVariants = {
   hidden: {
@@ -19,6 +20,8 @@ const containerVariants = {
 };
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <AnimatePresence>
       <motion.section
@@ -43,7 +46,6 @@ const Home = () => {
             zIndex: -1,
             backgroundImage: `url(${tbilisiCover})`,
             backgroundSize: "cover",
-            // backgroundPosition: "center",
           }}
         />
         <motion.div
@@ -62,16 +64,16 @@ const Home = () => {
         >
           <motion.div className="row">
             <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
               <CustomCard
-                title="History"
-                content="Argonauts in, from ancient Ais excavations. The incorporation of the Golden Fleece into the myth may have derived from the local practice of using fleeces to sift gold dust from rivers. This tradition still exists in Svaneti region."
+                title={t("civilizaton-title")}
+                content={t("civilizaton")}
               />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("wine-title")} content={t("wine")} />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("alphabet-title")} content={t("alphabet")} />
             </div>
           </motion.div>
         </motion.div>

@@ -43,7 +43,6 @@ const Wine = () => {
             zIndex: -1,
             backgroundImage: `url(${tushetiCover})`,
             backgroundSize: "cover",
-            // backgroundPosition: "center",
           }}
         />
         <motion.div

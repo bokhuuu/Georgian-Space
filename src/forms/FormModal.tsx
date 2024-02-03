@@ -20,8 +20,8 @@ const FormModal = () => {
       aria-hidden="true"
       style={{
         zIndex: 1500,
-        background: "rgb(123, 148, 168)",
         opacity: 0.98,
+        background: "rgb(123, 148, 168)",
       }}
     >
       <div className="modal-dialog">

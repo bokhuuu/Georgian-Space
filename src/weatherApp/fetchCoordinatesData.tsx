@@ -16,8 +16,8 @@ const useCoordinatesData = (location: string) => {
     ["coordinates", location],
     () => fetchCoordinatesData(location),
     {
-      cacheTime: 4 * 60 * 60 * 1000, // 4 hours in milliseconds
-      staleTime: 4 * 60 * 60 * 1000, // 4 hours in milliseconds
+      cacheTime: 4 * 60 * 60 * 1000,
+      staleTime: 4 * 60 * 60 * 1000,
     }
   );
 };

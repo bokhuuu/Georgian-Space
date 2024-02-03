@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Variants, motion } from "framer-motion";
 import styled from "styled-components";
-import { useTranslation } from "react-i18next";
 
 const navbarVariants = {
   hidden: {
@@ -47,7 +47,7 @@ const AppNavigation = () => {
   ];
 
   return (
-    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-2 mb-md-3 ms-3 ms-md-4 ms-lg-5 gap-5">
+    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-3 mb-md-3 ms-3 ms-md-4 ms-lg-5 gap-5">
       <motion.div
         className="container navbar-container"
         variants={navbarVariants}

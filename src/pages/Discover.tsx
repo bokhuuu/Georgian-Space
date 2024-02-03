@@ -43,7 +43,6 @@ const Discover = () => {
             zIndex: -1,
             backgroundImage: `url(${gergetiCover})`,
             backgroundSize: "cover",
-            // backgroundPosition: "center",
           }}
         />
         <motion.div

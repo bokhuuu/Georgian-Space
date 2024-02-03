@@ -12,27 +12,27 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
     background-color: ${(props) => props.theme.backgroundColor};
     color: ${(props) => props.theme.textColor};
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
     overflow-x: hidden;
   }
 
   .nav-link.active {
-    background-color: #ffffff;
-    border-radius: 10%;
     width: fit-content;
     height: fit-content;
+    background-color: #ffffff;
+    border-radius: 10%;
   }
 
 .btn {
   width: fit-content;
   height: fit-content;
-  border-radius: 10%;
   background-color: rgba(23, 99, 165, 0.596);
   color: white;
   font-weight: bolder;
+  border-radius: 10%;
   cursor: pointer;
   
 }

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 import { motion } from "framer-motion";
+import styled from "styled-components";
 
 const brandVariants = {
   hidden: {
@@ -9,10 +9,10 @@ const brandVariants = {
   },
   visible: {
     opacity: 1,
-    y: 0,
     x: 5,
-    rotate: 360,
+    y: 0,
     transition: { duration: 1.5, ease: "easeInOut" },
+    rotate: 360,
   },
 };
 
@@ -37,15 +37,15 @@ export const StyledBrand = styled.div`
   margin-top: 30px;
   margin-right: 40px;
   margin-left: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  transform: scale(1.3);
   border-top: solid 4px rgb(12, 33, 151);
   border-bottom: solid 4px white;
-  font-weight: bolder;
-  font-size: 20px;
-  transform: scale(1.3);
 
   span:first-child {
-    font-size: large;
     color: rgb(12, 33, 151);
+    font-size: large;
   }
 
   span:last-child {

@@ -43,7 +43,6 @@ const Unwind = () => {
             zIndex: -1,
             backgroundImage: `url(${batumiCover})`,
             backgroundSize: "cover",
-            // backgroundPosition: "center",
           }}
         />
         <motion.div

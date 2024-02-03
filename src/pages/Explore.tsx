@@ -43,7 +43,6 @@ const Explore = () => {
             zIndex: -1,
             backgroundImage: `url(${mtskhetaCover})`,
             backgroundSize: "cover",
-            // backgroundPosition: "center",
           }}
         />
         <motion.div
