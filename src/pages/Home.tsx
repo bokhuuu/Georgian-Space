@@ -57,12 +57,12 @@ const Home = () => {
           style={{
             backgroundColor: "rgba(255, 255, 255, 0.3)",
             minHeight: "100vh",
-            padding: "20px",
+            padding: "10px",
             paddingBottom: "40px",
             boxSizing: "border-box",
           }}
         >
-          <motion.div className="row">
+          <motion.div className="row gy-4">
             <div className="col-12 col-md-6 col-lg-4">
               <CustomCard
                 title={t("civilizaton-title")}
@@ -74,6 +74,18 @@ const Home = () => {
             </div>
             <div className="col-12 col-md-6 col-lg-4">
               <CustomCard title={t("alphabet-title")} content={t("alphabet")} />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard
+                title={t("unesco-heritage-title")}
+                content={t("unesco-heritage")}
+              />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("folklore-title")} content={t("folklore")} />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("honey-title")} content={t("honey")} />
             </div>
           </motion.div>
         </motion.div>

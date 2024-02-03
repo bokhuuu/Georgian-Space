@@ -13,7 +13,7 @@ const CustomCard = ({ title, content }: CustomCardProps) => {
       <div
         className="card border-2 mb-3"
         style={{
-          opacity: 0.7,
+          opacity: 0.8,
           height: "320px",
           overflowY: "auto",
           position: "relative",
@@ -52,10 +52,12 @@ const StyledCustomCardTitle = styled(motion.h6)`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   font-weight: bolder;
-  /* border-radius: 40%; */
-  border: white solid 2px;
+  border-radius: 8%;
+  border-top: white solid 4px;
+  border: white solid 4px;
   position: sticky;
   top: 1px;
+  padding: 5px;
   /* z-index: 1; */
 `;
 
@@ -63,10 +65,14 @@ const StyledCustomCardContent = styled.p`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   text-align: justify;
+  /* hyphens: auto; */
+  /* word-spacing: -0.5em; /* Adjust as needed */
+  /* word-spacing: 0.1em; */
+
+  hyphens: auto;
   font-weight: bolder;
   padding-top: 5px;
   padding-bottom: 0px;
-  text-shadow: 0px 0px 2px rgba(25, 20, 20, 0);
 `;
 
 export default CustomCard;

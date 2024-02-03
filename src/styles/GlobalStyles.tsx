@@ -15,6 +15,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${(props) => props.theme.backgroundColor};
     color: ${(props) => props.theme.textColor};
     font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-weight: 700;
     overflow-x: hidden;
   }

@@ -41,8 +41,18 @@ const LanguageSelector = () => {
     [location, navigate]
   );
 
+  const fontFamily =
+    currentLanguage === "ge"
+      ? "'Noto Sans Georgian', sans-serif"
+      : "'Quicksand', sans-serif";
+
   return (
-    <div className="container d-flex justify-content-end align-items-center">
+    <div
+      className="container d-flex justify-content-end align-items-center"
+      style={{
+        fontFamily,
+      }}
+    >
       <div className="row">
         <div className="col">
           {languageList.map(({ code, flag }) => (
