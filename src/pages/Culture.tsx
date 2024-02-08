@@ -18,7 +18,7 @@ const containerVariants = {
   },
 };
 
-const Explore = () => {
+const Culture = () => {
   return (
     <AnimatePresence>
       <motion.section
@@ -79,4 +79,4 @@ const Explore = () => {
   );
 };
 
-export default Explore;
+export default Culture;

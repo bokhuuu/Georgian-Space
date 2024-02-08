@@ -18,7 +18,7 @@ const containerVariants = {
   },
 };
 
-const Discover = () => {
+const Nature = () => {
   return (
     <AnimatePresence>
       <motion.section
@@ -79,7 +79,7 @@ const Discover = () => {
   );
 };
 
-export default Discover;
+export default Nature;
 
 // import { useImageURL } from "../hooks/useImageURL";
 

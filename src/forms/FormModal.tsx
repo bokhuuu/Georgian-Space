@@ -20,7 +20,7 @@ const FormModal = () => {
       aria-hidden="true"
       style={{
         zIndex: 1500,
-        opacity: 0.98,
+        opacity: 0.9,
         background: "rgb(123, 148, 168)",
       }}
     >
@@ -28,7 +28,7 @@ const FormModal = () => {
         <div className="modal-content" style={{ border: "white 2px double" }}>
           <div className="modal-header">
             <h1 className="modal-title fs-5 fw-bolder" id="exampleModalLabel">
-              Contribution Form
+              Form
             </h1>
             <motion.button
               type="button"

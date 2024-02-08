@@ -3,9 +3,11 @@ import DisplayWeather from "./DisplayWeather";
 const locations = [
   "Telavi",
   "Tbilisi",
+  "Bakuriani",
   "Gudauri",
   "Borjomi",
   "Kutaisi",
+  "Ambrolauri",
   "Zugdidi",
   "Batumi",
   "Mestia",

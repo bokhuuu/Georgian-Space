@@ -13,7 +13,8 @@ const headerVariants = {
   },
   visible: {
     opacity: 1,
-    y: 20,
+    x: 5,
+    y: 12,
     scaleX: [1, 1.3, 1],
     transition: { duration: 2 },
   },
@@ -21,7 +22,7 @@ const headerVariants = {
 
 const Header = () => {
   return (
-    <StyledHeader className="header container-fluid ">
+    <StyledHeader className="header container-fluid">
       <div className="row ">
         <div className="col d-flex ms-lg-4">
           <Link to="/">

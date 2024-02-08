@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import TasteNavigation from "../navigation/TasteNavigation";
 // pages
-import Taste from "../pages/taste/Taste";
+import Taste from "../pages/Wine";
 import Art from "../pages/taste/Art";
 import Poliphony from "../pages/taste/Poliphony";
 import Literature from "../pages/taste/Literature";

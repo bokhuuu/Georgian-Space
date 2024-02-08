@@ -17,12 +17,16 @@ function WeatherSidebar({ show, setShow }: WeatherSidebarProps) {
     <QueryClientProvider client={weatherQueryClient}>
       <div>
         <Offcanvas show={show} onHide={handleClose}>
-          <div className="sidebar" style={{ overflow: "auto" }}>
+          <div
+            className="sidebar"
+            style={{ overflow: "auto", height: "100vh" }}
+          >
             <Offcanvas.Header closeButton>
               <motion.div
-                className="sidebar-title container d-flex justify-content-center rounded-5"
+                className="sidebar-title container d-flex justify-content-center mt-3 mb-3 rounded-5"
                 animate={{
                   scaleX: 0.8,
+                  scaleY: 1.2,
                   textShadow: "0px 0px 12px rgb(255,255,255)",
                   boxShadow: "0px 0px 12px rgb(255,255,255)",
                   transition: {

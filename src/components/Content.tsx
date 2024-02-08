@@ -18,5 +18,4 @@ export default Content;
 const StyledContent = styled.div`
   margin: 0 auto;
   overflow-x: hidden;
-  overflow-y: auto;
 `;

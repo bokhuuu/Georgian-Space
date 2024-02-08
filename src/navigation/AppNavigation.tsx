@@ -39,15 +39,15 @@ const AppNavigation = () => {
   const closeNavigation = () => setIsNavigationCollapsed(true);
 
   const AppNavigationLinkList = [
-    { to: "/", label: "Home" },
-    { to: "discover", label: "Discover" },
-    { to: "explore", label: "Explore" },
-    { to: "taste", label: "Taste" },
-    { to: "unwind", label: "Unwind" },
+    { to: "/", label: "Journey" },
+    { to: "nature", label: "Nature" },
+    { to: "culture", label: "Culture" },
+    { to: "wine", label: "Wine" },
+    { to: "cuisine", label: "Cuisine" },
   ];
 
   return (
-    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-3 mb-md-3 ms-3 ms-md-4 ms-lg-5 gap-5">
+    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-3 mb-md-3 ms-3 ms-md-5 gap-5">
       <motion.div
         className="container navbar-container"
         variants={navbarVariants}
@@ -55,7 +55,7 @@ const AppNavigation = () => {
         animate="visible"
       >
         <button
-          className="navbar-toggler mt-3 mb-1 "
+          className="navbar-toggler mt-3 mb-1"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#main-nav"
@@ -63,20 +63,22 @@ const AppNavigation = () => {
           aria-expanded={!isNavigationCollapsed ? true : false}
           aria-label="Toggle navigation"
           onClick={handleNavigationCollapse}
+          style={{ transform: "translate(220px, -20px)" }}
         >
           <span className="navbar-toggler-icon "></span>
         </button>
 
         <div
-          className={`row ms-md-5 collapse navbar-collapse ${
+          className={`row ms-md-4 mt-md-2 collapse navbar-collapse ${
             isNavigationCollapsed ? "" : "show"
           }`}
+          style={{ marginTop: "-25px" }}
         >
           <motion.ul
             className={`col-md navbar-nav ${
               isNavigationCollapsed
                 ? "gap-4 gap-lg-5"
-                : "pt-3 pt-md-1 pb-0 flex-row flex-wrap gap-3 "
+                : "pt-3 pt-md-1 pb-0 flex-row flex-wrap gap-3"
             }`}
             onClick={closeNavigation}
             variants={navbarVariants}

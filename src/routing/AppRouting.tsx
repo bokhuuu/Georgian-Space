@@ -1,11 +1,13 @@
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 // pages
-import Home from "../pages/Home";
-import Discover from "../pages/Discover";
-import Explore from "../pages/Explore";
-import TasteNavigation from "../navigation/TasteNavigation";
-import Unwind from "../pages/Unwind";
+// import TasteNavigation from "../navigation/TasteNavigation";
+import Nature from "../pages/Nature";
+import Culture from "../pages/Culture";
+// import Rave from "../pages/Cuisine";
+import Overview from "../pages/Journey";
+import Wine from "../pages/Wine";
+import Cuisine from "../pages/Cuisine";
 // import Art from "../../pages/taste/Art";
 // import Literature from "../../pages/taste/Literature";
 // import Poliphony from "../../pages/taste/Poliphony";
@@ -16,17 +18,18 @@ const AppRouting = () => {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.key}>
-        <Route path="/" index element={<Home />} />
-        <Route path="discover" element={<Discover />} />
-        <Route path="explore" element={<Explore />} />
+        <Route path="/" index element={<Overview />} />
+        <Route path="nature" element={<Nature />} />
+        <Route path="culture" element={<Culture />} />
+        <Route path="wine" element={<Wine />} />
 
-        <Route path="/taste" element={<TasteNavigation />}>
+        {/* <Route path="/taste" element={<TasteNavigation />}>
           {/* <Route path="art" element={<Art />} />
           <Route path="literature" element={<Literature />} />
           <Route path="poliphony" element={<Poliphony />} /> */}
-        </Route>
+        {/* </Route> */}
 
-        <Route path="unwind" element={<Unwind />} />
+        <Route path="cuisine" element={<Cuisine />} />
         <Route path="*" element={<Navigate to="" replace />} />
       </Routes>
     </AnimatePresence>

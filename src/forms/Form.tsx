@@ -108,7 +108,7 @@ const Form = () => {
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="form-contribution mt-3 mt-md-3">
-            Contributions:
+            Submissions:
             <span
               className="form-count ms-1"
               style={{

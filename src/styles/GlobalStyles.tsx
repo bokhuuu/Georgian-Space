@@ -46,7 +46,7 @@ export const GlobalStyles = createGlobalStyle`
   cursor: pointer;
 }
 
-.modal-content, .sidebar, .sidebar-title, .sidebar-cards,.card{
+.modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card{
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
 }

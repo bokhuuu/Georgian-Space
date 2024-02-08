@@ -21,7 +21,7 @@ const StyledFooter = styled.footer`
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 1000;
-  bottom: 1px;
+  bottom: 0;
 `;
 
 export default Footer;

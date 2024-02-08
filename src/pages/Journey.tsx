@@ -1,6 +1,8 @@
+import Dashboard from "../components/dashboard/Dashboard";
+import CustomCard from "../components/CustomCard";
+import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import CustomCard from "../../components/CustomCard";
-import tushetiCover from "../../assets/covers/tusheti.jpg";
+import tbilisiCover from "../assets/covers/tbilisi.jpg";
 
 const containerVariants = {
   hidden: {
@@ -18,7 +20,9 @@ const containerVariants = {
   },
 };
 
-const Wine = () => {
+const Journey = () => {
+  const { t } = useTranslation();
+
   return (
     <AnimatePresence>
       <motion.section
@@ -29,7 +33,6 @@ const Wine = () => {
         transition={{ duration: 0.8 }}
         style={{
           position: "relative",
-          height: "100vh",
           overflowY: "auto",
         }}
       >
@@ -41,7 +44,7 @@ const Wine = () => {
             width: "100%",
             height: "100%",
             zIndex: -1,
-            backgroundImage: `url(${tushetiCover})`,
+            backgroundImage: `url(${tbilisiCover})`,
             backgroundSize: "cover",
           }}
         />
@@ -51,26 +54,30 @@ const Wine = () => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          style={{
-            backgroundColor: "rgba(255, 255, 255, 0.3)",
-            minHeight: "100vh",
-            padding: "20px",
-            paddingBottom: "40px",
-            boxSizing: "border-box",
-          }}
         >
-          <motion.div className="row">
+          <motion.div className="row gy-2 gy-lg-4 mt-3 mb-5">
             <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
+              <Dashboard />
             </div>
             <div className="col-12 col-md-6 col-lg-4">
               <CustomCard
-                title="History"
-                content="Argonauts in, from ancient Ais excavations. The incorporation of the Golden Fleece into the myth may have derived from the local practice of using fleeces to sift gold dust from rivers. This tradition still exists in Svaneti region."
+                title={t("civilizaton_title")}
+                content={t("civilizaton")}
               />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("nature_title")} content={t("nature")} />
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("culture_title")} content={t("culture")} />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("wine_title")} content={t("wine")} />
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4">
+              <CustomCard title={t("cuisine_title")} content={t("cuisine")} />
             </div>
           </motion.div>
         </motion.div>
@@ -79,4 +86,4 @@ const Wine = () => {
   );
 };
 
-export default Wine;
+export default Journey;

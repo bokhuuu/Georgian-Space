@@ -11,17 +11,17 @@ const CustomCard = ({ title, content }: CustomCardProps) => {
   return (
     <>
       <div
-        className="card border-2 mb-3"
+        className="custom-card card border-2 mb-3"
         style={{
           opacity: 0.8,
-          height: "320px",
+          height: "370px",
           overflowY: "auto",
           position: "relative",
         }}
       >
-        <div className="card-body text-center">
+        <div className="card-body">
           <StyledCustomCardTitle
-            className="card-title"
+            className="card-title text-center"
             animate={{
               scaleX: 1.05,
               textShadow: "0px 0px 20px rgb(255,255,255)",
@@ -46,15 +46,14 @@ const CustomCard = ({ title, content }: CustomCardProps) => {
 
 const StyledCustomCardTitle = styled(motion.h6)`
   display: flex;
-  scale: 1.07;
+  /* scale: 1; */
   font-size: x-large;
   justify-content: center;
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   font-weight: bolder;
-  border-radius: 8%;
-  border-top: white solid 4px;
-  border: white solid 4px;
+  /* border-radius: 5%; */
+  border: white solid 2px;
   position: sticky;
   top: 1px;
   padding: 5px;
@@ -64,12 +63,16 @@ const StyledCustomCardTitle = styled(motion.h6)`
 const StyledCustomCardContent = styled.p`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
-  text-align: justify;
+  text-align: left;
+
+  /* overflow-wrap: break-word; */
   /* hyphens: auto; */
+  /* word-wrap: break-word; */
+  /* word-break: break-all; */
   /* word-spacing: -0.5em; /* Adjust as needed */
   /* word-spacing: 0.1em; */
 
-  hyphens: auto;
+  /* hyphens: auto; */
   font-weight: bolder;
   padding-top: 5px;
   padding-bottom: 0px;

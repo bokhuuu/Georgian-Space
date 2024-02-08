@@ -1,0 +1,21 @@
+.weather-span {
+  margin-right: 138px; /* Default margin value */
+}
+
+@media (min-width: 768px) {
+  .weather-span {
+    margin-right: 178px; /* Adjust margin for screens wider than 768px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .weather-span {
+    margin-right: 140px; /* Adjust margin for screens wider than 992px */
+  }
+}
+
+@media (min-width: 1440px) {
+  .weather-span {
+    margin-right: 254px; /* Adjust margin for screens wider than 992px */
+  }
+}
