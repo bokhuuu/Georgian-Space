@@ -1,7 +1,12 @@
 import { AnimatePresence, motion } from "framer-motion";
 import tushetiCover from "../assets/covers/tusheti.jpg";
 import ReviewerCard from "../components/cards/ReviewerCard";
-import ProfileCard from "../components/cards/ProfileCard";
+// import ProfileCard from "../components/cards/ProfileCard";
+// import DisplayWineList from "./DisplayWineList";
+import { QueryClientProvider, QueryClient } from "react-query";
+
+const winesQueryClient = new QueryClient();
+
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -20,63 +25,55 @@ const containerVariants = {
 
 const Wine = () => {
   return (
-    <AnimatePresence>
-      <motion.section
-        className="background-section"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.8 }}
-        style={{
-          position: "relative",
-          height: "100vh",
-          overflowY: "auto",
-        }}
-      >
-        <div
+    <QueryClientProvider client={winesQueryClient}>
+      <AnimatePresence>
+        <motion.section
+          className="background-section"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.8 }}
           style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            zIndex: -1,
-            backgroundImage: `url(${tushetiCover})`,
-            backgroundSize: "cover",
-          }}
-        />
-        <motion.div
-          className="container"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
-          style={{
-            minHeight: "100vh",
-            padding: "20px",
-            paddingBottom: "40px",
-            boxSizing: "border-box",
+            position: "relative",
+            height: "100vh",
+            overflowY: "auto",
           }}
         >
-          <motion.div className="row d-flex">
-            <div className="col-12">
+          <div
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+              backgroundImage: `url(${tushetiCover})`,
+              backgroundSize: "cover",
+            }}
+          />
+          <motion.div
+            className="container"
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            style={{
+              minHeight: "100vh",
+              padding: "20px",
+              paddingBottom: "40px",
+              boxSizing: "border-box",
+            }}
+          >
+            <div className="container">
+              <ReviewerCard content="vvvv" />
               <ReviewerCard content="vvvv" />
             </div>
-            <div className="col-6">
-              <ProfileCard
-                name={"qisi"}
-                type={"white"}
-                region={"kakheti"}
-                description={
-                  "sssssccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvccccccssc"
-                }
-                imageURL={"cc"}
-              />
-            </div>
+            <div className="">{/* <DisplayWineList /> */}</div>
+            {/* </motion.div> */}
           </motion.div>
-        </motion.div>
-      </motion.section>
-    </AnimatePresence>
+        </motion.section>
+      </AnimatePresence>
+    </QueryClientProvider>
   );
 };
 

@@ -9,13 +9,17 @@ i18n
   .use(HttpApi)
   .init({
     supportedLngs: ["en", "ge"],
-    fallbackLng: "en",
+    fallbackLng: "en", // Fallback to English if missing translations
     detection: {
       order: ["cookie", "localStorage"],
       caches: ["cookie"],
     },
     backend: {
-      loadPath: "/public/locales/{{lng}}/translation.json",
+      backends: [HttpApi],
+      backendOptions: [
+        { loadPath: "/db.json" },
+        { loadPath: "/public/locales/{{lng}}/translation.json" },
+      ],
     },
   });
 

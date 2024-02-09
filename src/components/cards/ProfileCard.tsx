@@ -1,4 +1,5 @@
 interface ProfileCardProps {
+  key: number;
   name: string;
   type: string;
   region: string;
@@ -14,14 +15,23 @@ const ProfileCard = ({
   imageURL,
 }: ProfileCardProps) => {
   return (
-    <div className="card profile-card">
-      <div className="card-header d-flex justify-content-between align-items-center pe-2">
-        <img src={imageURL} style={{ maxWidth: "50px", maxHeight: "50px" }} />
-        <h5 className="mb-0 ms-2">{name}</h5>
+    <div
+      className="profile-card card col-12 col-md-6 col-lg-4 col-xl-3 mb-3"
+      style={{
+        // borderRight: "white double 2px",
+        borderLeft: "white double 2px",
+      }}
+    >
+      <div
+        className="card-header d-flex justify-content-between align-items-center"
+        style={{ borderBottom: "white dotted 2px" }}
+      >
+        <h5>{name}</h5>
+        <img src={imageURL} style={{}} />
       </div>
       <div className="card-body">
-        <li className="card-text mb-2">{type}</li>
-        <li className="card-text mb-2">{region}</li>
+        <li className="card-text">{type}</li>
+        <li className="card-text">{region}</li>
         <p className="card-text">{description}</p>
       </div>
     </div>
