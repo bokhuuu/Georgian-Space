@@ -54,7 +54,7 @@ const StyledHeader = styled.header`
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #9b9bcc;
+  /* background-color: rgb(74, 89, 170); */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 `;
 

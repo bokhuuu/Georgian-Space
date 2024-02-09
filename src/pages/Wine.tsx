@@ -1,13 +1,14 @@
 import { AnimatePresence, motion } from "framer-motion";
-import CustomCard from "../components/CustomCard";
 import tushetiCover from "../assets/covers/tusheti.jpg";
+import ReviewerCard from "../components/cards/ReviewerCard";
+import ProfileCard from "../components/cards/ProfileCard";
 const containerVariants = {
   hidden: {
     opacity: 0,
     x: "-100vw",
   },
   visible: {
-    opacity: 1,
+    opacity: 0.9,
     x: 0,
     transition: { duration: 1.5, delay: 0.7 },
   },
@@ -51,24 +52,25 @@ const Wine = () => {
           animate="visible"
           exit="exit"
           style={{
-            backgroundColor: "rgba(255, 255, 255, 0.3)",
             minHeight: "100vh",
             padding: "20px",
             paddingBottom: "40px",
             boxSizing: "border-box",
           }}
         >
-          <motion.div className="row">
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
+          <motion.div className="row d-flex">
+            <div className="col-12">
+              <ReviewerCard content="vvvv" />
             </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard
-                title="History"
-                content="Argonauts in, from ancient Ais excavations. The incorporation of the Golden Fleece into the myth may have derived from the local practice of using fleeces to sift gold dust from rivers. This tradition still exists in Svaneti region."
+            <div className="col-6">
+              <ProfileCard
+                name={"qisi"}
+                type={"white"}
+                region={"kakheti"}
+                description={
+                  "sssssccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvccccccssc"
+                }
+                imageURL={"cc"}
               />
             </div>
           </motion.div>

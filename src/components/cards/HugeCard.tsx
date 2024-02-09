@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-interface CustomCardProps {
+interface HugeCardProps {
   title?: string;
   content: React.ReactNode;
   className?: string;
 }
 
-const CustomCard = ({ title, content }: CustomCardProps) => {
+const HugeCard = ({ title, content }: HugeCardProps) => {
   return (
     <>
       <div
         className="custom-card card border-2 mb-3"
         style={{
-          opacity: 0.8,
+          opacity: 0.9,
           height: "370px",
           overflowY: "auto",
           position: "relative",
         }}
       >
         <div className="card-body">
-          <StyledCustomCardTitle
+          <StyledHugeCardTitle
             className="card-title text-center"
             animate={{
               scaleX: 1.05,
@@ -34,19 +34,18 @@ const CustomCard = ({ title, content }: CustomCardProps) => {
             }}
           >
             {title}
-          </StyledCustomCardTitle>
-          <StyledCustomCardContent className="card-body">
+          </StyledHugeCardTitle>
+          <StyledHugeCardContent className="card-body">
             {content}
-          </StyledCustomCardContent>
+          </StyledHugeCardContent>
         </div>
       </div>
     </>
   );
 };
 
-const StyledCustomCardTitle = styled(motion.h6)`
+const StyledHugeCardTitle = styled(motion.h6)`
   display: flex;
-  /* scale: 1; */
   font-size: x-large;
   justify-content: center;
   background-color: ${(props) => props.theme.backgroundColor};
@@ -57,25 +56,15 @@ const StyledCustomCardTitle = styled(motion.h6)`
   position: sticky;
   top: 1px;
   padding: 5px;
-  /* z-index: 1; */
 `;
 
-const StyledCustomCardContent = styled.p`
+const StyledHugeCardContent = styled.p`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   text-align: left;
-
-  /* overflow-wrap: break-word; */
-  /* hyphens: auto; */
-  /* word-wrap: break-word; */
-  /* word-break: break-all; */
-  /* word-spacing: -0.5em; /* Adjust as needed */
-  /* word-spacing: 0.1em; */
-
-  /* hyphens: auto; */
   font-weight: bolder;
   padding-top: 5px;
   padding-bottom: 0px;
 `;
 
-export default CustomCard;
+export default HugeCard;

@@ -1,5 +1,5 @@
-import Dashboard from "../components/dashboard/Dashboard";
-import CustomCard from "../components/CustomCard";
+import DashboardCard from "../components/cards/DashboardCard";
+import CustomCard from "../components/cards/HugeCard";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import tbilisiCover from "../assets/covers/tbilisi.jpg";
@@ -57,7 +57,7 @@ const Journey = () => {
         >
           <motion.div className="row gy-2 gy-lg-4 mt-3 mb-5">
             <div className="col-12 col-md-6 col-lg-4">
-              <Dashboard />
+              <DashboardCard />
             </div>
             <div className="col-12 col-md-6 col-lg-4">
               <CustomCard

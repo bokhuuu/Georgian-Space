@@ -4,8 +4,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --light-background: rgb(176, 204, 226);
-    --dark-background:rgb(110, 124, 201);
+    --light-background: rgb(147, 179, 204);
+    --dark-background:rgb(74, 89, 170);
     --light-text:  #ffffff;
     --dark-text:  rgb(12, 33, 151);
   }
@@ -23,15 +23,16 @@ export const GlobalStyles = createGlobalStyle`
   .nav-link.active {
     width: fit-content;
     height: fit-content;
-    background-color: #ffffff;
+    border-top: #ffffff;
+    border-bottom: #ffffff;
     border-radius: 10%;
   }
 
 .btn {
   width: fit-content;
   height: fit-content;
-  background-color: rgba(23, 99, 165, 0.596);
-  color: white;
+  background-color: ${(props) => props.theme.backgroundColor};
+  color: ${(props) => props.theme.textColor};
   font-weight: bolder;
   border-radius: 10%;
   cursor: pointer;
@@ -46,7 +47,7 @@ export const GlobalStyles = createGlobalStyle`
   cursor: pointer;
 }
 
-.modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card{
+.header, .footer, .modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card, .dashboard-card,.reviewer-card,.profile-card{
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
 }

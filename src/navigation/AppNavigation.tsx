@@ -104,16 +104,18 @@ const AppNavigation = () => {
   );
 };
 const StyledNavLink = styled(NavLink)`
-  color: rgb(12, 33, 151);
+  background-color: ${(props) => props.theme.backgroundColor}!important;
+  color: ${(props) => props.theme.textColor} !important;
   margin-top: -10px;
   border-bottom: solid white 2px;
-  font-size: 17px;
+  /* font-size: 17px; */
 
   &:focus,
   &:hover,
   &.active,
   &.selected {
-    color: rgb(12, 33, 151) !important;
+    background-color: ${(props) => props.theme.backgroundColor}!important;
+    color: ${(props) => props.theme.textColor} !important;
   }
 `;
 

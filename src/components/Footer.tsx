@@ -4,7 +4,7 @@ import IconButtonsBox from "./CommandBar";
 
 const Footer = () => {
   return (
-    <StyledFooter className="container-fluid d-md-none fixed-bottom d-flex align-items-center justify-content-center">
+    <StyledFooter className="footer container-fluid d-md-none fixed-bottom d-flex align-items-center justify-content-center">
       <div className="row">
         <div className="col d-flex">
           <IconButtonsBox />
@@ -17,7 +17,7 @@ const Footer = () => {
 
 const StyledFooter = styled.footer`
   height: 40px;
-  background-color: #9b9bcc;
+  /* background-color: #4d83b6; */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 1000;
