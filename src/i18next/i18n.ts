@@ -9,11 +9,15 @@ i18n
   .use(HttpApi)
   .init({
     supportedLngs: ["en", "ge"],
-    fallbackLng: "en", // Fallback to English if missing translations
+    fallbackLng: "en",
     detection: {
       order: ["cookie", "localStorage"],
       caches: ["cookie"],
     },
+    // cache: {
+    //   clear: true,
+    // },
+
     backend: {
       backends: [HttpApi],
       backendOptions: [

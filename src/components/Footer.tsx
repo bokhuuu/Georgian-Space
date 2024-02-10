@@ -1,4 +1,4 @@
-import LanguageSelector from "../i18next/LanguageSelector";
+import LanguageSelector from "../i18next/LanguageToggler";
 import styled from "styled-components";
 import IconButtonsBox from "./CommandBar";
 

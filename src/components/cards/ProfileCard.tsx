@@ -26,13 +26,13 @@ const ProfileCard = ({
         className="card-header d-flex justify-content-between align-items-center"
         style={{ borderBottom: "white dotted 2px" }}
       >
-        <h5>{name}</h5>
+        <h5 className="fw-bolder">{name}</h5>
         <img src={imageURL} style={{}} />
       </div>
       <div className="card-body">
         <li className="card-text">{type}</li>
         <li className="card-text">{region}</li>
-        <p className="card-text">{description}</p>
+        <p className="card-text pt-3">{description}</p>
       </div>
     </div>
   );

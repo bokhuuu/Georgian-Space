@@ -1,6 +1,6 @@
-import ThemeSelector from "../../themes/ThemeSelector";
+import ThemeSelector from "../../themes/ThemeToggler";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "../../i18next/LanguageSelector";
+import LanguageSelector from "../../i18next/LanguageToggler";
 import WeatherSidebarEnable from "../../weatherApp/WeatherSidebarEnable";
 import { Variants, motion } from "framer-motion";
 import formIcon from "../../assets/icons/formIcon.svg";

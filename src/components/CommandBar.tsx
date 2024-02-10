@@ -1,4 +1,4 @@
-import ThemeSelector from "../themes/ThemeSelector.tsx";
+import ThemeSelector from "../themes/ThemeToggler.tsx";
 import WeatherSidebarEnable from "../weatherApp/WeatherSidebarEnable.tsx";
 import { Variants, motion } from "framer-motion";
 import formIcon from "../assets/icons/formIcon.svg";

@@ -704,241 +704,6 @@
         }
       }
     },
-
-    {
-      "id": 2,
-      "name": {
-        "en": "Tavkveri",
-        "ge": "თავკვერი"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Kartli",
-        "ge": "ქართლი"
-      },
-      "description": {
-        "en": "Red dry pitcher wine with aromas of red fruit, raspberry, blueberry, cherry, gooseberry and pomegranate flower. It is recommended to be served with roast poultry, salmon steak, pork and hard cheese. ",
-        "ge": "წითელი მშრალი ქვევრის ღვინო წითელი ხილის, ჟოლოს, მოცვის, ალუბლის, კოწახურის და ბროწეულის ყვავილის არომატებით. რეკომენდირებულია მისი მირთმევა შემწვარ ფრინველის ხორცთან, ორაგულის სტეიკთან, ღორის ხორცთან და მაგარ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Tavkveri.jpg",
-        "alt": {
-          "en": "თავკვერი",
-          "ge": "Tavkveri"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "name": {
-        "en": "Kvanchkara",
-        "ge": "ხვანჭკარა"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Racha",
-        "ge": "რაჭა"
-      },
-      "description": {
-        "en": "The wine is characterized by the aroma of cherry tree buds, lilac flowers and red berries and pleasant taste qualities. It is recommended to eat it with fruit dessert, chocolate, dried fruit and churchkhela. ",
-        "ge": "ღვინო ხასიათდება ალუბლის ხის კვირტის, იასამნის ყვავილოვანი და წითელი კენკრის არომატითა და სასიამოვნო გემოვნური თვისებებით. რეკომენდირებულია მისი მირთმევა ხილის დესეტთან, შოკოლადთან, ჩირთან და ჩურჩხელასთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Kvanchkara.jpg",
-        "alt": {
-          "en": "Kvanchkara",
-          "ge": "ხვანჭკარა"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": {
-        "en": "Kindzmarauli",
-        "ge": "ქინძმარაული"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Kakheti",
-        "ge": "კახეთი"
-      },
-      "description": {
-        "en": "Red semi-sweet wine with aromas of plums, lilacs, berries, blackberries and dried fruits. It is recommended to eat it with goat cheese or chocolate dessert. ",
-        "ge": "წითელი ნახევრად ტკბილი ღვინო, ქლიავის, იასამანის, კენკრის, მაყვალის და ჩირების არომატით. რეკომენდირებულია მისი მირთმევა თხის ყველთან ან შოკოლადის დესერტთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Kindzmarauli.jpg",
-        "alt": {
-          "en": "Kindzmarauli",
-          "ge": "ქინძმარაული"
-        }
-      }
-    },
-    {
-      "id": 5,
-      "name": {
-        "en": "Aladasturi",
-        "ge": "ალადასტური"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Guria",
-        "ge": "გურია"
-      },
-      "description": {
-        "en": "Red dry wine with aromas of raspberry, violet, lilac and cherry. It is recommended to be served with beef, roast poultry and fresh cheese. ",
-        "ge": "წითელი მშრალი ღვინო ჟოლოს, იის, იასამნის და ალუბლის არომატებით. რეკომენდირებულია მისი მირთმევა საქონლის ხორცთან, ფრინველის შემწვარ ხორცთან და ახალ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Aladasturi.jpg",
-        "alt": {
-          "en": "Aladasturi",
-          "ge": "ალადასტური"
-        }
-      }
-    },
-    {
-      "id": 6,
-      "name": {
-        "en": "Dzelshavi",
-        "ge": "ძელშავი"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Imereti",
-        "ge": "იმერეთი"
-      },
-      "description": {
-        "en": "Red dry pitcher wine with delicate floral, raspberry and strawberry tones. It is recommended to be served with vegetable salads, poultry or light beef dishes. ",
-        "ge": "წითელი მშრალი ქვევრის ღვინო ნაზი ყვავილოვანი, ჟოლოსა და მარწყვის ტონებით. რეკომენდირებულია მისი მირთმევა ბოსტნეულის სალათებთან, ფრინველის ხორცთან ან საქონლის ხორცის მსუბუქ კერძებთან. "
-      },
-      "image": {
-        "url": "/images/wines/Dzelshavi.jpg",
-        "alt": {
-          "en": "Dzelshavi",
-          "ge": "ძელშავი"
-        }
-      }
-    },
-    {
-      "id": 7,
-      "name": {
-        "en": "Asuretuli",
-        "ge": "ასურეთული"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Kartli",
-        "ge": "ქართლი"
-      },
-      "description": {
-        "en": "A dry red wine with red berry, blackberry, currant, raspberry, strawberry and floral tones. Pleasant on the palate, with a less pronounced varietal aroma. It is recommended to be served with veal, poultry, pasta and assorted cheeses. ",
-        "ge": "წითელი მშრალი ღვინო, წითელი კენკრის, მაყვლის, მოცხარის, ჟოლოს, მარწყვის და ყვავილოვანი ტონებით. გემოზე ხალისიანი, ნაკლებ გამოხატული ჯიშური არომატით. რეკომენდირებულია მისი მირთმევა ხბოს ხორცთან, ფრინველის ხორცთან, პასტასთან და ყველის ასორტთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Asuretuli.jpg",
-        "alt": {
-          "en": "Asuretuli",
-          "ge": "ასურეთული"
-        }
-      }
-    },
-    {
-      "id": 8,
-      "name": {
-        "en": "Shavkapito",
-        "ge": "შავკაპიტო"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Kartli",
-        "ge": "ქართლი"
-      },
-      "description": {
-        "en": "Red dry cask wine with aromas of blackberries, currants, cherries, black berries and dried black plums. It is recommended to be served with veal, poultry, ham, ham, game, pasta and cheese. ",
-        "ge": "წითელი მშრალი კასრის ღვინო, მაყვლის, მოცხარის, ალუბლის, შავი კენკრის და შავი ქლიავის ჩირის არომატებით. რეკომენდირებულია მისი მირთმევა ხბოს ხორცთან, ფრინველის ხორცთან, ლორთან, ხამონთან, ნანადირევთან, პასტასთან და ყველთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Shavkapito.jpg",
-        "alt": {
-          "en": "Shavkapito",
-          "ge": "შავკაპიტო"
-        }
-      }
-    },
-    {
-      "id": 9,
-      "name": {
-        "en": "Usakhelouri",
-        "ge": "უსახელოური"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Racha-Lechkhumi",
-        "ge": "რაჭა-ლეჩხუმი"
-      },
-      "description": {
-        "en": "Red semi-sweet wine with aromas of raspberry, berry, blueberry and rosemary. Recommended with rabbit meat, ham, white meat and cottage cheese. ",
-        "ge": "წითელი ნახევრად ტკბილი ღვინო ჟოლოს, კენკრის, მოცვის და როზმარინის არომატებით. რეკომენდირებულია მისი მირთმევა კურდღლის ხორცთან, ლორთან, თეთრი ხორცთან და ხაჭოსთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Usakhelouri.jpg",
-        "alt": {
-          "en": "Usakhelouri",
-          "ge": "უსახელოური"
-        }
-      }
-    },
-    {
-      "id": 10,
-      "name": {
-        "en": "Ojaleshi",
-        "ge": "ოჯალეში"
-      },
-      "type": {
-        "en": "Red",
-        "ge": "წითელი"
-      },
-      "region": {
-        "en": "Samegrelo",
-        "ge": "სამეგრელო"
-      },
-      "description": {
-        "en": "Red Kvevri dry wine with intense aroma of black berries, dried red fruits and gentle tones of spices. Rich on the palate, full-bodied. It is recommended to be served with spicy meat dishes, tabaca, kupat and red fruit desserts. ",
-        "ge": "წითელი ქვევრის მშრალი ღვინო შავი კენკრის, წითელი ხილის ჩირების ინტენსიური არომატით და სანელებლების ნაზი ტონებით. გემოზე მდიდარი, სხეულიანი. რეკომენდირებულია მისი მირთმევა სანელებლებიანი ხორცის კერძებთან, ტაბაკასთან, კუპატთან და წითელი ხილის დესერტებთან. "
-      },
-      "image": {
-        "url": "/images/wines/Ojaleshi.jpg",
-        "alt": {
-          "en": "Ojaleshi",
-          "ge": "ოჯალეში"
-        }
-      }
-    },
     {
       "id": 11,
       "name": {
@@ -962,6 +727,32 @@
         "alt": {
           "en": "Tsolikouri",
           "ge": "ცოლიკოური"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Tavkveri",
+        "ge": "თავკვერი"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "Red dry pitcher wine with aromas of red fruit, raspberry, blueberry, cherry, gooseberry and pomegranate flower. It is recommended to be served with roast poultry, salmon steak, pork and hard cheese. ",
+        "ge": "წითელი მშრალი ქვევრის ღვინო წითელი ხილის, ჟოლოს, მოცვის, ალუბლის, კოწახურის და ბროწეულის ყვავილის არომატებით. რეკომენდირებულია მისი მირთმევა შემწვარ ფრინველის ხორცთან, ორაგულის სტეიკთან, ღორის ხორცთან და მაგარ ყველთან ერთად. "
+      },
+      "image": {
+        "url": "/images/wines/Tavkveri.jpg",
+        "alt": {
+          "en": "თავკვერი",
+          "ge": "Tavkveri"
         }
       }
     },
@@ -992,6 +783,32 @@
       }
     },
     {
+      "id": 3,
+      "name": {
+        "en": "Kvanchkara",
+        "ge": "ხვანჭკარა"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Racha",
+        "ge": "რაჭა"
+      },
+      "description": {
+        "en": "The wine is characterized by the aroma of cherry tree buds, lilac flowers and red berries and pleasant taste qualities. It is recommended to eat it with fruit dessert, chocolate, dried fruit and churchkhela. ",
+        "ge": "ღვინო ხასიათდება ალუბლის ხის კვირტის, იასამნის ყვავილოვანი და წითელი კენკრის არომატითა და სასიამოვნო გემოვნური თვისებებით. რეკომენდირებულია მისი მირთმევა ხილის დესეტთან, შოკოლადთან, ჩირთან და ჩურჩხელასთან ერთად."
+      },
+      "image": {
+        "url": "/images/wines/Kvanchkara.jpg",
+        "alt": {
+          "en": "Kvanchkara",
+          "ge": "ხვანჭკარა"
+        }
+      }
+    },
+    {
       "id": 13,
       "name": {
         "en": "Chinuri",
@@ -1014,6 +831,32 @@
         "alt": {
           "en": "Chinuri",
           "ge": "ჩინური"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Kindzmarauli",
+        "ge": "ქინძმარაული"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kakheti",
+        "ge": "კახეთი"
+      },
+      "description": {
+        "en": "Red semi-sweet wine with aromas of plums, lilacs, berries, blackberries and dried fruits. It is recommended to eat it with goat cheese or chocolate dessert. ",
+        "ge": "წითელი ნახევრად ტკბილი ღვინო, ქლიავის, იასამანის, კენკრის, მაყვალის და ჩირების არომატით. რეკომენდირებულია მისი მირთმევა თხის ყველთან ან შოკოლადის დესერტთან ერთად. "
+      },
+      "image": {
+        "url": "/images/wines/Kindzmarauli.jpg",
+        "alt": {
+          "en": "Kindzmarauli",
+          "ge": "ქინძმარაული"
         }
       }
     },
@@ -1044,6 +887,32 @@
       }
     },
     {
+      "id": 5,
+      "name": {
+        "en": "Aladasturi",
+        "ge": "ალადასტური"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Guria",
+        "ge": "გურია"
+      },
+      "description": {
+        "en": "Red dry wine with aromas of raspberry, violet, lilac and cherry. It is recommended to be served with beef, roast poultry and fresh cheese. ",
+        "ge": "წითელი მშრალი ღვინო ჟოლოს, იის, იასამნის და ალუბლის არომატებით. რეკომენდირებულია მისი მირთმევა საქონლის ხორცთან, ფრინველის შემწვარ ხორცთან და ახალ ყველთან ერთად. "
+      },
+      "image": {
+        "url": "/images/wines/Aladasturi.jpg",
+        "alt": {
+          "en": "Aladasturi",
+          "ge": "ალადასტური"
+        }
+      }
+    },
+    {
       "id": 15,
       "name": {
         "en": "Rkatsiteli",
@@ -1066,6 +935,32 @@
         "alt": {
           "en": "Rkatsiteli",
           "ge": "რქაწითელი"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Dzelshavi",
+        "ge": "ძელშავი"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Imereti",
+        "ge": "იმერეთი"
+      },
+      "description": {
+        "en": "Red dry pitcher wine with delicate floral, raspberry and strawberry tones. It is recommended to be served with vegetable salads, poultry or light beef dishes. ",
+        "ge": "წითელი მშრალი ქვევრის ღვინო ნაზი ყვავილოვანი, ჟოლოსა და მარწყვის ტონებით. რეკომენდირებულია მისი მირთმევა ბოსტნეულის სალათებთან, ფრინველის ხორცთან ან საქონლის ხორცის მსუბუქ კერძებთან. "
+      },
+      "image": {
+        "url": "/images/wines/Dzelshavi.jpg",
+        "alt": {
+          "en": "Dzelshavi",
+          "ge": "ძელშავი"
         }
       }
     },
@@ -1096,6 +991,32 @@
       }
     },
     {
+      "id": 7,
+      "name": {
+        "en": "Asuretuli",
+        "ge": "ასურეთული"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "A dry red wine with red berry, blackberry, currant, raspberry, strawberry and floral tones. Pleasant on the palate, with a less pronounced varietal aroma. It is recommended to be served with veal, poultry, pasta and assorted cheeses. ",
+        "ge": "წითელი მშრალი ღვინო, წითელი კენკრის, მაყვლის, მოცხარის, ჟოლოს, მარწყვის და ყვავილოვანი ტონებით. გემოზე ხალისიანი, ნაკლებ გამოხატული ჯიშური არომატით. რეკომენდირებულია მისი მირთმევა ხბოს ხორცთან, ფრინველის ხორცთან, პასტასთან და ყველის ასორტთან ერთად."
+      },
+      "image": {
+        "url": "/images/wines/Asuretuli.jpg",
+        "alt": {
+          "en": "Asuretuli",
+          "ge": "ასურეთული"
+        }
+      }
+    },
+    {
       "id": 17,
       "name": {
         "en": "Goruli Mtsvane",
@@ -1118,6 +1039,32 @@
         "alt": {
           "en": "Goruli Mtsvane",
           "ge": "გორული მწვანე"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Shavkapito",
+        "ge": "შავკაპიტო"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Kartli",
+        "ge": "ქართლი"
+      },
+      "description": {
+        "en": "Red dry cask wine with aromas of blackberries, currants, cherries, black berries and dried black plums. It is recommended to be served with veal, poultry, ham, ham, game, pasta and cheese. ",
+        "ge": "წითელი მშრალი კასრის ღვინო, მაყვლის, მოცხარის, ალუბლის, შავი კენკრის და შავი ქლიავის ჩირის არომატებით. რეკომენდირებულია მისი მირთმევა ხბოს ხორცთან, ფრინველის ხორცთან, ლორთან, ხამონთან, ნანადირევთან, პასტასთან და ყველთან ერთად."
+      },
+      "image": {
+        "url": "/images/wines/Shavkapito.jpg",
+        "alt": {
+          "en": "Shavkapito",
+          "ge": "შავკაპიტო"
         }
       }
     },
@@ -1148,6 +1095,32 @@
       }
     },
     {
+      "id": 9,
+      "name": {
+        "en": "Usakhelouri",
+        "ge": "უსახელოური"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Racha-Lechkhumi",
+        "ge": "რაჭა-ლეჩხუმი"
+      },
+      "description": {
+        "en": "Red semi-sweet wine with aromas of raspberry, berry, blueberry and rosemary. Recommended with rabbit meat, ham, white meat and cottage cheese. ",
+        "ge": "წითელი ნახევრად ტკბილი ღვინო ჟოლოს, კენკრის, მოცვის და როზმარინის არომატებით. რეკომენდირებულია მისი მირთმევა კურდღლის ხორცთან, ლორთან, თეთრი ხორცთან და ხაჭოსთან ერთად. "
+      },
+      "image": {
+        "url": "/images/wines/Usakhelouri.jpg",
+        "alt": {
+          "en": "Usakhelouri",
+          "ge": "უსახელოური"
+        }
+      }
+    },
+    {
       "id": 19,
       "name": {
         "en": "Tsinandali",
@@ -1173,6 +1146,33 @@
         }
       }
     },
+    {
+      "id": 10,
+      "name": {
+        "en": "Ojaleshi",
+        "ge": "ოჯალეში"
+      },
+      "type": {
+        "en": "Red",
+        "ge": "წითელი"
+      },
+      "region": {
+        "en": "Samegrelo",
+        "ge": "სამეგრელო"
+      },
+      "description": {
+        "en": "Red Kvevri dry wine with intense aroma of black berries, dried red fruits and gentle tones of spices. Rich on the palate, full-bodied. It is recommended to be served with spicy meat dishes, tabaca, kupat and red fruit desserts. ",
+        "ge": "წითელი ქვევრის მშრალი ღვინო შავი კენკრის, წითელი ხილის ჩირების ინტენსიური არომატით და სანელებლების ნაზი ტონებით. გემოზე მდიდარი, სხეულიანი. რეკომენდირებულია მისი მირთმევა სანელებლებიანი ხორცის კერძებთან, ტაბაკასთან, კუპატთან და წითელი ხილის დესერტებთან. "
+      },
+      "image": {
+        "url": "/images/wines/Ojaleshi.jpg",
+        "alt": {
+          "en": "Ojaleshi",
+          "ge": "ოჯალეში"
+        }
+      }
+    },
+
     {
       "id": 20,
       "name": {

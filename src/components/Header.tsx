@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import AppNavigation from "../navigation/AppNavigation.tsx";
-import LanguageSelector from "../i18next/LanguageSelector.tsx";
+import LanguageSelector from "../i18next/LanguageToggler.tsx";
 import Brand from "./Brand.tsx";
 import CommandBar from "./CommandBar.tsx";
 import { motion } from "framer-motion";
