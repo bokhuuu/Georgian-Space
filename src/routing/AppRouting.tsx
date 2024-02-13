@@ -6,7 +6,7 @@ import Nature from "../pages/Nature";
 import Culture from "../pages/Culture";
 // import Rave from "../pages/Cuisine";
 import Overview from "../pages/Journey";
-import Wine from "../pages/Wine";
+import Wine from "../pages/wine/Wine";
 import Cuisine from "../pages/Cuisine";
 // import Art from "../../pages/taste/Art";
 // import Literature from "../../pages/taste/Literature";

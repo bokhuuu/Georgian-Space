@@ -35,6 +35,7 @@ export const GlobalStyles = createGlobalStyle`
   color: ${(props) => props.theme.textColor};
   font-weight: bolder;
   border-radius: 10%;
+  width:80px;
   cursor: pointer;
   
 }
@@ -47,7 +48,7 @@ export const GlobalStyles = createGlobalStyle`
   cursor: pointer;
 }
 
-.header, .footer, .modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card, .dashboard-card,.reviewer-card,.profile-card{
+.header, .footer, .modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card, .dashboard-card,.profile-card{
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
 }

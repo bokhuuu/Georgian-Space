@@ -26,10 +26,12 @@ const FormModal = () => {
       <div className="modal-dialog">
         <div className="modal-content" style={{ border: "white 2px double" }}>
           <div className="modal-header">
-            <h1 className="modal-title fs-5 fw-bolder" id="exampleModalLabel">
-              Form
-            </h1>
+            <h1
+              className="modal-title fs-5 fw-bolder"
+              id="exampleModalLabel"
+            ></h1>
             <motion.button
+              style={{ border: "white solid 1px" }}
               type="button"
               className="btn"
               data-bs-dismiss="modal"

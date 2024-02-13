@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-interface HugeCardProps {
+interface MainCardProps {
   title?: string;
   content: React.ReactNode;
   className?: string;
 }
 
-const HugeCard = ({ title, content }: HugeCardProps) => {
+const MainCard = ({ title, content }: MainCardProps) => {
   return (
     <>
       <div
@@ -20,7 +20,7 @@ const HugeCard = ({ title, content }: HugeCardProps) => {
         }}
       >
         <div className="card-body">
-          <StyledHugeCardTitle
+          <StyledMainCardTitle
             className="card-title text-center"
             animate={{
               scaleX: 1.05,
@@ -34,31 +34,30 @@ const HugeCard = ({ title, content }: HugeCardProps) => {
             }}
           >
             {title}
-          </StyledHugeCardTitle>
-          <StyledHugeCardContent className="card-body">
+          </StyledMainCardTitle>
+          <StyledMainCardContent className="card-body">
             {content}
-          </StyledHugeCardContent>
+          </StyledMainCardContent>
         </div>
       </div>
     </>
   );
 };
 
-const StyledHugeCardTitle = styled(motion.h6)`
+const StyledMainCardTitle = styled(motion.h6)`
   display: flex;
   font-size: x-large;
   justify-content: center;
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   font-weight: bolder;
-  /* border-radius: 5%; */
   border: white solid 2px;
   position: sticky;
   top: 1px;
   padding: 5px;
 `;
 
-const StyledHugeCardContent = styled.p`
+const StyledMainCardContent = styled.p`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   text-align: left;
@@ -67,4 +66,4 @@ const StyledHugeCardContent = styled.p`
   padding-bottom: 0px;
 `;
 
-export default HugeCard;
+export default MainCard;

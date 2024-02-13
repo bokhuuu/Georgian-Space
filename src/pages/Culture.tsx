@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import CustomCard from "../components/cards/HugeCard";
+import CustomCard from "../components/cards/MainCard";
 import mtskhetaCover from "../assets/covers/mtskheta.jpg";
 
 const containerVariants = {

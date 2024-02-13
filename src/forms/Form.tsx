@@ -82,11 +82,10 @@ const Form = () => {
         <label className="">Category</label>
         <select {...register("category")} className="mb-2">
           <option value="">---</option>
-          <option value="discovery">Discovery</option>
-          <option value="explore">Explore</option>
-          <option value="taste">Taste</option>
-          <option value="Leisure">Leisure</option>
-          <option value="Wellness">Wellness</option>
+          <option value="nature">Nature</option>
+          <option value="culture">Culture</option>
+          <option value="wine">Wine</option>
+          <option value="cuisine">Cuisine</option>
         </select>
         <p>{errors.category?.message}</p>
 
@@ -108,7 +107,7 @@ const Form = () => {
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="form-contribution mt-3 mt-md-3">
-            Submissions:
+            Contributions:
             <span
               className="form-count ms-1"
               style={{
@@ -123,6 +122,7 @@ const Form = () => {
 
           <motion.button
             className="btn mt-2"
+            style={{ border: "white solid 1px" }}
             type="submit"
             variants={buttonVariants}
             whileHover={{

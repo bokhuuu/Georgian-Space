@@ -1,7 +1,6 @@
 .form p {
-  width: fit-content;
-  background-color: rgba(187, 189, 216, 0.911);
-  color: rgba(224, 16, 16, 0.945);
+  /* width: fit-content; */
+  color: rgb(252, 2, 2);
   font-size: small;
-  font-weight: bolder;
+  font-weight: lighter;
 }

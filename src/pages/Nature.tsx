@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import CustomCard from "../components/cards/HugeCard";
+import CustomCard from "../components/cards/MainCard";
 import gergetiCover from "../assets/covers/gergeti.jpg";
 
 const containerVariants = {

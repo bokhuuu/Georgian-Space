@@ -4,30 +4,21 @@ interface ProfileCardProps {
   type: string;
   region: string;
   description: string;
-  imageURL: string;
 }
 
-const ProfileCard = ({
-  name,
-  type,
-  region,
-  description,
-  imageURL,
-}: ProfileCardProps) => {
+const ProfileCard = ({ name, type, region, description }: ProfileCardProps) => {
   return (
     <div
       className="profile-card card col-12 col-md-6 col-lg-4 col-xl-3 mb-3"
       style={{
-        // borderRight: "white double 2px",
-        borderLeft: "white double 2px",
+        border: "white double 1px",
       }}
     >
       <div
         className="card-header d-flex justify-content-between align-items-center"
-        style={{ borderBottom: "white dotted 2px" }}
+        style={{ borderBottom: "white solid 1px" }}
       >
         <h5 className="fw-bolder">{name}</h5>
-        <img src={imageURL} style={{}} />
       </div>
       <div className="card-body">
         <li className="card-text">{type}</li>

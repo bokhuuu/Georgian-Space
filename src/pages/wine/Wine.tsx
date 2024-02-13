@@ -1,9 +1,9 @@
-import { AnimatePresence, motion } from "framer-motion";
-import tushetiCover from "../assets/covers/tusheti.jpg";
-import ReviewerCard from "../components/cards/ReviewerCard";
-// import ProfileCard from "../components/cards/ProfileCard";
-// import DisplayWineList from "./DisplayWineList";
 import { QueryClientProvider, QueryClient } from "react-query";
+import { useTranslation } from "react-i18next";
+import DisplayWineList from "./DisplayWineList";
+import DashboardCard from "../../components/cards/DashboardCard";
+import { AnimatePresence, motion } from "framer-motion";
+import tushetiCover from "../../assets/covers/tusheti.jpg";
 
 const winesQueryClient = new QueryClient();
 
@@ -24,6 +24,8 @@ const containerVariants = {
 };
 
 const Wine = () => {
+  const { t } = useTranslation();
+
   return (
     <QueryClientProvider client={winesQueryClient}>
       <AnimatePresence>
@@ -65,11 +67,21 @@ const Wine = () => {
             }}
           >
             <div className="container">
-              <ReviewerCard content="vvvv" />
-              <ReviewerCard content="vvvv" />
+              <div className="row">
+                <div className="card-body col-12 d-flex">
+                  <DashboardCard
+                    content={
+                      <>
+                        <p>{t("wine_dashboard")}</p>
+                      </>
+                    }
+                  />
+                </div>
+              </div>
             </div>
-            <div className="">{/* <DisplayWineList /> */}</div>
-            {/* </motion.div> */}
+            <div className="">
+              <DisplayWineList />
+            </div>
           </motion.div>
         </motion.section>
       </AnimatePresence>

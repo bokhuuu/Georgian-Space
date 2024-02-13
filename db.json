@@ -677,6 +677,7 @@
       }
     }
   ],
+
   "wines": [
     {
       "id": 1,
@@ -695,13 +696,6 @@
       "description": {
         "en": "The wine is characterized by aromas of blackberry, cherry jam, fruit jam and dried black plum. It is recommended to serve it with meat, beef, fried poultry or fresh cheese.",
         "ge": "ღვინო ხასიათდება მაყვლის, ალუბლის მურაბის, ხილის ჯემის და შავი ქლიავის ჩირის არომატებით. რეკომენდირებულია მისი მირთმევა ნანადირევთან, საქონლის ხორცთან, ფრინველის შემწვარ ხორცთან ან ახალ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Saperavi.jpg",
-        "alt": {
-          "en": "Saperavi",
-          "ge": "საფერავი"
-        }
       }
     },
     {
@@ -721,13 +715,6 @@
       "description": {
         "en": "With aromas of pear, white fruit, white flowers, white sweet berries and tropical fruit flavors. It is recommended to eat it with fish, boiled poultry, fresh meat, vegetable soups, fruit salads and hard cheese. ",
         "ge": "მსხლის, თეთრი ხილის, თეთრი ყვავილების, თეთრი ტკბილი კენკრის და ტროპიკული ხილის გემოს არომატებით. რეკომენდირებულია მისი მირთმევა თევზეულთან, მოხარშული ფრინველის ხორცთან, ფხალეულთან, ბოსტნეულის წვნიანებთან, ხილის სალათებთან და მაგარ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Tsolikouri.jpg",
-        "alt": {
-          "en": "Tsolikouri",
-          "ge": "ცოლიკოური"
-        }
       }
     },
     {
@@ -747,13 +734,6 @@
       "description": {
         "en": "Red dry pitcher wine with aromas of red fruit, raspberry, blueberry, cherry, gooseberry and pomegranate flower. It is recommended to be served with roast poultry, salmon steak, pork and hard cheese. ",
         "ge": "წითელი მშრალი ქვევრის ღვინო წითელი ხილის, ჟოლოს, მოცვის, ალუბლის, კოწახურის და ბროწეულის ყვავილის არომატებით. რეკომენდირებულია მისი მირთმევა შემწვარ ფრინველის ხორცთან, ორაგულის სტეიკთან, ღორის ხორცთან და მაგარ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Tavkveri.jpg",
-        "alt": {
-          "en": "თავკვერი",
-          "ge": "Tavkveri"
-        }
       }
     },
     {
@@ -773,13 +753,6 @@
       "description": {
         "en": "White dry wine with aromas of wildflowers, white blizzards, white berries, citrus fruits and green apples. It is recommended to eat it with fish and seafood products, khachapuri and also with white fruit desserts. ",
         "ge": "თეთრი მშრალი ღვინო მინდვრის ყვავილების, თეთრი ბლის, თეთრი კენკრის, ციტრუსების და მწვანე ვაშლის არომატებით. რეკომენდირებულია მისი მირთმევა თევზის და ზღვის პროდუქტებთან, ხაჭაპურთან და ასევე თეთრი ხილის დესერტებთან."
-      },
-      "image": {
-        "url": "/images/wines/Tsitska.jpg",
-        "alt": {
-          "en": "Tsitska",
-          "ge": "ციცქა"
-        }
       }
     },
     {
@@ -799,13 +772,6 @@
       "description": {
         "en": "The wine is characterized by the aroma of cherry tree buds, lilac flowers and red berries and pleasant taste qualities. It is recommended to eat it with fruit dessert, chocolate, dried fruit and churchkhela. ",
         "ge": "ღვინო ხასიათდება ალუბლის ხის კვირტის, იასამნის ყვავილოვანი და წითელი კენკრის არომატითა და სასიამოვნო გემოვნური თვისებებით. რეკომენდირებულია მისი მირთმევა ხილის დესეტთან, შოკოლადთან, ჩირთან და ჩურჩხელასთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Kvanchkara.jpg",
-        "alt": {
-          "en": "Kvanchkara",
-          "ge": "ხვანჭკარა"
-        }
       }
     },
     {
@@ -825,13 +791,6 @@
       "description": {
         "en": "White dry pitcher wine with aromas of peach, pear, white berries, quince and dried fruits. with a pleasant finish on the palate. It is recommended to be served with poultry, seafood, fruit and hard cheese. ",
         "ge": "თეთრი მშრალი ქვევრის ღვინო ატმის, მსხლის, თეთრი კენკროვანი ხილის, კომშის და ჩირების არომატებით. გემოზე სასიამოვნო დაბოლოებით. რეკომენდირებულია მისი მირთმევა ფრინველის ხორცთან, ზღვის პროდუქტებთან, ხილთან და მაგარ ყველთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Chinuri.jpg",
-        "alt": {
-          "en": "Chinuri",
-          "ge": "ჩინური"
-        }
       }
     },
     {
@@ -851,13 +810,6 @@
       "description": {
         "en": "Red semi-sweet wine with aromas of plums, lilacs, berries, blackberries and dried fruits. It is recommended to eat it with goat cheese or chocolate dessert. ",
         "ge": "წითელი ნახევრად ტკბილი ღვინო, ქლიავის, იასამანის, კენკრის, მაყვალის და ჩირების არომატით. რეკომენდირებულია მისი მირთმევა თხის ყველთან ან შოკოლადის დესერტთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Kindzmarauli.jpg",
-        "alt": {
-          "en": "Kindzmarauli",
-          "ge": "ქინძმარაული"
-        }
       }
     },
     {
@@ -877,13 +829,6 @@
       "description": {
         "en": "Kvevri white dry wine with aromas of tropical fruits, dried apricots, dried figs, hay and tobacco. It is recommended to eat it with poultry, boiled veal, ham, fish, pasta and cheese. ",
         "ge": "ქვევრის თეთრი მშრალი ღვინო ტროპიკული ხილის, გარგრის ჩირის, ლეღვის ჩირის, თივის და თუთუნის არომატებით. რეკომენდირებულია მისი მირთმევა  ფრინველის ხორცთან, მოხარშულ ხბოს ხორცთან, ლორთან, თევზეულთან, პასტასთან და ყველთან ერთად.  "
-      },
-      "image": {
-        "url": "/images/wines/Qisi.jpg",
-        "alt": {
-          "en": "Qisi",
-          "ge": "ქისი"
-        }
       }
     },
     {
@@ -903,13 +848,6 @@
       "description": {
         "en": "Red dry wine with aromas of raspberry, violet, lilac and cherry. It is recommended to be served with beef, roast poultry and fresh cheese. ",
         "ge": "წითელი მშრალი ღვინო ჟოლოს, იის, იასამნის და ალუბლის არომატებით. რეკომენდირებულია მისი მირთმევა საქონლის ხორცთან, ფრინველის შემწვარ ხორცთან და ახალ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Aladasturi.jpg",
-        "alt": {
-          "en": "Aladasturi",
-          "ge": "ალადასტური"
-        }
       }
     },
     {
@@ -929,13 +867,6 @@
       "description": {
         "en": "White dry pitcher wine with aromas of tropical fruits, field flowers, quince, peach, pink pear and dried fruit. It is recommended to eat it with white meat, fish, vegetables and hard cheese. ",
         "ge": "თეთრი მშრალი ქვევრის ღვინო ტროპიკური ხილის, მინდვრის ყვავილების, კომშის, ატმის, გულაბი მსხლის და ჩირების არომატებით. რეკომენდირებულია მისი მირთმევა თეთრ ხორცთან, თევზეულთან, ბოსტნეულთან და მაგარ ყველთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Rkatsiteli.jpg",
-        "alt": {
-          "en": "Rkatsiteli",
-          "ge": "რქაწითელი"
-        }
       }
     },
     {
@@ -955,13 +886,6 @@
       "description": {
         "en": "Red dry pitcher wine with delicate floral, raspberry and strawberry tones. It is recommended to be served with vegetable salads, poultry or light beef dishes. ",
         "ge": "წითელი მშრალი ქვევრის ღვინო ნაზი ყვავილოვანი, ჟოლოსა და მარწყვის ტონებით. რეკომენდირებულია მისი მირთმევა ბოსტნეულის სალათებთან, ფრინველის ხორცთან ან საქონლის ხორცის მსუბუქ კერძებთან. "
-      },
-      "image": {
-        "url": "/images/wines/Dzelshavi.jpg",
-        "alt": {
-          "en": "Dzelshavi",
-          "ge": "ძელშავი"
-        }
       }
     },
     {
@@ -981,13 +905,6 @@
       "description": {
         "en": "White dry wine with a gently expressed varietal aroma. It is recommended to eat it with fish, seafood, white meat, vegetable salads and assorted cheeses. ",
         "ge": "თეთრი მშრალი ღვინო ნაზად გამოხატული ჯიშური არომატით. რეკომენდირებულია მისი მირთმევა თევზეულთან, ზღვის პროდუქტებთან, თეთრ ხორცთან, ბოსტნეულის სალათებთან და ყველის ასორტთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Krakhuna.jpg",
-        "alt": {
-          "en": "Krakhuna",
-          "ge": "კრახუნა"
-        }
       }
     },
     {
@@ -1007,13 +924,6 @@
       "description": {
         "en": "A dry red wine with red berry, blackberry, currant, raspberry, strawberry and floral tones. Pleasant on the palate, with a less pronounced varietal aroma. It is recommended to be served with veal, poultry, pasta and assorted cheeses. ",
         "ge": "წითელი მშრალი ღვინო, წითელი კენკრის, მაყვლის, მოცხარის, ჟოლოს, მარწყვის და ყვავილოვანი ტონებით. გემოზე ხალისიანი, ნაკლებ გამოხატული ჯიშური არომატით. რეკომენდირებულია მისი მირთმევა ხბოს ხორცთან, ფრინველის ხორცთან, პასტასთან და ყველის ასორტთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Asuretuli.jpg",
-        "alt": {
-          "en": "Asuretuli",
-          "ge": "ასურეთული"
-        }
       }
     },
     {
@@ -1033,13 +943,6 @@
       "description": {
         "en": "White dry Kvevri wine with aromas of dried apricots, dried figs, peaches and spices. Lively, harmonious, balanced. It is recommended to be served with poultry, boiled veal, fish salads, pasta and cheese. ",
         "ge": "თეთრი მშრალი ქვევრის ღვინო, გარგრის ჩირის, ლეღვის ჩირის, ატმის და სანელებლების არომატით. ცოცხალი, ჰარმონიული, დაბალანსებული. რეკომენდირებულია მისი მირთმევა – ფრინველის ხორცთან, მოხარშულ ხბოს ხორცთან, თევზის სალათებთან, პასტასთან და ყველთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Goruli_Mtsvane.jpg",
-        "alt": {
-          "en": "Goruli Mtsvane",
-          "ge": "გორული მწვანე"
-        }
       }
     },
     {
@@ -1059,13 +962,6 @@
       "description": {
         "en": "Red dry cask wine with aromas of blackberries, currants, cherries, black berries and dried black plums. It is recommended to be served with veal, poultry, ham, ham, game, pasta and cheese. ",
         "ge": "წითელი მშრალი კასრის ღვინო, მაყვლის, მოცხარის, ალუბლის, შავი კენკრის და შავი ქლიავის ჩირის არომატებით. რეკომენდირებულია მისი მირთმევა ხბოს ხორცთან, ფრინველის ხორცთან, ლორთან, ხამონთან, ნანადირევთან, პასტასთან და ყველთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Shavkapito.jpg",
-        "alt": {
-          "en": "Shavkapito",
-          "ge": "შავკაპიტო"
-        }
       }
     },
     {
@@ -1085,13 +981,6 @@
       "description": {
         "en": "White dry wine with aromas of quince, pear, peach, caramel and tea. It is recommended to eat it with rabbit meat, poultry meat, white meat and cheese. ",
         "ge": "თეთრი მშრალი ღვინო კომშის, მსხლის, ატმის, კარამელის და ჩაის არომატებით. რეკომენდირებულია მისი მირთმევა კურდღლის ხორცთან, ფრინველის ხორცთან, თეთრ ხორცთან და ყველთან ერთად."
-      },
-      "image": {
-        "url": "/images/wines/Khikhvi.jpg",
-        "alt": {
-          "en": "Khikhvi",
-          "ge": "ხიხვი"
-        }
       }
     },
     {
@@ -1111,13 +1000,6 @@
       "description": {
         "en": "Red semi-sweet wine with aromas of raspberry, berry, blueberry and rosemary. Recommended with rabbit meat, ham, white meat and cottage cheese. ",
         "ge": "წითელი ნახევრად ტკბილი ღვინო ჟოლოს, კენკრის, მოცვის და როზმარინის არომატებით. რეკომენდირებულია მისი მირთმევა კურდღლის ხორცთან, ლორთან, თეთრი ხორცთან და ხაჭოსთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Usakhelouri.jpg",
-        "alt": {
-          "en": "Usakhelouri",
-          "ge": "უსახელოური"
-        }
       }
     },
     {
@@ -1137,13 +1019,6 @@
       "description": {
         "en": "White dry wine with aromas of grapefruit, lemon zest, apple, pear and field flowers. It is recommended to eat it with cheese, fish, seafood, white meat or poultry. ",
         "ge": "თეთრი მშრალი ღვინო, გრეიფუტის, ლიმნის ცედრის, ვაშლის, მსხლის და მინდვრის ყვავილების არომატებით. რეკომენდირებულია მისი მირთმევა ყველთან, თევზთან, ზღვის პროდუქტებთან, თეთრ ხორცთან ან ფრინველის ხორცთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Tsinandali.jpg",
-        "alt": {
-          "en": "Tsinandali",
-          "ge": "წინანდალი"
-        }
       }
     },
     {
@@ -1163,16 +1038,8 @@
       "description": {
         "en": "Red Kvevri dry wine with intense aroma of black berries, dried red fruits and gentle tones of spices. Rich on the palate, full-bodied. It is recommended to be served with spicy meat dishes, tabaca, kupat and red fruit desserts. ",
         "ge": "წითელი ქვევრის მშრალი ღვინო შავი კენკრის, წითელი ხილის ჩირების ინტენსიური არომატით და სანელებლების ნაზი ტონებით. გემოზე მდიდარი, სხეულიანი. რეკომენდირებულია მისი მირთმევა სანელებლებიანი ხორცის კერძებთან, ტაბაკასთან, კუპატთან და წითელი ხილის დესერტებთან. "
-      },
-      "image": {
-        "url": "/images/wines/Ojaleshi.jpg",
-        "alt": {
-          "en": "Ojaleshi",
-          "ge": "ოჯალეში"
-        }
       }
     },
-
     {
       "id": 20,
       "name": {
@@ -1190,14 +1057,13 @@
       "description": {
         "en": "White semi-sweet wine with aromas of quince, melon, pear and peach. It is recommended to eat it with white meat, vegetables, cheese or dessert. ",
         "ge": "თეთრი ნახევრად ტკბილი ღვინო, კომშის, ნესვის, მსხლის და ატმის არომატებით. რეკომენდირებულია მისი მირთმევა თეთრ ხორცთან, ბოსტნეულთან, ყველთან ან დესერტთან ერთად. "
-      },
-      "image": {
-        "url": "/images/wines/Tvishi.jpg",
-        "alt": {
-          "en": "Tvishi",
-          "ge": "ტვიში"
-        }
       }
     }
-  ]
+  ],
+  "en": {
+    "wine-dashboard": "Choose the one you want - White, Red or Both types of wine - in a wide variety of choices and get to know the characteristics."
+  },
+  "ge": {
+    "wine-dashboard": "აირჩიეთ თქვენთვის სასურველი - თეთრი, წითელი ან ორივე ტიპის ღვინო - მრავალფეროვანი არჩევანით და გაეცანით მახასიათებლებს."
+  }
 }
