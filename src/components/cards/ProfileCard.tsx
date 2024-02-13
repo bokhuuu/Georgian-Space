@@ -4,6 +4,7 @@ interface ProfileCardProps {
   type: string;
   region: string;
   description: string;
+  imageURL?: string;
 }
 
 const ProfileCard = ({ name, type, region, description }: ProfileCardProps) => {

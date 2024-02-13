@@ -55,23 +55,6 @@ const DisplayWineList = () => {
             style={{
               width: 80,
               height: 80,
-              backgroundImage: `url(${allWines})`,
-              border: "white solid 3px",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              borderRadius: "30%",
-              outline: "none",
-              cursor: "pointer",
-              opacity: filter === "all" ? 0.7 : 1,
-            }}
-            disabled={filter === "all"}
-            onClick={() => setFilter("all")}
-            className={filter === "all" ? "active" : ""}
-          ></button>
-          <button
-            style={{
-              width: 80,
-              height: 80,
 
               backgroundImage: `url(${whiteWines})`,
               backgroundSize: "cover",
@@ -102,9 +85,25 @@ const DisplayWineList = () => {
             onClick={() => setFilter("Red")}
             className={filter === "red" ? "active" : ""}
           ></button>
+          <button
+            style={{
+              width: 80,
+              height: 80,
+              backgroundImage: `url(${allWines})`,
+              border: "white solid 3px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              borderRadius: "30%",
+              outline: "none",
+              cursor: "pointer",
+              opacity: filter === "all" ? 0.7 : 1,
+            }}
+            disabled={filter === "all"}
+            onClick={() => setFilter("all")}
+            className={filter === "all" ? "active" : ""}
+          ></button>
         </div>
       </div>
-
       <div className="row">
         {filteredWines.map((wine: Wine) => (
           <ProfileCard
