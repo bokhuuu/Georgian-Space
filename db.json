@@ -6,18 +6,15 @@
         "en": "Khachapuri",
         "ge": "ხაჭაპური"
       },
-      "vegetarian": true,
-      "description": {
-        "en": "It is traditionally made with melted cheese, eggs and butter. There are different types of khachapuri and they are made with traditional Georgian sulguni or Imeri cheese. Baking procedures and forms are different. There are two most common varieties: Imerian khachapuri, circular in shape, and Adjarian khachapuri, boat-shaped. ",
-        "ge": "მას ტრადიციულად ამზადებენ გამდნარი ყველით, კვერცხითა და კარაქით. არსებობს ხაჭაპურის სხვადასხვა სახეობა და მზადდება ტრადიციული ქართული სულგუნით ან იმერულ ყველით. გამოცხობის პროცედურები და ფორმები განსხავებულია. ორი ყველაზე გავრცელებული ჯიშია: იმერული ხაჭაპური, წრიული ფორმის, და აჭარული ხაჭაპური ნავის ფორმის. "
+      "vegetarian": {
+        "en": "Yes",
+        "ge": "კი"
       },
-      "image": {
-        "url": "images/dishes/khachapuri.jpg",
-        "alt": {
-          "en": "Khachapuri",
-          "ge": "ხაჭაპური"
-        }
-      }
+      "description": {
+        "en": "Every region has its own khachapuri - the Imerle people bake traditional mother khachapuri with thin dough and bloated cheese, the Megre people put cheese on top of the khachapuri, the Meskhes wrap it in thin layers and serve it to you, the Acharles - in the shape of a boat, with an egg yolk, as if the sun had fallen into the sea. It is made with Georgian sulgun or Imer cheese, sometimes with eggs and butter. ",
+        "ge": "ყველა რეგიონს თავისი ხაჭაპური აქვს - იმერლები ტრადიციულ, დედა ხაჭაპურს აცხობენ, თხელი ცომითა და ბლომად ყველით, მეგრელები ყველს ხაჭაპურს ზემოდანაც აყრიან, მესხები უთხელეს ფენებში ახვევენ და ისე მოგართმევენ, აჭარლები - ნავის ფორმით, კვერცხის გულით, თითქოს ზღვაში ჩავარდნილ მზეს. მზადდება ქართული სულგუნით ან იმერულ ყველით, ზოგჯერ კვერცხით და კარაქითაც. "
+      },
+      "imageURL": "images/dishes/khachapuri.jpg"
     },
     {
       "id": 2,
@@ -25,18 +22,15 @@
         "en": "Mtsvadi",
         "ge": "მწვადი"
       },
-      "vegetarian": false,
-      "description": {
-        "en": "Mtsvadi is a traditional Georgian dish consisting of a skewered shish kebab. Ground pork, mutton, or veal is typically marinated in a mixture of lemon juice, pomegranate juice, tarragon, salt, pepper, and chopped onions, so that it remains tender and juicy when grilled. Mtsvadi is often prepared outdoors over an open fire. It is recommended to serve the dish with tkemali plum sauce, raw onion rings, sliced ​​tomatoes, and pomegranate seeds. ",
-        "ge": "მწვადი ტრადიციული ქართული კერძია, რომელიც შედგება შამფურიანი შიშ ქაბაბისაგან. დაფქული ღორის, ცხვრის ან ხბოს ხორცი ჩვეულებრივ მარინდება ლიმონის წვენის, ბროწეულის წვენის, ტარხუნის, მარილის, წიწაკის და დაჭრილი ხახვის ნარევში, ისე რომ შეწვის დროს ნაზი და წვნიანი დარჩეს. მწვადი ხშირად მზადდება ღია ცის ქვეშ, ღია ცეცხლზე. რეკომენდებულია კერძის მირთმევა ტყემალის ქლიავის სოუსით, უმი ხახვის რგოლებით, დაჭრილი პომიდორთან და ბროწეულის მარცვლებთან ერთად."
+      "vegetarian": {
+        "en": "No",
+        "ge": "არა"
       },
-      "image": {
-        "url": "images/dishes/Mtsvadi.jpg",
-        "alt": {
-          "en": "Mtsvadi",
-          "ge": "მწვადი"
-        }
-      }
+      "description": {
+        "en": "The most popular in Georgia is pork barbecue. They are roasted on vines for a different flavor. Before frying, the meat is marinated in a mixture of lemon juice, pomegranate juice, tarragon, salt, pepper and chopped onion, so that it remains tender and juicy during frying. Barbeque is often cooked outdoors over an open fire. It is recommended to serve the dish with Tkemali, raw onion rings, chopped tomatoes and pomegranate seeds. ",
+        "ge": "ყველაზე პოპულარული საქართველოში ღორის მწვადია. წვავენ ვაზის ნასხლავზე, განსხვავებული არომატისთვის. ხორცი შეწვამდე  მარინდება ლიმონის წვენის, ბროწეულის წვენის, ტარხუნის, მარილის, წიწაკის და დაჭრილი ხახვის ნარევში, ისე რომ შეწვის დროს ნაზი და წვნიანი დარჩეს. მწვადი ხშირად მზადდება ღია ცის ქვეშ, ღია ცეცხლზე. რეკომენდებულია კერძის მირთმევა ტყემალთან ერთად, უმი ხახვის რგოლებით, დაჭრილი პომიდორთან და ბროწეულის მარცვლებთან ერთად."
+      },
+      "imageURL": "images/dishes/Mtsvadi.jpg"
     },
     {
       "id": 3,
@@ -44,18 +38,15 @@
         "en": "Khinkali",
         "ge": "ხინკალი"
       },
-      "vegetarian": false,
-      "description": {
-        "en": "Dumplings are filled with a mixture of pork and beef and spices, then traditionally tied into a knot on top. Regional differences affect the contents, and every corner of Georgia has its own distinctive variant. The traditional recipe has evolved over time and now includes fresh herbs such as cilantro or parsley.",
-        "ge": "პელმენებს ავსებენ ღორისა და საქონლის ხორცისა და სანელებლების ნარევით, შემდეგ კი ტრადიციულად კვანძად იკვრება ზემოდან. რეგიონული განსხვავებები გავლენას ახდენს შiგთავსზე და საქართველოს ყველა კუთხეს აქვს თავისი გამორჩეული ვარიანტი. ტრადიციული რეცეპტი დროთა განმავლობაში განვითარდა და ახლა მოიცავს ახალ მწვანილებს, როგორიცაა კილანტრო ან ოხრახუში. "
+      "vegetarian": {
+        "en": "No",
+        "ge": "არა"
       },
-      "image": {
-        "url": "images/dishes/Khinkali.jpg",
-        "alt": {
-          "en": "Khinkali",
-          "ge": "ხინკალი"
-        }
-      }
+      "description": {
+        "en": "Meat wrapped in dough plates - juicy, aromatic, delicious khinkali is in the top five popular dishes of Georgian cuisine. In general, khinkali is a Georgian mountain dish, but every corner has its own distinctive version. Eating khinkali does not only mean enjoying the taste, but also involves certain techniques. It is important to manage to eat it so that the juicy contents do not spill out.",
+        "ge": "ცომის ფირფიტებში მოხვეული ხორცის ფარში - წვნიანი, არომატული, გემრიელი ხინკალი ქართული სამზარეულოს პოპულარული კერძების პირველ ხუთეულშია. ზოგადად, ხინკალი ქართული მთის კერძია, მაგრამ ყველა კუთხეს აქვს თავისი გამორჩეული ვარიანტი. ხინკლის ჭამა მხოლოდ გემოს სიამოვნებას კი არ გულისხმობს, არამედ გარკვეულ ტექნიკასაც მოიცავს. მნიშვნელოვანია მოახერხოთ მისი ისე მირთმევა, რომ წვნიანი შიგთავსი არ გადმოიღვაროს. "
+      },
+      "imageURL": "images/dishes/Khinkali.jpg"
     },
     {
       "id": 4,
@@ -63,18 +54,15 @@
         "en": "Kharcho",
         "ge": "ხარჩო"
       },
-      "vegetarian": false,
-      "description": {
-        "en": "Kharcho is a delicious Georgian soup that includes beef or chicken, walnuts and rice. It is traditionally seasoned with a mixture of Georgian spices and Tkemali plum sauce. ",
-        "ge": "ხარჩო არის გემრიელი ქართული წვნიანი, რომელშიც შედის საქონლის ან ქათმის ხორცი, ნიგოზი და ბრინჯი. მას ტრადიციულად აზავებენ ქართული სანელებლების ნაზავით და ტყემალის ქლიავის სოუსით. "
+      "vegetarian": {
+        "en": "No",
+        "ge": "არა"
       },
-      "image": {
-        "url": "images/dishes/Kharcho.jpg",
-        "alt": {
-          "en": "Kharcho",
-          "ge": "ხარჩო"
-        }
-      }
+      "description": {
+        "en": "Kharcho is a delicious Georgian soup that includes beef or chicken, walnuts and rice. It is traditionally mixed with a mixture of Georgian spices and Tkemali. Is known for its rich, nutty flavor and aromatic spices, making it a beloved dish in Georgian cuisine. ",
+        "ge": "ხარჩო არის გემრიელი ქართული წვნიანი, რომელშიც შედის საქონლის ან ქათმის ხორცი, ნიგოზი და ბრინჯი. მას ტრადიციულად აზავებენ ქართული სანელებლების ნაზავით და ტყემალი. ცნობილია თავისი მდიდარი, თხილის გემოთი და არომატული სანელებლებით, რაც მას ქართულ სამზარეულოში საყვარელ კერძად აქცევს"
+      },
+      "imageURL": "images/dishes/Kharcho.jpg"
     },
     {
       "id": 5,
@@ -82,37 +70,31 @@
         "en": "Badrijani",
         "ge": "ბადრიჯანი"
       },
-      "vegetarian": true,
-      "description": {
-        "en": "Heavily spiced Georgian dish consisting of eggplant slices that are coated with walnut paste, then shaped into small rolls. The eggplant slices are fried before serving, while the spread is prepared by combining ground walnuts, garlic, and fresh coriander. When served, the assembled rolls are arranged on a plate and topped with pomegranate seeds. ",
-        "ge": "ძლიერად სანელებლებიანი ქართული კერძი, რომელიც შედგება ბადრიჯნის ნაჭრებისგან, რომელსაც აფენენ კაკლის პასტით, შემდეგ კი პატარა რულეტებად აყალიბებენ. ბადრიჯნის ნაჭრები სუფრასთან მიტანის წინ შეწვით, სპრეს კი დაფქული ნიგოზის, ნივრის და ახალი ქინძის შერევით ამზადებენ. მირთმევისას აწყობილ რულეტებს აწყობენ თეფშზე და ზემოდან აყრიან ბროწეულის მარცვლებს. "
+      "vegetarian": {
+        "en": "Yes",
+        "ge": "კი"
       },
-      "image": {
-        "url": "images/dishes/Badrijani.jpg",
-        "alt": {
-          "en": "Badrijani",
-          "ge": "ბადრიჯანი"
-        }
-      }
+      "description": {
+        "en": "A Georgian dish mixed with spices, consisting of eggplant slices, stuffed with walnuts, and then formed into small rolls. Slices of eggplant are roasted and the filling is prepared by mixing ground walnuts, garlic and fresh coriander. Pomegranate seeds are sprinkled on top of the assembled rolls. ",
+        "ge": "სანელებლებით შეზავებული ქართული კერძი, რომელიც შედგება ბადრიჯნის ნაჭრებისგან, რომელსაც ავსებენ კაკლით, შემდეგ კი პატარა რულეტებად აყალიბებენ. ბადრიჯნის ნაჭრები იწვება და შიგთავს კი დაფქული ნიგოზით, ნივრით და ახალი ქინძის შერევით ამზადებენ. აწყობილ რულეტებს ზემოდან აყრიან ბროწეულის მარცვლებს. "
+      },
+      "imageURL": "images/dishes/Badrijani.jpg"
     },
     {
       "id": 6,
       "name": {
-        "en": "Kubdari",
-        "ge": "კუბდარი"
+        "en": "Ajapsandali",
+        "ge": "აჯაფსანდალი"
       },
-      "vegetarian": false,
+      "vegetarian": {
+        "en": "Yes",
+        "ge": "კი"
+      },
       "description": {
-        "en": "It is traditionally filled with beef, pork or a combination of the two, along with spices such as dill, coriander, blue fenugreek, red pepper, onion, garlic and salt. The meat used should be chopped, not minced, and the salt should be local and flavored with special herbs. ",
-        "ge": "ტრადიციულად ივსება საქონლის ხორცით, ღორის ხორცით ან ამ ორის კომბინაციით, სანელებლებთან ერთად, როგორიცა კამა, ქინძი, ლურჯი ფენგრიკი, წითელი წიწაკა, ხახვი, ნიორი და მარილი. გამოყენებული ხორცი უნდა იყოს დაჭრილი და არა დაფქული, მარილი კი ადგილობრივი და არომატიზებული სპეციალური მწვანილებით. "
+        "en": "Ajapsandali is a popular Georgian dish consisting of eggplant, potatoes, tomatoes, onions, bell pepper and spices such as bay leaves, garlic, coriander, black pepper and salt. Vegetables are cooked in oil, but for a short time, so that they do not lose their color and vitamins. ",
+        "ge": "აჯაფსანდალი პოპულარული ქართული კერძია, რომელიც შედგება ბადრიჯნის, კარტოფილის, პომიდვრის, ხახვის, ბულგარული წიწაკის და სანელებლებისგან, როგორიცაა დაფნის ფოთლები, ნიორი, ქინძი, შავი პილპილი და მარილი. ბოსტნეული იხარშება ზეთში, ოღონდ ცოტა ხნით, რომ ფერი და ვიტამინები არ დაკარგოს."
       },
-      "image": {
-        "url": "images/dishes/Kubdari.jpg",
-        "alt": {
-          "en": "Kubdari",
-          "ge": "კუბდარი"
-        }
-      }
+      "imageURL": "images/dishes/Kubdari.jpg"
     },
     {
       "id": 7,
@@ -120,18 +102,15 @@
         "en": "Skhmeruli",
         "ge": "შქმერული"
       },
-      "vegetarian": false,
-      "description": {
-        "en": "It is a traditional chicken dish. Whole chicken, browned on both sides. They mix garlic, butter, milk to make a sauce. The chicken and sauce are traditionally combined in a clay pot called a kets and the dish is baked. ",
-        "ge": "ქათმის ტრადიციული კერძია. მთლიანი ქათამი, შებრაწული ორივე მხრიდან. ურევენ ნიორს, კარაქს, რძეს სოუსის შესაქმნელად. ქათამი და სოუსი ერწყმის ტრადიციულად თიხის ჭურჭელში, რომელსაც კეცი ჰქვია და კერძი ცხვება.  "
+      "vegetarian": {
+        "en": "No",
+        "ge": "არა"
       },
-      "image": {
-        "url": "images/dishes/Skhmeruli.jpg",
-        "alt": {
-          "en": "Shkmeruli",
-          "ge": "შქმერული"
-        }
-      }
+      "description": {
+        "en": "Shkmeruli is from Racha, which has become very popular in Japan, and now it is also sold in the form of semi-finished products in stores. It is fried chicken meat marinated in garlic, milk or sour cream juice, seasoned with salt and pepper. The tastiest is prepared in Ketsi, which is a traditional clay pot. ",
+        "ge": "შქმერული რაჭიდანაა, რომელიც იაპონიაშიც ძალიან პოპულარული გახდა, ახლა უკვე მაღაზიებში ნახევარფაბრიკატის სახითაც იყიდება. ესაა ნივრის, რძის ან არაჟნის წვენში ჩალაგებული ქათმის შემწვარი ხორცი, მარილითა და წიწაკით შენელებული. ყველაზე გემრიელი კეცზე მომზადებული გამოდის, რომელიც ტრადიციული თიხის ჭურჭელია.  "
+      },
+      "imageURL": "images/dishes/Skhmeruli.jpg"
     },
     {
       "id": 8,
@@ -139,18 +118,15 @@
         "en": "Lobio",
         "ge": "ლობიო"
       },
-      "vegetarian": true,
-      "description": {
-        "en": "Beans is a Georgian invention that refers to a wide group of dishes where beans are used as the main ingredient. Most commonly, it's red beans cooked with various spices to create a thick stew that's usually served with mchadi, a traditional Georgian cornbread.  ",
-        "ge": "ლობიო არის ქართული გამოგონება, რომელიც ეხება კერძების ფართო ჯგუფს, სადაც ძირითად ინგრედიენტად ლობიოა გამოყენებული. ყველაზე ხშირად, ეს არის წითელი ლობიო, მოხარშული სხვადასხვა სანელებლებით, სქელი ჩაშუშულის შესაქმნელად, რომელსაც ჩვეულებრივ მიირთმევენ მჭადთან, ტრადიციულ ქართულ სიმინდის პურთან ერთად. "
+      "vegetarian": {
+        "en": "Yes",
+        "ge": "კი"
       },
-      "image": {
-        "url": "images/dishes/Lobio.jpg",
-        "alt": {
-          "en": "Lobio",
-          "ge": "ლობიო"
-        }
-      }
+      "description": {
+        "en": "Beans are a delicious Georgian dish that is prepared in many ways. Most commonly, it's red beans cooked with various spices to create a thick stew that's usually served with mchadi, a traditional Georgian cornbread. There are: beans with tkemli, coated, dry, beans with heart, ham. Pot beans are special, pot is a traditional Georgian clay vessel.  ",
+        "ge": "ლობიო გემირიელი ქართული კერძია, რომელიც მრავალი სახით მზადდება. ყველაზე ხშირად, ეს არის წითელი ლობიო, მოხარშული სხვადასხვა სანელებლებით, სქელი ჩაშუშულის შესაქმნელად, რომელსაც ჩვეულებრივ მიირთმევენ მჭადთან, ტრადიციულ ქართულ სიმინდის პურთან ერთად.  არსებობს: ლობიო ტყემლით, ამოლესილი, მშრალი, ლობიო ქონდრით, ლორით. განსაკუთრებული ქოთნის ლობიოა, ქოთანი ტრადიციული ქართული თიხის ჭურჭელია. "
+      },
+      "imageURL": "images/dishes/Lobio.jpg"
     },
     {
       "id": 9,
@@ -158,18 +134,15 @@
         "en": "Chakapuli",
         "ge": "ჩაქაფული"
       },
-      "vegetarian": true,
-      "description": {
-        "en": "Stew consisting of either beef or lamb meat, unripe sour plums, spring onions, green peppers, white wine, and herbs and seasonings such as tarragon, coriander, garlic, and salt. It is especially popular during spring, when the plums are still unripe. ",
-        "ge": "ჩაშუშული, რომელიც შედგება ძროხის ან ცხვრის ხორცისგან, მოუმწიფებელი მაწონი ქლიავისგან, ხახვისაგან, მწვანე წიწაკის, თეთრი ღვინისა და მწვანილისა და სანელებლებისგან, როგორიცაა ტარხუნა, ქინძი, ნიორი და მარილი. განსაკუთრებით პოპულარულია გაზაფხულზე, როცა ქლიავი ჯერ კიდევ მოუმწიფებელია. "
+      "vegetarian": {
+        "en": "No",
+        "ge": "არა"
       },
-      "image": {
-        "url": "images/dishes/Chakapuli.jpg",
-        "alt": {
-          "en": "Chakapuli",
-          "ge": "ჩაქაფული"
-        }
-      }
+      "description": {
+        "en": "It consists of beef or lamb, unripe Tkemali, onion, green pepper, white wine and herbs and spices such as tarragon, coriander, garlic and salt. It is especially popular in spring, when Tkemali is still immature. ",
+        "ge": "შედგება ძროხის ან ცხვრის ხორცისგან, მოუმწიფებელი ტყემლისგან, ხახვისაგან, მწვანე წიწაკის, თეთრი ღვინისა და მწვანილისა და სანელებლებისგან, როგორიცაა ტარხუნა, ქინძი, ნიორი და მარილი. განსაკუთრებით პოპულარულია გაზაფხულზე, როცა ტყემალი კიდევ მოუმწიფებელია. "
+      },
+      "imageURL": "images/dishes/Chakapuli.jpg"
     },
     {
       "id": 10,
@@ -177,37 +150,31 @@
         "en": "Gebzhalia",
         "ge": "გებჟალია"
       },
-      "vegetarian": true,
+      "vegetarian": {
+        "en": "Yes",
+        "ge": "კი"
+      },
       "description": {
         "en": "Gebzhalia is a favorite dish of all cheese lovers. Originally from Samegrelo, it is mainly made with melted Sulguni cheese. The cheese is melted in milk, mixed with cottage cheese with mint and garlic,it is served cold. ",
         "ge": "გებჟალია ყველა ყველის მოყვარულის საყვარელი კერძია. წარმოშობით სამეგრელოდანაა, ძირითადად სულგუნის მდნარი ყველით მზადდება. ყველი დნება რძეში, ესხმება ხაჭოს ნაზავი პიტნითა და ნიორით, მიირთმევენ ცივად. "
       },
-      "image": {
-        "url": "images/dishes/gebzhalia.jpg",
-        "alt": {
-          "en": "Gebzhalia",
-          "ge": "გებჟალია"
-        }
-      }
+      "imageURL": "images/dishes/gebzhalia.jpg"
     },
     {
       "id": 11,
       "name": {
-        "en": "Kuchmachi",
-        "ge": "კუჭმაჭი"
+        "en": "Chakhokhbili",
+        "ge": "ჩახოხბილი"
       },
-      "vegetarian": false,
+      "vegetarian": {
+        "en": "No",
+        "ge": "არა"
+      },
       "description": {
-        "en": "Made with kidneys, liver, lungs, spleen and chicken, pork and beef. Offal is cooked with butter, onion, garlic and spices such as bay leaves, black pepper, salt and coriander, and some people like to add walnuts for extra flavor. The dish is usually served hot and garnished with pomegranate seeds. ",
-        "ge": "მზადდება თირკმელებით, ღვიძლით, ფილტვებით, ელენთებით და ქათმის, ღორისა და საქონლის ხორცით. სუბპროდუქტებს ამზადებენ კარაქთან, ხახვთან, ნიორთან და სანელებლებთან ერთად, როგორიცაა დაფნის ფოთლები, შავი პილპილი, მარილი და ქინძი, ზოგს კი ნიგოზის დამატება სურს დამატებითი არომატისთვის. კერძს ჩვეულებრივ ცხლად მიირთმევენ და ზემოდან ბროწეულის მარცვლებით აფორმებენ. "
+        "en": "Chakhobili is a traditional Georgian soup made with a whole chicken cut into pieces and mixed with onions, tomatoes, vinegar, garlic and spices such as coriander, parsley, hot green pepper and bay leaf. The stew has a thick consistency and is usually served hot. ",
+        "ge": "ჩახოხბილი არის ტრადიციული ქართული წვნიანი, რომელიც მზადდება მთლიანი ქათმით, რომელიც ნაწილებად იჭრება და ერწყმის ხახვს, პომიდორს, ძმარს, ნიორს და სანელებლებს, როგორიცაა ქინძი, ოხრახუში, ცხარე მწვანე წიწაკა და დაფნის ფოთოლი. ჩაშუშულს სქელი კონსისტენცია აქვს და ჩვეულებრივ მიირთმევენ ცხლად. "
       },
-      "image": {
-        "url": "images/dishes/Kuchmachi.jpg",
-        "alt": {
-          "en": "Kuchmachi",
-          "ge": "კუჭმაჭი"
-        }
-      }
+      "imageURL": "images/dishes/Kuchmachi.jpg"
     },
     {
       "id": 12,
@@ -215,18 +182,15 @@
         "en": "Pkhali",
         "ge": "ფხალი"
       },
-      "vegetarian": true,
-      "description": {
-        "en": "Traditional Georgian dish made with a large number of different leaves such as spinach, beetroot, cabbage, or nettles, although it can also be prepared with nuts and vegetables. The leaves are chopped and minced, then combined with vinegar, garlic, onions, and fresh herbs. This unique mixture is traditionally hand-shaped into balls and garnished with pomegranate seeds.  ",
-        "ge": "ტრადიციული ქართული კერძია, რომელიც მზადდება დიდი რაოდენობით სხვადასხვა ფოთლისგან, როგორიცაა ისპანახი, ჭარხალი, კომბოსტო ან ჭინჭარი, თუმცა მისი მომზადება ასევე შესაძლებელია თხილით და ბოსტნეულით. ფოთლებს ჭრიან და აჭრიან, შემდეგ ურევენ ძმარს, ნიორს, ხახვს და ახალ მწვანილს. ეს უნიკალური ნაზავი ტრადიციულად ხელის ფორმის ბურთულებად არის მორთული და ბროწეულის მარცვლებით მორთული. "
+      "vegetarian": {
+        "en": "Yes",
+        "ge": "კი"
       },
-      "image": {
-        "url": "images/dishes/Pkhali.jpg",
-        "alt": {
-          "en": "Pkhali",
-          "ge": "ფხალი"
-        }
-      }
+      "description": {
+        "en": "It is a traditional Georgian dish made from a large number of different leaves such as spinach, beets, cabbage or nettles, although it can also be prepared with nuts and vegetables. The leaves are chopped and then mixed with vinegar, garlic, onion and fresh herbs. This unique blend is garnished with pomegranate seeds.  ",
+        "ge": "ტრადიციული ქართული კერძია, რომელიც მზადდება დიდი რაოდენობით სხვადასხვა ფოთლისგან, როგორიცაა ისპანახი, ჭარხალი, კომბოსტო ან ჭინჭარი, თუმცა მისი მომზადება ასევე შესაძლებელია თხილით და ბოსტნეულით. ფოთლებს ჭრიან და შემდეგ ურევენ ძმარს, ნიორს, ხახვს და ახალ მწვანილს. ეს უნიკალური ნაზავი ბროწეულის მარცვლებითაა მორთული. "
+      },
+      "imageURL": "images/dishes/Pkhali.jpg"
     }
   ],
   "sauces": [
@@ -1059,11 +1023,5 @@
         "ge": "თეთრი ნახევრად ტკბილი ღვინო, კომშის, ნესვის, მსხლის და ატმის არომატებით. რეკომენდირებულია მისი მირთმევა თეთრ ხორცთან, ბოსტნეულთან, ყველთან ან დესერტთან ერთად. "
       }
     }
-  ],
-  "en": {
-    "wine-dashboard": "Choose the one you want - White, Red or Both types of wine - in a wide variety of choices and get to know the characteristics."
-  },
-  "ge": {
-    "wine-dashboard": "აირჩიეთ თქვენთვის სასურველი - თეთრი, წითელი ან ორივე ტიპის ღვინო - მრავალფეროვანი არჩევანით და გაეცანით მახასიათებლებს."
-  }
+  ]
 }

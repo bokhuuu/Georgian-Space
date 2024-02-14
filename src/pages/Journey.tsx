@@ -76,41 +76,43 @@ const Journey = () => {
         >
           <motion.div className="row gy-2 gy-lg-4 mt-3 mb-5">
             <div className="col-12 col-md-6 col-lg-4">
-              <DashboardCard
-                width="295px"
-                height="370px"
-                content={
-                  <div className="container">
-                    <p>{t("dashboard_header")} </p>
-                    <div className="command-buttons d-flex mt-2 mb-3 gap-3">
-                      <motion.button
-                        type="button"
-                        className="icon-btn btn-primary"
-                        data-bs-toggle="modal"
-                        data-bs-target="#exampleModal"
-                        variants={IconVariants}
-                        whileHover="hover"
-                        style={{
-                          backgroundImage: `url(${formIcon})`,
-                        }}
-                      ></motion.button>
+              <div className="d-flex justify-content-center">
+                <DashboardCard
+                  width="295px"
+                  height="fit-content"
+                  content={
+                    <div className="container">
+                      <p>{t("dashboard_header")} </p>
+                      <div className="command-buttons d-flex mt-2 mb-3 gap-3">
+                        <motion.button
+                          type="button"
+                          className="icon-btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                          variants={IconVariants}
+                          whileHover="hover"
+                          style={{
+                            backgroundImage: `url(${formIcon})`,
+                          }}
+                        ></motion.button>
 
-                      <motion.button
-                        className="icon-btn"
-                        onClick={toggleTheme}
-                        variants={IconVariants}
-                        whileHover="hover"
-                        style={{
-                          backgroundImage: `url(${themeIcon})`,
-                        }}
-                      ></motion.button>
-                      <WeatherSidebarEnable />
+                        <motion.button
+                          className="icon-btn"
+                          onClick={toggleTheme}
+                          variants={IconVariants}
+                          whileHover="hover"
+                          style={{
+                            backgroundImage: `url(${themeIcon})`,
+                          }}
+                        ></motion.button>
+                        <WeatherSidebarEnable />
+                      </div>
+                      <p>{t("dashboard_footer")}</p>
+                      <LanguageToggler />
                     </div>
-                    <p>{t("dashboard_footer")}</p>
-                    <LanguageToggler />
-                  </div>
-                }
-              />
+                  }
+                />
+              </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
               <MainCard

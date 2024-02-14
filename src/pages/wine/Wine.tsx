@@ -1,6 +1,6 @@
 import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
-import DisplayWineList from "./DisplayWineList";
+import DisplayWine from "./DisplayWine";
 import DashboardCard from "../../components/cards/DashboardCard";
 import { AnimatePresence, motion } from "framer-motion";
 import tushetiCover from "../../assets/covers/tusheti.jpg";
@@ -79,8 +79,8 @@ const Wine = () => {
                 </div>
               </div>
             </div>
-            <div className="">
-              <DisplayWineList />
+            <div>
+              <DisplayWine />
             </div>
           </motion.div>
         </motion.section>

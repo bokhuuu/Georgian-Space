@@ -1,13 +1,20 @@
 interface ProfileCardProps {
   key: number;
   name: string;
-  type: string;
-  region: string;
+  type?: string;
+  region?: string;
+  vegetarian?: boolean;
   description: string;
   imageURL?: string;
 }
 
-const ProfileCard = ({ name, type, region, description }: ProfileCardProps) => {
+const ProfileCard = ({
+  name,
+  vegetarian,
+  type,
+  region,
+  description,
+}: ProfileCardProps) => {
   return (
     <div
       className="profile-card card col-12 col-md-6 col-lg-4 col-xl-3 mb-3"
@@ -22,6 +29,7 @@ const ProfileCard = ({ name, type, region, description }: ProfileCardProps) => {
         <h5 className="fw-bolder">{name}</h5>
       </div>
       <div className="card-body">
+        <p className="card-text pt-3">{vegetarian ? "Yes" : "No"}</p>
         <li className="card-text">{type}</li>
         <li className="card-text">{region}</li>
         <p className="card-text pt-3">{description}</p>

@@ -2,6 +2,7 @@ import { QueryClientProvider, QueryClient } from "react-query";
 import WeatherComponent from "./WeatherComponent";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const weatherQueryClient = new QueryClient();
 
@@ -12,6 +13,7 @@ interface WeatherSidebarProps {
 
 function WeatherSidebar({ show, setShow }: WeatherSidebarProps) {
   const handleClose = () => setShow(false);
+  const { t } = useTranslation();
 
   return (
     <QueryClientProvider client={weatherQueryClient}>
@@ -41,7 +43,7 @@ function WeatherSidebar({ show, setShow }: WeatherSidebarProps) {
                     fontWeight: "bolder",
                   }}
                 >
-                  Today's Forecast
+                  {t("offcanvas_title")}
                 </Offcanvas.Title>
               </motion.div>
             </Offcanvas.Header>

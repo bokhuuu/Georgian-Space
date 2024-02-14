@@ -7,7 +7,7 @@ import Culture from "../pages/Culture";
 // import Rave from "../pages/Cuisine";
 import Overview from "../pages/Journey";
 import Wine from "../pages/wine/Wine";
-import Cuisine from "../pages/Cuisine";
+import Cuisine from "../pages/cuisine/Cuisine";
 // import Art from "../../pages/taste/Art";
 // import Literature from "../../pages/taste/Literature";
 // import Poliphony from "../../pages/taste/Poliphony";
