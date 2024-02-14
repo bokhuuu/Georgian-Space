@@ -14,7 +14,7 @@
         "en": "Every region has its own khachapuri - the Imerle people bake traditional mother khachapuri with thin dough and bloated cheese, the Megre people put cheese on top of the khachapuri, the Meskhes wrap it in thin layers and serve it to you, the Acharles - in the shape of a boat, with an egg yolk, as if the sun had fallen into the sea. It is made with Georgian sulgun or Imer cheese, sometimes with eggs and butter. ",
         "ge": "ყველა რეგიონს თავისი ხაჭაპური აქვს - იმერლები ტრადიციულ, დედა ხაჭაპურს აცხობენ, თხელი ცომითა და ბლომად ყველით, მეგრელები ყველს ხაჭაპურს ზემოდანაც აყრიან, მესხები უთხელეს ფენებში ახვევენ და ისე მოგართმევენ, აჭარლები - ნავის ფორმით, კვერცხის გულით, თითქოს ზღვაში ჩავარდნილ მზეს. მზადდება ქართული სულგუნით ან იმერულ ყველით, ზოგჯერ კვერცხით და კარაქითაც. "
       },
-      "imageURL": "images/dishes/khachapuri.jpg"
+      "imageURL": "images/dishes/Khachapuri.jpg"
     },
     {
       "id": 2,
@@ -94,7 +94,7 @@
         "en": "Ajapsandali is a popular Georgian dish consisting of eggplant, potatoes, tomatoes, onions, bell pepper and spices such as bay leaves, garlic, coriander, black pepper and salt. Vegetables are cooked in oil, but for a short time, so that they do not lose their color and vitamins. ",
         "ge": "აჯაფსანდალი პოპულარული ქართული კერძია, რომელიც შედგება ბადრიჯნის, კარტოფილის, პომიდვრის, ხახვის, ბულგარული წიწაკის და სანელებლებისგან, როგორიცაა დაფნის ფოთლები, ნიორი, ქინძი, შავი პილპილი და მარილი. ბოსტნეული იხარშება ზეთში, ოღონდ ცოტა ხნით, რომ ფერი და ვიტამინები არ დაკარგოს."
       },
-      "imageURL": "images/dishes/Kubdari.jpg"
+      "imageURL": "images/dishes/Ajapsandali.jpg"
     },
     {
       "id": 7,
@@ -158,7 +158,7 @@
         "en": "Gebzhalia is a favorite dish of all cheese lovers. Originally from Samegrelo, it is mainly made with melted Sulguni cheese. The cheese is melted in milk, mixed with cottage cheese with mint and garlic,it is served cold. ",
         "ge": "გებჟალია ყველა ყველის მოყვარულის საყვარელი კერძია. წარმოშობით სამეგრელოდანაა, ძირითადად სულგუნის მდნარი ყველით მზადდება. ყველი დნება რძეში, ესხმება ხაჭოს ნაზავი პიტნითა და ნიორით, მიირთმევენ ცივად. "
       },
-      "imageURL": "images/dishes/gebzhalia.jpg"
+      "imageURL": "images/dishes/Gebzhalia.jpg"
     },
     {
       "id": 11,
@@ -171,10 +171,10 @@
         "ge": "არა"
       },
       "description": {
-        "en": "Chakhobili is a traditional Georgian soup made with a whole chicken cut into pieces and mixed with onions, tomatoes, vinegar, garlic and spices such as coriander, parsley, hot green pepper and bay leaf. The stew has a thick consistency and is usually served hot. ",
+        "en": "Chakhokhbili is a traditional Georgian soup made with a whole chicken cut into pieces and mixed with onions, tomatoes, vinegar, garlic and spices such as coriander, parsley, hot green pepper and bay leaf. The stew has a thick consistency and is usually served hot. ",
         "ge": "ჩახოხბილი არის ტრადიციული ქართული წვნიანი, რომელიც მზადდება მთლიანი ქათმით, რომელიც ნაწილებად იჭრება და ერწყმის ხახვს, პომიდორს, ძმარს, ნიორს და სანელებლებს, როგორიცაა ქინძი, ოხრახუში, ცხარე მწვანე წიწაკა და დაფნის ფოთოლი. ჩაშუშულს სქელი კონსისტენცია აქვს და ჩვეულებრივ მიირთმევენ ცხლად. "
       },
-      "imageURL": "images/dishes/Kuchmachi.jpg"
+      "imageURL": "images/dishes/Chakhokhbili.jpg"
     },
     {
       "id": 12,

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useImageURL } from "../../firebase/useImageURL";
 
 interface DishCardProps {
   key: number;
@@ -15,6 +16,7 @@ const DishCard = ({
   description,
 }: DishCardProps) => {
   const { t } = useTranslation();
+  const { fetchedImageURL, error } = useImageURL(imageURL);
 
   return (
     <div
@@ -23,12 +25,27 @@ const DishCard = ({
         border: "white double 1px",
       }}
     >
-      <div
-        className="card-header d-flex justify-content-between align-items-center"
-        style={{ borderBottom: "white solid 1px" }}
-      >
-        <h5 className="fw-bolder">{name}</h5>
-        <img src={imageURL} />
+      <div className="card-header" style={{ borderBottom: "white solid 1px" }}>
+        <div className="d-flex justify-content-start">
+          {error ? (
+            <p>Error: {error.message}</p>
+          ) : (
+            fetchedImageURL && (
+              <img
+                src={fetchedImageURL}
+                style={{
+                  width: "230px",
+                  height: "120px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                }}
+              />
+            )
+          )}
+        </div>
+        <div>
+          <h5 className="fw-bolder">{name}</h5>
+        </div>
       </div>
       <div className="card-body">
         <p className="card-text dish-card-text">

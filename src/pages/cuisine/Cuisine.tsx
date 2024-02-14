@@ -1,8 +1,8 @@
 import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
-import { AnimatePresence, motion } from "framer-motion";
 import DisplayDishes from "../cuisine/DisplayDishes";
+import { AnimatePresence, motion } from "framer-motion";
 import tushetiCover from "../../assets/covers/batumi.jpg";
 
 const dishQueryClient = new QueryClient();
@@ -23,7 +23,7 @@ const containerVariants = {
   },
 };
 
-const Wine = () => {
+const Cuisine = () => {
   const { t } = useTranslation();
 
   return (
@@ -89,4 +89,4 @@ const Wine = () => {
   );
 };
 
-export default Wine;
+export default Cuisine;

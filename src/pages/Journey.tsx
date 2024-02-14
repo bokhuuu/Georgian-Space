@@ -74,12 +74,10 @@ const Journey = () => {
           animate="visible"
           exit="exit"
         >
-          <motion.div className="row gy-2 gy-lg-4 mt-3 mb-5">
+          <motion.div className="row gy-2 gy-lg-4 mt-3">
             <div className="col-12 col-md-6 col-lg-4">
-              <div className="d-flex justify-content-center">
+              <div>
                 <DashboardCard
-                  width="295px"
-                  height="fit-content"
                   content={
                     <div className="container">
                       <p>{t("dashboard_header")} </p>

@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import { storage } from "../firebase";
+import { storage } from "./firebaseConfig";
 import { ref, getDownloadURL } from "firebase/storage";
 
-// Custom hook to retrieve an image URL from Firebase Storage
 export const useImageURL = (imagePath: string) => {
-  const [imageURL, setImageURL] = useState<string | null>(null);
+  const [fetchedImageURL, setFetchedImageURL] = useState<string | null>(null);
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
@@ -12,12 +11,12 @@ export const useImageURL = (imagePath: string) => {
 
     getDownloadURL(imageRef)
       .then((url) => {
-        setImageURL(url);
+        setFetchedImageURL(url);
       })
       .catch((err) => {
         setError(err);
       });
-  }, [imagePath]); // Only re-run the effect if imagePath changes
+  }, [imagePath]);
 
-  return { imageURL, error };
+  return { fetchedImageURL, error };
 };

@@ -4,11 +4,11 @@ import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
+import WineCard from "./WineCard";
 import allWines from "../../assets/pictures/all-wines.jpg";
 import whiteWines from "../../assets/pictures/white-wine.jpg";
 import redWines from "../../assets/pictures/red-wine.jpg";
 import arrowRight from "../../assets/symbols/arrow-right.svg";
-import WineCard from "./WineCard";
 
 interface Wine {
   id: number;

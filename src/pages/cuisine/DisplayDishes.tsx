@@ -4,10 +4,10 @@ import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
+import DishCard from "./DishCard";
 import meatDishes from "../../assets/pictures/meat.jpg";
 import vegetarianDishes from "../../assets/pictures/vegetarian.jpg";
 import allDishes from "../../assets/pictures/all-dishes.jpg";
-import DishCard from "./DishCard";
 import arrowRight from "../../assets/symbols/arrow-right.svg";
 
 interface Dish {
