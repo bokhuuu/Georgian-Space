@@ -9,6 +9,7 @@ import meatDishes from "../../assets/pictures/meat.jpg";
 import vegetarianDishes from "../../assets/pictures/vegetarian.jpg";
 import allDishes from "../../assets/pictures/all-dishes.jpg";
 import arrowRight from "../../assets/symbols/arrow-right.svg";
+import clearX from "../../assets/symbols/clear-x.svg";
 
 interface Dish {
   id: number;
@@ -26,6 +27,7 @@ const fetchDishes = async () => {
 const DisplayDishes = () => {
   const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const {
     data: dishes,
@@ -42,6 +44,16 @@ const DisplayDishes = () => {
     filter === "all"
       ? dishes
       : dishes.filter((dish: Dish) => dish.vegetarian.en === filter);
+
+  const filteredAndSearchedDishes = filteredDishes.filter((dish: Dish) =>
+    t(`${dish.name[i18n.language]}`)
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase())
+  );
+
+  const clearSearchInput = () => {
+    setSearchQuery("");
+  };
 
   return (
     <div className="container">
@@ -64,62 +76,89 @@ const DisplayDishes = () => {
             }
           ></DashboardCard>
         </div>
-        <div className="col gap-2 d-flex justify-content-end align-items-center">
-          <button
-            style={{
-              width: 80,
-              height: 80,
 
-              backgroundImage: `url(${meatDishes})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              border: "white solid 3px",
-              borderRadius: "30%",
-              cursor: "pointer",
-              opacity: filter === "No" ? 0.7 : 1,
-            }}
-            disabled={filter === "No"}
-            onClick={() => setFilter("No")}
-            className={filter === "No" ? "active" : ""}
-          ></button>
-          <button
-            style={{
-              width: 80,
-              height: 80,
-              border: "white solid 3px",
-              backgroundImage: `url(${vegetarianDishes})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              borderRadius: "30%",
-              outline: "none",
-              cursor: "pointer",
-              opacity: filter === "Yes" ? 0.7 : 1,
-            }}
-            disabled={filter === "Yes"}
-            onClick={() => setFilter("Yes")}
-            className={filter === "Yes" ? "active" : ""}
-          ></button>
-          <button
-            style={{
-              width: 80,
-              height: 80,
-              border: "white solid 3px",
-              backgroundImage: `url(${allDishes})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              borderRadius: "30%",
-              outline: "none",
-              cursor: "pointer",
-              opacity: filter === "all" ? 0.7 : 1,
-            }}
-            disabled={filter === "all"}
-            onClick={() => setFilter("all")}
-            className={filter === "all" ? "active" : ""}
-          ></button>
+        <div className="col ">
+          <div className="row gap-2 d-flex justify-content-center justify-content-lg-end align-items-start">
+            <button
+              style={{
+                width: 80,
+                height: 80,
+
+                backgroundImage: `url(${meatDishes})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                border: "white solid 3px",
+                borderRadius: "30%",
+                cursor: "pointer",
+                opacity: filter === "No" ? 0.7 : 1,
+              }}
+              disabled={filter === "No"}
+              onClick={() => setFilter("No")}
+              className={filter === "No" ? "active" : ""}
+            ></button>
+            <button
+              style={{
+                width: 80,
+                height: 80,
+                border: "white solid 3px",
+                backgroundImage: `url(${vegetarianDishes})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                borderRadius: "30%",
+                outline: "none",
+                cursor: "pointer",
+                opacity: filter === "Yes" ? 0.7 : 1,
+              }}
+              disabled={filter === "Yes"}
+              onClick={() => setFilter("Yes")}
+              className={filter === "Yes" ? "active" : ""}
+            ></button>
+            <button
+              style={{
+                width: 80,
+                height: 80,
+                border: "white solid 3px",
+                backgroundImage: `url(${allDishes})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                borderRadius: "30%",
+                outline: "none",
+                cursor: "pointer",
+                opacity: filter === "all" ? 0.7 : 1,
+              }}
+              disabled={filter === "all"}
+              onClick={() => setFilter("all")}
+              className={filter === "all" ? "active" : ""}
+            ></button>
+            <div className="d-flex justify-content-center justify-content-lg-end align-items-center">
+              <input
+                style={{
+                  width: "210px",
+                }}
+                type="text"
+                placeholder={t("search")}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <button
+                className="input-button"
+                onClick={clearSearchInput}
+                style={{
+                  backgroundImage: `url(${clearX})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "25px",
+                  height: "27px",
+                  border: "none",
+                }}
+              ></button>
+            </div>
+          </div>
         </div>
       </div>
+
       <div className="row">
-        {filteredDishes.map((dish: Dish) => (
+        {filteredAndSearchedDishes.map((dish: Dish) => (
           <DishCard
             key={dish.id}
             name={t(`${dish.name[i18n.language]}`)}

@@ -83,7 +83,6 @@ const DisplayWine = () => {
               style={{
                 width: 80,
                 height: 80,
-
                 backgroundImage: `url(${whiteWines})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
