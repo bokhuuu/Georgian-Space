@@ -78,7 +78,7 @@ const DisplayWine = () => {
         </div>
 
         <div className="col ">
-          <div className="row gap-3 d-flex justify-content-end align-items-start">
+          <div className="row gap-2 d-flex justify-content-center justify-content-lg-end align-items-start">
             <button
               style={{
                 width: 80,
@@ -130,11 +130,10 @@ const DisplayWine = () => {
               onClick={() => setFilter("all")}
               className={filter === "all" ? "active" : ""}
             ></button>
-            <div className="d-flex justify-content-end align-items-center">
+            <div className="d-flex justify-content-center justify-content-lg-end align-items-center">
               <input
                 style={{
-                  width: "230px",
-                  background: " ",
+                  width: "210px",
                 }}
                 type="text"
                 placeholder={t("search")}

@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useImageURL } from "../../firebase/useImageURL";
+import { useEffect } from "react";
+import useLocalStorage from "use-local-storage";
 
 interface DishCardProps {
   key: number;
@@ -17,6 +19,16 @@ const DishCard = ({
 }: DishCardProps) => {
   const { t } = useTranslation();
   const { fetchedImageURL, error } = useImageURL(imageURL);
+  const [cachedImage, setCachedImage] = useLocalStorage<string | null>(
+    imageURL,
+    null
+  );
+
+  useEffect(() => {
+    if (fetchedImageURL) {
+      setCachedImage(fetchedImageURL);
+    }
+  }, [fetchedImageURL, setCachedImage]);
 
   return (
     <div
@@ -30,9 +42,10 @@ const DishCard = ({
           {error ? (
             <p>Error: {error.message}</p>
           ) : (
-            fetchedImageURL && (
+            cachedImage && (
               <img
-                src={fetchedImageURL}
+                src={cachedImage}
+                alt={name}
                 style={{
                   width: "230px",
                   height: "120px",
