@@ -48,7 +48,7 @@ export const GlobalStyles = createGlobalStyle`
   cursor: pointer;
 }
 
-.header, .footer, .modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card, .dashboard-card,.profile-card{
+.header, .footer, .modal-content, .sidebar, .sidebar-title, .sidebar-cards,.custom-card, .dashboard-card,.profile-card,.input-button{
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
 }

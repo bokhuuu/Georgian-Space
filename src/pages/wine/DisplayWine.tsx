@@ -9,6 +9,7 @@ import allWines from "../../assets/pictures/all-wines.jpg";
 import whiteWines from "../../assets/pictures/white-wine.jpg";
 import redWines from "../../assets/pictures/red-wine.jpg";
 import arrowRight from "../../assets/symbols/arrow-right.svg";
+import clearX from "../../assets/symbols/clear-x.svg";
 
 interface Wine {
   id: number;
@@ -26,6 +27,7 @@ const fetchWines = async () => {
 const DisplayWine = () => {
   const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const {
     data: wines,
@@ -42,6 +44,16 @@ const DisplayWine = () => {
     filter === "all"
       ? wines
       : wines.filter((wine: Wine) => wine.type.en === filter);
+
+  const filteredAndSearchedWines = filteredWines.filter((wine: Wine) =>
+    t(`${wine.name[i18n.language]}`)
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase())
+  );
+
+  const clearSearchInput = () => {
+    setSearchQuery("");
+  };
 
   return (
     <div className="container">
@@ -64,62 +76,89 @@ const DisplayWine = () => {
             }
           ></DashboardCard>
         </div>
-        <div className="col gap-2 d-flex justify-content-end align-items-center">
-          <button
-            style={{
-              width: 80,
-              height: 80,
 
-              backgroundImage: `url(${whiteWines})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              border: "white solid 3px",
-              borderRadius: "30%",
-              cursor: "pointer",
-              opacity: filter === "White" ? 0.7 : 1,
-            }}
-            disabled={filter === "White"}
-            onClick={() => setFilter("White")}
-            className={filter === "white" ? "active" : ""}
-          ></button>
-          <button
-            style={{
-              width: 80,
-              height: 80,
-              border: "white solid 3px",
-              backgroundImage: `url(${redWines})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              borderRadius: "30%",
-              outline: "none",
-              cursor: "pointer",
-              opacity: filter === "Red" ? 0.7 : 1,
-            }}
-            disabled={filter === "Red"}
-            onClick={() => setFilter("Red")}
-            className={filter === "red" ? "active" : ""}
-          ></button>
-          <button
-            style={{
-              width: 80,
-              height: 80,
-              backgroundImage: `url(${allWines})`,
-              border: "white solid 3px",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              borderRadius: "30%",
-              outline: "none",
-              cursor: "pointer",
-              opacity: filter === "all" ? 0.7 : 1,
-            }}
-            disabled={filter === "all"}
-            onClick={() => setFilter("all")}
-            className={filter === "all" ? "active" : ""}
-          ></button>
+        <div className="col ">
+          <div className="row gap-3 d-flex justify-content-end align-items-start">
+            <button
+              style={{
+                width: 80,
+                height: 80,
+
+                backgroundImage: `url(${whiteWines})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                border: "white solid 3px",
+                borderRadius: "30%",
+                cursor: "pointer",
+                opacity: filter === "White" ? 0.7 : 1,
+              }}
+              disabled={filter === "White"}
+              onClick={() => setFilter("White")}
+              className={filter === "white" ? "active" : ""}
+            ></button>
+            <button
+              style={{
+                width: 80,
+                height: 80,
+                border: "white solid 3px",
+                backgroundImage: `url(${redWines})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                borderRadius: "30%",
+                outline: "none",
+                cursor: "pointer",
+                opacity: filter === "Red" ? 0.7 : 1,
+              }}
+              disabled={filter === "Red"}
+              onClick={() => setFilter("Red")}
+              className={filter === "red" ? "active" : ""}
+            ></button>
+            <button
+              style={{
+                width: 80,
+                height: 80,
+                backgroundImage: `url(${allWines})`,
+                border: "white solid 3px",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                borderRadius: "30%",
+                outline: "none",
+                cursor: "pointer",
+                opacity: filter === "all" ? 0.7 : 1,
+              }}
+              disabled={filter === "all"}
+              onClick={() => setFilter("all")}
+              className={filter === "all" ? "active" : ""}
+            ></button>
+            <div className="d-flex justify-content-end align-items-center">
+              <input
+                style={{
+                  width: "230px",
+                  background: " ",
+                }}
+                type="text"
+                placeholder={t("search")}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <button
+                className="input-button"
+                onClick={clearSearchInput}
+                style={{
+                  backgroundImage: `url(${clearX})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "25px",
+                  height: "27px",
+                  border: "none",
+                }}
+              ></button>
+            </div>
+          </div>
         </div>
       </div>
       <div className="row">
-        {filteredWines.map((wine: Wine) => (
+        {filteredAndSearchedWines.map((wine: Wine) => (
           <WineCard
             key={wine.id}
             type={t(`${wine.type[i18n.language]}`)}
