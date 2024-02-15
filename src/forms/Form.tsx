@@ -5,6 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import useFormCountLocalStorage from "./useFormCountLocalStorage";
 import { motion } from "framer-motion";
 import "./Form.css";
+import { useTranslation } from "react-i18next";
 
 interface FormData {
   name: string;
@@ -40,6 +41,8 @@ const buttonVariants = {
 };
 
 const Form = () => {
+  const { t } = useTranslation();
+
   const {
     register,
     handleSubmit,
@@ -71,29 +74,37 @@ const Form = () => {
         className="form d-flex flex-column"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <label className="mb-1">Name</label>
-        <input {...register("name")} className="mb-1" placeholder="Name..." />
+        <label className="mb-1">{t("form.0.name")}</label>
+        <input
+          {...register("name")}
+          className="mb-1"
+          placeholder={t("form.0.name")}
+        />
         <p>{errors.name?.message}</p>
 
-        <label className="mb-1">Email</label>
-        <input {...register("email")} className="mb-1" placeholder="Email..." />
+        <label className="mb-1">{t("form.0.email")}</label>
+        <input
+          {...register("email")}
+          className="mb-1"
+          placeholder={t("form.0.email")}
+        />
         <p>{errors.email?.message}</p>
 
-        <label className="">Category</label>
+        <label className="">{t("form.0.category")}</label>
         <select {...register("category")} className="mb-2">
           <option value="">---</option>
-          <option value="nature">Nature</option>
-          <option value="culture">Culture</option>
-          <option value="wine">Wine</option>
-          <option value="cuisine">Cuisine</option>
+          <option value="nature">{t("form.0.category_nature")}</option>
+          <option value="culture">{t("form.0.category_culture")}</option>
+          <option value="wine">{t("form.0.category_wine")}</option>
+          <option value="cuisine">{t("form.0.category_cuisine")}</option>
         </select>
         <p>{errors.category?.message}</p>
 
-        <label className="mb-1">Message</label>
+        <label className="mb-1">{t("form.0.message")}</label>
         <textarea
           {...register("message")}
           className="mb-1"
-          placeholder="Share your message (e.g., interesting facts, insights, images, and videos)"
+          placeholder={t("form.0.message_placeholder")}
         />
         <p>{errors.message?.message}</p>
 

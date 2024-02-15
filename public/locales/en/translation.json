@@ -27,5 +27,20 @@
   "dashboard_header": "Fill Form, customize the Theme, check the Weather.",
   "dashboard_footer": "Wish you an interesting trip to the amazing landscapes of Nature, unique Culture, diversity of Gastronomy.",
   "offcanvas_title": "Today's Forecast",
-  "search": "Search"
+  "search": "Search",
+  "form": [
+    {
+      "name": "Name",
+      "name_placeholder": "Name",
+      "email": "Email",
+      "email_placeholder": "Email",
+      "category": "Category",
+      "category_nature": "Nature",
+      "category_culture": "Culture",
+      "category_wine": "Wine",
+      "category_cuisine": "Cuisine",
+      "message": "Message",
+      "message_placeholder": "Share your message (e.g., interesting facts, insights, images, and videos)"
+    }
+  ]
 }
