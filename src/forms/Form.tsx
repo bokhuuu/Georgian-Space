@@ -118,7 +118,7 @@ const Form = () => {
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="form-contribution mt-3 mt-md-3">
-            Contributions:
+            {t("form.0.submission_count")}
             <span
               className="form-count ms-1"
               style={{
@@ -133,7 +133,7 @@ const Form = () => {
 
           <motion.button
             className="btn mt-2"
-            style={{ border: "white solid 1px" }}
+            style={{ border: "white solid 1px", width: "fit-content" }}
             type="submit"
             variants={buttonVariants}
             whileHover={{
@@ -147,7 +147,7 @@ const Form = () => {
               },
             }}
           >
-            Submit
+            {t("form.0.submit_button")}
           </motion.button>
         </div>
       </form>

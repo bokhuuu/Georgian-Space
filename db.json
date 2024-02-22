@@ -193,455 +193,6 @@
       "imageURL": "images/dishes/Pkhali.jpg"
     }
   ],
-  "sauces": [
-    {
-      "id": 1,
-      "name": {
-        "en": "Ajika",
-        "ge": "აჯიკა"
-      },
-      "description": {
-        "en": "Hot and spicy Georgian paste made with hot pepper, garlic, walnuts and fresh herbs and spices such as coriander, basil, dill and marigold leaves. It is most often used as a flavoring agent for various meat and fish dishes, although it can also be used as a hot sauce. Adjika is usually red in color, but can also be green if prepared with unripe peppers. ",
-        "ge": "ცხარე და პიკანტური ქართული პასტა, რომელიც მზადდება ცხარე წიწაკით, ნიორით, ნიგოზით და ახალი მწვანილებით და სანელებლებით, მაგალითად ქინძი, რეჰანი, კამა და მარიგოლდის ფურცლები. იგი ყველაზე ხშირად გამოიყენება როგორც არომატიზატორი სხვადასხვა ხორცისა და თევზის კერძებისთვის, თუმცა ის ასევე შეიძლება გამოვიყენოთ როგორც ცხარე საწებელად. აჯიკა ჩვეულებრივ წითელი ფერისაა, მაგრამ შეიძლება იყოს მწვანეც, თუ მომზადებული მოუმწიფებელი წიწაკით. "
-      },
-      "image": {
-        "url": "/images/sauces/Ajika.jpg",
-        "alt": {
-          "en": "Ajika",
-          "ge": "აჯიკა"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "name": {
-        "en": "Tkemali",
-        "ge": "ტყემალი"
-      },
-      "description": {
-        "en": "A flavorful Georgian sauce made from wild sour plums, sugar, garlic, hot red or green peppers, and herbs such as coriander, parsley, basil, and dill. There are two main types of tkemali: green or red, depending on the type of hot pepper used in its preparation. This delicious sauce is often served with various grilled meat dishes or fried potatoes. ",
-        "ge": "არომატული ქართული სოუსი, რომელიც მზადდება ველური მჟავე ქლიავის, შაქრის, ნივრის, ცხელი წითელი ან მწვანე წიწაკისა და მწვანილისგან, როგორიცაა ქინძი, ოხრახუში, რეჰანი და კამა. ტყემალის ორი ძირითადი სახეობაა: მწვანე ან წითელი, რაც დამოკიდებულია მის მომზადებაში გამოყენებული ცხარე წიწაკის ტიპზე. ამ გემრიელ სოუსს ხშირად უხდება სხვადასხვა შემწვარი ხორცის კერძები ან შემწვარი კარტოფილი. "
-      },
-      "image": {
-        "url": "/images/sauces/tkemali.jpg",
-        "alt": {
-          "en": "Tkemali",
-          "ge": "ტყემალი"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "name": {
-        "en": "Satsebeli",
-        "ge": "საწებელი"
-      },
-      "description": {
-        "en": "It is made with a combination of tomatoes, red bell pepper, garlic, salt, cayenne pepper, and oil. This sauce goes exceptionally well with fried meat, potatoes or eggs. ",
-        "ge": "მზადდება პომიდვრის, წითელი ბულგარული წიწაკის, ნივრის, მარილის, კაიენის წიწაკის და ზეთის კომბინაციით. ეს სოუსი გამორჩეულად უხდება შემწვარ ხორცს, კარტოფილს ან კვერცხს. "
-      },
-      "image": {
-        "url": "/images/sauces/Satsebeli.jpg",
-        "alt": {
-          "en": "Satsebeli",
-          "ge": "საწებელი"
-        }
-      }
-    }
-  ],
-  "cheeses": [
-    {
-      "id": 1,
-      "name": {
-        "en": "Tenili",
-        "ge": "ტენილი"
-      },
-      "description": {
-        "en": "Unique Georgian cheese, which is made in Samtskhe-Javakheti and Kvemo Kartli. It can be made from cow's or sheep's milk, but the most important thing is that the milk has a high percentage of fat. ",
-        "ge": "უნიკალური ქართული ყველია, რომელიც მზადდება სამცხე-ჯავახეთსა და ქვემო ქართლში. მისი დამზადება შესაძლებელია ძროხის ან ცხვრის რძისგან, მაგრამ ყველაზე მნიშვნელოვანი ის არის, რომ რძეში ცხიმის მაღალი პროცენტი იყოს. "
-      },
-      "image": {
-        "url": "/images/cheeses/Tenili.jpg",
-        "alt": {
-          "en": "Tenili",
-          "ge": "ტენილი"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "name": {
-        "en": "Chogi",
-        "ge": "ჩოგი"
-      },
-      "description": {
-        "en": "From Tusheti, is usually made from raw sheep's milk in July and August.",
-        "ge": "თუშური ყველი, როგორც წესი, მზადდება ივლისსა და აგვისტოში ცხვრის მოუხდელი რძისგან. "
-      },
-      "image": {
-        "url": "/images/cheeses/Chogi.jpg",
-        "alt": {
-          "en": "Chogi",
-          "ge": "ჩოგი"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "name": {
-        "en": "Kalti",
-        "ge": "კალტი"
-      },
-      "description": {
-        "en": "This species is common in mountainous regions. Kalti is made from curd and it is somewhat similar to parmesan. ",
-        "ge": "ეს სახეობა მთიან რეგიონებშია გავრცელებული. კალტს ნადუღისგან ამზადებენ და რაღაცით პარმეზანს ჩამოჰგავს. "
-      },
-      "image": {
-        "url": "/images/cheeses/Kalti.jpg",
-        "alt": {
-          "en": "Kalti",
-          "ge": "კალტი"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": {
-        "en": "Kobi",
-        "ge": "კობი"
-      },
-      "description": {
-        "en": "Is made with semi-skimmed or skimmed cow's milk mixed with sheep's milk. ",
-        "ge": "მზადდება ძროხის ნახევრად მოხდილი ან მოხდილი რძით, რომელსაც ცხვრის რძესაც ურევენ. "
-      },
-      "image": {
-        "url": "/images/cheeses/Kobi.jpg",
-        "alt": {
-          "en": "Kobi",
-          "ge": "კობი"
-        }
-      }
-    },
-    {
-      "id": 5,
-      "name": {
-        "en": "Chechili",
-        "ge": "ჩეჩილი"
-      },
-      "description": {
-        "en": "Looks like a big rope, it is prepared in summer, with curdled cow's milk. ",
-        "ge": "გარეგნულად დიდ თოკს ჰგავს, მზადდება ზაფხულში, ძროხის მოხდილი რძით. "
-      },
-      "image": {
-        "url": "/images/cheeses/Chechili.jpg",
-        "alt": {
-          "en": "Chechili",
-          "ge": "ჩეჩილი"
-        }
-      }
-    },
-    {
-      "id": 6,
-      "name": {
-        "en": "Guda",
-        "ge": "გუდა"
-      },
-      "description": {
-        "en": "Is a specific Georgian cheeses, the homeland of which is Tusheti. It is made from sheep's milk and kept in gouda for 20 days. ",
-        "ge": "სპეციფიური ქართული ყველი, რომლის სამშობლოც თუშეთია. კეთდება ცხვრის რძისგან და ინახება გუდაში 20 დღის განმავლობაში. "
-      },
-      "image": {
-        "url": "/images/cheeses/Guda.jpg",
-        "alt": {
-          "en": "Guda",
-          "ge": "გუდა"
-        }
-      }
-    },
-    {
-      "id": 7,
-      "name": {
-        "en": "Dambalkhacho",
-        "ge": "დამბალხაჭო"
-      },
-      "description": {
-        "en": "His homeland is Mtiuleti and Pshavi. Dambalkhacho is a type of moldy cheeses and contains penicillin fungus. However, it differs from the European moldy cheeses in that the Europeans mold the cheeses specially with fungal bacteria, and Dambalkhatcho in a natural way. ",
-        "ge": " მისი სამშობლო მთიულეთი და ფშავია. დამბალხაჭო ობიანი ყველის სახეობაა და პენიცილინის სოკოს შეიცავს. თუმცა ევროპული ობიანი ყველისგან იმით განსხვავდება, რომ ევროპელები ყველს სპეციალურად სოკოს ბაქტერიებით აობებენ, დამბალხაჭოს კი ბუნებრივი გზით. "
-      },
-      "image": {
-        "url": "/images/cheeses/Dambalkhacho.jpg",
-        "alt": {
-          "en": "Dambalkhacho",
-          "ge": "დამბალხაჭო"
-        }
-      }
-    },
-    {
-      "id": 8,
-      "name": {
-        "en": "Narchvi",
-        "ge": "ნარჩვი"
-      },
-      "description": {
-        "en": "From Svaneti. It is made from natural cow's milk. Cheese is ground, salt is added and it is kneaded for a long time until it becomes a homogeneous mass and stored in the dark under special conditions. This process lasts 2 months. ",
-        "ge": "სვანური ყველია. ძროხის ნატურალური რძისგან კეთდება. ყველს ფშვნიან, დაუმატებენ მარილს და იმდენ ხანს ზელენ, სანამ ერთგვაროვან მასად არ იქცევა და სპეციალური პირობებით სიბნელეში ინახავენ. ეს პროცესი 2 თვე გრძელდება. "
-      },
-      "image": {
-        "url": "/images/cheeses/Narchvi.jpg",
-        "alt": {
-          "en": "Narchvi",
-          "ge": "ნარჩვი"
-        }
-      }
-    },
-    {
-      "id": 9,
-      "name": {
-        "en": "Sulguni",
-        "ge": "სულგუნი"
-      },
-      "description": {
-        "en": "Originating from Samegrelo region. It can be made from cow's, buffalo's and goat's milk (rarely), or a combination of the three. The cheese melts easily, so it is often used as a pizza topping, but it can also be added to various salads or pasta dishes. ",
-        "ge": "წარმოშობილი სამეგრელოს რეგიონიდან. მისი დამზადება შესაძლებელია ძროხის, კამეჩების და თხის რძისგან (იშვიათად), ან ამ სამის კომბინაციით. ყველი ადვილად დნება, ამიტომ მას ხშირად იყენებენ როგორც პიცის ტოპინგს, მაგრამ ასევე შეიძლება დაამატოთ სხვადასხვა სალათებში ან მაკარონის კერძებში. "
-      },
-      "image": {
-        "url": "/images/cheeses/Sulguni.jpg",
-        "alt": {
-          "en": "Sulguni",
-          "ge": "სულგუნი"
-        }
-      }
-    }
-  ],
-  "desserts": [
-    {
-      "id": 1,
-      "name": {
-        "en": "Churchkhela",
-        "ge": "ჩურჩხელა"
-      },
-      "description": {
-        "en": "Churchkhela is a dessert made by mixing grapes, flour (corn or bread) and nuts. In the East, the resulting mass of nuts is called Tatara, in which walnuts or dried fruit are added. And in the west, the rising mass is called Felamushi, in which they use nuts. ",
-        "ge": "ჩურჩხელა ყურძენის, ფქვილის (სიმინდის, ან პურის) და თხილეულის შერევით შექმნილი დესერტია. აღმოსავლეთში, თხილეულის ამოსავლებ მასას თათარას უწოდებენ, რომელშიც ავლებენ ნიგოზს, ან ჩირს. დასავლეთში კი ამოსავლებ მასას ფელამუში ჰქვია, რომელშიც თხილს იყენებენ. "
-      },
-      "image": {
-        "url": "/images/desserts/Churchkhela.jpg",
-        "alt": {
-          "en": "Churchkhela",
-          "ge": "ჩურჩხელა"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "name": {
-        "en": "Pelamushi",
-        "ge": "ფელამუში"
-      },
-      "description": {
-        "en": "Dessert made with pressed and condensed grape juice, sugar, and flour. The liquid is gradually heated until it thickens, and it is then poured into serving dishes, bowls, or various molds, in order to create attractive shapes. ",
-        "ge": "დაწნეხილი და შესქელებული ყურძნის წვენით, შაქრით და ფქვილით დამზადებული დესერტი. სითხე თანდათან თბება, სანამ არ შესქელდება, შემდეგ მას ასხამენ კერძებში, თასებში ან სხვადასხვა ფორმებში, რათა შექმნან მიმზიდველი ფორმები. "
-      },
-      "image": {
-        "url": "/images/desserts/Pelamushi.jpg",
-        "alt": {
-          "en": "Pelamushi",
-          "ge": "ფელამუში"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "name": {
-        "en": "Tklapi",
-        "ge": "ტყლაპი"
-      },
-      "description": {
-        "en": "There are different flavors and colors. There is a dark red, a tangy tan, and a brown that is sweet and more palatable to those who don't like sharp flavors. It is made from woodpecker, apple, mulberry, mulberry and many other fruits that may be unimaginable in relation to the tea tree. ",
-        "ge": "არსებობს სხვადასხვა გემოს და ფერის ტყლაპები. არის მუქი წითელი, მომჟავო ტყლაპი და ყავისფერი, რომელიც ტკბილია და უფრო მეტად სასიამოვნო მათთვის, ვისაც მკვეთრი გემო ნაკლებად მოწონს. ის მზადდება, ტყემლის, ვაშლის, ჭანჭურის, თუთის და ბევრი ისეთი ხილისაგან, რომელიც შესაძლოა წარმოუდგენელი იყოს ტყლაპთან მიმართებით. "
-      },
-      "image": {
-        "url": "/images/desserts/Tklapi.jpg",
-        "alt": {
-          "en": "Tklapi",
-          "ge": "ტყლაპი"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": {
-        "en": "Gozinaki",
-        "ge": "გოზინაყი"
-      },
-      "description": {
-        "en": "Is a delicious dessert made with honey and walnuts. It is considered an essential attribute of the New Year's table in Georgia. ",
-        "ge": "უგემრიელესი დესერტი მომზადებული თაფლითა და ნიგოზით. საქართველოში საახალწლო სუფრის აუცილებელ ატრიბუტად ითვლება. "
-      },
-      "image": {
-        "url": "/images/desserts/Gozinaki.jpg",
-        "alt": {
-          "en": "გოზინაყი",
-          "ge": "Gozinaki"
-        }
-      }
-    }
-  ],
-  "mineralWaters": [
-    {
-      "id": 1,
-      "name": {
-        "en": "Borjomi",
-        "ge": "ბორჯომი"
-      },
-      "region": {
-        "en": "Samtskhe-Javakheti",
-        "ge": "სამცხე-ჯავახეთი"
-      },
-      "description": {
-        "en": "It is a mineral water of average mineralization, table, sodium hydrocarbonate, medicinal. Unlike other similar mineral waters, it cannot cool down near the surface of the earth and rises warm (38-41 degrees Celsius), undergoes mineralization and is enriched with 60 different chemical elements, which makes its composition unique. ",
-        "ge": "საშუალო მინერალიზაციის, სუფრის, ნატრიუმის ჰიდროკარბონატული, სამკურნალო მინერალური წყალია. სხვა ანალოგიური მინერალური წყლებისგან განსხვავებით მიწის ზედაპირთან გაცივებას ვერ ასწრებს და თბილი ამოდის (38–41 გრადუსი ცელსიუსით), განიცდის მინერალიზაციას და 60 სხვადასხვა ქიმიური ელემენტით მდიდრდება, რაც მის შემადგენლობას უნიკალურს ხდის."
-      },
-      "benefits": {
-        "en": "This mineral water is used for the treatment of organs of the digestive system, gastrointestinal tract, biliary tract, kidney and other diseases. ",
-        "ge": "ეს მინერალური წყალი საჭმლის მომნელებელი სისტემის ორგანოების, კუჭ-ნაწლავის, სანაღვლე გზების, თირკმლის და სხვა დაავადებების სამკურნალოდ გამოიყენება."
-      }
-    },
-    {
-      "id": 2,
-      "name": {
-        "en": "Nabeglavi",
-        "ge": "ნაბეღლავი"
-      },
-      "region": {
-        "en": "Guria",
-        "ge": "გურია"
-      },
-      "description": {
-        "en": "It is carbonated sodium-calcium table water enriched with carbon dioxide. ",
-        "ge": "ნახშირორჟანგით გამდიდრებული, ჰიდროკარბონატული ნატრიუმ–კალციუმიანი სუფრის წყალია."
-      },
-      "benefits": {
-        "en": "The high content of magnesium ion has a positive effect on the cardiovascular and nervous systems. Thanks to the unique complex of minerals, it perfectly cleanses the body, it is effective in the treatment of diseases of the digestive system and metabolism. ",
-        "ge": "მაგნიუმის იონის მაღალი შემცველობა დადებით გავლენას ახდენს გულ-სისხლძარღვთა და ნერვულ სისტემებზე. მინერალების უნიკალური კომპლექსის წყალობით შესანიშნავად წმენდს ორგანიზმს, ეფექტურია მომნელებელი სისტემის და ნივთიერებათა ცვლის დაავადებების მკურნალობის დროს. "
-      }
-    },
-    {
-      "id": 3,
-      "name": {
-        "en": "Sairme",
-        "ge": "საირმე"
-      },
-      "region": {
-        "en": "Imereti",
-        "ge": "იმერეთი"
-      },
-      "description": {
-        "en": "It is water with hydrocalcium-sodium content of unique chemical composition. ",
-        "ge": "უნიკალური ქიმიური შემადგენლობის ჰიდროკალციუმ-ნატრიუმის შემცველობის წყალია."
-      },
-      "benefits": {
-        "en": "It is useful for metabolism, kidney pathology, problems related to liver and intestines. ",
-        "ge": "სასარგებლოა მეტაბოლიზმის, თირკმელის პათოლოგიის, ღვიძლთან და ნაწლავებთან დაკავშირებული პრობლემისათვის. "
-      }
-    },
-    {
-      "id": 4,
-      "name": {
-        "en": "Lugela",
-        "ge": "ლუგელა"
-      },
-      "region": {
-        "en": "Samegrelo",
-        "ge": "სამეგრელო"
-      },
-      "description": {
-        "en": "It is unique not only in Georgia, but in the whole world. It is a 9.5% calcium chloride mineral water, clear, odorless, with a slightly bitter taste, which does not freeze even at the lowest possible temperature. ",
-        "ge": "უნიკალურია არა მარტო საქართველოში, არამედ მთელ მსოფლიოში. ეს კალციუმის ქლორიდის 9,5%-იანი მინერალური წყალია, გამჭვირვალე, უსუნო, ოდნავ მომწარო გემოთი, რომელიც მაქსიმალურად დაბალ ტემპერატურაზეც არ იყინება. "
-      },
-      "benefits": {
-        "en": "It is used to treat bone system and joint diseases, allergies, nephritis, stomatitis, bleeding and other diseases. ",
-        "ge": "გამოიყენება ძვლოვანი სისტემის და სახსრების დაავადებების, ალერგიის, ნეფრიტების, სტომატიტების, სისხლდენების და სხვა დაავადებების სამკურნალოდ. "
-      }
-    },
-    {
-      "id": 5,
-      "name": {
-        "en": "Zvare",
-        "ge": "ზვარე"
-      },
-      "region": {
-        "en": "Imereti",
-        "ge": "იმერეთი"
-      },
-      "description": {
-        "en": "Mineral water rich in iodine. ",
-        "ge": "იოდით მდიდარი მინერალური წყალი. "
-      },
-      "benefits": {
-        "en": "It is used for the treatment and prevention of diseases of the digestive system, liver, biliary tract, and metabolism. ",
-        "ge": "გამოიყენება მომნელებელი სისტემის, ღვიძლის, სანაღვლე გზების, ნივთიერებათა ცვლის დაავადებების სამკურნალოდ და პროფილაქტიკის მიზნით. "
-      }
-    },
-    {
-      "id": 6,
-      "name": {
-        "en": "Likani",
-        "ge": "ლიკანი"
-      },
-      "region": {
-        "en": "Samtskhe-Javakheti",
-        "ge": "სამცხე-ჯავახეთი"
-      },
-      "description": {
-        "en": "Saturated with chemical elements, moderately contains mineral-ionic complex. Unrepeatable ratio of hydrocarbons, magnesium and calcium. ",
-        "ge": "გაჯერებული ქიმიური ელემენტებით, ზომიერად შეიცავს მინერალურ–იონურ კომპლექსს. ჰიდროკარბონატების, მაგნიუმის და კალციუმის განუმეორებელი თანაფარდობა. "
-      },
-      "benefits": {
-        "en": "It is a good way to heal the body. It is useful for the organs of the digestive system.",
-        "ge": "კარგი საშუალებაა ორგანიზმის გასაჯანსაღებლად. სასარგებლოა საჭმლის მომნელებელი სისტემის ორგანოებისათვის. "
-      }
-    },
-    {
-      "id": 7,
-      "name": {
-        "en": "Mitarbi",
-        "ge": "მიტარბი"
-      },
-      "region": {
-        "en": "Samtskhe-Javakheti",
-        "ge": "სამცხე-ჯავახეთი"
-      },
-      "description": {
-        "en": "Hydrocarbonate calcium-sodium medicinal and table mineral water with carbon dioxide and silicic acid. ",
-        "ge": "ჰიდროკარბონატული კალციუმ-ნატრიუმის სამკურნალო და სუფრის მინერალური წყალი ნახშირორჟანგით და სილიციუმის მჟავით. "
-      },
-      "benefits": {
-        "en": "It is useful for gastritis, colitis, stomach and duodenal ulcer, biliary and urinary tract diseases, metabolic diseases, chronic pancreatitis. ",
-        "ge": "სასარგებლოა გასტრიტის, კოლიტის, კუჭისა და თორმეტგოჯა ნაწლავის წყლულის, ნაღვლმდენი და შარდმდენი გზების დაავადებების, ნივთიერებათა ცვლის დაავადებების, ქრონიკული პანკრეატიტის დროს."
-      }
-    },
-    {
-      "id": 8,
-      "name": {
-        "en": "Dzughuri",
-        "ge": "ძუღური"
-      },
-      "region": {
-        "en": "Racha-Lechkhumi",
-        "ge": "რაჭა-ლეჩხუმი"
-      },
-      "description": {
-        "en": "It is low-mineralized water, so it can be taken instead of ordinary drinking water, compared to other mineral waters. ",
-        "ge": "დაბალმინერალიზებული წყალია, ამიტომ მისი მიღება, სხვა მინერალურ წყლებთან შედარებით, ჩვეულებრივი სასმელი წყლის მაგივრადაც არის შესაძლებელი. "
-      },
-      "benefits": {
-        "en": "It is effective in diabetes, neurosis, overweight, iron deficiency anemia and gout. Regulates the functions of the digestive system. ",
-        "ge": "ეფექტურია დიაბეტის, ნევროზის, ჭარბი წონის, რკინადეფიციტური ანემიისა და პოდაგრის დროს. აწესრიგებს საჭმლის მომნელებელი სისტემის ფუნქციებს. "
-      }
-    }
-  ],
-
   "wines": [
     {
       "id": 1,
@@ -1022,6 +573,329 @@
         "en": "White semi-sweet wine with aromas of quince, melon, pear and peach. It is recommended to eat it with white meat, vegetables, cheese or dessert. ",
         "ge": "თეთრი ნახევრად ტკბილი ღვინო, კომშის, ნესვის, მსხლის და ატმის არომატებით. რეკომენდირებულია მისი მირთმევა თეთრ ხორცთან, ბოსტნეულთან, ყველთან ან დესერტთან ერთად. "
       }
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Tbilisi",
+        "ge": "თბილისი"
+      },
+      "intro": {
+        "en": "Tbilisi is a capital of Georgia, surrounded by hills and mountains.",
+        "ge": "თბილისი საქართველოს დედაქალაქია, გარშემორტყმული ბორცვებითა და მთებით."
+      },
+      "description": {
+        "en": "Tbilisi is characterized by beautiful nature, great history and cultural diversity. It boasts an architectural landscape, you will find ancient churches, castles and traditional Georgian houses with their distinctive wooden balconies. In contrast, the city also has modern structures, including futuristic bridges and skyscrapers. The beauty of the city is Narikala - a fortress that overlooks Tbilisi from the Sololakი ridge,it is one of the most famous and oldest cultural heritage monuments in Georgia. One of the distinctive features of Tbilisi is its sulfur baths. These historic baths are known for their healing properties and have been a part of Georgian culture for centuries.",
+        "ge": "თბილისისთვის დამახასიათებელია ლამაზი ბუნება, დიდი ისტორია და კულტურული მრავალფეროვნება. ის ამაყობს  არქიტექტურული ლანდშაფტით, ნახავთ უძველეს ეკლესიებს, ციხესიმაგრეებს და ტრადიციულ ქართულ სახლებს თავისი გამორჩეული ხის აივნებით. ამის საპირისპიროდ, ქალაქს ასევე აქვს თანამედროვე სტრუქტურები, მათ შორის ფუტურისტული ხიდები და ცათამბჯენები. ქალაქის მშვენებაა ნარიყალა - ციხესიმაგრე, რომელიც სოლოლაკის ქედიდან თბილისს გადმოჰყურებს, ის ერთ-ერთი ყველაზე ცნობილი და უძველესი კულტურული მემკვიდრეობის ძეგლია საქართველოში. თბილისის ერთ-ერთი გამორჩეული თვისება მისი გოგირდის აბანოებია. ეს ისტორიული აბანოები ცნობილია თავისი სამკურნალო თვისებებით და საუკუნეების მანძილზე ქართული კულტურის ნაწილია."
+      },
+      "imageURLs": [
+        "images/locations/Tbilisi_1.jpg",
+        "images/locations/Tbilisi_2.jpg",
+        "images/locations/Tbilisi_3.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Mtskheta",
+        "ge": "მცხეთა"
+      },
+      "intro": {
+        "en": "Mtskheta is the religious capital, the spiritual heart of Georgia.",
+        "ge": "მცხეთა არის რელიგიური დედაქალაქი, ის საქართველოს სულიერი გულია."
+      },
+      "description": {
+        "en": "Mtskheta is a historical, one of the oldest cities in Georgia and it was the capital of the early Georgian kingdom, Iberia. Traces of a 4000-year-old human settlement were found here. It has been recognized by UNESCO as a World Heritage Site, as well as the Svetitskhoveli Cathedral build in 11th century in Mtskheta, the Monastery of Jvari build in 6th-7th centuries and the Samtavro Monastery build in 11th century.",
+        "ge": "მცხეთა ისტორიული, ერთ-ერთი უძველესი ქალაქია საქართველოში და ის ადრეული ქართული სამეფოს, იბერიის დედაქალაქი იყო. აქ 4000 წლის წინანდელი ადამიანთა დასახლების კვალი აღმოაჩინეს. ის აღიარებულია იუნესკოს მიერ მსოფლიო მემკვიდრეობის ძეგლად, ასევე იგივე სტატუსი აქვს მცხეთაში მდებარე მე-XI საკუნიის სვეტიცხოვლის ტაძარი, VI-VII საუკუნის ჯვრის მონასტერი და XI საუკუნის სამთავროს მონასტერი.  "
+      },
+      "imageURLs": [
+        "images/locations/Mtskheta_1.jpg",
+        "images/locations/Mtskheta_2.jpg",
+        "images/locations/Mtskheta_3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Vardzia",
+        "ge": "ვარძია"
+      },
+      "intro": {
+        "en": "Vardzia is a picturesque cave monastery complex.",
+        "ge": "ვარძია არის თვალწარმტაცი გამოქვაბულის სამონასტრო კომპლექსი."
+      },
+      "description": {
+        "en": "The length of the monastery complex of Vardzia is 900 meters, it is divided into floors, which are connected to each other by tunnels. It is one of the most remarkable historical sites of the country and recognized as a UNESCO World Heritage Site, built in the 12th century. Today, 10 floors and 15 rock churches have been preserved. In addition, there are 28 cellars where 235 pitchers were placed. 242 cave rooms have been completely or partially preserved.",
+        "ge": "ვარძიის სამონასტრო კომპლექსის  სიგრძე 900 მეტრია, სიმაღლეში სართულებად არის დაყოფილი, რომლებიც ერთმანეთს გვირაბებით უკავშირდება. ის არის ქვეყნის ერთ-ერთი ყველაზე ღირსშესანიშნავი ისტორიული ადგილი და იუნესკოს მსოფლიო მემკვიდრეობის ძეგლადაა აღიარებული, რომელიც აშენდა XII საუკუნეში. დღეს შემორჩენილია 10 სართული და 15 კლდოვანი ეკლესია. ამასთანავე, აქ შემონახულია 28 მარანი, სადაც 235 ქვევრი იყო განთავსებული. მთლიანად ან ნაწილობრივ გადარჩენილია 242 გამოქვაბული ოთახი."
+      },
+      "imageURLs": [
+        "images/locations/Vardzia_1.jpg",
+        "images/locations/Vardzia_2.jpg",
+        "images/locations/Vardzia_3.jpg"
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": {
+        "en": "Katskhi Pillar",
+        "ge": "კაცხის სვეტი"
+      },
+      "intro": {
+        "en": "Katskhi Pillar is a natural and cultural attraction.",
+        "ge": "კაცხის სვეტი ბუნებრივი და კულტურული ღირსშესანიშნაობაა. "
+      },
+      "description": {
+        "en": "Katskhi Pillar is a 40 meter high limestone monolith. It stands out for its isolated location and the ancient Christian monastery on its summit.",
+        "ge": "კაცხის სვეტი, 40 მეტრი სიმაღლის კირქვის მონოლითია. ის გამოირჩევა თავისი იზოლირებული მდებარეობით და მის მწვერვალზე აღმართული უძველესი ქრისტიანული მონასტრით. "
+      },
+      "imageURLs": [
+        "images/locations/Katskhi_Pillar_1.jpg",
+        "images/locations/Katskhi_Pillar_2.jpg",
+        "images/locations/Katskhi_Pillar_3.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Batumi",
+        "ge": "ბათუმი"
+      },
+      "intro": {
+        "en": "Batumi is a modern city on the coast of the Black Sea.",
+        "ge": "ბათუმი თანამედროვე ქალაქია შავი ზღვის სანაპიროზე. "
+      },
+      "description": {
+        "en": "Batumi is a lively coastal city, it is the main port of the country. It is characterized by ancient history, light and dynamic architecture, a sunny beach, a boulevard, a beautiful botanical garden, famous for its architecture, European squares and amazing sculptures on these squares.",
+        "ge": "ბათუმი არის ცოცხალი სანაპირო ქალაქი, ის წარმოადგენს ქვეყნის მთავარ პორტს.მას ახასიათებს უძველესი ისტორია, მსუბუქი და დინამიური არქიტექტურა, მზიანი სანაპირო, ბულვარი, აქვს ულამაზესი ბოტანიკური ბაღი, ცნობილია არქიტექტურით, ევროპული მოედნებითა და ამ მოედნებზე არსებული საოცარი სკულპტურებით."
+      },
+      "imageURLs": [
+        "images/locations/Batumi_1.jpg",
+        "images/locations/Batumi_2.jpg",
+        "images/locations/Batumi_3.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Kazbegi",
+        "ge": "ყაზბეგი"
+      },
+      "intro": {
+        "en": "Kazbegi is a place surrounded by glaciers and mountains.",
+        "ge": "ყაზბეგი მყინვარწვერებით და მთებით გარშემორტყმული ადგილია."
+      },
+      "description": {
+        "en": "Kazbegi is located in the picturesque mountains. It is located on the Caucasus Range and is known for its stunning natural beauty, rugged landscapes and cultural heritage. Here you will find the Gergeti Trinity Church, located at an altitude of 2170 m, Juta, which is one of the most popular trekking destinations among professional mountaineers. Waterfalls surrounded by volcanic mountains, the ancient population of Truso Valley and many other places of incredible beauty. Here is the Gudauri ski resort, which is the highest mountain sports resort not only in Georgia, but also in Eastern Europe. The height of the lower point of the resort is 1,989 meters.",
+        "ge": "ყაზბეგი განლაგებულია თვალწარმტაც მთებში. იგი მდებარეობს კავკასიონის ქედზე და ცნობილია თავისი განსაცვიფრებელი ბუნებრივი სილამაზით, უხეში პეიზაჟებითა და კულტურული მემკვიდრეობით. აქ ნახავთ  გერგეტის სამების ეკლესიას,რომელიც მდებარეობს 2170 მ სიმაღლეზე, ჯუთას, რომელიც ერთ-ერთი ყველაზე პოპულარული სალაშქრო ადგილია პროფესიონალ მთამსვლელებს შორის. ვულკანურ მთებში მოქცეულ ჩანჩქერებს, თრუსოს ხეობის  უძველეს ნასოფლარს და სხვა მრავალ დაუჯერებელი სილამაზის ადგილს. აქვეა, სათხილამურო კურორტი გუდაური, რომელიც სპორტის ყველაზე მაღალი მთის კურორტია არა მხოლოდ საქართველოში, მთელ აღმოსავლეთ ევროპაში. კურორტის ქვედა წერტილის სიმაღლე ზღვის დონიდან 1989 მეტრია."
+      },
+      "imageURLs": [
+        "images/locations/Gergeti.jpg",
+        "images/locations/Truso.jpg",
+        "images/locations/Gudauri.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Tusheti",
+        "ge": "თუშეთი"
+      },
+      "intro": {
+        "en": "Tusheti is one of the most beautiful and charming regions of Georgia.",
+        "ge": "თუშეთი საქართველოს ერთ-ერთი ულამაზესი და მომხიბვლელი მხარეა."
+      },
+      "description": {
+        "en": "Tusheti is a remote and mountainous region located in the Caucasus Mountains. It is known for its rugged landscapes, pristine natural beauty and unique cultural heritage. Tusheti is distinguished by remote villages, alpine meadows, high peaks and traditional way of life. Bochorna village is located in Tusheti, which is the highest settlement in Europe.",
+        "ge": "თუშეთი შორეული და მთიანი რეგიონია, რომელიც მდებარეობს კავკასიონის მთებში. იგი ცნობილია თავისი უხეში პეიზაჟებით, ხელუხლებელი ბუნებრივი სილამაზითა და უნიკალური კულტურული მემკვიდრეობით. თუშეთი გამოირჩევა შორეული სოფლებით, ალპური მდელოებით, ამაღლებული მწვერვალებითა და ტრადიციული ცხოვრების წესით. თუშეთში მდებარეობს სოფელი ბოჭორნა, რომელიც ევროპის მასშტაბით ზღვის დონიდან ყველაზე მაღლა მდებარე დასახლებული პუნქტია. "
+      },
+      "imageURLs": [
+        "images/locations/Tusheti_1.jpg",
+        "images/locations/Tusheti_2.jpg",
+        "images/locations/Tusheti_3.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "Svaneti",
+        "ge": "სვანეთი"
+      },
+      "intro": {
+        "en": "Svaneti is a picturesque mountainous region.",
+        "ge": "სვანეთი თვალწარმტაცი მთიანი რეგიონია."
+      },
+      "description": {
+        "en": "Svaneti lies in the middle of the Caucasus mountains. It is known for its stunning natural landscapes, ancient villages and rich cultural heritage. It is characterized by alpine meadows, rocks, peaks, waterfalls and beautiful alpine lakes. One of its main sights is the colorful ethnographic Svan towers. Mestia ski resorts - On Hatsvali and Tetnuldi - you will have an unforgettable winter vacation. Ushguli is a village, which is one of the highest settlements in Europe, at an altitude of about 2200 m above sea level.",
+        "ge": "სვანეთი კავკასიონის მთების შუაგულში მდეაბარეობს. იგი ცნობილია თავისი განსაცვიფრებელი ბუნებრივი პეიზაჟებით, უძველესი სოფლებით და მდიდარი კულტურული მემკვიდრეობით.ახასიათებს ალპური მდელოები, კლდეები, მწვერვალები, ჩანჩქერები თუ ულამაზესი ალპური ტბები. მისი ერთ-ერთი მთავარი სანახაობა ეთნოგრაფიული კოლორიტი სვანური კოშკებია. მესტიის სათხილამურო კურორტებზე - ჰაწვალსა და თეთნულდზე - დაუვიწყარ ზამთრის დასვენებას მოიწყობთ. უშგული კი სოფელია,რომელიც ევროპის ერთ-ერთი ყველაზე მაღალი დასახლებული პუნქტია, ზღვის დონიდან დაახლოებით 2200 მ სიმაღლეზე."
+      },
+      "imageURLs": [
+        "images/locations/Svaneti_1.jpg",
+        "images/locations/Svaneti_2.jpg",
+        "images/locations/Svaneti_3.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "Martvili Canyon",
+        "ge": "მარტვილის კანიონი"
+      },
+      "intro": {
+        "en": "Martville Canyon is a small oasis of emerald mossy trees.",
+        "ge": "მარტვილის კანიონი არის ზურმუხტისფერი ხავსიანი ხეების პატარა ოაზისი."
+      },
+      "description": {
+        "en": "Martville Canyon is a spectacular natural wonder known for its stunning natural beauty, turquoise waters and dramatic limestone cliffs. It is a canyon cut valley. The length of the canyon is 2400 m, there you will meet 70 m high rock walls, cascading waterfalls and turquoise-blue natural pools. There are also bridges, viewing platforms, a historic staircase built from large limestone boulders.",
+        "ge": "მარტვილის კანიონი არის თვალწარმტაცი ბუნებრივი საოცრება, იგი ცნობილია თავისი განსაცვიფრებელი ბუნებრივი სილამაზით, ფირუზისფერი წყლებით და დრამატული კირქვის კლდეებით. ის წარმოადგენს კანიონისებურად გაჭრილ ხეობას. კანიონის სიგრძე 2400 მ-ია, იქ შეხვდებით 70 მეტრის სიმაღლის კლდის კედლებს, კასკადური ჩანჩქერებს და ფირუზისფერ-ლურჯ ბუნებრივ აუზებს. ასევე არის ხიდები, გადასახედი პლატფორმები, კირქვის დიდი ლოდებისგან აშენებული ისტორიული კიბე."
+      },
+      "imageURLs": [
+        "images/locations/Martvili_Canyon_1.jpg",
+        "images/locations/Martvili_Canyon_2.jpg",
+        "images/locations/Martvili_Canyon_3.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "Pshav-Khevsureti",
+        "ge": "ფშავ-ხევსურეთი"
+      },
+      "intro": {
+        "en": "Pshav-Khevsureti is located in the Caucasus Mountains.",
+        "ge": "ფშავ-ხევსურეთი მდებარეობს კავკასიონის მთებში. "
+      },
+      "description": {
+        "en": "Pshav-Khevsureti includes the historical areas of Pshav and Khevsureti, which are known for their unique cultural heritage, traditional way of life and stunning natural scenery. This area is characterized by interesting mountain landscapes, natural formations and beautiful old villages, one of which is Shatili, which is a medieval fortress. It is a village surrounded by huge green mountains.",
+        "ge": "ფშავ-ხევსურეთი მოიცავს ფშავისა და ხევსურეთის ისტორიულ ტერიტორიებს, რომლებიც ცნობილია უნიკალური კულტურული მემკვიდრეობით, ტრადიციული ცხოვრების წესით და განსაცვიფრებელი ბუნებრივი პეიზაჟებით.ეს ადგილი გამორჩეულია მთისთვის დამახასიათებელი საინტერესო ლანდშაფტებით, ბუნებრივი წარმონაქმნებით და ულამაზესი ძველი სოფლებით, ერთ-ერთია შატილი,რომელიც  შუა საუკუნეების ციხე-სიმაგრე სოფელია, რომელიც გარშემორტყმულია უზარმაზარი მწვანე მთებით."
+      },
+      "imageURLs": [
+        "images/locations/Khevsureti.jpg",
+        "images/locations/Omalo.jpg",
+        "images/locations/Shatili.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "Prometheus Cave",
+        "ge": "პრომეთეს მღვიმე"
+      },
+      "intro": {
+        "en": "Prometheus Cave is a spectacular natural wonder.",
+        "ge": "პრომეთეს მღვიმე ბუნების თვალწარმტაცი საოცრებაა."
+      },
+      "description": {
+        "en": "Prometheus is an impressive cave system 1.8 km long and 40m below the ground, known for its stunning underground landscapes, rock formations and underground rivers. Here the history of 60-70 million years ago comes alive and you witness the amazing creations of nature. A total of 22 halls were discovered in the cave, it is possible to walk a 1420-meter-long path, visit the halls, and take a boat tour on the flowing stream of the river.",
+        "ge": "პრომეთე არის 1,8 კმ სიგრძის და მიწის ზედაპირიდან 40 მ-ის სიღრმეში წარმოქმნილი შთამბეჭდავი გამოქვაბულის სისტემა, რომელიც ცნობილია თავისი განსაცვიფრებელი მიწისქვეშა პეიზაჟებით, კლდოვანი წარმონაქმნებითა და მიწისქვეშა მდინარეებით. აქ ცოცხლდება 60-70 მილიონი წლის წინანდელი ისტორია და ბუნების გასაოცარი შემოქმედების მომსწრე ხდები. მღვიმეში სულ აღმოჩენილია 22 დარბაზი, მღვიმეში შესაძლებელია 1420 მეტრი სიგრძის ბილიკის გავლა, დარბაზების დათვალიერება და სანაოსნო ტურით გასეირნება მდინარის გამდინარე ნაკადზე."
+      },
+      "imageURLs": [
+        "images/locations/Prometheus_Cave_1.jpg",
+        "images/locations/Prometheus_Cave_2.jpg",
+        "images/locations/Prometheus_Cave_3.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": {
+        "en": "Okatse Canyon",
+        "ge": "ოკაცეს კანიონი"
+      },
+      "intro": {
+        "en": "Okatse Canyon is a stunning natural attraction.",
+        "ge": "ოკაცეს კანიონი განსაცვიფრებელი ბუნებრივი ღირსშესანიშნაობაა."
+      },
+      "description": {
+        "en": "Okatse Canyon is famous for its picturesque scenery, lush greenery and impressive waterfall. In addition to the river, high mountains and greenery, here you will find abundant waterfalls and beautiful lakes. The walking route will pass through the historical forest-park and a 780 m long side path and ends with a panoramic view.",
+        "ge": "ოკაცეს კანიონი ცნობილია თავისი თვალწარმტაცი პეიზაჟებით, აყვავებული გამწვანებით და შთამბეჭდავი ჩანჩქერით.მდინარის, მაღალი მთებისა და სიმწვანის გარდა, აქ წყალუხვი ჩანჩქერები და ულამაზესი ტბებიც შეგხვდება. საფეხმავლო მარშრუტი ისტორიულ ტყე-პარკსა და 780 მ სიგრძის კიდულ ბილიკს გაივლის და პანორამული გადასახედით სრულდება."
+      },
+      "imageURLs": [
+        "images/locations/Okatse_1.jpg",
+        "images/locations/Okatse_2.jpg",
+        "images/locations/Okatse_3.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": {
+        "en": "Bahkmaro",
+        "ge": "ბახმარო"
+      },
+      "intro": {
+        "en": "Bakhmaro is a charming mountain resort.",
+        "ge": "ბახმარო მომხიბვლელი სამთო კურორტია."
+      },
+      "description": {
+        "en": "Bakhmaro is located at an altitude of about 2000 meters above sea level, it is known for its stunning alpine landscapes, fresh mountain air and untouched natural beauty. Therefore, it has natural healing properties. The resort is surrounded spruce and sochi forests.",
+        "ge": "ბახმარო ზღვის დონიდან დაახლოებით 2000 მეტრზე სიმაღლეზე მდებარეობს, ცნობილია თავისი განსაცვიფრებელი ალპური პეიზაჟებით, მთის სუფთა ჰაერით და ხელუხლებელი ბუნებრივი სილამაზით.აქ ზღვისა და მთის ჰაერი ერთმანეთს ერწყმის,რაც ქმნის უნიკალურ გარემოს. შესაბამისად, აქვს ბუნებრივი სამკურნალო თვისებები. კურორტი გარშემორტყმულია ნაძვისა მარადმწვანე ტყეებით."
+      },
+      "imageURLs": [
+        "images/locations/Bahkmaro_1.jpg",
+        "images/locations/Bahkmaro_2.jpg",
+        "images/locations/Bahkmaro_3.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": {
+        "en": "Gomismta",
+        "ge": "გომისმთა"
+      },
+      "intro": {
+        "en": "Gomismta is a place of picturesque landscapes.",
+        "ge": "გომისმთა თვალწარმტაცი პეიზაჟების ადგილია. "
+      },
+      "description": {
+        "en": "From Gomismta the beautiful nature of Kolkhi can be seen. This place is distinguished by its natural and climatic conditions with healing properties, which is determined by the combination of sea and mountain air. It is surrounded by spruce and sochi forests, rich in mineral waters and other natural resources. Gomismta has one secret - the clouds are not above it, but below it.",
+        "ge": "გომისმთიდან ულამაზესი კოლხური ბუნება იშლება.ეს ადგილი გამორჩეულია სამკურნალო თვისებების მქონე ბუნებრივ-კლიმატური პირობებით, რასაც ზღვისა და მთის ჰაერის შერწყმა განაპირობებს.გარშემორტყმულია ნაძვისა და სოჭის ტყეებით, მდიდარია მინერალური წყლებითა და სხვა ბუნებრივი რესურსებით. გომისმთას ერთი საიდუმლო აქვს - ღრუბლები არა მის თავზე, არამედ მის ქვეშაა."
+      },
+      "imageURLs": [
+        "images/locations/Gomismta_1.jpg",
+        "images/locations/Gomismta_2.jpg",
+        "images/locations/Gomismta_3.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": {
+        "en": "Sataplia",
+        "ge": "სათაფლია"
+      },
+      "intro": {
+        "en": "Sataplia is a natural reserve and a cave.",
+        "ge": "სათაფლია შესანიშნავი ბუნებრივი ნაკრძალი და მღვიმეა."
+      },
+      "description": {
+        "en": "The Sataplia reserve is complex in nature and contains geological, paleontological, speleological, zoological and botanical monuments. It is known for its unique geological features, including caves, dinosaur footprints and lush forested landscapes. In addition to dinosaur footprints, here you can see the Colchian forest, panoramic views, a karst cave of fabulous beauty.",
+        "ge": "სათაფლიის ნაკრძალი კომპლექსური ხასიათისაა და შეიცავს გეოლოგიურ, პალეონტოლოგიურ, სპელეოლოგიურ, ზოოლოგიურ და და ბოტანიკურ ძეგლებს. იგი ცნობილია თავისი უნიკალური გეოლოგიური მახასიათებლებით, მათ შორის გამოქვაბულებით, დინოზავრების ნაკვალევითა და აყვავებულ ტყიანი პეიზაჟებით. დინოზავრის ნაკვალევის გარდა, აქ შეგიძლია ნახო კოლხური ტყე, პანორამული გადასახედები, ზღაპრული სილამაზის კარსტული მღვიმე."
+      },
+      "imageURLs": [
+        "images/locations/Sataplia_1.jpg",
+        "images/locations/Sataplia_2.jpg",
+        "images/locations/Sataplia_3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Uplistsikhe",
+        "ge": "უფლისციხე"
+      },
+      "intro": {
+        "en": "Uplistsikhe is an ancient rock-cut city.",
+        "ge": "უფლისციხე უძველესი კლდეში ნაკვეთი ქალაქია. "
+      },
+      "description": {
+        "en": "The city carved in the wall of Uplistsikhi is more than 3000 years old, it is one of the oldest urban settlements in Georgia and is known for its unique architecture and historical significance. The cave city covers an area of ​​almost 40,000 m2 and had an apothecary, a bakery, an amphitheater and even a prison. All buildings are connected by tunnels. On top of the whole complex is a church built in the 9th century.",
+        "ge": "უფლისციხის კდლეში ნაკვეთი ქალაქი 3000-ზე მეტი წლისაა, ის საქართველოს ერთ-ერთი უძველესი ურბანული დასახლებაა და ცნობილია თავისი უნიკალური არქიტექტურითა და ისტორიული მნიშვნელობით. გამოქვაბულების ქალაქი მოიცავს თითქმის 40000 მ2 ფართობს და მას ჰქონდა აფთიაქი, თონე, ამფითეატრი და ციხეც კი. ყველა ნაგებობა დაკავშირებულია გვირაბებით.მთელი კომპლექსის თავზე არის ეკლესია, რომელიც აშენდა მე-9 საუკუნეში. "
+      },
+      "imageURLs": [
+        "images/locations/Uplistsikhe_1.jpg",
+        "images/locations/Uplistsikhe_2.jpg",
+        "images/locations/Uplistsikhe_3.jpg"
+      ]
     }
   ]
 }

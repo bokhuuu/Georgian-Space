@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Form from "./Form";
 import { motion } from "framer-motion";
 
@@ -11,6 +12,8 @@ const buttonVariants = {
 };
 
 const FormModal = () => {
+  const { t } = useTranslation();
+
   return (
     <div
       className="modal fade"
@@ -31,7 +34,7 @@ const FormModal = () => {
               id="exampleModalLabel"
             ></h1>
             <motion.button
-              style={{ border: "white solid 1px" }}
+              style={{ border: "white solid 1px", width: "fit-content" }}
               type="button"
               className="btn"
               data-bs-dismiss="modal"
@@ -49,7 +52,7 @@ const FormModal = () => {
                 },
               }}
             >
-              Close
+              {t("form.0.close_button")}
             </motion.button>
           </div>
           <div className="modal-body">

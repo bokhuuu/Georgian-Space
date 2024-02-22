@@ -9,40 +9,39 @@ interface MainCardProps {
 
 const MainCard = ({ title, content }: MainCardProps) => {
   return (
-    <>
-      <div
-        className="custom-card card border-2 mb-3"
-        style={{
-          opacity: 0.9,
-          height: "370px",
-          overflowY: "auto",
-          position: "relative",
-        }}
-      >
-        <div className="card-body">
-          <StyledMainCardTitle
-            className="card-title text-center"
-            animate={{
-              scaleX: 1.05,
-              textShadow: "0px 0px 20px rgb(255,255,255)",
-              boxShadow: "0px 0px 20px rgb(255,255,255)",
-              transition: {
-                duration: 2,
-                repeat: 1,
-                repeatType: "mirror",
-              },
-            }}
-          >
-            {title}
-          </StyledMainCardTitle>
-          <StyledMainCardContent className="card-body">
-            {content}
-          </StyledMainCardContent>
-        </div>
+    <StyledMainCard
+      className="custom-card card border-2"
+      style={{ height: "322px", marginBottom: "10px" }}
+    >
+      <div className="card-body">
+        <StyledMainCardTitle
+          className="card-title text-center"
+          animate={{
+            scaleX: 1.05,
+            textShadow: "0px 0px 20px rgb(255,255,255)",
+            boxShadow: "0px 0px 20px rgb(255,255,255)",
+            transition: {
+              duration: 2,
+              repeat: Infinity,
+              repeatType: "mirror",
+            },
+          }}
+        >
+          {title}
+        </StyledMainCardTitle>
+        <StyledMainCardContent className="card-body">
+          {content}
+        </StyledMainCardContent>
       </div>
-    </>
+    </StyledMainCard>
   );
 };
+
+const StyledMainCard = styled.div`
+  opacity: 0.9;
+  position: "relative";
+  overflow-y: auto;
+`;
 
 const StyledMainCardTitle = styled(motion.h6)`
   display: flex;
@@ -51,7 +50,7 @@ const StyledMainCardTitle = styled(motion.h6)`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   font-weight: bolder;
-  border: white solid 2px;
+  /* border: white solid 1px; */
   position: sticky;
   top: 1px;
   padding: 5px;

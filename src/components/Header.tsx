@@ -5,7 +5,7 @@ import Brand from "./Brand.tsx";
 import CommandBar from "./CommandBar.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import logoIcon from "../assets/icons/logoIcon.jpg";
+import logoIcon from "../assets/icons/logo.jpg";
 
 const headerVariants = {
   hidden: {
@@ -58,7 +58,7 @@ const StyledHeader = styled.header`
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 `;
 
-const StyledLogoIcon = styled(motion.img)`
+export const StyledLogoIcon = styled(motion.img)`
   width: 80px;
   height: 80px;
   border-radius: 40px;

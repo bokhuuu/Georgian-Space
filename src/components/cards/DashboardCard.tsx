@@ -1,25 +1,29 @@
+import styled from "styled-components";
+
 interface DashboardCardProps {
-  width?: string;
-  height?: string;
+  title?: string;
   content: React.ReactNode;
   className?: string;
 }
 
-const DashboardCard = ({ width, height, content }: DashboardCardProps) => {
+const DashboardCard = ({ title, content }: DashboardCardProps) => {
   return (
-    <div
-      className="dashboard-card card border-2 mb-3 fw-bolder"
-      style={{
-        opacity: 0.9,
-        width: width,
-        height: height,
-        overflowY: "auto",
-        position: "relative",
-      }}
-    >
+    <StyledDashboard className="dashboard-card card border-2">
+      {title}
       <div className="card-body">{content}</div>
-    </div>
+    </StyledDashboard>
   );
 };
+
+const StyledDashboard = styled.div`
+  opacity: 0.9;
+  position: "relative";
+  overflow-y: auto;
+  margin-bottom: 10px;
+  /* Apply specific height for small screens */
+  @media (max-width: 767px) {
+    height: 300px; /* Adjust the height as needed */
+  }
+`;
 
 export default DashboardCard;

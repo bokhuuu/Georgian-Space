@@ -23,7 +23,7 @@ const WineCard = ({ name, type, region, description }: WineCardProps) => {
       <div className="card-body">
         <li className="card-text">{type}</li>
         <li className="card-text">{region}</li>
-        <p className="card-text pt-3">{description}</p>
+        <p className="card-text pt-3 fw-light">{description}</p>
       </div>
     </div>
   );

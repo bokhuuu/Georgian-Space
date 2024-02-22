@@ -40,10 +40,10 @@ const AppNavigation = () => {
 
   const AppNavigationLinkList = [
     { to: "/", label: "Journey" },
-    { to: "nature", label: "Nature" },
     { to: "culture", label: "Culture" },
     { to: "wine", label: "Wine" },
     { to: "cuisine", label: "Cuisine" },
+    { to: "nature", label: "Nature" },
   ];
 
   return (

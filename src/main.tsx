@@ -5,15 +5,17 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import useThemeLocalStorage from "./themes/useThemeLocalStorage.ts";
 import { themes } from "./themes/ThemeToggler.tsx";
-import { I18nextProvider } from "react-i18next";
+import { I18nextProvider, useTranslation } from "react-i18next";
 import i18n from "./i18next/i18n.ts";
 import { GlobalStyles } from "./styles/GlobalStyles.tsx";
 import App from "./App.tsx";
-
-// const queryClient = new QueryClient();
+// import { useEffect } from "react";
 
 const AppWrapper = () => {
   const { currentTheme } = useThemeLocalStorage();
+  const { t } = useTranslation();
+
+  document.title = t("app_title");
 
   return (
     // <QueryClientProvider client={queryClient}>

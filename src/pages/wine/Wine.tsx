@@ -1,11 +1,9 @@
 import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
-import DisplayWine from "./DisplayWine";
+import DisplayWine from "./DisplayWines";
 import DashboardCard from "../../components/cards/DashboardCard";
 import { AnimatePresence, motion } from "framer-motion";
 import tushetiCover from "../../assets/covers/tusheti.jpg";
-
-const winesQueryClient = new QueryClient();
 
 const containerVariants = {
   hidden: {
@@ -23,12 +21,14 @@ const containerVariants = {
   },
 };
 
+const winesQueryClient = new QueryClient();
+
 const Wine = () => {
   const { t } = useTranslation();
 
   return (
-    <QueryClientProvider client={winesQueryClient}>
-      <AnimatePresence>
+    <AnimatePresence>
+      <QueryClientProvider client={winesQueryClient}>
         <motion.section
           className="background-section"
           initial={{ opacity: 0 }}
@@ -84,8 +84,8 @@ const Wine = () => {
             </div>
           </motion.div>
         </motion.section>
-      </AnimatePresence>
-    </QueryClientProvider>
+      </QueryClientProvider>
+    </AnimatePresence>
   );
 };
 

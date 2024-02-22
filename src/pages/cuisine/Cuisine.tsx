@@ -3,9 +3,7 @@ import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
 import DisplayDishes from "../cuisine/DisplayDishes";
 import { AnimatePresence, motion } from "framer-motion";
-import tushetiCover from "../../assets/covers/batumi.jpg";
-
-const dishQueryClient = new QueryClient();
+import svanetiCover from "../../assets/covers/svaneti.jpg";
 
 const containerVariants = {
   hidden: {
@@ -23,12 +21,14 @@ const containerVariants = {
   },
 };
 
+const dishQueryClient = new QueryClient();
+
 const Cuisine = () => {
   const { t } = useTranslation();
 
   return (
-    <QueryClientProvider client={dishQueryClient}>
-      <AnimatePresence>
+    <AnimatePresence>
+      <QueryClientProvider client={dishQueryClient}>
         <motion.section
           className="background-section"
           initial={{ opacity: 0 }}
@@ -49,7 +49,7 @@ const Cuisine = () => {
               width: "100%",
               height: "100%",
               zIndex: -1,
-              backgroundImage: `url(${tushetiCover})`,
+              backgroundImage: `url(${svanetiCover})`,
               backgroundSize: "cover",
             }}
           />
@@ -84,8 +84,8 @@ const Cuisine = () => {
             </div>
           </motion.div>
         </motion.section>
-      </AnimatePresence>
-    </QueryClientProvider>
+      </QueryClientProvider>
+    </AnimatePresence>
   );
 };
 

@@ -2,7 +2,7 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 // pages
 // import TasteNavigation from "../navigation/TasteNavigation";
-import Nature from "../pages/Nature";
+import Nature from "../pages/nature/Nature";
 import Culture from "../pages/Culture";
 // import Rave from "../pages/Cuisine";
 import Overview from "../pages/Journey";

@@ -1,10 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { useImageURL } from "../../firebase/useImageURL";
-import { useEffect } from "react";
-import useLocalStorage from "use-local-storage";
+import { useEffect, useState } from "react";
 
 interface DishCardProps {
-  key: number;
   name: string;
   vegetarian: string;
   imageURL: string;
@@ -19,32 +17,27 @@ const DishCard = ({
 }: DishCardProps) => {
   const { t } = useTranslation();
   const { fetchedImageURL, error } = useImageURL(imageURL);
-  const [cachedImage, setCachedImage] = useLocalStorage<string | null>(
-    imageURL,
-    null
-  );
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     if (fetchedImageURL) {
-      setCachedImage(fetchedImageURL);
+      setImageLoaded(true);
     }
-  }, [fetchedImageURL, setCachedImage]);
+  }, [fetchedImageURL]);
 
   return (
     <div
       className="profile-card card col-12 col-md-6 col-lg-4 col-xl-3 mb-3"
-      style={{
-        border: "white double 1px",
-      }}
+      style={{ border: "white double 1px" }}
     >
       <div className="card-header" style={{ borderBottom: "white solid 1px" }}>
         <div className="d-flex justify-content-start">
           {error ? (
             <p>Error: {error.message}</p>
           ) : (
-            cachedImage && (
+            imageLoaded && (
               <img
-                src={cachedImage}
+                src={fetchedImageURL || ""}
                 alt={name}
                 style={{
                   width: "230px",
@@ -52,6 +45,8 @@ const DishCard = ({
                   marginTop: "10px",
                   marginBottom: "10px",
                 }}
+                loading="lazy"
+                onLoad={() => setImageLoaded(true)}
               />
             )
           )}
@@ -64,7 +59,7 @@ const DishCard = ({
         <p className="card-text dish-card-text">
           {t("dish_card_text")} - {vegetarian}
         </p>
-        <p className="card-text pt-3">{description}</p>
+        <p className="card-text pt-3 fw-light">{description}</p>
       </div>
     </div>
   );

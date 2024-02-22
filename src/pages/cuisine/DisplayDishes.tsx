@@ -3,13 +3,13 @@ import { useState } from "react";
 import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
-import DashboardCard from "../../components/cards/DashboardCard";
 import DishCard from "./DishCard";
 import meatDishes from "../../assets/pictures/meat.jpg";
 import vegetarianDishes from "../../assets/pictures/vegetarian.jpg";
 import allDishes from "../../assets/pictures/all-dishes.jpg";
-import arrowRight from "../../assets/symbols/arrow-right.svg";
+// import arrowRight from "../../assets/symbols/arrow-right.svg";
 import clearX from "../../assets/symbols/clear-x.svg";
+import DashboardCard from "../../components/cards/DashboardCard";
 
 interface Dish {
   id: number;
@@ -63,7 +63,7 @@ const DisplayDishes = () => {
             content={
               <p>
                 {t("dish_filter_buttons")}{" "}
-                <img
+                {/* <img
                   src={arrowRight}
                   style={{
                     backgroundColor: "white",
@@ -71,7 +71,7 @@ const DisplayDishes = () => {
                     marginLeft: "3px",
                     borderRadius: "20%",
                   }}
-                />
+                /> */}
               </p>
             }
           ></DashboardCard>

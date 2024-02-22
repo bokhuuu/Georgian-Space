@@ -22,8 +22,8 @@ const Brand = () => {
       <Link to="/">
         <div>
           <StyledBrand>
-            <span>GEORGIAN</span>
-            <span>SPACE</span>
+            <span>Georgian</span>
+            <span>Space</span>
           </StyledBrand>
         </div>
       </Link>
