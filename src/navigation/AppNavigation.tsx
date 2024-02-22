@@ -108,7 +108,6 @@ const StyledNavLink = styled(NavLink)`
   color: ${(props) => props.theme.textColor} !important;
   margin-top: -10px;
   border-bottom: solid white 2px;
-  /* font-size: 17px; */
 
   &:focus,
   &:hover,

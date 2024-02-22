@@ -4,12 +4,10 @@ import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
 import DishCard from "./DishCard";
-import meatDishes from "../../assets/pictures/meat.jpg";
-import vegetarianDishes from "../../assets/pictures/vegetarian.jpg";
-import allDishes from "../../assets/pictures/all-dishes.jpg";
-// import arrowRight from "../../assets/symbols/arrow-right.svg";
+import nonVegetarian from "../../assets/icons/non-vegetarian.png";
+import vegetarian from "../../assets/icons/vegetarian.png";
+import cuisine from "../../assets/icons/cuisine.png";
 import clearX from "../../assets/symbols/clear-x.svg";
-import DashboardCard from "../../components/cards/DashboardCard";
 
 interface Dish {
   id: number;
@@ -58,101 +56,79 @@ const DisplayDishes = () => {
   return (
     <div className="container">
       <div className="row filter-buttons gap-2 mt-2 mb-3 d-flex">
-        <div className="card-body col-12 col-md-6 col-lg-2 col-xl-1">
-          <DashboardCard
-            content={
-              <p>
-                {t("dish_filter_buttons")}{" "}
-                {/* <img
-                  src={arrowRight}
-                  style={{
-                    backgroundColor: "white",
-                    width: "30px",
-                    marginLeft: "3px",
-                    borderRadius: "20%",
-                  }}
-                /> */}
-              </p>
-            }
-          ></DashboardCard>
-        </div>
-
-        <div className="col ">
-          <div className="row gap-2 d-flex justify-content-center justify-content-lg-end align-items-start">
-            <button
+        <div className="row gap-2 d-flex justify-content-center justify-content-md-end ms-1">
+          <button
+            style={{
+              width: 80,
+              height: 80,
+              backgroundImage: `url(${nonVegetarian})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              border: "white solid 3px",
+              borderRadius: "30%",
+              cursor: "pointer",
+              opacity: filter === "No" ? 0.7 : 1,
+            }}
+            disabled={filter === "No"}
+            onClick={() => setFilter("No")}
+            className={filter === "No" ? "active" : ""}
+          ></button>
+          <button
+            style={{
+              width: 80,
+              height: 80,
+              border: "white solid 3px",
+              backgroundImage: `url(${vegetarian})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              borderRadius: "30%",
+              outline: "none",
+              cursor: "pointer",
+              opacity: filter === "Yes" ? 0.7 : 1,
+            }}
+            disabled={filter === "Yes"}
+            onClick={() => setFilter("Yes")}
+            className={filter === "Yes" ? "active" : ""}
+          ></button>
+          <button
+            style={{
+              width: 80,
+              height: 80,
+              border: "white solid 3px",
+              backgroundImage: `url(${cuisine})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              borderRadius: "30%",
+              outline: "none",
+              cursor: "pointer",
+              opacity: filter === "all" ? 0.7 : 1,
+            }}
+            disabled={filter === "all"}
+            onClick={() => setFilter("all")}
+            className={filter === "all" ? "active" : ""}
+          ></button>
+          <div className="d-flex justify-content-center justify-content-md-end">
+            <input
               style={{
-                width: 80,
-                height: 80,
-
-                backgroundImage: `url(${meatDishes})`,
+                width: "210px",
+              }}
+              type="text"
+              placeholder={t("search")}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            <button
+              className="input-button"
+              onClick={clearSearchInput}
+              style={{
+                backgroundImage: `url(${clearX})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                border: "white solid 3px",
-                borderRadius: "30%",
-                cursor: "pointer",
-                opacity: filter === "No" ? 0.7 : 1,
+                width: "25px",
+                height: "27px",
+                border: "none",
               }}
-              disabled={filter === "No"}
-              onClick={() => setFilter("No")}
-              className={filter === "No" ? "active" : ""}
             ></button>
-            <button
-              style={{
-                width: 80,
-                height: 80,
-                border: "white solid 3px",
-                backgroundImage: `url(${vegetarianDishes})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                borderRadius: "30%",
-                outline: "none",
-                cursor: "pointer",
-                opacity: filter === "Yes" ? 0.7 : 1,
-              }}
-              disabled={filter === "Yes"}
-              onClick={() => setFilter("Yes")}
-              className={filter === "Yes" ? "active" : ""}
-            ></button>
-            <button
-              style={{
-                width: 80,
-                height: 80,
-                border: "white solid 3px",
-                backgroundImage: `url(${allDishes})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                borderRadius: "30%",
-                outline: "none",
-                cursor: "pointer",
-                opacity: filter === "all" ? 0.7 : 1,
-              }}
-              disabled={filter === "all"}
-              onClick={() => setFilter("all")}
-              className={filter === "all" ? "active" : ""}
-            ></button>
-            <div className="d-flex justify-content-center justify-content-lg-end align-items-center">
-              <input
-                style={{
-                  width: "210px",
-                }}
-                type="text"
-                placeholder={t("search")}
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              <button
-                className="input-button"
-                onClick={clearSearchInput}
-                style={{
-                  backgroundImage: `url(${clearX})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  width: "25px",
-                  height: "27px",
-                  border: "none",
-                }}
-              ></button>
-            </div>
           </div>
         </div>
       </div>

@@ -19,9 +19,10 @@ const AppRouting = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.key}>
         <Route path="/" index element={<Overview />} />
-        <Route path="nature" element={<Nature />} />
         <Route path="culture" element={<Culture />} />
         <Route path="wine" element={<Wine />} />
+        <Route path="cuisine" element={<Cuisine />} />
+        <Route path="nature" element={<Nature />} />
 
         {/* <Route path="/taste" element={<TasteNavigation />}>
           {/* <Route path="art" element={<Art />} />
@@ -29,7 +30,6 @@ const AppRouting = () => {
           <Route path="poliphony" element={<Poliphony />} /> */}
         {/* </Route> */}
 
-        <Route path="cuisine" element={<Cuisine />} />
         <Route path="*" element={<Navigate to="" replace />} />
       </Routes>
     </AnimatePresence>

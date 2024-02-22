@@ -1,13 +1,13 @@
 import LanguageSelector from "../i18next/LanguageToggler";
 import styled from "styled-components";
-import IconButtonsBox from "./CommandBar";
+import CommandBar from "./CommandBar";
 
 const Footer = () => {
   return (
     <StyledFooter className="footer container-fluid d-md-none fixed-bottom d-flex align-items-center justify-content-center">
       <div className="row">
         <div className="col d-flex">
-          <IconButtonsBox />
+          <CommandBar />
           <LanguageSelector />
         </div>
       </div>
@@ -16,7 +16,7 @@ const Footer = () => {
 };
 
 const StyledFooter = styled.footer`
-  height: 40px;
+  height: 55px;
   /* background-color: #4d83b6; */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   position: fixed;

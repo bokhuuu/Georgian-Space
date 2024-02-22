@@ -67,14 +67,14 @@ const Nature = () => {
           >
             <div className="container ">
               <div className="row justify-content-center">
-                <div className="card-body col-12">
+                <div className="card-body col-12 mb-2">
                   <DashboardCard
                     content={
                       <>
                         <p>{t("nature_page.0.climate")}</p>
-                        <hr />
+                        <hr style={{ border: "white dotted 3px" }} />
                         <p>{t("nature_page.0.mountains")}</p>
-                        <hr />
+                        <hr style={{ border: "white dotted 3px" }} />
                         <p>{t("nature_page.0.waters")}</p>
                       </>
                     }

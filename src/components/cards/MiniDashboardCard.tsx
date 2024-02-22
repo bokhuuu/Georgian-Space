@@ -27,8 +27,10 @@ const MiniDashboardCard = ({ title, content }: MiniDashboardCardProps) => {
     <StyledMiniDashboard className="dashboard-card card border-2">
       {title && (
         <>
-          <div className="col" style={{ borderBottom: "solid white px" }}>
-            <h4 className="card-header">{title}</h4>
+          <div className="col">
+            <h5 className="card-header d-flex justify-content-center fw-bolder">
+              {title}
+            </h5>
           </div>
           <button
             className="d-flex justify-content-center mb-2"
@@ -41,7 +43,6 @@ const MiniDashboardCard = ({ title, content }: MiniDashboardCardProps) => {
               style={{
                 backgroundColor: "white",
                 width: "30px",
-                marginRight: "20px",
                 marginBottom: "-20px",
                 borderRadius: "15%",
               }}
@@ -58,6 +59,7 @@ const StyledMiniDashboard = styled.div`
   opacity: 0.9;
   position: "relative";
   margin-bottom: 10px;
+  height: 200px;
 `;
 
 const StyledContent = styled.div`

@@ -1,6 +1,13 @@
 import axios from "axios";
 import { useQuery } from "react-query";
 import LocationCard from "./LocationCard";
+import i18next from "i18next";
+
+interface Location {
+  id: number;
+  name: { [key: string]: string };
+  intro: { [key: string]: string };
+}
 
 const fetchLocations = async () => {
   const response = await axios.get("db.json");
@@ -21,11 +28,12 @@ const DisplayLocations = () => {
 
   return (
     <div className="row">
-      {locations.map((location) => (
+      {locations.map((location: Location) => (
         <LocationCard
           id={0}
-          name={location.name.en}
-          intro={location.intro.en}
+          key={location.id}
+          name={location.name[i18next.language]}
+          intro={location.intro[i18next.language]}
         />
       ))}
     </div>

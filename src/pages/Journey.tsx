@@ -33,7 +33,7 @@ const Journey = () => {
   return (
     <AnimatePresence>
       <motion.section
-        className="background-section"
+        className="background-section mb-5"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -68,12 +68,12 @@ const Journey = () => {
                 content={
                   <div className="container">
                     <div className="row">
-                      <div className="col d-flex align-items-center justify-content-start">
+                      <div className="col d-flex align-items-center justify-content-start ms-md-2">
                         <motion.div
                           className="logo"
                           animate={{
                             rotateX: 360,
-                            scale: [0.8, 1.2, 0.9, 1.2],
+                            scale: [1.2, 0.8, 1.2],
                             transition: {
                               duration: 8,
                               repeat: Infinity,
@@ -91,7 +91,9 @@ const Journey = () => {
                             />
                           </Link>
                         </motion.div>
-                        <p>{t("dashboard_footer")}</p>
+                        <div className="ms-md-3">
+                          <p>{t("dashboard_footer")}</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -99,18 +101,18 @@ const Journey = () => {
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 mb-2">
               <MainCard title={t("culture_title")} content={t("culture")} />
             </div>
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 mb-2">
               <MainCard title={t("wine_title")} content={t("wine")} />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 mb-2">
               <MainCard title={t("cuisine_title")} content={t("cuisine")} />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 mb-2">
               <MainCard title={t("nature_title")} content={t("nature")} />
             </div>
           </motion.div>

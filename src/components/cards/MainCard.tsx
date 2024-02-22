@@ -11,7 +11,7 @@ const MainCard = ({ title, content }: MainCardProps) => {
   return (
     <StyledMainCard
       className="custom-card card border-2"
-      style={{ height: "322px", marginBottom: "10px" }}
+      style={{ height: "322px" }}
     >
       <div className="card-body">
         <StyledMainCardTitle

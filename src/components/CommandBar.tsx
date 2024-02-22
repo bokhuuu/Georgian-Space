@@ -1,50 +1,63 @@
 import ThemeSelector from "../themes/ThemeToggler.tsx";
 import WeatherSidebarEnable from "../weatherApp/WeatherSidebarEnable.tsx";
-import { Variants, motion } from "framer-motion";
-import formIcon from "../assets/icons/formIcon.svg";
-import themeIcon from "../assets/icons/themeIcon.svg";
-
-const CommandBarVariants: Variants = {
-  hover: {
-    scale: 1.2,
-    textShadow: "0px 0px 20px rgb(255,255,255)",
-    boxShadow: "0px 0px 20px rgb(255,255,255)",
-    transition: {
-      duration: 0.5,
-      repeat: 1,
-      repeatType: "mirror",
-    },
-  },
-};
+import { motion } from "framer-motion";
+import form from "../assets/icons/form.png";
+import themes from "../assets/icons/themes.png";
+import styled from "styled-components";
 
 const CommandBar = () => {
   const { toggleTheme } = ThemeSelector();
 
   return (
-    <div className="container d-flex align-items-center justify-content-end gap-3 gap-md-4 gap-lg-5 ms-md-5">
-      <motion.button
+    <div className="container d-flex align-items-center justify-content-end gap-2 gap-md-4 gap-lg-5 ms-md-5">
+      <StyledCommandBarButton
         type="button"
         className="icon-btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
-        variants={CommandBarVariants}
-        whileHover="hover"
-        style={{
-          backgroundImage: `url(${formIcon})`,
+        whileHover={{
+          scale: 1.2,
+          textShadow: "0px 0px 20px rgb(255,255,255)",
+          boxShadow: "0px 0px 20px rgb(255,255,255)",
+          transition: {
+            duration: 0.5,
+            repeat: Infinity,
+            repeatType: "mirror",
+          },
         }}
-      ></motion.button>
-      <motion.button
+        style={{
+          backgroundImage: `url(${form})`,
+        }}
+      ></StyledCommandBarButton>
+      <StyledCommandBarButton
         className="icon-btn"
-        variants={CommandBarVariants}
-        whileHover="hover"
+        whileHover={{
+          scale: 1.2,
+          textShadow: "0px 0px 20px rgb(255,255,255)",
+          boxShadow: "0px 0px 20px rgb(255,255,255)",
+          transition: {
+            duration: 0.5,
+            repeat: Infinity,
+            repeatType: "mirror",
+          },
+        }}
         onClick={toggleTheme}
         style={{
-          backgroundImage: `url(${themeIcon})`,
+          backgroundImage: `url(${themes})`,
         }}
-      ></motion.button>
+      ></StyledCommandBarButton>
       <WeatherSidebarEnable />
     </div>
   );
 };
+
+const StyledCommandBarButton = styled(motion.button)`
+  width: 50px;
+  height: 50px;
+  background-color: "white";
+  background-size: "cover";
+  border-radius: 10%;
+  cursor: pointer;
+`;
 
 export default CommandBar;

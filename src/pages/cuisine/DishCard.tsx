@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { useImageURL } from "../../firebase/useImageURL";
 import { useEffect, useState } from "react";
+import nonVegetarianImage from "../../assets/icons/non-vegetarian.png";
+import vegetarianImage from "../../assets/icons/vegetarian.png";
 
 interface DishCardProps {
   name: string;
@@ -18,6 +20,9 @@ const DishCard = ({
   const { t } = useTranslation();
   const { fetchedImageURL, error } = useImageURL(imageURL);
   const [imageLoaded, setImageLoaded] = useState(false);
+
+  const dishTypeImage =
+    vegetarian === "Yes" ? vegetarianImage : nonVegetarianImage;
 
   useEffect(() => {
     if (fetchedImageURL) {
@@ -56,9 +61,10 @@ const DishCard = ({
         </div>
       </div>
       <div className="card-body">
-        <p className="card-text dish-card-text">
+        <div className="col d-flex justify-content-space-between align-items-center">
           {t("dish_card_text")} - {vegetarian}
-        </p>
+          <img src={dishTypeImage} />
+        </div>
         <p className="card-text pt-3 fw-light">{description}</p>
       </div>
     </div>
