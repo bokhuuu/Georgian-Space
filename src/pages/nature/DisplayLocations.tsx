@@ -7,8 +7,9 @@ interface Location {
   id: number;
   name: { [key: string]: string };
   intro: { [key: string]: string };
+  description: { [key: string]: string };
+  imageURLs: string[];
 }
-
 const fetchLocations = async () => {
   const response = await axios.get("db.json");
   return response.data.locations;
@@ -30,10 +31,12 @@ const DisplayLocations = () => {
     <div className="row">
       {locations.map((location: Location) => (
         <LocationCard
-          id={0}
+          id={location.id}
           key={location.id}
           name={location.name[i18next.language]}
           intro={location.intro[i18next.language]}
+          description={location.description[i18next.language]}
+          imageURLs={[]}
         />
       ))}
     </div>

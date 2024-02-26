@@ -7,7 +7,7 @@ import WineCard from "./WineCard";
 import wine from "../../assets/icons/wine.png";
 import whiteWine from "../../assets/icons/white-wine.png";
 import redWine from "../../assets/icons/red-wine.png";
-import clearX from "../../assets/symbols/clear-x.svg";
+import clear from "../../assets/icons/clear.png";
 
 interface Wine {
   id: number;
@@ -67,7 +67,7 @@ const DisplayWines = () => {
               border: "white solid 3px",
               borderRadius: "30%",
               cursor: "pointer",
-              opacity: filter === "White" ? 0.7 : 1,
+              opacity: filter === "White" ? 0.8 : 1,
             }}
             disabled={filter === "White"}
             onClick={() => setFilter("White")}
@@ -84,7 +84,7 @@ const DisplayWines = () => {
               borderRadius: "30%",
               outline: "none",
               cursor: "pointer",
-              opacity: filter === "Red" ? 0.7 : 1,
+              opacity: filter === "Red" ? 0.8 : 1,
             }}
             disabled={filter === "Red"}
             onClick={() => setFilter("Red")}
@@ -101,7 +101,7 @@ const DisplayWines = () => {
               borderRadius: "30%",
               outline: "none",
               cursor: "pointer",
-              opacity: filter === "all" ? 0.7 : 1,
+              opacity: filter === "all" ? 0.8 : 1,
             }}
             disabled={filter === "all"}
             onClick={() => setFilter("all")}
@@ -110,7 +110,7 @@ const DisplayWines = () => {
           <div className="d-flex justify-content-center justify-content-md-end">
             <input
               style={{
-                width: "210px",
+                width: "190px",
               }}
               type="text"
               placeholder={t("search")}
@@ -121,12 +121,14 @@ const DisplayWines = () => {
               className="input-button"
               onClick={clearSearchInput}
               style={{
-                backgroundImage: `url(${clearX})`,
+                width: 40,
+                height: 40,
+                backgroundImage: `url(${clear})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                width: "25px",
-                height: "27px",
-                border: "none",
+                border: "white solid 3px",
+                borderRadius: "30%",
+                cursor: "pointer",
               }}
             ></button>
           </div>

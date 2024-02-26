@@ -11,7 +11,7 @@ const containerVariants = {
     x: "-100vw",
   },
   visible: {
-    opacity: 0.9,
+    opacity: 1,
     x: 0,
     transition: { duration: 1.5, delay: 0.7 },
   },
@@ -37,7 +37,7 @@ const Wine = () => {
           transition={{ duration: 0.8 }}
           style={{
             position: "relative",
-            height: "100vh",
+            // height: "100vh",
             overflowY: "auto",
           }}
         >

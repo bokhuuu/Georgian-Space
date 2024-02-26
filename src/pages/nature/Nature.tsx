@@ -37,7 +37,7 @@ const Nature = () => {
           transition={{ duration: 0.8 }}
           style={{
             position: "relative",
-            height: "100vh",
+            // height: "100vh",
             overflowY: "auto",
           }}
         >

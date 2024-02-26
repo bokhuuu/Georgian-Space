@@ -636,7 +636,26 @@
         "images/locations/Vardzia_3.jpg"
       ]
     },
-
+    {
+      "id": 4,
+      "name": {
+        "en": "Uplistsikhe",
+        "ge": "უფლისციხე"
+      },
+      "intro": {
+        "en": "Uplistsikhe is an ancient rock-cut city.",
+        "ge": "უფლისციხე უძველესი კლდეში ნაკვეთი ქალაქია. "
+      },
+      "description": {
+        "en": "The city carved in the wall of Uplistsikhi is more than 3000 years old, it is one of the oldest urban settlements in Georgia and is known for its unique architecture and historical significance. The cave city covers an area of ​​almost 40,000 m2 and had an apothecary, a bakery, an amphitheater and even a prison. All buildings are connected by tunnels. On top of the whole complex is a church built in the 9th century.",
+        "ge": "უფლისციხის კდლეში ნაკვეთი ქალაქი 3000-ზე მეტი წლისაა, ის საქართველოს ერთ-ერთი უძველესი ურბანული დასახლებაა და ცნობილია თავისი უნიკალური არქიტექტურითა და ისტორიული მნიშვნელობით. გამოქვაბულების ქალაქი მოიცავს თითქმის 40000 მ2 ფართობს და მას ჰქონდა აფთიაქი, თონე, ამფითეატრი და ციხეც კი. ყველა ნაგებობა დაკავშირებულია გვირაბებით.მთელი კომპლექსის თავზე არის ეკლესია, რომელიც აშენდა მე-9 საუკუნეში. "
+      },
+      "imageURLs": [
+        "images/locations/Uplistsikhe_1.jpg",
+        "images/locations/Uplistsikhe_2.jpg",
+        "images/locations/Uplistsikhe_3.jpg"
+      ]
+    },
     {
       "id": 5,
       "name": {
@@ -838,26 +857,6 @@
       ]
     },
     {
-      "id": 16,
-      "name": {
-        "en": "Gomismta",
-        "ge": "გომისმთა"
-      },
-      "intro": {
-        "en": "Gomismta is a place of picturesque landscapes.",
-        "ge": "გომისმთა თვალწარმტაცი პეიზაჟების ადგილია. "
-      },
-      "description": {
-        "en": "From Gomismta the beautiful nature of Kolkhi can be seen. This place is distinguished by its natural and climatic conditions with healing properties, which is determined by the combination of sea and mountain air. It is surrounded by spruce and sochi forests, rich in mineral waters and other natural resources. Gomismta has one secret - the clouds are not above it, but below it.",
-        "ge": "გომისმთიდან ულამაზესი კოლხური ბუნება იშლება.ეს ადგილი გამორჩეულია სამკურნალო თვისებების მქონე ბუნებრივ-კლიმატური პირობებით, რასაც ზღვისა და მთის ჰაერის შერწყმა განაპირობებს.გარშემორტყმულია ნაძვისა და სოჭის ტყეებით, მდიდარია მინერალური წყლებითა და სხვა ბუნებრივი რესურსებით. გომისმთას ერთი საიდუმლო აქვს - ღრუბლები არა მის თავზე, არამედ მის ქვეშაა."
-      },
-      "imageURLs": [
-        "images/locations/Gomismta_1.jpg",
-        "images/locations/Gomismta_2.jpg",
-        "images/locations/Gomismta_3.jpg"
-      ]
-    },
-    {
       "id": 15,
       "name": {
         "en": "Sataplia",
@@ -878,23 +877,23 @@
       ]
     },
     {
-      "id": 4,
+      "id": 16,
       "name": {
-        "en": "Uplistsikhe",
-        "ge": "უფლისციხე"
+        "en": "Gomismta",
+        "ge": "გომისმთა"
       },
       "intro": {
-        "en": "Uplistsikhe is an ancient rock-cut city.",
-        "ge": "უფლისციხე უძველესი კლდეში ნაკვეთი ქალაქია. "
+        "en": "Gomismta is a place of picturesque landscapes.",
+        "ge": "გომისმთა თვალწარმტაცი პეიზაჟების ადგილია. "
       },
       "description": {
-        "en": "The city carved in the wall of Uplistsikhi is more than 3000 years old, it is one of the oldest urban settlements in Georgia and is known for its unique architecture and historical significance. The cave city covers an area of ​​almost 40,000 m2 and had an apothecary, a bakery, an amphitheater and even a prison. All buildings are connected by tunnels. On top of the whole complex is a church built in the 9th century.",
-        "ge": "უფლისციხის კდლეში ნაკვეთი ქალაქი 3000-ზე მეტი წლისაა, ის საქართველოს ერთ-ერთი უძველესი ურბანული დასახლებაა და ცნობილია თავისი უნიკალური არქიტექტურითა და ისტორიული მნიშვნელობით. გამოქვაბულების ქალაქი მოიცავს თითქმის 40000 მ2 ფართობს და მას ჰქონდა აფთიაქი, თონე, ამფითეატრი და ციხეც კი. ყველა ნაგებობა დაკავშირებულია გვირაბებით.მთელი კომპლექსის თავზე არის ეკლესია, რომელიც აშენდა მე-9 საუკუნეში. "
+        "en": "From Gomismta the beautiful nature of Kolkhi can be seen. This place is distinguished by its natural and climatic conditions with healing properties, which is determined by the combination of sea and mountain air. It is surrounded by spruce and sochi forests, rich in mineral waters and other natural resources. Gomismta has one secret - the clouds are not above it, but below it.",
+        "ge": "გომისმთიდან ულამაზესი კოლხური ბუნება იშლება.ეს ადგილი გამორჩეულია სამკურნალო თვისებების მქონე ბუნებრივ-კლიმატური პირობებით, რასაც ზღვისა და მთის ჰაერის შერწყმა განაპირობებს.გარშემორტყმულია ნაძვისა და სოჭის ტყეებით, მდიდარია მინერალური წყლებითა და სხვა ბუნებრივი რესურსებით. გომისმთას ერთი საიდუმლო აქვს - ღრუბლები არა მის თავზე, არამედ მის ქვეშაა."
       },
       "imageURLs": [
-        "images/locations/Uplistsikhe_1.jpg",
-        "images/locations/Uplistsikhe_2.jpg",
-        "images/locations/Uplistsikhe_3.jpg"
+        "images/locations/Gomismta_1.jpg",
+        "images/locations/Gomismta_2.jpg",
+        "images/locations/Gomismta_3.jpg"
       ]
     }
   ]

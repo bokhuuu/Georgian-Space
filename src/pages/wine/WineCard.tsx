@@ -10,7 +10,8 @@ interface WineCardProps {
 }
 
 const WineCard = ({ name, type, region, description }: WineCardProps) => {
-  const wineTypeImage = type === "White" ? whiteWine : redWine;
+  const wineTypeImage =
+    type === "White" || type === "თეთრი" ? whiteWine : redWine;
 
   return (
     <div

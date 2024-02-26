@@ -13,9 +13,11 @@ const Content: React.FC<ContentProps> = ({ children }) => {
     </StyledContent>
   );
 };
-export default Content;
 
 const StyledContent = styled.div`
   margin: 0 auto;
   overflow-x: hidden;
+  overflow-y: hidden;
 `;
+
+export default Content;

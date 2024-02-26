@@ -6,6 +6,7 @@ import useFormCountLocalStorage from "./useFormCountLocalStorage";
 import { motion } from "framer-motion";
 import "./Form.css";
 import { useTranslation } from "react-i18next";
+import submitIcon from "../assets/icons/submitIcon.png";
 
 interface FormData {
   name: string;
@@ -30,15 +31,6 @@ const schema = yup.object().shape({
     .max(250, "Message must be at most 250 characters"),
   attachments: yup.mixed(),
 });
-
-const buttonVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-  },
-};
 
 const Form = () => {
   const { t } = useTranslation();
@@ -118,36 +110,45 @@ const Form = () => {
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="form-contribution mt-3 mt-md-3">
-            {t("form.0.submission_count")}
-            <span
-              className="form-count ms-1"
+            {/* {t("form.0.submission_count")} */}
+            <div
+              className="form-count ms-1 d-flex justify-content-center align-items-center"
               style={{
                 borderStyle: "groove",
-                borderRadius: 5,
-                padding: "6px",
+                borderRadius: 10,
+                width: 48,
+                height: 45,
+                marginTop: -4,
               }}
             >
               {formCount}
-            </span>
+            </div>
           </div>
 
           <motion.button
-            className="btn mt-2"
-            style={{ border: "white solid 1px", width: "fit-content" }}
-            type="submit"
-            variants={buttonVariants}
+            className=" mt-2"
             whileHover={{
-              scale: 1.1,
-              textShadow: "0px 0px 12px rgb(255,255,255)",
-              boxShadow: "0px 0px 12px rgb(255,255,255)",
+              scale: 1.2,
+              textShadow: "0px 0px 20px rgb(255,255,255)",
+              boxShadow: "0px 0px 20px rgb(255,255,255)",
               transition: {
-                duration: 0.3,
-                repeat: 2,
+                duration: 0.5,
+                repeat: Infinity,
                 repeatType: "mirror",
               },
             }}
+            style={{
+              backgroundImage: `url(${submitIcon})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              width: "50px",
+              height: "50px",
+              // border: "none",
+              borderRadius: "10%",
+            }}
           >
-            {t("form.0.submit_button")}
+            {/* {t("form.0.submit_button")} */}
           </motion.button>
         </div>
       </form>

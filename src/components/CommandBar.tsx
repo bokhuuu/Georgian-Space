@@ -14,7 +14,7 @@ const CommandBar = () => {
         type="button"
         className="icon-btn btn-primary"
         data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
+        data-bs-target="#formModal"
         whileHover={{
           scale: 1.2,
           textShadow: "0px 0px 20px rgb(255,255,255)",

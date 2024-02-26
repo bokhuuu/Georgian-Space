@@ -22,7 +22,9 @@ const DishCard = ({
   const [imageLoaded, setImageLoaded] = useState(false);
 
   const dishTypeImage =
-    vegetarian === "Yes" ? vegetarianImage : nonVegetarianImage;
+    vegetarian === "Yes" || vegetarian === "კი"
+      ? vegetarianImage
+      : nonVegetarianImage;
 
   useEffect(() => {
     if (fetchedImageURL) {
@@ -62,8 +64,10 @@ const DishCard = ({
       </div>
       <div className="card-body">
         <div className="col d-flex justify-content-space-between align-items-center">
-          {t("dish_card_text")} - {vegetarian}
-          <img src={dishTypeImage} />
+          <div className="col">{t("dish_card_text")}</div>
+          <div>
+            <img src={dishTypeImage} />
+          </div>
         </div>
         <p className="card-text pt-3 fw-light">{description}</p>
       </div>

@@ -1,5 +1,4 @@
 import { AnimatePresence, motion } from "framer-motion";
-import CustomCard from "../components/cards/MainCard";
 import mtskhetaCover from "../assets/covers/mtskheta.jpg";
 
 const containerVariants = {
@@ -45,35 +44,16 @@ const Culture = () => {
             backgroundSize: "cover",
           }}
         />
-        <motion.div
-          className="container"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
-          style={{
-            backgroundColor: "rgba(255, 255, 255, 0.3)",
-            minHeight: "100vh",
-            padding: "20px",
-            paddingBottom: "40px",
-            boxSizing: "border-box",
-          }}
+        <button
+          type="button"
+          className="btn btn-secondary"
+          data-bs-container="body"
+          data-bs-toggle="popover"
+          data-bs-placement="top"
+          data-bs-content="Top popover"
         >
-          <motion.div className="row">
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard title="box 1" content="box 1 content" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <CustomCard
-                title="History"
-                content="Argonauts in, from ancient Ais excavations. The incorporation of the Golden Fleece into the myth may have derived from the local practice of using fleeces to sift gold dust from rivers. This tradition still exists in Svaneti region."
-              />
-            </div>
-          </motion.div>
-        </motion.div>
+          Popover on top
+        </button>
       </motion.section>
     </AnimatePresence>
   );

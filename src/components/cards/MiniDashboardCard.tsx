@@ -56,7 +56,7 @@ const MiniDashboardCard = ({ title, content }: MiniDashboardCardProps) => {
 };
 
 const StyledMiniDashboard = styled.div`
-  opacity: 0.9;
+  /* opacity: 0.9; */
   position: "relative";
   margin-bottom: 10px;
   height: 200px;

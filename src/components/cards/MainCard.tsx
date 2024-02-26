@@ -38,7 +38,7 @@ const MainCard = ({ title, content }: MainCardProps) => {
 };
 
 const StyledMainCard = styled.div`
-  opacity: 0.9;
+  /* opacity: 0.9; */
   position: "relative";
   overflow-y: auto;
 `;

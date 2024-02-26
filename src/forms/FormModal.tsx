@@ -1,30 +1,19 @@
-import { useTranslation } from "react-i18next";
 import Form from "./Form";
 import { motion } from "framer-motion";
-
-const buttonVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-  },
-};
+import closeIcon from "../assets/icons/closeIcon.png";
 
 const FormModal = () => {
-  const { t } = useTranslation();
-
   return (
     <div
       className="modal fade"
-      id="exampleModal"
+      id="formModal"
       tabIndex={-1}
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
-      style={{
-        zIndex: 1500,
-        // opacity: 0.92,
-      }}
+      // style={{
+      //   zIndex: 1500,
+      //   // opacity: 0.92,
+      // }}
     >
       <div className="modal-dialog">
         <div className="modal-content" style={{ border: "white 2px double" }}>
@@ -34,25 +23,30 @@ const FormModal = () => {
               id="exampleModalLabel"
             ></h1>
             <motion.button
-              style={{ border: "white solid 1px", width: "fit-content" }}
               type="button"
-              className="btn"
               data-bs-dismiss="modal"
-              variants={buttonVariants}
-              initial="hidden"
-              animate="visible"
               whileHover={{
-                scale: 1.1,
-                textShadow: "0px 0px 12px rgb(255,255,255)",
-                boxShadow: "0px 0px 12px rgb(255,255,255)",
+                scale: 1.2,
+                textShadow: "0px 0px 20px rgb(255,255,255)",
+                boxShadow: "0px 0px 20px rgb(255,255,255)",
                 transition: {
-                  duration: 0.3,
-                  repeat: 2,
+                  duration: 0.5,
+                  repeat: Infinity,
                   repeatType: "mirror",
                 },
               }}
+              style={{
+                backgroundImage: `url(${closeIcon})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+                width: "50px",
+                height: "50px",
+                // border: "none",
+                borderRadius: "10%",
+              }}
             >
-              {t("form.0.close_button")}
+              {/* {t("form.0.close_button")} */}
             </motion.button>
           </div>
           <div className="modal-body">
