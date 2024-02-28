@@ -1,9 +1,9 @@
-import { AnimatePresence, motion } from "framer-motion";
-import gergetiCover from "../../assets/covers/gergeti.jpg";
-import DashboardCard from "../../components/cards/DashboardCard";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
-import DisplayLocations from "./DisplayLocations";
+import DashboardCard from "../../components/cards/DashboardCard";
+import DisplayDishes from "./DisplayDishes";
+import { AnimatePresence, motion } from "framer-motion";
+import svanetiCover from "../../assets/covers/svaneti.jpg";
 
 const containerVariants = {
   hidden: {
@@ -21,14 +21,14 @@ const containerVariants = {
   },
 };
 
-const naturesQueryClient = new QueryClient();
+const dishQueryClient = new QueryClient();
 
-const Nature = () => {
+const Food = () => {
   const { t } = useTranslation();
 
   return (
     <AnimatePresence>
-      <QueryClientProvider client={naturesQueryClient}>
+      <QueryClientProvider client={dishQueryClient}>
         <motion.section
           className="background-section"
           initial={{ opacity: 0 }}
@@ -49,11 +49,12 @@ const Nature = () => {
               width: "100%",
               height: "100%",
               zIndex: -1,
-              backgroundImage: `url(${gergetiCover})`,
+              backgroundImage: `url(${svanetiCover})`,
               backgroundSize: "cover",
             }}
           />
           <motion.div
+            className="container"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -65,26 +66,21 @@ const Nature = () => {
               boxSizing: "border-box",
             }}
           >
-            <div className="container ">
-              <div className="row justify-content-center">
-                <div className="card-body col-12 mb-2">
+            <div className="container">
+              <div className="row">
+                <div className="card-body col-12 d-flex">
                   <DashboardCard
                     content={
                       <>
-                        <p>{t("nature_page.0.climate")}</p>
-                        <hr style={{ border: "white dotted 3px" }} />
-                        <p>{t("nature_page.0.mountains")}</p>
-                        <hr style={{ border: "white dotted 3px" }} />
-                        <p>{t("nature_page.0.waters")}</p>
+                        <p>{t("cuisine_dashboard")}</p>
                       </>
                     }
                   />
                 </div>
-
-                <div className="container ">
-                  <DisplayLocations />
-                </div>
               </div>
+            </div>
+            <div>
+              <DisplayDishes />
             </div>
           </motion.div>
         </motion.section>
@@ -93,4 +89,4 @@ const Nature = () => {
   );
 };
 
-export default Nature;
+export default Food;

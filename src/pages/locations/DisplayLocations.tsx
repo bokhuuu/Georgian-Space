@@ -27,6 +27,11 @@ const DisplayLocations = () => {
   if (isLoading) return <div>Loading...</div>;
   if (isError) return <div>Error fetching data</div>;
 
+  console.log(
+    "Location imageURLs:",
+    locations.map((location: Location) => location.imageURLs)
+  );
+
   return (
     <div className="row">
       {locations.map((location: Location) => (
@@ -36,7 +41,7 @@ const DisplayLocations = () => {
           name={location.name[i18next.language]}
           intro={location.intro[i18next.language]}
           description={location.description[i18next.language]}
-          imageURLs={[]}
+          imageURLs={location.imageURLs}
         />
       ))}
     </div>

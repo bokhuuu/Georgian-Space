@@ -3,10 +3,10 @@
   "navigation": [
     {
       "Journey": "მოგზაურობა",
-      "Nature": "ბუნება",
       "Culture": "კულტურა",
       "Wine": "ღვინო",
-      "Cuisine": "სამზარეულო"
+      "Food": "საკვები",
+      "Locations": "ლოკაციები"
     }
   ],
   "civilizaton_title": "უძველესი ევროპული ფესვები",
@@ -40,7 +40,7 @@
       "category_wine": "ღვინო",
       "category_cuisine": "სამზარეულო",
       "message": "შეტყობინება",
-      "message_placeholder": "გაგვიზიარეთ თქვენი შეტყობინება (მაგ., საინტერესო ფაქტები, შეხედულებები, სურათები და ვიდეოები)",
+      "message_placeholder": "გაგვიზიარეთ თქვენი რეკომენდაცია",
       "submission_count": "სულ რაოდენობა",
       "close_button": "დახურვა",
       "submit_button": "გაგზავნა"

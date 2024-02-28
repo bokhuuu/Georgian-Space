@@ -3,10 +3,10 @@
   "navigation": [
     {
       "Journey": "Journey",
-      "Nature": "Nature",
       "Culture": "Culture",
       "Wine": "Wine",
-      "Cuisine": "Cuisine"
+      "Food": "Food",
+      "Locations": "Locations"
     }
   ],
   "civilizaton_title": "Ancient European Roots",
@@ -40,7 +40,7 @@
       "category_wine": "Wine",
       "category_cuisine": "Cuisine",
       "message": "Message",
-      "message_placeholder": "Share your message (e.g., interesting facts, insights, images, and videos)",
+      "message_placeholder": "Share your recommendation",
       "submission_count": "Total Count",
       "close_button": "Close",
       "submit_button": "Submit"

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import closeIcon from "../../assets/icons/closeIcon.png";
 import { useEffect } from "react";
+import { useImageURL } from "../../firebase/useImageURL";
 
 interface LocationModalProps {
   name: string;
@@ -17,6 +18,10 @@ const LocationModal: React.FC<LocationModalProps> = ({
   isOpen,
   onClose,
 }) => {
+  const { fetchedImageURL: fetchedImageURL1 } = useImageURL(imageURLs[0]);
+  const { fetchedImageURL: fetchedImageURL2 } = useImageURL(imageURLs[1]);
+  const { fetchedImageURL: fetchedImageURL3 } = useImageURL(imageURLs[2]);
+
   useEffect(() => {
     // Scroll to the top when the modal is opened
     if (isOpen) {
@@ -70,11 +75,36 @@ const LocationModal: React.FC<LocationModalProps> = ({
                     borderTop: "white solid 1px",
                   }}
                 >
-                  <ul>
-                    {imageURLs.map((url, index) => (
-                      <li key={index}>{url}</li>
-                    ))}
-                  </ul>
+                  <img
+                    src={fetchedImageURL1 || ""}
+                    alt={name}
+                    style={{
+                      width: "230px",
+                      height: "120px",
+                      marginTop: "10px",
+                      marginBottom: "10px",
+                    }}
+                  />
+                  <img
+                    src={fetchedImageURL2 || ""}
+                    alt={name}
+                    style={{
+                      width: "230px",
+                      height: "120px",
+                      marginTop: "10px",
+                      marginBottom: "10px",
+                    }}
+                  />
+                  <img
+                    src={fetchedImageURL3 || ""}
+                    alt={name}
+                    style={{
+                      width: "230px",
+                      height: "120px",
+                      marginTop: "10px",
+                      marginBottom: "10px",
+                    }}
+                  />
                 </div>
               </div>
             </div>

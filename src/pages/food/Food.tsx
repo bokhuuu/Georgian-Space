@@ -1,7 +1,7 @@
 import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
-import DisplayDishes from "../cuisine/DisplayDishes";
+import DisplayDishes from "./DisplayDishes";
 import { AnimatePresence, motion } from "framer-motion";
 import svanetiCover from "../../assets/covers/svaneti.jpg";
 
@@ -23,7 +23,7 @@ const containerVariants = {
 
 const dishQueryClient = new QueryClient();
 
-const Cuisine = () => {
+const Food = () => {
   const { t } = useTranslation();
 
   return (
@@ -89,4 +89,4 @@ const Cuisine = () => {
   );
 };
 
-export default Cuisine;
+export default Food;

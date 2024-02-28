@@ -40,10 +40,10 @@ const AppNavigation = () => {
 
   const AppNavigationLinkList = [
     { to: "/", label: "Journey" },
-    { to: "culture", label: "Culture" },
+    // { to: "culture", label: "Culture" },
     { to: "wine", label: "Wine" },
-    { to: "cuisine", label: "Cuisine" },
-    { to: "nature", label: "Nature" },
+    { to: "food", label: "Food" },
+    { to: "locations", label: "Locations" },
   ];
 
   return (
@@ -63,7 +63,7 @@ const AppNavigation = () => {
           aria-expanded={!isNavigationCollapsed ? true : false}
           aria-label="Toggle navigation"
           onClick={handleNavigationCollapse}
-          style={{ transform: "translate(220px, -20px)" }}
+          style={{ transform: "translate(200px, -20px)" }}
         >
           <span className="navbar-toggler-icon "></span>
         </button>
@@ -87,7 +87,7 @@ const AppNavigation = () => {
           >
             {AppNavigationLinkList.map((AppNavigationLink) => (
               <motion.li
-                className="nav-item "
+                className="nav-item"
                 key={AppNavigationLink.to}
                 variants={navItemVariants}
                 whileHover="hover"
@@ -107,7 +107,8 @@ const StyledNavLink = styled(NavLink)`
   background-color: ${(props) => props.theme.backgroundColor}!important;
   color: ${(props) => props.theme.textColor} !important;
   margin-top: -10px;
-  border-bottom: solid white 2px;
+  border-bottom: solid white 3px;
+  /* border-bottom: solid white 2px; */
 
   &:focus,
   &:hover,

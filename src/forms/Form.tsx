@@ -13,7 +13,6 @@ interface FormData {
   email: string;
   category: string;
   message: string;
-  attachments?: FileList;
 }
 
 const schema = yup.object().shape({
@@ -22,14 +21,13 @@ const schema = yup.object().shape({
     .required("Name is required")
     .min(3, "Name must be at least 3 characters")
     .max(15, "Name must be at most 15 characters"),
-  email: yup.string().email("Invalid email").required("Email is required"),
-  category: yup.string().required("Category is required"),
+  email: yup.string().email("Invalid email"),
+  category: yup.string(),
   message: yup
     .string()
     .required("Message is required")
-    .min(10, "Message must be at least 10 characters")
+    .min(5, "Message must be at least 5 characters")
     .max(250, "Message must be at most 250 characters"),
-  attachments: yup.mixed(),
 });
 
 const Form = () => {
@@ -85,10 +83,10 @@ const Form = () => {
         <label className="">{t("form.0.category")}</label>
         <select {...register("category")} className="mb-2">
           <option value="">---</option>
-          <option value="nature">{t("form.0.category_nature")}</option>
           <option value="culture">{t("form.0.category_culture")}</option>
           <option value="wine">{t("form.0.category_wine")}</option>
           <option value="cuisine">{t("form.0.category_cuisine")}</option>
+          <option value="nature">{t("form.0.category_nature")}</option>
         </select>
         <p>{errors.category?.message}</p>
 
@@ -99,14 +97,6 @@ const Form = () => {
           placeholder={t("form.0.message_placeholder")}
         />
         <p>{errors.message?.message}</p>
-
-        <input
-          className="mb-1"
-          type="file"
-          {...register("attachments")}
-          accept="image/*,video/*"
-          multiple
-        />
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="form-contribution mt-3 mt-md-3">
