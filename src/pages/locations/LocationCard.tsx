@@ -65,19 +65,7 @@ const LocationCard: React.FC<LocationCardProps> = ({
               borderRadius: "10%",
             }}
             onClick={handleToggleModal}
-          >
-            {/* <motion.img
-              variants={btnVariants}
-              whileHover="hover"
-              src={binocularsIcon}
-              alt="Arrow Right"
-              style={{
-                backgroundColor: "transparent",
-                width: "100%",
-                height: "100%",
-              }}
-            /> */}
-          </motion.button>
+          ></motion.button>
         </div>
         <div className="card-body">
           <p className="card-text pt-3 fw-light">{intro}</p>

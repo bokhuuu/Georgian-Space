@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import closeIcon from "../../assets/icons/closeIcon.png";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useImageURL } from "../../firebase/useImageURL";
 
 interface LocationModalProps {
@@ -18,16 +18,22 @@ const LocationModal: React.FC<LocationModalProps> = ({
   isOpen,
   onClose,
 }) => {
+  const [currentImageURL, setCurrentImageURL] = useState("");
+
   const { fetchedImageURL: fetchedImageURL1 } = useImageURL(imageURLs[0]);
   const { fetchedImageURL: fetchedImageURL2 } = useImageURL(imageURLs[1]);
   const { fetchedImageURL: fetchedImageURL3 } = useImageURL(imageURLs[2]);
 
   useEffect(() => {
-    // Scroll to the top when the modal is opened
     if (isOpen) {
       window.scrollTo(0, 0);
     }
   }, [isOpen]);
+
+  const handleImageClick = (imageURL: string) => {
+    setCurrentImageURL(imageURL);
+    window.scrollTo(0, 100);
+  };
 
   return (
     <>
@@ -62,49 +68,66 @@ const LocationModal: React.FC<LocationModalProps> = ({
                     backgroundPosition: "center",
                     width: "50px",
                     height: "50px",
-                    // border: "none",
                     borderRadius: "10%",
                   }}
                 ></motion.button>
               </div>
-              <div className="modal-body fw-light">
+              <div className="modal-body fw-light ">
                 <p>{description}</p>
                 <div
-                  className="modal-footer"
+                  className="modal-footer d-flex align-items-center justify-content-center"
                   style={{
                     borderTop: "white solid 1px",
                   }}
                 >
-                  <img
-                    src={fetchedImageURL1 || ""}
-                    alt={name}
-                    style={{
-                      width: "230px",
-                      height: "120px",
-                      marginTop: "10px",
-                      marginBottom: "10px",
-                    }}
-                  />
-                  <img
-                    src={fetchedImageURL2 || ""}
-                    alt={name}
-                    style={{
-                      width: "230px",
-                      height: "120px",
-                      marginTop: "10px",
-                      marginBottom: "10px",
-                    }}
-                  />
-                  <img
-                    src={fetchedImageURL3 || ""}
-                    alt={name}
-                    style={{
-                      width: "230px",
-                      height: "120px",
-                      marginTop: "10px",
-                      marginBottom: "10px",
-                    }}
-                  />
+                  {currentImageURL && (
+                    <img
+                      src={currentImageURL}
+                      alt={name}
+                      style={{
+                        width: "100%",
+                        height: "70%",
+                      }}
+                    />
+                  )}
+                  <div className="row justify-content-center">
+                    <img
+                      src={fetchedImageURL1 || ""}
+                      alt={name}
+                      style={{
+                        width: "230px",
+                        height: "120px",
+                        marginTop: "10px",
+                        marginBottom: "10px",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleImageClick(fetchedImageURL1 ?? "")}
+                    />
+                    <img
+                      src={fetchedImageURL2 || ""}
+                      alt={name}
+                      style={{
+                        width: "230px",
+                        height: "120px",
+                        marginTop: "10px",
+                        marginBottom: "10px",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleImageClick(fetchedImageURL2 ?? "")}
+                    />
+                    <img
+                      src={fetchedImageURL3 || ""}
+                      alt={name}
+                      style={{
+                        width: "230px",
+                        height: "120px",
+                        marginTop: "10px",
+                        marginBottom: "10px",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleImageClick(fetchedImageURL3 ?? "")}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -116,12 +139,10 @@ const LocationModal: React.FC<LocationModalProps> = ({
           className="modal-backdrop fade show custom-backdrop"
           style={{
             opacity: 0.55,
-            // position: "fixed",
             top: 0,
             left: 0,
             width: "100%",
             height: "100%",
-            // zIndex: 500, // Ensure the backdrop is above other content
           }}
           onClick={onClose}
         ></div>

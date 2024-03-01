@@ -1,6 +1,6 @@
 import LanguageSelector from "../i18next/LanguageToggler";
-import styled from "styled-components";
 import CommandBar from "./CommandBar";
+import styled from "styled-components";
 
 const Footer = () => {
   return (
@@ -17,7 +17,6 @@ const Footer = () => {
 
 const StyledFooter = styled.footer`
   height: 55px;
-  /* background-color: #4d83b6; */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 1000;

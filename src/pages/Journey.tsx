@@ -23,10 +23,6 @@ const containerVariants = {
   },
 };
 
-// const logoVariants = {
-//   animate={{ rotate: 360 }}
-// };
-
 const Journey = () => {
   const { t } = useTranslation();
 

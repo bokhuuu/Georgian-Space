@@ -4,7 +4,6 @@ import styled from "styled-components";
 interface MainCardProps {
   title?: string;
   content: React.ReactNode;
-  className?: string;
 }
 
 const MainCard = ({ title, content }: MainCardProps) => {
@@ -38,7 +37,6 @@ const MainCard = ({ title, content }: MainCardProps) => {
 };
 
 const StyledMainCard = styled.div`
-  /* opacity: 0.9; */
   position: "relative";
   overflow-y: auto;
 `;
@@ -50,7 +48,6 @@ const StyledMainCardTitle = styled(motion.h6)`
   background-color: ${(props) => props.theme.backgroundColor};
   color: ${(props) => props.theme.textColor};
   font-weight: bolder;
-  /* border: white solid 1px; */
   position: sticky;
   top: 1px;
   padding: 5px;

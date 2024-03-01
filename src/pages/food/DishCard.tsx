@@ -1,6 +1,6 @@
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useImageURL } from "../../firebase/useImageURL";
-import { useEffect, useState } from "react";
 import nonVegetarianImage from "../../assets/icons/non-vegetarian.png";
 import vegetarianImage from "../../assets/icons/vegetarian.png";
 

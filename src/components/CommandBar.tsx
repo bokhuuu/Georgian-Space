@@ -1,9 +1,9 @@
 import ThemeSelector from "../themes/ThemeToggler.tsx";
 import WeatherSidebarEnable from "../weatherApp/WeatherSidebarEnable.tsx";
 import { motion } from "framer-motion";
+import styled from "styled-components";
 import form from "../assets/icons/form.png";
 import themes from "../assets/icons/themes.png";
-import styled from "styled-components";
 
 const CommandBar = () => {
   const { toggleTheme } = ThemeSelector();

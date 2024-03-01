@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import { useForm } from "react-hook-form";
+import { Resolver, useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import useFormCountLocalStorage from "./useFormCountLocalStorage";
-import { motion } from "framer-motion";
-import "./Form.css";
+import { getDatabase, ref, push } from "firebase/database";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 import submitIcon from "../assets/icons/submitIcon.png";
 
 interface FormData {
@@ -37,26 +37,33 @@ const Form = () => {
     register,
     handleSubmit,
     reset,
-    formState: { errors, isSubmitSuccessful, submitCount },
+    formState: { errors, isSubmitSuccessful },
   } = useForm<FormData>({
-    resolver: yupResolver(schema),
+    resolver: yupResolver(schema) as Resolver<FormData>,
   });
-
   const { formCount, setFormCount } = useFormCountLocalStorage();
 
-  const onSubmit = (data: FormData) => {
-    console.log(data, "is submitted");
+  const db = getDatabase();
 
-    setFormCount(
-      (prevCount) => (prevCount == undefined ? (prevCount = 0) : prevCount) + 1
-    );
+  const onSubmit = async (data: FormData) => {
+    try {
+      await push(ref(db, "formSubmissions"), data);
+      console.log("Form data submitted successfully");
+      setFormCount(
+        (prevCount) =>
+          (prevCount == undefined ? (prevCount = 0) : prevCount) + 1
+      );
+      reset();
+    } catch (error) {
+      console.error("Error submitting form data:", error);
+    }
   };
 
   useEffect(() => {
     if (isSubmitSuccessful) {
       reset();
     }
-  }, [isSubmitSuccessful, reset, submitCount]);
+  }, [isSubmitSuccessful, reset]);
 
   return (
     <>
@@ -83,7 +90,6 @@ const Form = () => {
         <label className="">{t("form.0.category")}</label>
         <select {...register("category")} className="mb-2">
           <option value="">---</option>
-          <option value="culture">{t("form.0.category_culture")}</option>
           <option value="wine">{t("form.0.category_wine")}</option>
           <option value="cuisine">{t("form.0.category_cuisine")}</option>
           <option value="nature">{t("form.0.category_nature")}</option>
@@ -100,7 +106,6 @@ const Form = () => {
 
         <div className="form-footer d-flex justify-content-between ">
           <div className="form-contribution mt-3 mt-md-3">
-            {/* {t("form.0.submission_count")} */}
             <div
               className="form-count ms-1 d-flex justify-content-center align-items-center"
               style={{
@@ -134,12 +139,9 @@ const Form = () => {
               backgroundPosition: "center",
               width: "50px",
               height: "50px",
-              // border: "none",
               borderRadius: "10%",
             }}
-          >
-            {/* {t("form.0.submit_button")} */}
-          </motion.button>
+          ></motion.button>
         </div>
       </form>
     </>

@@ -1,7 +1,7 @@
 import i18next from "i18next";
+import useLanguageLocalStorage from "./useLanguageLocalStorage";
 import gbFlagIcon from "../assets/icons/gbFlagIcon.svg";
 import geFlagIcon from "../assets/icons/geFlagIcon.svg";
-import useLanguageLocalStorage from "./useLanguageLocalStorage";
 
 const languageList = [
   {

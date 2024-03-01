@@ -10,10 +10,6 @@ const FormModal = () => {
       tabIndex={-1}
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
-      // style={{
-      //   zIndex: 1500,
-      //   // opacity: 0.92,
-      // }}
     >
       <div className="modal-dialog">
         <div className="modal-content" style={{ border: "white 2px double" }}>
@@ -42,12 +38,9 @@ const FormModal = () => {
                 backgroundPosition: "center",
                 width: "50px",
                 height: "50px",
-                // border: "none",
                 borderRadius: "10%",
               }}
-            >
-              {/* {t("form.0.close_button")} */}
-            </motion.button>
+            ></motion.button>
           </div>
           <div className="modal-body">
             <Form />
