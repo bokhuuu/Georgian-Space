@@ -4,10 +4,10 @@ import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
 import WineCard from "./WineCard";
-import wine from "../../assets/icons/wine.png";
-import whiteWine from "../../assets/icons/white-wine.png";
-import redWine from "../../assets/icons/red-wine.png";
-import clear from "../../assets/icons/clear.png";
+import wine from "../../../public/assets/icons/wine.png";
+import whiteWine from "../../../public/assets/icons/white-wine.png";
+import redWine from "../../../public/assets/icons/red-wine.png";
+import clear from "../../../public/assets/icons/clear.png";
 
 interface Wine {
   id: number;

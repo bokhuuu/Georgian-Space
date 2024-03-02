@@ -1,5 +1,5 @@
-import whiteWine from "../../assets/icons/white-wine.png";
-import redWine from "../../assets/icons/red-wine.png";
+import whiteWine from "../../../public/assets/icons/white-wine.png";
+import redWine from "../../../public/assets/icons/red-wine.png";
 
 interface WineCardProps {
   key: number;

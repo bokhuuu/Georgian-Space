@@ -1,6 +1,6 @@
 import Form from "./Form";
 import { motion } from "framer-motion";
-import closeIcon from "../assets/icons/closeIcon.png";
+import closeIcon from "../../public/assets/icons/closeIcon.png";
 
 const FormModal = () => {
   return (

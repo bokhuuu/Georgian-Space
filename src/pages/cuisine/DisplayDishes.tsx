@@ -4,10 +4,10 @@ import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
 import DishCard from "./DishCard";
-import nonVegetarian from "../../assets/icons/non-vegetarian.png";
-import vegetarian from "../../assets/icons/vegetarian.png";
-import cuisine from "../../assets/icons/cuisine.png";
-import clear from "../../assets/icons/clear.png";
+import nonVegetarian from "../../../public/assets/icons/non-vegetarian.png";
+import vegetarian from "../../../public/assets/icons/vegetarian.png";
+import cuisine from "../../../public/assets/icons/cuisine.png";
+import clear from "../../../public/assets/icons/clear.png";
 
 interface Dish {
   id: number;

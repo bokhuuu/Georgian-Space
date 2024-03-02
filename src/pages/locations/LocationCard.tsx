@@ -1,5 +1,5 @@
 import { useState } from "react";
-import binocularsIcon from "../../assets/icons/binoculars.svg";
+import binocularsIcon from "../../../public/assets/icons/binoculars.svg";
 import { motion } from "framer-motion";
 import LocationModal from "./LocationModal";
 

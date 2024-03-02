@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
 import DisplayDishes from "./DisplayDishes";
 import { AnimatePresence, motion } from "framer-motion";
-import svanetiCover from "../../assets/covers/svaneti.jpg";
+import svanetiCover from "../../../public/assets/covers/svaneti.jpg";
 
 const containerVariants = {
   hidden: {

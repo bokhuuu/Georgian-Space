@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import DisplayWine from "./DisplayWines";
 import DashboardCard from "../../components/cards/DashboardCard";
 import { AnimatePresence, motion } from "framer-motion";
-import tushetiCover from "../../assets/covers/tusheti.jpg";
+import tushetiCover from "../../../public/assets/covers/tusheti.jpg";
 
 const containerVariants = {
   hidden: {

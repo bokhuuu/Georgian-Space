@@ -6,7 +6,8 @@ import useFormCountLocalStorage from "./useFormCountLocalStorage";
 import { getDatabase, ref, push } from "firebase/database";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import submitIcon from "../assets/icons/submitIcon.png";
+import submitIcon from "../../public/assets/icons/submitIcon.png";
+import "./Form.css";
 
 interface FormData {
   name: string;

@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import gergetiCover from "../../assets/covers/gergeti.jpg";
+import gergetiCover from "../../../public/assets/covers/gergeti.jpg";
 import DashboardCard from "../../components/cards/DashboardCard";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { useTranslation } from "react-i18next";

@@ -5,7 +5,7 @@ import Brand from "./Brand.tsx";
 import CommandBar from "./CommandBar.tsx";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import logoIcon from "../assets/icons/logo.jpg";
+import logoIcon from "../../public/assets/icons/logo.jpg";
 
 const headerVariants = {
   hidden: {

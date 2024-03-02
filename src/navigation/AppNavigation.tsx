@@ -40,7 +40,6 @@ const AppNavigation = () => {
 
   const AppNavigationLinkList = [
     { to: "/", label: "Journey" },
-    // { to: "culture", label: "Culture" },
     { to: "wine", label: "Wine" },
     { to: "food", label: "Food" },
     { to: "locations", label: "Locations" },

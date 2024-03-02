@@ -12,7 +12,6 @@ const AppRouting = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.key}>
         <Route path="/" index element={<Journey />} />
-        {/* <Route path="culture" element={<Culture />} /> */}
         <Route path="wine" element={<Wine />} />
         <Route path="food" element={<Food />} />
         <Route path="locations" element={<Locations />} />

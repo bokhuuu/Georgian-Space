@@ -2,7 +2,7 @@ import { useState } from "react";
 import WeatherSidebar from "./WeatherSidebar";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import weather from "../assets/icons/weather.png";
+import weather from "../../public/assets/icons/weather.png";
 
 const WeatherSidebarEnable = () => {
   const [show, setShow] = useState(false);

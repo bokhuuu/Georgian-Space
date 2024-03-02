@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom/client";
-// import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
-// import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import useThemeLocalStorage from "./themes/useThemeLocalStorage.ts";

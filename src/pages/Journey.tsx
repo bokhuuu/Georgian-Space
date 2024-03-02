@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import MainCard from "../components/cards/MainCard";
-import tbilisiCover from "../assets/covers/tbilisi.jpg";
-import logoIcon from "../assets/icons/logo.jpg";
+import tbilisiCover from "../../public/assets/covers/tbilisi.jpg";
+import logoIcon from "../../public/assets/icons/logo.jpg";
 import { StyledLogoIcon } from "../components/Header";
 import { Link } from "react-router-dom";
 import DashboardCard from "../components/cards/DashboardCard";

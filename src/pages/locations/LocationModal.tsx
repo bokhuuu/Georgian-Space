@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import closeIcon from "../../assets/icons/closeIcon.png";
+import closeIcon from "../../../public/assets/icons/closeIcon.png";
 import { useEffect, useState } from "react";
 import { useImageURL } from "../../firebase/useImageURL";
 
@@ -86,7 +86,7 @@ const LocationModal: React.FC<LocationModalProps> = ({
                       alt={name}
                       style={{
                         width: "100%",
-                        height: "70%",
+                        height: "350px",
                       }}
                     />
                   )}

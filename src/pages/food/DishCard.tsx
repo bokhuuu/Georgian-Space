@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useImageURL } from "../../firebase/useImageURL";
-import nonVegetarianImage from "../../assets/icons/non-vegetarian.png";
-import vegetarianImage from "../../assets/icons/vegetarian.png";
+import nonVegetarianImage from "../../../public/assets/icons/non-vegetarian.png";
+import vegetarianImage from "../../../public/assets/icons/vegetarian.png";
 
 interface DishCardProps {
   name: string;
