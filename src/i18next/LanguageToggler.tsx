@@ -1,7 +1,7 @@
 import i18next from "i18next";
 import useLanguageLocalStorage from "./useLanguageLocalStorage";
-import gbFlagIcon from "../../public/assets/icons/gbFlagIcon.svg";
-import geFlagIcon from "../../public/assets/icons/geFlagIcon.svg";
+import gbFlagIcon from "../../public/assets/icons/gbFlagIcon.png";
+import geFlagIcon from "../../public/assets/icons/geFlagIcon.png";
 
 const languageList = [
   {
@@ -32,8 +32,9 @@ const LanguageToggler = () => {
               className="icon-btn"
               style={{
                 backgroundImage: `url(${flag})`,
-                height: 30,
                 borderRadius: "50%",
+                backgroundSize: "100% 100%",
+                cursor: "pointer",
                 opacity: currentLanguage === code ? 0.5 : 1,
               }}
               onClick={() => handleLanguageChange(code)}

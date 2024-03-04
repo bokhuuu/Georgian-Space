@@ -51,7 +51,7 @@ const CommandBar = () => {
   );
 };
 
-const StyledCommandBarButton = styled(motion.button)`
+export const StyledCommandBarButton = styled(motion.button)`
   width: 50px;
   height: 50px;
   background-color: "white";

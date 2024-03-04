@@ -86,7 +86,7 @@ const LocationModal: React.FC<LocationModalProps> = ({
                       alt={name}
                       style={{
                         width: "100%",
-                        height: "350px",
+                        height: "35%",
                       }}
                     />
                   )}

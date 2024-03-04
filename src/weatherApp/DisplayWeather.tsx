@@ -36,7 +36,7 @@ const DisplayWeather: React.FC<DisplayWeatherProps> = ({ location }) => {
       <h4 style={{ fontWeight: "bolder" }}>{location}</h4>
       {Math.round(weatherData.current.temp)} °c
       <img
-        src={`http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`}
+        src={`https://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`}
         alt="Weather Icon"
         style={{
           width: 50,
