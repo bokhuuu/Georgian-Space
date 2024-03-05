@@ -46,7 +46,7 @@ const AppNavigation = () => {
   ];
 
   return (
-    <motion.nav className="navbar navbar-expand-md mb-1 mt-md-3 mb-md-3 ms-3 ms-md-5 gap-5">
+    <motion.nav className="navbar navbar-expand-md mb-1 mb-md-2 ms-3 ms-md-5 gap-5">
       <motion.div
         className="container navbar-container"
         variants={navbarVariants}
@@ -62,7 +62,7 @@ const AppNavigation = () => {
           aria-expanded={!isNavigationCollapsed ? true : false}
           aria-label="Toggle navigation"
           onClick={handleNavigationCollapse}
-          style={{ transform: "translate(200px, -20px)" }}
+          style={{ transform: "translate(210px, -20px)" }}
         >
           <span className="navbar-toggler-icon "></span>
         </button>

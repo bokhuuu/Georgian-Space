@@ -37,7 +37,6 @@ const Food = () => {
           transition={{ duration: 0.8 }}
           style={{
             position: "relative",
-            // height: "100vh",
             overflowY: "auto",
           }}
         >
@@ -61,7 +60,6 @@ const Food = () => {
             exit="exit"
             style={{
               minHeight: "100vh",
-              padding: "20px",
               paddingBottom: "40px",
               boxSizing: "border-box",
             }}

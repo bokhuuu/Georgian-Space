@@ -1,7 +1,7 @@
 import { useState } from "react";
-import binocularsIcon from "../../../public/assets/icons/binoculars.png";
 import { motion } from "framer-motion";
 import LocationModal from "./LocationModal";
+import binocularsIcon from "../../../public/assets/icons/binoculars.png";
 
 interface LocationCardProps {
   id: number;
@@ -61,7 +61,6 @@ const LocationCard: React.FC<LocationCardProps> = ({
               backgroundPosition: "center",
               width: "50px",
               height: "50px",
-              // border: "none",
               borderRadius: "10%",
             }}
             onClick={handleToggleModal}

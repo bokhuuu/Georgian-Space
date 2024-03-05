@@ -1,9 +1,9 @@
-import { AnimatePresence, motion } from "framer-motion";
-import gergetiCover from "../../../public/assets/covers/gergeti.jpg";
-import DashboardCard from "../../components/cards/DashboardCard";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { useTranslation } from "react-i18next";
+import { AnimatePresence, motion } from "framer-motion";
 import DisplayLocations from "./DisplayLocations";
+import DashboardCard from "../../components/cards/DashboardCard";
+import gergetiCover from "../../../public/assets/covers/gergeti.jpg";
 
 const containerVariants = {
   hidden: {
@@ -37,7 +37,6 @@ const Locations = () => {
           transition={{ duration: 0.8 }}
           style={{
             position: "relative",
-            // height: "100vh",
             overflowY: "auto",
           }}
         >
@@ -60,7 +59,6 @@ const Locations = () => {
             exit="exit"
             style={{
               minHeight: "100vh",
-              padding: "20px",
               paddingBottom: "40px",
               boxSizing: "border-box",
             }}

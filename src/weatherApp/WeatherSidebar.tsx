@@ -1,8 +1,8 @@
 import { QueryClientProvider, QueryClient } from "react-query";
-import WeatherComponent from "./WeatherComponent";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import WeatherComponent from "./WeatherComponent";
+import { motion } from "framer-motion";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
 const weatherQueryClient = new QueryClient();
 

@@ -22,9 +22,9 @@ const headerVariants = {
 
 const Header = () => {
   return (
-    <StyledHeader className="header container-fluid">
-      <div className="row ">
-        <div className="col d-flex ms-lg-4">
+    <StyledHeader className="header container-fluid ">
+      <div>
+        <div className="col d-flex ms-lg-3">
           <Link to="/">
             <StyledLogoIcon
               src={logoIcon}
@@ -33,16 +33,19 @@ const Header = () => {
               animate="visible"
             />
           </Link>
-          <Brand />
-          <motion.div
-            className="col d-none d-md-flex align-items-center mt-4 mb-3"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 5, delay: 2 }}
-          >
-            <CommandBar />
-            <LanguageSelector />
-          </motion.div>
+          <div className="col d-flex justify-content-end justify-content-md-start">
+            <Brand />
+
+            <motion.div
+              className="col d-none d-md-flex align-items-center mt-3 mb-1"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 5, delay: 2 }}
+            >
+              <CommandBar />
+              <LanguageSelector />
+            </motion.div>
+          </div>
         </div>
         <AppNavigation />
       </div>

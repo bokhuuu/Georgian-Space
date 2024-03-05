@@ -1,11 +1,11 @@
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import MainCard from "../components/cards/MainCard";
-import tbilisiCover from "../../public/assets/covers/tbilisi.jpg";
-import logoIcon from "../../public/assets/icons/logo.jpg";
-import { StyledLogoIcon } from "../components/Header";
-import { Link } from "react-router-dom";
 import DashboardCard from "../components/cards/DashboardCard";
+import tbilisiCover from "../../public/assets/covers/tbilisi.jpg";
+import { StyledLogoIcon } from "../components/Header";
+import logoIcon from "../../public/assets/icons/logo.jpg";
 
 const containerVariants = {
   hidden: {
@@ -58,7 +58,7 @@ const Journey = () => {
           animate="visible"
           exit="exit"
         >
-          <motion.div className="row gy-2 gy-lg-3 mt-1 mb-3">
+          <motion.div className="row gy-2 mb-3">
             <div className="col-12">
               <DashboardCard
                 content={

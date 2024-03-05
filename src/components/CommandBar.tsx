@@ -9,7 +9,7 @@ const CommandBar = () => {
   const { toggleTheme } = ThemeSelector();
 
   return (
-    <div className="container d-flex align-items-center justify-content-end gap-2 gap-md-4 gap-lg-5 ms-md-5">
+    <div className="container d-flex align-items-center justify-content-end ms-md-5 gap-2 gap-md-3 gap-lg-4 gap-xl-5">
       <StyledCommandBarButton
         type="button"
         className="icon-btn btn-primary"

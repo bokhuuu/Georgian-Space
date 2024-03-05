@@ -1,8 +1,8 @@
 import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
+import { AnimatePresence, motion } from "framer-motion";
 import DisplayWine from "./DisplayWines";
 import DashboardCard from "../../components/cards/DashboardCard";
-import { AnimatePresence, motion } from "framer-motion";
 import tushetiCover from "../../../public/assets/covers/tusheti.jpg";
 
 const containerVariants = {
@@ -37,7 +37,6 @@ const Wine = () => {
           transition={{ duration: 0.8 }}
           style={{
             position: "relative",
-            // height: "100vh",
             overflowY: "auto",
           }}
         >
@@ -61,7 +60,6 @@ const Wine = () => {
             exit="exit"
             style={{
               minHeight: "100vh",
-              padding: "20px",
               paddingBottom: "40px",
               boxSizing: "border-box",
             }}

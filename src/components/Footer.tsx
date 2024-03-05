@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Footer = () => {
   return (
-    <StyledFooter className="footer container-fluid d-md-none fixed-bottom d-flex align-items-center justify-content-center">
+    <StyledFooter className="footer container-fluid d-md-none d-flex align-items-center justify-content-center">
       <div className="row">
         <div className="col d-flex">
           <CommandBar />

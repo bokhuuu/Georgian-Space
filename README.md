@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Georgian Space
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A React application showcasing my frontend development skills and promoting the beauty of Georgia.**
 
-Currently, two official plugins are available:
+## Project Overview:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Built with:**
 
-## Expanding the ESLint configuration
+- React
+- React Router
+- React Query
+- TypeScript
+- Firebase
+- Styled-components
+- Bootstrap
+- Framer Motion
+- React Hook Form
+- Yup
+- i18next
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Features:**
 
-- Configure the top-level `parserOptions` property like this:
+- Real data, facts, and images about Georgia.
+- Interactive weather app with multiple locations, allowing users to check the weather in different parts of the country.
+- Customizable theme (light/dark) to cater to user preferences.
+- User-friendly forms with validation and local storage, ensuring data accuracy and persistence.
+- Language localization (Georgian/English) to make the application accessible to a wider audience.
+- Custom hooks for image fetching, user preferences, and form data management, demonstrating my ability to create reusable and efficient code.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Key Skills:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Frontend Development** - React, React Router, React Query, TypeScript, and UI libraries (Styled-components, Bootstrap, Framer Motion).
+- **Data Management** - Fetching and managing data using React Query and Firebase.
+- **User Experience** - Focus on user-friendliness and interactivity with features like the weather app, theme customization, and language localization.
+- **Problem-Solving** - Implementing custom hooks to address specific project requirements and enhance functionality.
+
+#### Getting Started:
+
+- Clone the Repository - [Link to your GitHub repository]
+- Install Dependencies - npm install
+- Start the Development Server - npm run dev
+- Explore and Enjoy - Navigate around, learn about Georgia, and enjoy the interactive features.
+
+**I'm actively seeking a frontend development position where I can leverage my skills and passion to contribute to innovative projects.**

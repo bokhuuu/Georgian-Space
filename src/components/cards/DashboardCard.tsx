@@ -17,7 +17,7 @@ const DashboardCard = ({ title, content }: DashboardCardProps) => {
 const StyledDashboard = styled.div`
   position: "relative";
   overflow-y: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 
   @media (max-width: 767px) {
     height: 317px;

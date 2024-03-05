@@ -1,5 +1,5 @@
-import axios from "axios";
 import { useState } from "react";
+import axios from "axios";
 import { useQuery } from "react-query";
 import i18n from "../../i18next/i18n";
 import { useTranslation } from "react-i18next";
@@ -55,12 +55,12 @@ const DisplayWines = () => {
 
   return (
     <div className="container">
-      <div className="row filter-buttons gap-2 mt-2 mb-3 d-flex">
+      <div className="row filter-buttons mt-1 mb-3">
         <div className="row gap-2 d-flex justify-content-center justify-content-md-end ms-1">
           <button
             style={{
-              width: 80,
-              height: 80,
+              width: 50,
+              height: 50,
               backgroundImage: `url(${whiteWine})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
@@ -75,8 +75,8 @@ const DisplayWines = () => {
           ></button>
           <button
             style={{
-              width: 80,
-              height: 80,
+              width: 50,
+              height: 50,
               border: "white solid 3px",
               backgroundImage: `url(${redWine})`,
               backgroundSize: "cover",
@@ -92,8 +92,8 @@ const DisplayWines = () => {
           ></button>
           <button
             style={{
-              width: 80,
-              height: 80,
+              width: 50,
+              height: 50,
               backgroundImage: `url(${wine})`,
               border: "white solid 3px",
               backgroundSize: "cover",
@@ -107,31 +107,29 @@ const DisplayWines = () => {
             onClick={() => setFilter("all")}
             className={filter === "all" ? "active" : ""}
           ></button>
-          <div className="d-flex justify-content-center justify-content-md-end">
-            <input
-              style={{
-                width: "190px",
-              }}
-              type="text"
-              placeholder={t("search")}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            <button
-              className="input-button"
-              onClick={clearSearchInput}
-              style={{
-                width: 40,
-                height: 40,
-                backgroundImage: `url(${clear})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                border: "white solid 3px",
-                borderRadius: "30%",
-                cursor: "pointer",
-              }}
-            ></button>
-          </div>
+          <input
+            style={{
+              width: "150px",
+            }}
+            type="text"
+            placeholder={t("search")}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <button
+            className="input-button"
+            onClick={clearSearchInput}
+            style={{
+              width: 50,
+              height: 50,
+              backgroundImage: `url(${clear})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              border: "white solid 3px",
+              borderRadius: "30%",
+              cursor: "pointer",
+            }}
+          ></button>
         </div>
       </div>
       <div className="row">

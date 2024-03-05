@@ -3,6 +3,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+
   :root {
     --light-background: rgb(150, 179, 204);
     --dark-background:rgb(74, 89, 170);
@@ -56,6 +57,18 @@ export const GlobalStyles = createGlobalStyle`
 @media (max-width: 768px) {
     .dashboard-card {
       overflow-y: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-image {
+        height: 300px;
+    }
+}
+
+@media (min-width: 769px) {
+    .responsive-image {
+        height: 450px;
     }
 }
 

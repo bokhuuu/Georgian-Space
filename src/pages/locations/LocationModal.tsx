@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import closeIcon from "../../../public/assets/icons/closeIcon.png";
 import { useEffect, useState } from "react";
 import { useImageURL } from "../../firebase/useImageURL";
+import { motion } from "framer-motion";
+import closeIcon from "../../../public/assets/icons/closeIcon.png";
 
 interface LocationModalProps {
   name: string;
@@ -26,20 +26,20 @@ const LocationModal: React.FC<LocationModalProps> = ({
 
   useEffect(() => {
     if (isOpen) {
-      window.scrollTo(0, 0);
+      window.scrollTo(0, 30);
     }
   }, [isOpen]);
 
   const handleImageClick = (imageURL: string) => {
     setCurrentImageURL(imageURL);
-    window.scrollTo(0, 100);
+    window.scrollTo(0, 200);
   };
 
   return (
     <>
       {isOpen && (
         <div className="modal" style={{ display: "block" }}>
-          <div className="modal-dialog modal-lg">
+          <div className="modal-dialog modal-xl">
             <div className="modal-content">
               <div
                 className="modal-header"
@@ -84,9 +84,9 @@ const LocationModal: React.FC<LocationModalProps> = ({
                     <img
                       src={currentImageURL}
                       alt={name}
+                      className="responsive-image"
                       style={{
                         width: "100%",
-                        height: "35%",
                       }}
                     />
                   )}

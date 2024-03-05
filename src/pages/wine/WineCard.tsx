@@ -36,7 +36,7 @@ const WineCard = ({ name, type, region, description }: WineCardProps) => {
             <img src={wineTypeImage} />
           </div>
         </div>
-        <p className="card-text pt-3 fw-light">{description}</p>
+        <p className="card-text pt-2 fw-light">{description}</p>
       </div>
     </div>
   );
