@@ -36,7 +36,7 @@
 
 #### Getting Started:
 
-- Clone the Repository - [Link to your GitHub repository]
+- Clone the Repository - (https://github.com/bokhuuu/GeorgianSpace)
 - Install Dependencies - npm install
 - Start the Development Server - npm run dev
 - Explore and Enjoy - Navigate around, learn about Georgia, and enjoy the interactive features.
