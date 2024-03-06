@@ -1,4 +1,3 @@
-// import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
 import DashboardCard from "../../components/cards/DashboardCard";
 import DisplayDishes from "./DisplayDishes";
@@ -21,14 +20,11 @@ const containerVariants = {
   },
 };
 
-// const dishQueryClient = new QueryClient();
-
 const Food = () => {
   const { t } = useTranslation();
 
   return (
     <AnimatePresence>
-      {/* <QueryClientProvider client={dishQueryClient}> */}
       <motion.section
         className="background-section"
         initial={{ opacity: 0 }}

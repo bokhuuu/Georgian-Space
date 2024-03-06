@@ -1,4 +1,3 @@
-// import { QueryClientProvider, QueryClient } from "react-query";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import DisplayWine from "./DisplayWines";
@@ -21,14 +20,11 @@ const containerVariants = {
   },
 };
 
-// const winesQueryClient = new QueryClient();
-
 const Wine = () => {
   const { t } = useTranslation();
 
   return (
     <AnimatePresence>
-      {/* <QueryClientProvider client={winesQueryClient}> */}
       <motion.section
         className="background-section"
         initial={{ opacity: 0 }}

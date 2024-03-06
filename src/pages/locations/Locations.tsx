@@ -1,4 +1,3 @@
-// import { QueryClient, QueryClientProvider } from "react-query";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import DisplayLocations from "./DisplayLocations";
@@ -21,14 +20,11 @@ const containerVariants = {
   },
 };
 
-// const locationsQueryClient = new QueryClient();
-
 const Locations = () => {
   const { t } = useTranslation();
 
   return (
     <AnimatePresence>
-      {/* <QueryClientProvider client={locationsQueryClient}> */}
       <motion.section
         className="background-section"
         initial={{ opacity: 0 }}
