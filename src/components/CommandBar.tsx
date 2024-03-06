@@ -16,11 +16,11 @@ const CommandBar = () => {
         data-bs-toggle="modal"
         data-bs-target="#formModal"
         animate={{
-          scale: 1.2,
+          scale: [1, 1.2, 1],
           textShadow: "0px 10px 20px rgb(255,255,255)",
           boxShadow: "0px 10px 20px rgb(255,255,255)",
           transition: {
-            duration: 2,
+            duration: 3,
             repeat: Infinity,
             repeatType: "mirror",
           },
@@ -32,11 +32,11 @@ const CommandBar = () => {
       <StyledCommandBarButton
         className="icon-btn"
         animate={{
-          scale: 1.2,
+          scale: [1, 1.2, 1],
           textShadow: "0px 10px 20px rgb(255,255,255)",
           boxShadow: "0px 10px 20px rgb(255,255,255)",
           transition: {
-            duration: 2,
+            duration: 3,
             repeat: Infinity,
             repeatType: "mirror",
           },
