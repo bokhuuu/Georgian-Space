@@ -65,7 +65,10 @@ const Locations = () => {
           >
             <div className="container ">
               <div className="row justify-content-center">
-                <div className="card-body col-12 mb-2">
+                <div
+                  className="card-body col-12 mb-2"
+                  style={{ opacity: 0.84 }}
+                >
                   <DashboardCard
                     content={
                       <>

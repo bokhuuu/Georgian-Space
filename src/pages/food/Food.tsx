@@ -66,7 +66,10 @@ const Food = () => {
           >
             <div className="container">
               <div className="row">
-                <div className="card-body col-12 d-flex">
+                <div
+                  className="card-body col-12 d-flex"
+                  style={{ opacity: 0.84 }}
+                >
                   <DashboardCard
                     content={
                       <>

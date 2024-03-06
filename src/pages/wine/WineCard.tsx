@@ -18,6 +18,7 @@ const WineCard = ({ name, type, region, description }: WineCardProps) => {
       className="profile-card card col-12 col-md-6 col-lg-4 col-xl-3 mb-3"
       style={{
         border: "white double 1px",
+        opacity: 0.84,
       }}
     >
       <div

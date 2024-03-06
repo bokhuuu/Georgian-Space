@@ -18,6 +18,7 @@ const StyledDashboard = styled.div`
   position: "relative";
   overflow-y: auto;
   margin-bottom: 5px;
+  opacity: 0.84;
 
   @media (max-width: 767px) {
     height: 317px;

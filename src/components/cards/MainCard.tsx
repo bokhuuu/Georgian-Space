@@ -39,6 +39,7 @@ const MainCard = ({ title, content }: MainCardProps) => {
 const StyledMainCard = styled.div`
   position: "relative";
   overflow-y: auto;
+  opacity: 0.84;
 `;
 
 const StyledMainCardTitle = styled(motion.h6)`

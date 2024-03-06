@@ -15,12 +15,12 @@ const CommandBar = () => {
         className="icon-btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#formModal"
-        whileHover={{
+        animate={{
           scale: 1.2,
-          textShadow: "0px 0px 20px rgb(255,255,255)",
-          boxShadow: "0px 0px 20px rgb(255,255,255)",
+          textShadow: "0px 10px 20px rgb(255,255,255)",
+          boxShadow: "0px 10px 20px rgb(255,255,255)",
           transition: {
-            duration: 0.5,
+            duration: 2,
             repeat: Infinity,
             repeatType: "mirror",
           },
@@ -31,12 +31,12 @@ const CommandBar = () => {
       ></StyledCommandBarButton>
       <StyledCommandBarButton
         className="icon-btn"
-        whileHover={{
+        animate={{
           scale: 1.2,
-          textShadow: "0px 0px 20px rgb(255,255,255)",
-          boxShadow: "0px 0px 20px rgb(255,255,255)",
+          textShadow: "0px 10px 20px rgb(255,255,255)",
+          boxShadow: "0px 10px 20px rgb(255,255,255)",
           transition: {
-            duration: 0.5,
+            duration: 2,
             repeat: Infinity,
             repeatType: "mirror",
           },

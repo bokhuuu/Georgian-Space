@@ -33,6 +33,7 @@ const LocationCard: React.FC<LocationCardProps> = ({
         className="profile-card card col-12 col-md-6 col-lg-4 col-xl-3 mb-3"
         style={{
           border: "white solid 1px",
+          opacity: 0.84,
         }}
       >
         <div
@@ -44,12 +45,12 @@ const LocationCard: React.FC<LocationCardProps> = ({
           <h5 className="fw-bolder">{name}</h5>
           <motion.button
             className="d-flex justify-content-center mb-2"
-            whileHover={{
+            animate={{
               scale: 1.2,
-              textShadow: "0px 0px 20px rgb(255,255,255)",
-              boxShadow: "0px 0px 20px rgb(255,255,255)",
+              textShadow: "0px 10px 20px rgb(255,255,255)",
+              boxShadow: "0px 10px 20px rgb(255,255,255)",
               transition: {
-                duration: 0.5,
+                duration: 2,
                 repeat: Infinity,
                 repeatType: "mirror",
               },
